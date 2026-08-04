@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "ph_1a0b3c4d",
+      "text": "¿Cómo estás?",
+      "tr": { "ru": "Как дела?" },
+      "topics": ["tp_saludos"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_2b1c4d5e",
+      "text": "¿Cuánto cuesta el billete?",
+      "tr": { "ru": "Сколько стоит билет?" },
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_3c2d5e6f",
+      "text": "¿Dónde está la parada de autobús?",
+      "tr": { "ru": "Где автобусная остановка?" },
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_4d3e6f7a",
+      "text": "¿Dónde están las llaves?",
+      "tr": { "ru": "Где ключи?" },
+      "topics": ["tp_casa"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_5e4f7a8b",
+      "text": "¿Qué me recomienda?",
+      "tr": { "ru": "Что вы порекомендуете?" },
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_6f5a8b9c",
+      "text": "¡Qué más da!",
+      "tr": { "ru": "Да какая разница!" },
+      "topics": [],
+      "notes": { "ru": "Разговорное выражение безразличия к выбору." },
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_7a6b9c0d",
+      "text": "Buenos días.",
+      "tr": { "ru": "Доброе утро." },
+      "topics": ["tp_saludos"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_8b7c0d1e",
+      "text": "Hasta luego.",
+      "tr": { "ru": "До скорого." },
+      "topics": ["tp_saludos"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_9c8d1e2f",
+      "text": "La cuenta, por favor.",
+      "tr": { "ru": "Счёт, пожалуйста." },
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_0d9e2f3a",
+      "text": "Mucho gusto.",
+      "tr": { "ru": "Очень приятно." },
+      "topics": ["tp_saludos"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_1e0f3a4b",
+      "text": "No vale la pena.",
+      "tr": { "ru": "Не стоит того." },
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_2f1a4b5c",
+      "text": "Para llevar, por favor.",
+      "tr": { "ru": "На вынос, пожалуйста." },
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_3a2b5c6d",
+      "text": "Por favor, no la tiren.",
+      "tr": { "ru": "Пожалуйста, не выбрасывайте её." },
+      "literal": { "ru": "по частям: no — не; la — её; tiren — выбрасывайте (Ustedes, повелительное)" },
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_4b3c6d7e",
+      "text": "Sigo recto.",
+      "tr": { "ru": "Я еду прямо." },
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "ph_5c4d7e8f",
+      "text": "Voy a limpiar la casa.",
+      "tr": { "ru": "Я собираюсь убрать дом." },
+      "topics": ["tp_casa"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    }
+  ]
+}

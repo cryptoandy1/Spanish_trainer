@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "er_a1b2c3d4",
+      "prompt": { "ru": "У меня есть машина." },
+      "attempt": "Yo tenes un coche.",
+      "correct": "Yo tengo un coche.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Глагол **tener** неправильный: форма **tenes** относится к аргентинскому voseo, а стандартная форма 1-го лица (yo) — **tengo**. Форма **tienes** — это 2-е лицо (tú)."
+      },
+      "errorTags": ["conjugation"],
+      "relatedVerbIds": ["vb_tener"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "er_b2c3d4e5",
+      "prompt": { "ru": "Я вижу море." },
+      "attempt": "Veo él mar.",
+      "correct": "Veo el mar.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Артикль **el** никогда не имеет ударения. С ударением **él** означает 'он' (личное местоимение), а не артикль мужского рода."
+      },
+      "errorTags": ["accent", "homophone", "article"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "er_c3d4e5f6",
+      "prompt": { "ru": "Ты можешь помочь?" },
+      "attempt": "¿Puedes ayudar?",
+      "correct": "¿Puedes ayudarme?",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Фраза грамматически верна, но без возвратного/объектного местоимения **-me** звучит незавершённо в контексте просьбы о помощи именно тебе. Естественнее: **¿Puedes ayudarme?**"
+      },
+      "errorTags": ["pronoun-placement"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    }
+  ]
+}

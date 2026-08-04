@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "gr_ser-vs-estar",
+      "title": { "ru": "Ser vs Estar" },
+      "level": "A2",
+      "order": 10,
+      "summary": { "ru": "Два испанских глагола 'быть': ser — для постоянных признаков, estar — для временных состояний и местоположения." },
+      "bodyPath": { "ru": "grammar/ser-vs-estar.ru.md" },
+      "examples": [
+        { "text": "Soy médico.", "tr": { "ru": "Я врач. (постоянная профессия — ser)" } },
+        { "text": "Estoy cansado.", "tr": { "ru": "Я устал. (временное состояние — estar)" } }
+      ],
+      "relatedVerbIds": ["vb_ser", "vb_estar"],
+      "tags": ["ser-estar"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "gr_gerundio-participio",
+      "title": { "ru": "Герундий и причастие" },
+      "level": "B1",
+      "order": 20,
+      "summary": { "ru": "Герундий (-ando/-iendo) описывает действие в процессе; причастие (-ado/-ido) используется в сложных временах и как прилагательное." },
+      "bodyPath": { "ru": "grammar/gerundio-participio.ru.md" },
+      "examples": [
+        { "text": "Estoy leyendo un libro.", "tr": { "ru": "Я читаю книгу (сейчас, в процессе)." } },
+        { "text": "He leído el libro.", "tr": { "ru": "Я прочитал книгу (результат)." } }
+      ],
+      "relatedVerbIds": [],
+      "tags": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    }
+  ]
+}

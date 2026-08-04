@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "vb_estar",
+      "infinitive": "estar",
+      "tr": { "ru": "быть, находиться (временное состояние/местоположение)" },
+      "regularity": "irregular",
+      "regularityNote": { "ru": "Неправильный во всех формах presente и pretérito indefinido; используется для временных состояний и местоположения (в отличие от ser)." },
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": { "gerund": "estando", "participle": "estado" },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": { "form": "estoy", "irregular": true },
+            "tu": { "form": "estás" },
+            "el": { "form": "está", "example": { "text": "Está en casa.", "tr": { "ru": "Он дома." } } },
+            "nosotros": { "form": "estamos" },
+            "vosotros": { "form": "estáis" },
+            "ellos": { "form": "están" }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": { "form": "estuve", "irregular": true },
+            "tu": { "form": "estuviste", "irregular": true },
+            "el": { "form": "estuvo", "irregular": true },
+            "nosotros": { "form": "estuvimos", "irregular": true },
+            "vosotros": { "form": "estuvisteis", "irregular": true },
+            "ellos": { "form": "estuvieron", "irregular": true }
+          }
+        }
+      },
+      "topics": [],
+      "frequency": 1,
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vb_ser",
+      "infinitive": "ser",
+      "tr": { "ru": "быть (постоянный признак, сущность)" },
+      "regularity": "irregular",
+      "regularityNote": { "ru": "Один из самых неправильных глаголов испанского; используется для постоянных характеристик (в отличие от estar)." },
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": { "gerund": "siendo", "participle": "sido" },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": { "form": "soy", "irregular": true, "example": { "text": "Soy de Ucrania.", "tr": { "ru": "Я из Украины." } } },
+            "tu": { "form": "eres", "irregular": true },
+            "el": { "form": "es", "irregular": true },
+            "nosotros": { "form": "somos", "irregular": true },
+            "vosotros": { "form": "sois", "irregular": true },
+            "ellos": { "form": "son", "irregular": true }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": { "form": "fui", "irregular": true },
+            "tu": { "form": "fuiste", "irregular": true },
+            "el": { "form": "fue", "irregular": true },
+            "nosotros": { "form": "fuimos", "irregular": true },
+            "vosotros": { "form": "fuisteis", "irregular": true },
+            "ellos": { "form": "fueron", "irregular": true }
+          }
+        }
+      },
+      "topics": [],
+      "frequency": 1,
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vb_tener",
+      "infinitive": "tener",
+      "tr": { "ru": "иметь" },
+      "regularity": "irregular",
+      "regularityNote": { "ru": "Неправильная форма yo (tengo) и изменение корня e→ie в остальных лицах, кроме nosotros/vosotros." },
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": { "gerund": "teniendo", "participle": "tenido" },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": { "form": "tengo", "irregular": true, "example": { "text": "Tengo un coche.", "tr": { "ru": "У меня есть машина." } } },
+            "tu": { "form": "tienes", "irregular": true },
+            "el": { "form": "tiene", "irregular": true },
+            "nosotros": { "form": "tenemos" },
+            "vosotros": { "form": "tenéis" },
+            "ellos": { "form": "tienen", "irregular": true }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": { "form": "tuve", "irregular": true },
+            "tu": { "form": "tuviste", "irregular": true },
+            "el": { "form": "tuvo", "irregular": true },
+            "nosotros": { "form": "tuvimos", "irregular": true },
+            "vosotros": { "form": "tuvisteis", "irregular": true },
+            "ellos": { "form": "tuvieron", "irregular": true }
+          }
+        }
+      },
+      "topics": ["tp_casa"],
+      "frequency": 1,
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    }
+  ]
+}

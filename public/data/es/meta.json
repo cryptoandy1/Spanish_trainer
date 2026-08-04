@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "speechLocale": "es-ES",
+  "persons": [
+    { "id": "yo", "label": "yo", "labelTr": { "ru": "я" } },
+    { "id": "tu", "label": "tú", "labelTr": { "ru": "ты" } },
+    { "id": "el", "label": "él / ella / usted", "labelTr": { "ru": "он / она / Вы" } },
+    { "id": "nosotros", "label": "nosotros", "labelTr": { "ru": "мы" } },
+    { "id": "vosotros", "label": "vosotros", "labelTr": { "ru": "вы (Испания)" } },
+    { "id": "ellos", "label": "ellos / ustedes", "labelTr": { "ru": "они / вы (formal pl.)" } }
+  ],
+  "tenses": [
+    { "id": "presente", "mood": "indicativo", "order": 10, "label": "Presente", "labelTr": { "ru": "Настоящее время" } },
+    { "id": "preterito_indefinido", "mood": "indicativo", "order": 20, "label": "Pretérito indefinido", "labelTr": { "ru": "Простое прошедшее" } },
+    { "id": "preterito_imperfecto", "mood": "indicativo", "order": 30, "label": "Pretérito imperfecto", "labelTr": { "ru": "Прошедшее длительное" } },
+    { "id": "preterito_perfecto", "mood": "indicativo", "order": 40, "label": "Pretérito perfecto", "labelTr": { "ru": "Настоящее совершенное" } },
+    { "id": "futuro_simple", "mood": "indicativo", "order": 50, "label": "Futuro simple", "labelTr": { "ru": "Будущее простое" } },
+    { "id": "condicional", "mood": "condicional", "order": 60, "label": "Condicional", "labelTr": { "ru": "Условное наклонение" } },
+    { "id": "presente_subjuntivo", "mood": "subjuntivo", "order": 70, "label": "Presente de subjuntivo", "labelTr": { "ru": "Настоящее сослагательное" } },
+    { "id": "imperfecto_subjuntivo", "mood": "subjuntivo", "order": 80, "label": "Imperfecto de subjuntivo", "labelTr": { "ru": "Прошедшее сослагательное" } },
+    { "id": "imperativo_afirmativo", "mood": "imperativo", "order": 90, "label": "Imperativo afirmativo", "labelTr": { "ru": "Повелительное (утвердительное)" } },
+    { "id": "imperativo_negativo", "mood": "imperativo", "order": 95, "label": "Imperativo negativo", "labelTr": { "ru": "Повелительное (отрицательное)" } }
+  ],
+  "pos": ["noun", "verb", "adj", "adv", "pron", "prep", "conj", "interj", "num", "phrase"],
+  "regularity": ["regular", "stem-changing", "orthographic", "irregular"],
+  "errorTags": [
+    "conjugation", "ser-estar", "por-para", "gender", "agreement", "article",
+    "preposition", "pronoun-placement", "enclitic", "reflexive", "word-order",
+    "spelling", "accent", "homophone", "false-friend", "lexical-choice",
+    "tense-choice", "mood-choice"
+  ]
+}

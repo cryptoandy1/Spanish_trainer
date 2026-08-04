@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "tp_casa",
+      "name": { "ru": "Дом и быт" },
+      "nameTarget": "En casa",
+      "icon": "🏠",
+      "order": 40,
+      "description": { "ru": "Слова и фразы о доме, квартире и быте." }
+    },
+    {
+      "id": "tp_restaurante",
+      "name": { "ru": "В ресторане" },
+      "nameTarget": "En el restaurante",
+      "icon": "🍽️",
+      "order": 10,
+      "description": { "ru": "Заказ еды, счёт, разговор с официантом." }
+    },
+    {
+      "id": "tp_saludos",
+      "name": { "ru": "Приветствия и вежливость" },
+      "nameTarget": "Saludos y cortesía",
+      "icon": "👋",
+      "order": 30,
+      "description": { "ru": "Базовые формулы вежливости и приветствия." }
+    },
+    {
+      "id": "tp_transporte",
+      "name": { "ru": "Транспорт" },
+      "nameTarget": "El transporte",
+      "icon": "🚕",
+      "order": 20,
+      "description": { "ru": "Такси, автобусы, покупка билетов, дорога." }
+    }
+  ]
+}

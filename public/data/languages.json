@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "defaultTarget": "es",
+  "defaultNative": "ru",
+  "targets": [
+    {
+      "code": "es",
+      "name": { "ru": "Испанский", "en": "Spanish" },
+      "flag": "🇪🇸",
+      "speechLocale": "es-ES",
+      "natives": ["ru"]
+    }
+  ],
+  "natives": [
+    { "code": "ru", "name": { "ru": "Русский", "en": "Russian" } }
+  ]
+}

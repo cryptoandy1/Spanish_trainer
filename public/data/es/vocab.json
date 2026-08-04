@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "lang": "es",
+  "generatedAt": "2026-08-04T00:00:00Z",
+  "items": [
+    {
+      "id": "vc_a1b2c3d4",
+      "lemma": "agua",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "вода" },
+      "examples": [{ "text": "Un vaso de agua, por favor.", "tr": { "ru": "Стакан воды, пожалуйста." } }],
+      "topics": ["tp_restaurante"],
+      "notes": { "ru": "Женского рода, но используется 'el agua' в единственном числе (избегает стечения гласных)." },
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_b2c3d4e5",
+      "lemma": "amigo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": { "ru": "друг" },
+      "examples": [{ "text": "Es mi mejor amigo.", "tr": { "ru": "Это мой лучший друг." } }],
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_c3d4e5f6",
+      "lemma": "autobús",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "autobuses",
+      "tr": { "ru": "автобус" },
+      "examples": [{ "text": "El autobús llega en cinco minutos.", "tr": { "ru": "Автобус приезжает через пять минут." } }],
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_d4e5f6a7",
+      "lemma": "billete",
+      "pos": "noun",
+      "gender": "m",
+      "tr": { "ru": "билет" },
+      "examples": [{ "text": "Necesito un billete de ida y vuelta.", "tr": { "ru": "Мне нужен билет туда и обратно." } }],
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_e5f6a7b8",
+      "lemma": "bueno",
+      "pos": "adj",
+      "tr": { "ru": "хороший" },
+      "examples": [{ "text": "Este restaurante es muy bueno.", "tr": { "ru": "Этот ресторан очень хороший." } }],
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_f6a7b8c9",
+      "lemma": "calle",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "улица" },
+      "examples": [{ "text": "Vivo en esta calle.", "tr": { "ru": "Я живу на этой улице." } }],
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_a7b8c9d0",
+      "lemma": "casa",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "дом" },
+      "examples": [{ "text": "Vamos a casa.", "tr": { "ru": "Идём домой." } }],
+      "topics": ["tp_casa"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_b8c9d0e1",
+      "lemma": "cuánto",
+      "pos": "pron",
+      "tr": { "ru": "сколько" },
+      "examples": [{ "text": "¿Cuánto cuesta?", "tr": { "ru": "Сколько это стоит?" } }],
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_c9d0e1f2",
+      "lemma": "cuenta",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "счёт, отчёт" },
+      "examples": [{ "text": "La cuenta, por favor.", "tr": { "ru": "Счёт, пожалуйста." } }],
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_d0e1f2a3",
+      "lemma": "gracias",
+      "pos": "interj",
+      "tr": { "ru": "спасибо" },
+      "examples": [{ "text": "Muchas gracias por tu ayuda.", "tr": { "ru": "Большое спасибо за твою помощь." } }],
+      "topics": ["tp_saludos"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_e1f2a3b4",
+      "lemma": "hoy",
+      "pos": "adv",
+      "tr": { "ru": "сегодня" },
+      "examples": [{ "text": "Hoy hace buen tiempo.", "tr": { "ru": "Сегодня хорошая погода." } }],
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_f2a3b4c5",
+      "lemma": "leche",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "молоко" },
+      "examples": [{ "text": "¿Tienes leche en casa?", "tr": { "ru": "У тебя есть молоко дома?" } }],
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_a3b4c5d6",
+      "lemma": "llave",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "ключ" },
+      "examples": [{ "text": "No encuentro la llave.", "tr": { "ru": "Я не могу найти ключ." } }],
+      "topics": ["tp_casa"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_b4c5d6e7",
+      "lemma": "mañana",
+      "pos": "adv",
+      "tr": { "ru": "завтра; утро" },
+      "examples": [{ "text": "Nos vemos mañana.", "tr": { "ru": "Увидимся завтра." } }],
+      "topics": [],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_c5d6e7f8",
+      "lemma": "mesa",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "стол" },
+      "examples": [{ "text": "Una mesa para dos, por favor.", "tr": { "ru": "Столик на двоих, пожалуйста." } }],
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_d6e7f8a9",
+      "lemma": "pan",
+      "pos": "noun",
+      "gender": "m",
+      "tr": { "ru": "хлеб" },
+      "examples": [{ "text": "¿Me trae más pan, por favor?", "tr": { "ru": "Принесите ещё хлеба, пожалуйста?" } }],
+      "topics": ["tp_restaurante"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_e7f8a9b0",
+      "lemma": "por favor",
+      "pos": "phrase",
+      "tr": { "ru": "пожалуйста" },
+      "examples": [{ "text": "Ayúdame, por favor.", "tr": { "ru": "Помоги мне, пожалуйста." } }],
+      "topics": ["tp_saludos"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_f8a9b0c1",
+      "lemma": "rápido",
+      "pos": "adj",
+      "tr": { "ru": "быстрый" },
+      "examples": [{ "text": "El autobús es más rápido que caminar.", "tr": { "ru": "Автобус быстрее, чем идти пешком." } }],
+      "topics": ["tp_transporte"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_a9b0c1d2",
+      "lemma": "silla",
+      "pos": "noun",
+      "gender": "f",
+      "tr": { "ru": "стул" },
+      "examples": [{ "text": "Esta silla está libre.", "tr": { "ru": "Этот стул свободен." } }],
+      "topics": ["tp_restaurante", "tp_casa"],
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    },
+    {
+      "id": "vc_b0c1d2e3",
+      "lemma": "vale",
+      "pos": "interj",
+      "tr": { "ru": "окей, ладно, хорошо" },
+      "examples": [{ "text": "¿Vamos hoy? — Vale.", "tr": { "ru": "Пойдём сегодня? — Окей." } }],
+      "topics": ["tp_saludos"],
+      "notes": { "ru": "Форма глагола valer ('стоить'), но в разговорной речи используется как отдельное междометие согласия." },
+      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+    }
+  ]
+}
