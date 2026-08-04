@@ -1,44 +1,1530 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T00:00:00Z",
+  "generatedAt": "2026-08-04T15:04:29Z",
   "items": [
     {
+      "id": "er_01105d15",
+      "attempt": "Sí, puedo a tú ayudar",
+      "correct": "Sí, puedo ayudarte",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Правильно: puedo ayudarte или te puedo ayudar. Местоимение присоединяется к инфинитиву (ayudarte) или ставится перед спрягаемым глаголом."
+      },
+      "errorTags": [
+        "pronoun-placement",
+        "enclitic",
+        "word-order"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_02737bc1",
+      "attempt": "te acostas",
+      "correct": "te acuestas",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Изменение корня o → ue в форме tú: te acuestas."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_030cdf83",
+      "attempt": "montón y mucho en que es la differencia",
+      "correct": "¿Cuál es la diferencia entre \"mucho\" y \"un montón\"?",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Носитель поймёт, но есть ошибки: вместо «en que» нужно «entre» («между»), потому что сравниваются два слова; и «differencia» пишется с одной f — «diferencia». Естественные варианты: «¿Cuál es la diferencia entre X y Y?» или разговорнее «¿Qué diferencia hay entre X y Y?»."
+      },
+      "errorTags": [
+        "preposition",
+        "spelling",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_094c84c1",
+      "attempt": "Vive en Espana",
+      "correct": "Vive en España",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Нужна буква ñ: «España»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_0c8c65d5",
+      "attempt": "A lo mejor venga.",
+      "correct": "A lo mejor viene.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "После a lo mejor в Испании почти всегда используется индикатив, а не subjuntivo: A lo mejor viene."
+      },
+      "errorTags": [
+        "mood-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_153201da",
+      "attempt": "Desde que es toy en...",
+      "correct": "Desde que estoy en...",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Слово estoy написано с лишним пробелом: es toy → estoy. Правильно: «Desde que estoy en...» — «С тех пор как я в...»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_16113d5a",
+      "attempt": "You qué sé",
+      "correct": "Yo qué sé",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Нужно местоимение yo («я»), а не английское you. Выражение Yo qué sé значит «Откуда я знаю?»."
+      },
+      "errorTags": [
+        "pronoun-placement",
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_1a4ac4b0",
+      "attempt": "en dos mesos",
+      "correct": "en dos meses",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Форма «mesos» — каталанская. По-испански множественное число от «mes» — «meses»: «en dos meses» («через два месяца»)."
+      },
+      "errorTags": [
+        "spelling",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_202acdac",
+      "attempt": "nos vestemos",
+      "correct": "nos vestimos",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "vestirse — глагол на -ir, поэтому у nosotros окончание -imos: nos vestimos (корень не меняется)."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_27434964",
+      "attempt": "Le compo un libro.",
+      "correct": "Le compro un libro.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Опечатка: пропущена r в форме compro."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_28271b5a",
+      "attempt": "Si, como carne",
+      "correct": "Sí, como carne",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Нужен акцент в sí («да»)."
+      },
+      "errorTags": [
+        "accent",
+        "homophone"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_28c777cc",
+      "attempt": "tiene dos manos izquierdos",
+      "correct": "Tiene dos manos izquierdas.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Слово «mano» женского рода (la mano), поэтому прилагательное должно согласовываться в женском роде и множественном числе: «izquierdas», а не «izquierdos»."
+      },
+      "errorTags": [
+        "gender",
+        "agreement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_2ced1445",
+      "attempt": "Hay un libre en la mesa",
+      "correct": "Hay un libro en la mesa.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Нужное слово — libro (книга), а не libre."
+      },
+      "errorTags": [
+        "spelling",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_2fd6c153",
+      "attempt": "entega",
+      "correct": "entrega",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Опечатка: в слове entrega есть «r» — entrega («доставка, вручение»)."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5ab282-af20-83eb-85ce-e3fdb8d6baa5",
+        "conversationTitle": "Сокращения для квартиры",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_3123ae91",
+      "attempt": "Nosotros vivimos en Belin",
+      "correct": "Nosotros vivimos en Berlín",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Опечатка и пропущенный акцент: Berlín."
+      },
+      "errorTags": [
+        "spelling",
+        "accent"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_35113adc",
+      "attempt": "Tu comes pizza",
+      "correct": "Tú comes pizza",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Местоимение «ты» пишется с акцентом: tú (без акцента tu = «твой»)."
+      },
+      "errorTags": [
+        "accent",
+        "homophone"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_37681738",
+      "attempt": "Estoy hambre.",
+      "correct": "Tengo hambre.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Типичная ошибка начинающих: состояние голода в испанском выражается через tener, а не estar — «Tengo hambre» (буквально «я имею голод»)."
+      },
+      "errorTags": [
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_444000f5",
+      "attempt": "se acosta",
+      "correct": "se acuesta",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Изменение корня o → ue в форме él/ella: se acuesta."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_4e5846b2",
+      "attempt": "Si, hablo ingles",
+      "correct": "Sí, hablo inglés",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "«Да» — sí с акцентом (si без акцента = «если»); также inglés с акцентом."
+      },
+      "errorTags": [
+        "accent",
+        "homophone"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_4ec7d086",
+      "attempt": "fuiste a la univesidad",
+      "correct": "¿Fuiste a la universidad?",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "В слове опечатка: правильно «universidad» (пропущена r). Ассистент также добавил вопросительные знаки: «¿Fuiste a la universidad?» — «Ты ходил/учился в университете?»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_50993041",
+      "attempt": "se acostan",
+      "correct": "se acuestan",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Изменение корня o → ue в форме ellos: se acuestan. При этом nosotros/vosotros корень не меняют: nos acostamos."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_509a0257",
+      "attempt": "Soy ucraino",
+      "correct": "Soy ucraniano.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Ошибка в написании слова: правильно «ucraniano» (с буквой n)."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_518fd4d7",
+      "attempt": "Es buscando.",
+      "correct": "Estoy buscando.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Для значения «я ищу / I'm looking (for it)» нужен глагол estar в конструкции estar + герундий: «Estoy buscando». «Es buscando» так не говорят: es = «есть/является», и такая связка возможна только в особых конструкциях типа «Es buscando soluciones como aprendemos» («именно ища решения, мы учимся»)."
+      },
+      "errorTags": [
+        "ser-estar"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
+        "conversationTitle": "Перевод фразы на испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_5293801c",
+      "attempt": "Yo tenes un coche",
+      "correct": "Yo tengo un coche",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Глагол tener неправильный: форма для yo — tengo."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_53d5391f",
+      "attempt": "Giremos a la derecha.",
+      "correct": "Gire a la derecha.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "В разговоре с таксистом форма nosotros («давайте вместе повернём») не подходит: ты даёшь указание водителю, поэтому нужен императив для usted — Gire a la derecha."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_55719faf",
+      "attempt": "todos horas",
+      "correct": "todas las horas",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Пользователь предложил «todos horas»: hora — женского рода, поэтому todas, и нужен артикль: todas las horas. Но по смыслу «твои часы» — это tus horas (притяжательное), а todas значит «все»."
+      },
+      "errorTags": [
+        "gender",
+        "agreement",
+        "article",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_55ea8cea",
+      "attempt": "Hablais ingles",
+      "correct": "Habláis inglés",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Не хватает акцентов: форма vosotros — «habláis», и «inglés» с ударением."
+      },
+      "errorTags": [
+        "accent",
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_5beb0691",
+      "attempt": "estamos haciendo un énphasis",
+      "correct": "estamos poniendo énfasis en",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "«Énfasis» пишется без «h» — не «énphasis». Кроме того, énfasis — неисчисляемое существительное, поэтому обычно употребляется без артикля: не «un énfasis», а «hacer/poner énfasis en algo». Артикль возвращается только при появлении прилагательного: «un énfasis especial»."
+      },
+      "errorTags": [
+        "spelling",
+        "article"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
+        "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
+        "ingestBatch": "ingest-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_5c52f836",
+      "attempt": "Esa es mi coche.",
+      "correct": "Ese es mi coche.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Слово coche мужского рода, поэтому указательное местоимение должно быть мужским: Ese es mi coche. Средний род eso используется только для ситуации/идеи, а не для конкретного предмета."
+      },
+      "errorTags": [
+        "gender",
+        "agreement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_654b6377",
+      "attempt": "Cuando transformamos esta oracion",
+      "correct": "Cuando transformamos esta oración",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Слово oración оканчивается на -n, поэтому по общему правилу ударение должно падать на предпоследний слог, но фактически ударение — на последнем (ora-ci-ÓN), значит нужен графический акцент: oración, а не oracion."
+      },
+      "errorTags": [
+        "accent"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
+        "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
+        "ingestBatch": "ingest-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_6c8361ad",
+      "attempt": "un mejor jugador",
+      "correct": "el mejor jugador",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Для значения «лучший из всех» нужен определённый артикль: el mejor jugador. Вариант с un означал бы «какой-то лучший игрок»."
+      },
+      "errorTags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_6daa3b8b",
+      "attempt": "No, no voy Valencia",
+      "correct": "No, no voy a Valencia",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "С глаголом ir всегда нужен предлог a: voy a Valencia."
+      },
+      "errorTags": [
+        "preposition"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_6f0f3e42",
+      "attempt": "Viene a la trabajo a las nueve",
+      "correct": "Viene al trabajo a las nueve.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Trabajo — мужской род, и a + el = al: «Viene al trabajo»."
+      },
+      "errorTags": [
+        "article",
+        "gender"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_78f5b036",
+      "attempt": "Salir con lo.",
+      "correct": "Salir con él.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "После предлога con употребляются самостоятельные (предложные) местоимения: con él, con ella, а не безударное дополнение lo."
+      },
+      "errorTags": [
+        "pronoun-placement",
+        "preposition"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_79bc8f78",
+      "attempt": "Tienen unos hijos",
+      "correct": "Tienen hijos.",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "С unos фраза звучит как «какие-то дети». Если просто сообщаешь, что у них есть дети — «Tienen hijos» (или «Tienen dos hijos»)."
+      },
+      "errorTags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_7a695732",
+      "attempt": "Voy al supermecado",
+      "correct": "Voy al supermercado.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Опечатка в слове: supermercado."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_7e5d7a35",
+      "attempt": "este cuente me gusta",
+      "correct": "Este cuento me gusta.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "«Cuente» — не существительное, а форма глагола contar (presente de subjuntivo). Нужно существительное: cuento («рассказ»), либо cuenta («счёт, аккаунт»), либо puente («мост»), в зависимости от смысла."
+      },
+      "errorTags": [
+        "lexical-choice",
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5ab282-af20-83eb-85ce-e3fdb8d6baa5",
+        "conversationTitle": "Сокращения для квартиры",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_7fe5724e",
+      "attempt": "Vamos a la casa",
+      "correct": "Vamos a casa",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "«Идём домой» — устойчивое выражение без артикля: a casa. Вариант «a la casa» значит «к дому»."
+      },
+      "errorTags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_83fff033",
+      "attempt": "Perdón, ¿nos puede traer la cuenta? Тут usted является существительным?",
+      "correct": "usted — это личное местоимение, а не существительное; в этой фразе оно опущено, но подразумевается",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Пользователь предположил, что usted — существительное. На самом деле usted — личное местоимение вежливого обращения, которое требует формы глагола 3-го лица единственного числа (puede, как él/ella). В испанском личные местоимения обычно опускаются, поэтому в фразе usted не произносится, но подразумевается: «Perdón, ¿(usted) nos puede traer la cuenta?»."
+      },
+      "errorTags": [
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
+        "conversationTitle": "Обращение на испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_84ae0e34",
+      "attempt": "Le llevo un café.",
+      "correct": "Le llevo café.",
+      "verdict": "ok",
+      "explanation": {
+        "ru": "Оба варианта естественны: с артиклем un café и без него — café."
+      },
+      "errorTags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_8b278810",
+      "attempt": "El café es caliente",
+      "correct": "El café está caliente.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "«Горячий» — это временное состояние напитка, поэтому нужен estar. Вариант «El café es caliente» возможен только если речь о свойстве вида кофе."
+      },
+      "errorTags": [
+        "ser-estar"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_8c318407",
+      "attempt": "se vesten",
+      "correct": "se visten",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Форма ellos: se visten (e → i)."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_90bb8ed4",
+      "attempt": "nececitamos",
+      "correct": "necesitamos",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Опечатка в написании: правильная форма глагола necesitar для nosotros — necesitamos (через s, не через c)."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_9a377f85",
+      "attempt": "Estás consado",
+      "correct": "Estás cansado.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Опечатка: не «consado», а «cansado»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_9bfed083",
+      "attempt": "¿Cómo te diga?",
+      "correct": "¿Cómo te lo digo...?",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Форма diga — это presente de subjuntivo, и после cómo в значении «как (мне) сказать» она не употребляется. Правильно: ¿Cómo te lo digo...? или ¿Cómo decirlo? / No sé cómo decírtelo."
+      },
+      "errorTags": [
+        "mood-choice",
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_9de1d3f5",
+      "attempt": "Es yo.",
+      "correct": "Soy yo.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Когда человек представляется или отвечает на вопрос «Кто это?», по-испански используется глагол ser в форме, согласованной с местоимением: «Soy yo» («Это я»), а не «Es yo». Запомните как устойчивое выражение: Soy yo = «Это я»."
+      },
+      "errorTags": [
+        "conjugation",
+        "agreement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
+        "conversationTitle": "Traducción Camp d'en Grassot",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_a1b2c3d4",
-      "prompt": { "ru": "У меня есть машина." },
+      "prompt": {
+        "ru": "У меня есть машина."
+      },
       "attempt": "Yo tenes un coche.",
       "correct": "Yo tengo un coche.",
       "verdict": "wrong",
       "explanation": {
         "ru": "Глагол **tener** неправильный: форма **tenes** относится к аргентинскому voseo, а стандартная форма 1-го лица (yo) — **tengo**. Форма **tienes** — это 2-е лицо (tú)."
       },
-      "errorTags": ["conjugation"],
-      "relatedVerbIds": ["vb_tener"],
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "errorTags": [
+        "conjugation"
+      ],
+      "relatedVerbIds": [
+        "vb_tener"
+      ],
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed"
+      }
+    },
+    {
+      "id": "er_a5080c7e",
+      "attempt": "¿Dónde está la papel higiénico?",
+      "correct": "¿Dónde está el papel higiénico?",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Пользователь предположил вариант с артиклем «la». Слово papel — существительное мужского рода, поэтому нужен артикль el: el papel higiénico, а не la papel higiénico."
+      },
+      "errorTags": [
+        "gender",
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
+        "conversationTitle": "Минерализация воды Font Vella",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_a634f0cd",
+      "attempt": "¿Por qué llegaste tarde? — здесь не прошедшее время",
+      "correct": "¿Por qué llegaste tarde? — это прошедшее время (pretérito indefinido от llegar)",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Пользователь решил, что в фразе нет прошедшего времени. На самом деле llegaste — форма pretérito indefinido глагола llegar (tú). Вариант has llegado (pretérito perfecto) тоже возможен и в Испании даже более част, если событие связано с настоящим моментом."
+      },
+      "errorTags": [
+        "tense-choice",
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
+        "conversationTitle": "Siempre que significado",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_a6dd6fb8",
+      "attempt": "¿Puedes ayudar?",
+      "correct": "¿Puedes ayudarme?",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Нужно местоимение-энклитика me: «помочь мне» — ayudarme."
+      },
+      "errorTags": [
+        "pronoun-placement",
+        "enclitic"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_a73e2e57",
+      "attempt": "Pone dinero en el bolsa",
+      "correct": "Pone dinero en la bolsa.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Bolsa — женского рода, поэтому «la bolsa»."
+      },
+      "errorTags": [
+        "gender",
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_a8ac354e",
+      "attempt": "me vesto",
+      "correct": "me visto",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Глагол vestir(se) имеет изменение корня e → i: me visto."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_aa520624",
+      "attempt": "¿Cómo lo diga?",
+      "correct": "¿Cómo lo digo?",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "После cómo в вопросе «как мне это сказать» нужен индикатив: ¿Cómo lo digo? Subjuntivo diga используется после выражений, требующих subjuntivo, или как вежливая команда для usted."
+      },
+      "errorTags": [
+        "mood-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_ad8bd951",
+      "attempt": "Cuántos gorritos de papel de plata me hecho ya",
+      "correct": "¿Cuántos gorritos de papel de plata me he hecho ya?",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Пропущен вспомогательный глагол he: в pretérito perfecto нужно me he hecho, а не me hecho."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
     },
     {
       "id": "er_b2c3d4e5",
-      "prompt": { "ru": "Я вижу море." },
+      "prompt": {
+        "ru": "Я вижу море."
+      },
       "attempt": "Veo él mar.",
       "correct": "Veo el mar.",
       "verdict": "wrong",
       "explanation": {
         "ru": "Артикль **el** никогда не имеет ударения. С ударением **él** означает 'он' (личное местоимение), а не артикль мужского рода."
       },
-      "errorTags": ["accent", "homophone", "article"],
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "errorTags": [
+        "accent",
+        "homophone",
+        "article"
+      ],
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed"
+      }
+    },
+    {
+      "id": "er_bc8bd346",
+      "attempt": "te vestes",
+      "correct": "te vistes",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "vestirse — глагол на -ir с изменением e → i: te vistes."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_c0c378f2",
+      "attempt": "Qué sé.",
+      "correct": "Yo qué sé.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Нельзя убрать yo: yo qué sé — устойчивое разговорное выражение, местоимение является его частью. Если нужно просто «не знаю», говорят No sé."
+      },
+      "errorTags": [
+        "pronoun-placement",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_c183959d",
+      "attempt": "se veste",
+      "correct": "se viste",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Правильная форма él/ella: se viste (e → i)."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
     },
     {
       "id": "er_c3d4e5f6",
-      "prompt": { "ru": "Ты можешь помочь?" },
+      "prompt": {
+        "ru": "Ты можешь помочь?"
+      },
       "attempt": "¿Puedes ayudar?",
       "correct": "¿Puedes ayudarme?",
       "verdict": "partial",
       "explanation": {
         "ru": "Фраза грамматически верна, но без возвратного/объектного местоимения **-me** звучит незавершённо в контексте просьбы о помощи именно тебе. Естественнее: **¿Puedes ayudarme?**"
       },
-      "errorTags": ["pronoun-placement"],
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "errorTags": [
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed"
+      }
+    },
+    {
+      "id": "er_c46880ae",
+      "attempt": "Buena noche",
+      "correct": "Buenas noches.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "При приветствии и прощании используется только устойчивая форма множественного числа: **Buenas noches**. Множественное число сохранилось от старых длинных пожеланий «(Que tenga) buenas noches» — «Желаю вам добрых ночей». Единственное число возможно только в обычных словосочетаниях: *Fue una buena noche* — «Это была хорошая ночь»."
+      },
+      "errorTags": [
+        "agreement",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
+        "conversationTitle": "Как пожелать хорошего вечера",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_c8b4566e",
+      "attempt": "Yo hablo Español",
+      "correct": "Yo hablo español",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Названия языков в испанском пишутся с маленькой буквы."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_c8c83354",
+      "attempt": "Ven otra vez",
+      "correct": "¿Puede repetir? / ¿Cómo? / ¿Perdón?",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Английское «Come again?» нельзя переводить дословно: Ven otra vez означает «Приходи ещё раз». Чтобы попросить повторить, говорят ¿Puede repetir?, ¿Cómo? или ¿Perdón?"
+      },
+      "errorTags": [
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
+        "conversationTitle": "Ошибка атрибута в Python",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_cb73c8b3",
+      "attempt": "está yo viendo",
+      "correct": "Estoy viendo.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Глагол estar должен согласовываться с подлежащим: для yo — estoy, а не está. Кроме того, местоимение yo обычно опускается: Estoy viendo."
+      },
+      "errorTags": [
+        "conjugation",
+        "agreement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_d1345e17",
+      "attempt": "me acosto",
+      "correct": "me acuesto",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Глагол acostarse — с изменением корня o → ue: acostar → acuesto."
+      },
+      "errorTags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_d2833f8f",
+      "attempt": "No hay un banco aquí",
+      "correct": "No hay banco aquí.",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "В обычной речи в отрицании чаще говорят без артикля: «No hay banco aquí». Вариант с un возможен, если подчёркиваешь «нет какого-то одного банка»."
+      },
+      "errorTags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_d5605870",
+      "attempt": "Ponemos las llamas aquí",
+      "correct": "Ponemos las llaves aquí.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "llamas — это ламы (или пламя); ключ — llave, поэтому «las llaves»."
+      },
+      "errorTags": [
+        "lexical-choice",
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_d7304552",
+      "attempt": "Esconedrme",
+      "correct": "esconderme",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Опечатка: буквы переставлены. Правильно — esconderme (esconder + me), «спрятаться»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_da5fc1b9",
+      "attempt": "Tengo que darle esta a la jefa.",
+      "correct": "Tengo que darle esto a la jefa.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Когда существительное не называется, используется указательное местоимение среднего рода esto (eso, aquello), а не esta. Формы este/esta нужны только при существительном (esta carta)."
+      },
+      "errorTags": [
+        "gender",
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_e0a96d3c",
+      "attempt": "esa es una historia",
+      "correct": "Esa es una historia muy larga. / Eso es una historia muy larga.",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Грамматически esa es una historia muy larga верно (esa согласуется с historia). Но в разговорном значении «это долгая история» естественнее нейтральное eso: Bueno, eso es una historia muy larga."
+      },
+      "errorTags": [
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_e61c6fc1",
+      "attempt": "Es el conserje?",
+      "correct": "¿Es el conserje?",
+      "verdict": "ok",
+      "explanation": {
+        "ru": "Так сказать можно: местоимение usted в испанском часто опускают, так как оно понятно по форме глагола. ¿Es usted el conserje? — более подчёркнуто вежливо, но ¿Es el conserje? звучит абсолютно естественно."
+      },
+      "errorTags": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_e824883b",
+      "attempt": "Somos de Ucraina",
+      "correct": "Somos de Ucrania.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Ошибка в написании названия страны: Ucrania — Украина, ucraniano — украинец."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_ea84eefe",
+      "attempt": "os levanáis",
+      "correct": "os levantáis",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Пропущена буква t: от levantarse форма vosotros — os levantáis."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_eb7ee409",
+      "attempt": "Tengo una duda pequeña.",
+      "correct": "Tengo una pequeña duda.",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Фраза грамматически верна, но чаще прилагательное ставят перед существительным: una pequeña duda."
+      },
+      "errorTags": [
+        "word-order"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
+        "conversationTitle": "Ошибка атрибута в Python",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_eb95ea3b",
+      "attempt": "Ellos hablan ingles",
+      "correct": "Ellos hablan inglés",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Нужен акцент: inglés."
+      },
+      "errorTags": [
+        "accent"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_f33ade21",
+      "attempt": "Veo él mar",
+      "correct": "Veo el mar",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Артикль el никогда не пишется с акцентом; él с акцентом означает «он»."
+      },
+      "errorTags": [
+        "accent",
+        "article",
+        "homophone"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_faf98fe6",
+      "attempt": "Voy a la casa.",
+      "correct": "Voy a casa.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "С «casa» в значении «домой / к себе домой» артикль не используется: правильно «Voy a casa». Вариант «Voy a la casa» возможен только если имеется в виду конкретный дом («Я иду к тому дому»)."
+      },
+      "errorTags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a578f0f-cbb4-83eb-b867-dc0b1aba90f2",
+        "conversationTitle": "Ir a casa объяснение",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_fbbd1832",
+      "attempt": "Él es un jugador le mejor del mundo",
+      "correct": "Él es el mejor jugador del mundo.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Три проблемы: 1) при превосходной степени нужен определённый артикль el, а не un; 2) артикля le в испанском не существует (есть el, la, los, las); 3) mejor ставится перед существительным: el mejor jugador. Формула: el/la + mejor + существительное + de + группа."
+      },
+      "errorTags": [
+        "article",
+        "word-order"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_fc715cfe",
+      "attempt": "Hablas espanol",
+      "correct": "Hablas español",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Пропущена буква ñ: правильно «español»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
     }
   ]
 }

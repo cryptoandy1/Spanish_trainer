@@ -1,112 +1,4013 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T00:00:00Z",
+  "generatedAt": "2026-08-04T15:04:29Z",
   "items": [
     {
-      "id": "vb_estar",
-      "infinitive": "estar",
-      "tr": { "ru": "быть, находиться (временное состояние/местоположение)" },
+      "id": "vb_abrir",
+      "infinitive": "abrir",
+      "tr": {
+        "ru": ""
+      },
       "regularity": "irregular",
-      "regularityNote": { "ru": "Неправильный во всех формах presente и pretérito indefinido; используется для временных состояний и местоположения (в отличие от ser)." },
-      "conjugationClass": "-ar",
       "reflexive": false,
-      "nonFinite": { "gerund": "estando", "participle": "estado" },
+      "nonFinite": {
+        "gerund": null,
+        "participle": "abierto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "abre",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_acostarse",
+      "infinitive": "acostarse",
+      "tr": {
+        "ru": "ложиться спать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
       "tenses": {
         "presente": {
           "forms": {
-            "yo": { "form": "estoy", "irregular": true },
-            "tu": { "form": "estás" },
-            "el": { "form": "está", "example": { "text": "Está en casa.", "tr": { "ru": "Он дома." } } },
-            "nosotros": { "form": "estamos" },
-            "vosotros": { "form": "estáis" },
-            "ellos": { "form": "están" }
+            "yo": {
+              "form": "me acuesto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te acuestas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se acuesta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos acostamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os acostáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se acuestan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_afeitarse",
+      "infinitive": "afeitarse",
+      "tr": {
+        "ru": "бриться"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me afeito",
+              "irregular": false
+            },
+            "tu": {
+              "form": "te afeitas",
+              "irregular": false
+            },
+            "el": {
+              "form": "se afeita",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "nos afeitamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os afeitáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se afeitan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_apagar",
+      "infinitive": "apagar",
+      "tr": {
+        "ru": "выключать; гасить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "apago",
+              "irregular": false
+            },
+            "tu": {
+              "form": "apagas",
+              "irregular": false
+            },
+            "el": {
+              "form": "apaga",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "apagamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "apagáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "apagan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_casa"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_aprender",
+      "infinitive": "aprender",
+      "tr": {
+        "ru": "учиться; узнавать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "nosotros": {
+              "form": "aprendemos",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
+        "conversationTitle": "Перевод фразы на испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_aprobar",
+      "infinitive": "aprobar",
+      "tr": {
+        "ru": "одобрять"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente_subjuntivo": {
+          "forms": {
+            "ellos": {
+              "form": "aprueben",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_beber",
+      "infinitive": "beber",
+      "tr": {
+        "ru": "пить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "bebo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "bebes",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "bebemos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "bebéis",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_restaurante"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a54866f-aa70-83eb-9463-ad531e4435c7"
+        ]
+      }
+    },
+    {
+      "id": "vb_buscar",
+      "infinitive": "buscar",
+      "tr": {
+        "ru": "искать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "buscando",
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {},
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
+        "conversationTitle": "Перевод фразы на испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_cambiar",
+      "infinitive": "cambiar",
+      "tr": {
+        "ru": "менять(ся), изменяться"
+      },
+      "regularity": "regular",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {},
+      "tenses": {
+        "presente": {
+          "forms": {
+            "el": {
+              "form": "cambia"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
+        "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
+        "ingestBatch": "ingest-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_cerrar",
+      "infinitive": "cerrar",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "cerrado",
+        "participleIrregular": false
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "cierro",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a533484-a9e8-83eb-8083-813afe2f2d72"
+        ]
+      }
+    },
+    {
+      "id": "vb_comer",
+      "infinitive": "comer",
+      "tr": {
+        "ru": "есть; кушать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "comido",
+        "participleIrregular": false
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "como",
+              "irregular": false
+            },
+            "tu": {
+              "form": "comes",
+              "irregular": false
+            },
+            "el": {
+              "form": "come",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "comemos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "coméis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "comen",
+              "irregular": false
+            }
           }
         },
         "preterito_indefinido": {
           "forms": {
-            "yo": { "form": "estuve", "irregular": true },
-            "tu": { "form": "estuviste", "irregular": true },
-            "el": { "form": "estuvo", "irregular": true },
-            "nosotros": { "form": "estuvimos", "irregular": true },
-            "vosotros": { "form": "estuvisteis", "irregular": true },
-            "ellos": { "form": "estuvieron", "irregular": true }
+            "yo": {
+              "form": "comí",
+              "irregular": false
+            },
+            "tu": {
+              "form": "comiste",
+              "irregular": false
+            },
+            "el": {
+              "form": "comió",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "comimos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "comisteis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "comieron",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "comía",
+              "irregular": false
+            },
+            "tu": {
+              "form": "comías",
+              "irregular": false
+            },
+            "el": {
+              "form": "comía",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "comíamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "comíais",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "comían",
+              "irregular": false
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "comeré",
+              "irregular": false
+            },
+            "tu": {
+              "form": "comerás",
+              "irregular": false
+            },
+            "el": {
+              "form": "comerá",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "comeremos",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he comido",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_restaurante"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_conocer",
+      "infinitive": "conocer",
+      "tr": {
+        "ru": "знать (человека, место); быть знакомым"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "conozco",
+              "irregular": true
+            },
+            "tu": {
+              "form": "conoces",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_dar",
+      "infinitive": "dar",
+      "tr": {
+        "ru": "давать"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "doy",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "di",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c"
+        ]
+      }
+    },
+    {
+      "id": "vb_darse-cuenta",
+      "infinitive": "darse cuenta",
+      "tr": {
+        "ru": "понять; осознать; заметить"
+      },
+      "regularity": "irregular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me doy cuenta",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me di cuenta",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me daba cuenta",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he dado cuenta",
+              "irregular": false
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me daré cuenta",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_decir",
+      "infinitive": "decir",
+      "tr": {
+        "ru": "говорить; сказать"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "digo",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_dejar",
+      "infinitive": "dejar",
+      "tr": {
+        "ru": "оставить; оставлять; позволить; бросить (перестать)"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "dejo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "dejas",
+              "irregular": false
+            },
+            "el": {
+              "form": "deja",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "dejamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "dejáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "dejan",
+              "irregular": false
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "dejaré",
+              "irregular": false
+            },
+            "tu": {
+              "form": "dejarás",
+              "irregular": false
+            },
+            "el": {
+              "form": "dejará",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "dejaremos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "dejaréis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "dejarán",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "dejé",
+              "irregular": false
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "deja",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_restaurante",
+        "tp_transporte"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
+        "conversationTitle": "Чаевые в приложении испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_despertarse",
+      "infinitive": "despertarse",
+      "tr": {
+        "ru": "просыпаться"
+      },
+      "regularity": "stem-changing",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me despierto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te despiertas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se despierta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos despertamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os despertáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se despiertan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_dormir",
+      "infinitive": "dormir",
+      "tr": {
+        "ru": "спать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "duermo",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_ducharse",
+      "infinitive": "ducharse",
+      "tr": {
+        "ru": "принимать душ"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me ducho",
+              "irregular": false
+            },
+            "tu": {
+              "form": "te duchas",
+              "irregular": false
+            },
+            "el": {
+              "form": "se ducha",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "nos duchamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os ducháis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se duchan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_empezar",
+      "infinitive": "empezar",
+      "tr": {
+        "ru": "начинать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "nosotros": {
+              "form": "empezamos",
+              "irregular": false
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "nosotros": {
+              "form": "empecemos",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_encender",
+      "infinitive": "encender",
+      "tr": {
+        "ru": "включать; зажигать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "enciendo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "enciendes",
+              "irregular": true
+            },
+            "el": {
+              "form": "enciende",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "encendemos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "encendéis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "encienden",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_casa"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_encontrar",
+      "infinitive": "encontrar",
+      "tr": {
+        "ru": "находить; найти"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "encontrado",
+        "participleIrregular": false
+      },
+      "tenses": {
+        "preterito_indefinido": {
+          "forms": {
+            "tu": {
+              "form": "encontraste",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "tu": {
+              "form": "has encontrado",
+              "irregular": false
+            },
+            "el": {
+              "form": "ha encontrado",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
+        "conversationTitle": "Перевод фразы на испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_esconder",
+      "infinitive": "esconder",
+      "tr": {
+        "ru": "прятать; прятать(ся)"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "escondido",
+        "participleIrregular": false
+      },
+      "tenses": {},
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+        "conversationTitle": "Список испанских глаголов",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_escribir",
+      "infinitive": "escribir",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "escrito",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "escribo",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_esperar",
+      "infinitive": "esperar",
+      "tr": {
+        "ru": "ждать; надеяться"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "espero",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "esperamos",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_saludos"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
+        "conversationTitle": "Чаевые в приложении испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_estar",
+      "infinitive": "estar",
+      "tr": {
+        "ru": "быть, находиться (временное состояние/местоположение)"
+      },
+      "regularity": "irregular",
+      "regularityNote": {
+        "ru": "Неправильный во всех формах presente и pretérito indefinido; используется для временных состояний и местоположения (в отличие от ser)."
+      },
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "estando",
+        "participle": "estado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "estoy",
+              "irregular": true
+            },
+            "tu": {
+              "form": "estás"
+            },
+            "el": {
+              "form": "está",
+              "example": {
+                "text": "Está en casa.",
+                "tr": {
+                  "ru": "Он дома."
+                }
+              }
+            },
+            "nosotros": {
+              "form": "estamos"
+            },
+            "vosotros": {
+              "form": "estáis"
+            },
+            "ellos": {
+              "form": "están"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "estuve",
+              "irregular": true
+            },
+            "tu": {
+              "form": "estuviste",
+              "irregular": true
+            },
+            "el": {
+              "form": "estuvo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "estuvimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "estuvisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "estuvieron",
+              "irregular": true
+            }
           }
         }
       },
       "topics": [],
       "frequency": 1,
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed",
+        "alsoSeenIn": [
+          "6a49cb83-370c-83eb-98ce-ba148825a547",
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
+        ]
+      },
+      "needsReview": true
+    },
+    {
+      "id": "vb_estudiar",
+      "infinitive": "estudiar",
+      "tr": {
+        "ru": "учиться; изучать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "estudio",
+              "irregular": false
+            },
+            "tu": {
+              "form": "estudias",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "estudiamos",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "estudian",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_flipar",
+      "infinitive": "flipar",
+      "tr": {
+        "ru": "офигевать; быть в шоке; тащиться; быть в восторге"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "flipando",
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "flipo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "flipas",
+              "irregular": false
+            },
+            "el": {
+              "form": "flipa",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "flipamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "flipáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "flipan",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "flipé",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_girar",
+      "infinitive": "girar",
+      "tr": {
+        "ru": "поворачивать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "giro",
+              "irregular": false
+            },
+            "tu": {
+              "form": "giras",
+              "irregular": false
+            },
+            "el": {
+              "form": "gira",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "giramos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "giráis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "giran",
+              "irregular": false
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "gire",
+              "irregular": false
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "gira",
+              "irregular": false
+            },
+            "el": {
+              "form": "gire",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "giremos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "girad",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "giren",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_transporte"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
+        ]
+      }
+    },
+    {
+      "id": "vb_gustar",
+      "infinitive": "gustar",
+      "tr": {
+        "ru": "нравиться"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "condicional": {
+          "forms": {
+            "el": {
+              "form": "gustaría",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_restaurante",
+        "tp_saludos"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
+        "conversationTitle": "Аналог can I have",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a6cf173-f534-83eb-89bd-32a90d79b54f"
+        ]
+      }
+    },
+    {
+      "id": "vb_haber",
+      "infinitive": "haber",
+      "tr": {
+        "ru": "иметься; вспомогательный глагол"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "he",
+              "irregular": true
+            },
+            "tu": {
+              "form": "has",
+              "irregular": true
+            },
+            "el": {
+              "form": "ha",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "hemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "habéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "han",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_hablar",
+      "infinitive": "hablar",
+      "tr": {
+        "ru": "говорить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "hablo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "hablas",
+              "irregular": false
+            },
+            "el": {
+              "form": "habla",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "hablamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "habláis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "hablan",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "hablé",
+              "irregular": false
+            },
+            "tu": {
+              "form": "hablaste",
+              "irregular": false
+            },
+            "el": {
+              "form": "habló",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "hablamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "hablasteis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "hablaron",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "hablaba",
+              "irregular": false
+            },
+            "tu": {
+              "form": "hablabas",
+              "irregular": false
+            },
+            "el": {
+              "form": "hablaba",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "hablábamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "hablabais",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "hablaban",
+              "irregular": false
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "hablaré",
+              "irregular": false
+            },
+            "tu": {
+              "form": "hablarás",
+              "irregular": false
+            },
+            "el": {
+              "form": "hablará",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "hablaremos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "hablaréis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "hablarán",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_hacer",
+      "infinitive": "hacer",
+      "tr": {
+        "ru": "делать"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "hago",
+              "irregular": true
+            },
+            "tu": {
+              "form": "haces",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_ir",
+      "infinitive": "ir",
+      "tr": {
+        "ru": "идти; ехать"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "voy",
+              "irregular": true
+            },
+            "tu": {
+              "form": "vas",
+              "irregular": true
+            },
+            "el": {
+              "form": "va",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "vamos",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "fui",
+              "irregular": true
+            },
+            "tu": {
+              "form": "fuiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "fue",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "iba",
+              "irregular": true
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "iré",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_transporte",
+        "tp_casa"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a578f0f-cbb4-83eb-b867-dc0b1aba90f2",
+          "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_irse",
+      "infinitive": "irse",
+      "tr": {
+        "ru": "уйти; уехать; покинуть место"
+      },
+      "regularity": "irregular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "preterito_perfecto": {
+          "forms": {
+            "el": {
+              "form": "se ha ido",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_lavarse",
+      "infinitive": "lavarse",
+      "tr": {
+        "ru": "мыться; умываться"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me lavo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "te lavas",
+              "irregular": false
+            },
+            "el": {
+              "form": "se lava",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "nos lavamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os laváis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se lavan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_leer",
+      "infinitive": "leer",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "orthographic",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "leyendo",
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {},
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607a99-2514-83eb-bb6d-9fa633a6f39a",
+        "conversationTitle": "Герундий и причастие в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_levantarse",
+      "infinitive": "levantarse",
+      "tr": {
+        "ru": "вставать; подниматься"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me levanto",
+              "irregular": false
+            },
+            "tu": {
+              "form": "te levantas",
+              "irregular": false
+            },
+            "el": {
+              "form": "se levanta",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "nos levantamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os levantáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se levantan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_llamarse",
+      "infinitive": "llamarse",
+      "tr": {
+        "ru": "звать(ся); называться"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me llamo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "te llamas",
+              "irregular": false
+            },
+            "el": {
+              "form": "se llama",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "nos llamamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os llamáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se llaman",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_llegar",
+      "infinitive": "llegar",
+      "tr": {
+        "ru": "приходить; приезжать; прибывать"
+      },
+      "regularity": "orthographic",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "llegué",
+              "irregular": true
+            },
+            "tu": {
+              "form": "llegaste",
+              "irregular": false
+            },
+            "el": {
+              "form": "llegó",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "llegamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "llegasteis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "llegaron",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_transporte"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
+          "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_llevar",
+      "infinitive": "llevar",
+      "tr": {
+        "ru": "носить; нести; брать с собой"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "llevo",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_lograr",
+      "infinitive": "lograr",
+      "tr": {
+        "ru": "добиться"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {},
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+        "conversationTitle": "Список испанских глаголов",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_molar",
+      "infinitive": "molar",
+      "tr": {
+        "ru": "нравиться; быть классным"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "tu": {
+              "form": "molas",
+              "irregular": false
+            },
+            "el": {
+              "form": "mola",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "molan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_morir",
+      "infinitive": "morir",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "muerto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "muero",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mueres",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_necesitar",
+      "infinitive": "necesitar",
+      "tr": {
+        "ru": "нуждаться; быть нужным"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "necesito",
+              "irregular": false
+            },
+            "tu": {
+              "form": "necesitas",
+              "irregular": false
+            },
+            "el": {
+              "form": "necesita",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "necesitamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "necesitáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "necesitan",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_oir",
+      "infinitive": "oír",
+      "tr": {
+        "ru": "слышать; слушать"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "oye",
+              "irregular": true
+            },
+            "el": {
+              "form": "oiga",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "oíd",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "oigan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_saludos"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_parar",
+      "infinitive": "parar",
+      "tr": {
+        "ru": "останавливаться; остановить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "paro",
+              "irregular": false
+            },
+            "tu": {
+              "form": "paras",
+              "irregular": false
+            },
+            "el": {
+              "form": "para",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "paramos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "paráis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "paran",
+              "irregular": false
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "para",
+              "irregular": false
+            },
+            "el": {
+              "form": "pare",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "paremos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "parad",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "paren",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_transporte"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a6cf173-f534-83eb-89bd-32a90d79b54f"
+        ]
+      }
+    },
+    {
+      "id": "vb_parecer",
+      "infinitive": "parecer",
+      "tr": {
+        "ru": "казаться; выглядеть"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "el": {
+              "form": "parece",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
+        "conversationTitle": "Чаевые в приложении испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_pasar",
+      "infinitive": "pasar",
+      "tr": {
+        "ru": "проводить (время); проходить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente_subjuntivo": {
+          "forms": {
+            "tu": {
+              "form": "pases",
+              "irregular": false
+            },
+            "el": {
+              "form": "pase",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_saludos"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
+        "conversationTitle": "Как пожелать хорошего вечера",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_pedir",
+      "infinitive": "pedir",
+      "tr": {
+        "ru": "просить; заказывать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "pido",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_pensar",
+      "infinitive": "pensar",
+      "tr": {
+        "ru": "думать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "pienso",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_poder",
+      "infinitive": "poder",
+      "tr": {
+        "ru": "мочь"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "puedo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "puedes",
+              "irregular": true
+            },
+            "el": {
+              "form": "puede",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_saludos",
+        "tp_restaurante",
+        "tp_transporte"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
+          "6a533484-a9e8-83eb-8083-813afe2f2d72",
+          "6a606e40-b940-83eb-b5f5-104079999d29",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
+        ]
+      }
+    },
+    {
+      "id": "vb_poner",
+      "infinitive": "poner",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "puesto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "pongo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "pones",
+              "irregular": false
+            },
+            "el": {
+              "form": "pone",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "ponemos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "ponéis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "ponen",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_casa",
+        "tp_restaurante"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a606e40-b940-83eb-b5f5-104079999d29",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_ponerse",
+      "infinitive": "ponerse",
+      "tr": {
+        "ru": "надевать; становиться"
+      },
+      "regularity": "irregular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me pongo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te pones",
+              "irregular": false
+            },
+            "el": {
+              "form": "se pone",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "nos ponemos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os ponéis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se ponen",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_preocuparse",
+      "infinitive": "preocuparse",
+      "tr": {
+        "ru": "беспокоиться; волноваться"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te preocupes",
+              "irregular": false
+            },
+            "el": {
+              "form": "no se preocupe",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "no os preocupéis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "no se preocupen",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_saludos"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_quedar",
+      "infinitive": "quedar",
+      "tr": {
+        "ru": "оставаться"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "quedado",
+        "participleIrregular": false
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "quedo",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+        "conversationTitle": "Список испанских глаголов",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_quedarse",
+      "infinitive": "quedarse",
+      "tr": {
+        "ru": "оставаться"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "quedado",
+        "participleIrregular": false
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "tu": {
+              "form": "te quedas",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+        "conversationTitle": "Список испанских глаголов",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_querer",
+      "infinitive": "querer",
+      "tr": {
+        "ru": "хотеть; любить"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "quiero",
+              "irregular": true
+            },
+            "tu": {
+              "form": "quieres",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_restaurante"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a533484-a9e8-83eb-8083-813afe2f2d72",
+          "6a606e40-b940-83eb-b5f5-104079999d29",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_romper",
+      "infinitive": "romper",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "roto",
+        "participleIrregular": true
+      },
+      "tenses": {},
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_saber",
+      "infinitive": "saber",
+      "tr": {
+        "ru": "знать (факт); уметь"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "sé",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c"
+        ]
+      }
+    },
+    {
+      "id": "vb_salir",
+      "infinitive": "salir",
+      "tr": {
+        "ru": "выходить; уезжать"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "salgo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sales",
+              "irregular": false
+            },
+            "el": {
+              "form": "sale",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "salimos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "salís",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "salen",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_seguir",
+      "infinitive": "seguir",
+      "tr": {
+        "ru": "следовать; ехать по направлению; продолжать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "sigo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sigues",
+              "irregular": true
+            },
+            "el": {
+              "form": "sigue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "seguimos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "seguís",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "siguen",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "sigue",
+              "irregular": true
+            },
+            "el": {
+              "form": "siga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "sigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "seguid",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "sigan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_transporte"
+      ],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
+        ]
+      }
+    },
+    {
+      "id": "vb_sentarse",
+      "infinitive": "sentarse",
+      "tr": {
+        "ru": "садиться"
+      },
+      "regularity": "stem-changing",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me siento",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te sientas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se sienta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos sentamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os sentáis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se sientan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
     },
     {
       "id": "vb_ser",
       "infinitive": "ser",
-      "tr": { "ru": "быть (постоянный признак, сущность)" },
+      "tr": {
+        "ru": "быть (постоянный признак, сущность)"
+      },
       "regularity": "irregular",
-      "regularityNote": { "ru": "Один из самых неправильных глаголов испанского; используется для постоянных характеристик (в отличие от estar)." },
+      "regularityNote": {
+        "ru": "Один из самых неправильных глаголов испанского; используется для постоянных характеристик (в отличие от estar)."
+      },
       "conjugationClass": "-er",
       "reflexive": false,
-      "nonFinite": { "gerund": "siendo", "participle": "sido" },
+      "nonFinite": {
+        "gerund": "siendo",
+        "participle": "sido"
+      },
       "tenses": {
         "presente": {
           "forms": {
-            "yo": { "form": "soy", "irregular": true, "example": { "text": "Soy de Ucrania.", "tr": { "ru": "Я из Украины." } } },
-            "tu": { "form": "eres", "irregular": true },
-            "el": { "form": "es", "irregular": true },
-            "nosotros": { "form": "somos", "irregular": true },
-            "vosotros": { "form": "sois", "irregular": true },
-            "ellos": { "form": "son", "irregular": true }
+            "yo": {
+              "form": "soy",
+              "irregular": true,
+              "example": {
+                "text": "Soy de Ucrania.",
+                "tr": {
+                  "ru": "Я из Украины."
+                }
+              }
+            },
+            "tu": {
+              "form": "eres",
+              "irregular": true
+            },
+            "el": {
+              "form": "es",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "somos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "sois",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "son",
+              "irregular": true
+            }
           }
         },
         "preterito_indefinido": {
           "forms": {
-            "yo": { "form": "fui", "irregular": true },
-            "tu": { "form": "fuiste", "irregular": true },
-            "el": { "form": "fue", "irregular": true },
-            "nosotros": { "form": "fuimos", "irregular": true },
-            "vosotros": { "form": "fuisteis", "irregular": true },
-            "ellos": { "form": "fueron", "irregular": true }
+            "yo": {
+              "form": "fui",
+              "irregular": true
+            },
+            "tu": {
+              "form": "fuiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "fue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "fuimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "fuisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "fueron",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_saludos",
+        "tp_restaurante"
+      ],
+      "frequency": 1,
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed",
+        "alsoSeenIn": [
+          "6a49cb83-370c-83eb-98ce-ba148825a547",
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a6cf173-f534-83eb-89bd-32a90d79b54f"
+        ]
+      },
+      "needsReview": true
+    },
+    {
+      "id": "vb_servir",
+      "infinitive": "servir",
+      "tr": {
+        "ru": "служить; подавать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "sirvo",
+              "irregular": true
+            }
           }
         }
       },
       "topics": [],
-      "frequency": 1,
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_tardar",
+      "infinitive": "tardar",
+      "tr": {
+        "ru": "занимать (о времени)"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "tardado",
+        "participleIrregular": false
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "tardo",
+              "irregular": false
+            },
+            "el": {
+              "form": "tarda",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+        "conversationTitle": "Список испанских глаголов",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
     },
     {
       "id": "vb_tener",
       "infinitive": "tener",
-      "tr": { "ru": "иметь" },
+      "tr": {
+        "ru": "иметь"
+      },
       "regularity": "irregular",
-      "regularityNote": { "ru": "Неправильная форма yo (tengo) и изменение корня e→ie в остальных лицах, кроме nosotros/vosotros." },
+      "regularityNote": {
+        "ru": "Неправильная форма yo (tengo) и изменение корня e→ie в остальных лицах, кроме nosotros/vosotros."
+      },
       "conjugationClass": "-er",
       "reflexive": false,
-      "nonFinite": { "gerund": "teniendo", "participle": "tenido" },
+      "nonFinite": {
+        "gerund": "teniendo",
+        "participle": "tenido"
+      },
       "tenses": {
         "presente": {
           "forms": {
-            "yo": { "form": "tengo", "irregular": true, "example": { "text": "Tengo un coche.", "tr": { "ru": "У меня есть машина." } } },
-            "tu": { "form": "tienes", "irregular": true },
-            "el": { "form": "tiene", "irregular": true },
-            "nosotros": { "form": "tenemos" },
-            "vosotros": { "form": "tenéis" },
-            "ellos": { "form": "tienen", "irregular": true }
+            "yo": {
+              "form": "tengo",
+              "irregular": true,
+              "example": {
+                "text": "Tengo un coche.",
+                "tr": {
+                  "ru": "У меня есть машина."
+                }
+              }
+            },
+            "tu": {
+              "form": "tienes",
+              "irregular": true
+            },
+            "el": {
+              "form": "tiene",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "tenemos"
+            },
+            "vosotros": {
+              "form": "tenéis"
+            },
+            "ellos": {
+              "form": "tienen",
+              "irregular": true
+            }
           }
         },
         "preterito_indefinido": {
           "forms": {
-            "yo": { "form": "tuve", "irregular": true },
-            "tu": { "form": "tuviste", "irregular": true },
-            "el": { "form": "tuvo", "irregular": true },
-            "nosotros": { "form": "tuvimos", "irregular": true },
-            "vosotros": { "form": "tuvisteis", "irregular": true },
-            "ellos": { "form": "tuvieron", "irregular": true }
+            "yo": {
+              "form": "tuve",
+              "irregular": true
+            },
+            "tu": {
+              "form": "tuviste",
+              "irregular": true
+            },
+            "el": {
+              "form": "tuvo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "tuvimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "tuvisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "tuvieron",
+              "irregular": true
+            }
           }
         }
       },
-      "topics": ["tp_casa"],
+      "topics": [
+        "tp_casa",
+        "tp_saludos"
+      ],
       "frequency": 1,
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed",
+        "alsoSeenIn": [
+          "6a49cb83-370c-83eb-98ce-ba148825a547",
+          "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
+          "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a6cf173-f534-83eb-89bd-32a90d79b54f"
+        ]
+      },
+      "needsReview": true
+    },
+    {
+      "id": "vb_tirar",
+      "infinitive": "tirar",
+      "tr": {
+        "ru": "выбрасывать; выкидывать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "imperativo_negativo": {
+          "forms": {
+            "ellos": {
+              "form": "tiren",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_trabajar",
+      "infinitive": "trabajar",
+      "tr": {
+        "ru": "работать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "trabajo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "trabajas",
+              "irregular": false
+            },
+            "el": {
+              "form": "trabaja",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_traer",
+      "infinitive": "traer",
+      "tr": {
+        "ru": "приносить"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "el": {
+              "form": "trae",
+              "irregular": false
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "el": {
+              "form": "traerá",
+              "irregular": false
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "el": {
+              "form": "traería",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [
+        "tp_restaurante"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
+        "conversationTitle": "Аналог can I have",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_transformar",
+      "infinitive": "transformar",
+      "tr": {
+        "ru": "преобразовывать, трансформировать"
+      },
+      "regularity": "regular",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {},
+      "tenses": {
+        "presente": {
+          "forms": {
+            "nosotros": {
+              "form": "transformamos"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "nosotros": {
+              "form": "transformamos"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
+        "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
+        "ingestBatch": "ingest-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_valer",
+      "infinitive": "valer",
+      "tr": {
+        "ru": "стоить; иметь ценность; быть действительным"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "valgo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "vales",
+              "irregular": false
+            },
+            "el": {
+              "form": "vale",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "valemos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "valéis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "valen",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_venir",
+      "infinitive": "venir",
+      "tr": {
+        "ru": "приходить"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "vengo",
+              "irregular": true
+            },
+            "el": {
+              "form": "viene",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
+    },
+    {
+      "id": "vb_ver",
+      "infinitive": "ver",
+      "tr": {
+        "ru": "видеть; смотреть"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "visto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "veo",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "vi",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he visto",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+          "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_vestirse",
+      "infinitive": "vestirse",
+      "tr": {
+        "ru": "одеваться"
+      },
+      "regularity": "stem-changing",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me visto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te vistes",
+              "irregular": true
+            },
+            "el": {
+              "form": "se viste",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos vestimos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "os vestís",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "se visten",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": false,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table"
+      }
+    },
+    {
+      "id": "vb_vivir",
+      "infinitive": "vivir",
+      "tr": {
+        "ru": "жить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": null,
+        "participleIrregular": null
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "vivo",
+              "irregular": false
+            },
+            "tu": {
+              "form": "vives",
+              "irregular": false
+            },
+            "el": {
+              "form": "vive",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "vivimos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "vivís",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "viven",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "viví",
+              "irregular": false
+            },
+            "tu": {
+              "form": "viviste",
+              "irregular": false
+            },
+            "el": {
+              "form": "vivió",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "vivimos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "vivisteis",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "vivieron",
+              "irregular": false
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "vivía",
+              "irregular": false
+            },
+            "tu": {
+              "form": "vivías",
+              "irregular": false
+            },
+            "el": {
+              "form": "vivía",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "vivíamos",
+              "irregular": false
+            },
+            "vosotros": {
+              "form": "vivíais",
+              "irregular": false
+            },
+            "ellos": {
+              "form": "vivían",
+              "irregular": false
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "viviré",
+              "irregular": false
+            },
+            "tu": {
+              "form": "vivirás",
+              "irregular": false
+            },
+            "el": {
+              "form": "vivirá",
+              "irregular": false
+            },
+            "nosotros": {
+              "form": "viviremos",
+              "irregular": false
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+          "6a54866f-aa70-83eb-9463-ad531e4435c7",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
+        ]
+      }
+    },
+    {
+      "id": "vb_volver",
+      "infinitive": "volver",
+      "tr": {
+        "ru": ""
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": null,
+        "participle": "vuelto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "vuelvo",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "table",
+        "alsoSeenIn": [
+          "6a533484-a9e8-83eb-8083-813afe2f2d72",
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+        ]
+      }
     }
   ]
 }

@@ -16,6 +16,9 @@ dist-ssr
 chatGPT_history/
 tools/build/
 
+# Secrets
+.env
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -1,37 +1,1160 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T00:00:00Z",
+  "generatedAt": "2026-08-04T15:04:29Z",
   "items": [
     {
-      "id": "gr_ser-vs-estar",
-      "title": { "ru": "Ser vs Estar" },
-      "level": "A2",
-      "order": 10,
-      "summary": { "ru": "Два испанских глагола 'быть': ser — для постоянных признаков, estar — для временных состояний и местоположения." },
-      "bodyPath": { "ru": "grammar/ser-vs-estar.ru.md" },
-      "examples": [
-        { "text": "Soy médico.", "tr": { "ru": "Я врач. (постоянная профессия — ser)" } },
-        { "text": "Estoy cansado.", "tr": { "ru": "Я устал. (временное состояние — estar)" } }
+      "id": "gr_314f6bc6",
+      "title": {
+        "ru": "Как задавать вопросы в испанском"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Вопрос интонацией, вопросительные слова, порядок слов (глагол перед подлежащим) и самые нужные вопросы."
+      },
+      "bodyPath": {
+        "ru": "grammar/314f6bc6.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "word-order"
       ],
-      "relatedVerbIds": ["vb_ser", "vb_estar"],
-      "tags": ["ser-estar"],
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_64292315",
+      "title": {
+        "ru": "Отглагольные прилагательные (причастия) в испанском"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Как из причастий прошедшего времени (participio) образуются прилагательные, как они согласуются в роде и числе и чем отличаются от причастия в составе времён с haber."
+      },
+      "bodyPath": {
+        "ru": "grammar/64292315.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
+        "conversationTitle": "Отглагольные прилагательные испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_67d9f1dc",
+      "title": {
+        "ru": "Согласование прилагательных с существительным"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Прилагательные меняются по роду и числу; типы на -o/-a, неизменяемые на -e и согласные, позиция после существительного."
+      },
+      "bodyPath": {
+        "ru": "grammar/67d9f1dc.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "agreement",
+        "gender"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_8c9a423e",
+      "title": {
+        "ru": "Времена испанского: быстрый обзор"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Когда использовать presente, indefinido, imperfecto, futuro simple, конструкцию ir a + infinitivo и pretérito perfecto."
+      },
+      "bodyPath": {
+        "ru": "grammar/8c9a423e.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_al-del-93d8c8c0",
+      "title": {
+        "ru": "Артикли и слияние предлогов: al и del"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Определённые и неопределённые артикли, важнейшие предлоги и два обязательных слияния a + el = al, de + el = del."
+      },
+      "bodyPath": {
+        "ru": "grammar/al-del-93d8c8c0.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "article",
+        "preposition"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_cambia-el-sentido-vs-el-sentido-cambia-fd757cf5",
+      "title": {
+        "ru": "Порядок слов: тема и рема (cambia el sentido vs el sentido cambia)"
+      },
+      "order": 999,
+      "summary": {
+        "ru": "В испанском порядок слов определяется не синтаксисом, а тем, что уже известно (тема) и что сообщается нового (рема) — новая информация уходит в конец фразы."
+      },
+      "bodyPath": {
+        "ru": "grammar/cambia-el-sentido-vs-el-sentido-cambia-fd757cf5.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Cambia el sentido.",
+          "tr": {
+            "ru": "Меняется смысл (нейтрально, что происходит)."
+          }
+        },
+        {
+          "text": "El sentido cambia.",
+          "tr": {
+            "ru": "Смысл — он меняется (смысл уже известен, тема)."
+          }
+        }
+      ],
+      "tags": [
+        "word-order"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
+        "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
+        "ingestBatch": "ingest-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_can-i-have-796d80bf",
+      "title": {
+        "ru": "Испанский аналог «Can I have...?»: вежливые просьбы"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Как по-испански попросить что-то в кафе, баре или магазине: ¿Me pone...?, ¿Me trae...?, Quería..., Me gustaría..., ¿Podría + инфинитив? Почему используется presente, 3-е лицо (usted), imperfecto и condicional, и почему условное наклонение ставится на модальный глагол poder."
+      },
+      "bodyPath": {
+        "ru": "grammar/can-i-have-796d80bf.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "mood-choice",
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
+        "conversationTitle": "Аналог can I have",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ccd60fbe",
+      "title": {
+        "ru": "Типы спряжения испанских глаголов и обозначения для личного справочника"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Как классифицировать испанские глаголы: 1-е (-ar), 2-е (-er), 3-е (-ir) спряжение и неправильные (❗), плюс participio и формы Presente для неправильных глаголов."
+      },
+      "bodyPath": {
+        "ru": "grammar/ccd60fbe.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+        "conversationTitle": "Список испанских глаголов",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_condicional-gustaria-serian-que-subjunti-502e832e",
+      "title": {
+        "ru": "Вежливость в испанском: condicional (gustaría, serían) и пожелания с «que» + subjuntivo"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Как испанцы смягчают просьбы, предложения и суммы с помощью условного наклонения (¿Le gustaría...?, Serían 25 euros), как строятся пожелания через «que» + presente de subjuntivo (Que tenga un buen día), и почему в вежливых обращениях используются формы usted (pare, tenga, lo esperamos)."
+      },
+      "bodyPath": {
+        "ru": "grammar/condicional-gustaria-serian-que-subjunti-502e832e.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "tp_restaurante",
+        "tp_saludos",
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
+        "conversationTitle": "Чаевые в приложении испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_creo-que-pienso-que-975f7800",
+      "title": {
+        "ru": "«Я думаю, что…»: creo que / pienso que и как звучать естественнее"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Разница creer que и pensar que, варианты «было бы интересно» и приём испанцев — меньше «я думаю», больше простых утверждений."
+      },
+      "bodyPath": {
+        "ru": "grammar/creo-que-pienso-que-975f7800.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_d6cb44b6",
+      "title": {
+        "ru": "Неправильные глаголы испанского: сколько их и как их учить по группам"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Обзор типов неправильных глаголов (полностью неправильные, с изменением корня, орфографические, неправильные лишь в отдельных временах) и план изучения по группам, а не списком."
+      },
+      "bodyPath": {
+        "ru": "grammar/d6cb44b6.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_darse-cuenta-de-que-dfe38d26",
+      "title": {
+        "ru": "Конструкция darse cuenta de que"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Как устроено выражение «me di cuenta de que…», почему нужны de и que, и его формы в разных временах."
+      },
+      "bodyPath": {
+        "ru": "grammar/darse-cuenta-de-que-dfe38d26.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "preposition"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_desde-que-vs-desde-hace-5a9cb3f5",
+      "title": {
+        "ru": "Desde que vs. desde hace"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Разница между конструкциями desde que + глагол («с тех пор как») и desde hace + период времени («уже в течение»)."
+      },
+      "bodyPath": {
+        "ru": "grammar/desde-que-vs-desde-hace-5a9cb3f5.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "preposition",
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_donde-esta-e7a78065",
+      "title": {
+        "ru": "Род существительного и артикль в вопросе ¿Dónde está...?"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Почему говорят «el papel higiénico», а не «la papel higiénico»: артикль согласуется с родом существительного, а также разница между ¿Dónde está...? и ¿Dónde están...?"
+      },
+      "bodyPath": {
+        "ru": "grammar/donde-esta-e7a78065.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "gender",
+        "article",
+        "agreement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
+        "conversationTitle": "Минерализация воды Font Vella",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_estar-es-buscando-1ec36888",
+      "title": {
+        "ru": "Estar + герундий: как сказать «я ищу» (а не «es buscando»)"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Разбор ошибки «Es buscando?»: для действия в процессе используется estar + герундий (estoy buscando), а не ser + герундий. Также: герундий как краткий ответ и присоединение местоимения (buscándolo)."
+      },
+      "bodyPath": {
+        "ru": "grammar/estar-es-buscando-1ec36888.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "ser-estar"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
+        "conversationTitle": "Перевод фразы на испанский",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_este-ese-bf2c7a74",
+      "title": {
+        "ru": "Указательные este / ese: этот, эта, эти"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Формы este/esta/estos/estas и ese/esa/esos/esas, различие по близости и согласование по роду и числу."
+      },
+      "bodyPath": {
+        "ru": "grammar/este-ese-bf2c7a74.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "gender",
+        "agreement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_esto-eso-aquello-darle-9052a39b",
+      "title": {
+        "ru": "esto / eso / aquello и дублирование косвенного дополнения (darle)"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Почему в фразе «Tengo que darle esto a la jefa» используется darle (le + дублирование косвенного дополнения) и почему esto, а не eso или esta."
+      },
+      "bodyPath": {
+        "ru": "grammar/esto-eso-aquello-darle-9052a39b.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "gender",
+        "agreement",
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+        "conversationTitle": "Uso de darle y esto",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
     },
     {
       "id": "gr_gerundio-participio",
-      "title": { "ru": "Герундий и причастие" },
+      "title": {
+        "ru": "Герундий и причастие"
+      },
       "level": "B1",
       "order": 20,
-      "summary": { "ru": "Герундий (-ando/-iendo) описывает действие в процессе; причастие (-ado/-ido) используется в сложных временах и как прилагательное." },
-      "bodyPath": { "ru": "grammar/gerundio-participio.ru.md" },
+      "summary": {
+        "ru": "Герундий (-ando/-iendo) описывает действие в процессе; причастие (-ado/-ido) используется в сложных временах и как прилагательное."
+      },
+      "bodyPath": {
+        "ru": "grammar/gerundio-participio.ru.md"
+      },
       "examples": [
-        { "text": "Estoy leyendo un libro.", "tr": { "ru": "Я читаю книгу (сейчас, в процессе)." } },
-        { "text": "He leído el libro.", "tr": { "ru": "Я прочитал книгу (результат)." } }
+        {
+          "text": "Estoy leyendo un libro.",
+          "tr": {
+            "ru": "Я читаю книгу (сейчас, в процессе)."
+          }
+        },
+        {
+          "text": "He leído el libro.",
+          "tr": {
+            "ru": "Я прочитал книгу (результат)."
+          }
+        }
       ],
       "relatedVerbIds": [],
       "tags": [],
-      "source": { "origin": "manual", "ingestBatch": "seed-2026-08-04", "extractor": "seed" }
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed"
+      }
+    },
+    {
+      "id": "gr_gerundio-participio-cfcdd934",
+      "title": {
+        "ru": "Герундий (gerundio) и причастие (participio): образование и различия"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Герундий и причастие в испанском образуются от одной и той же основы, но с разными окончаниями: -ando/-iendo для герундия и -ado/-ido для причастия. Используются они по-разному: герундий отвечает на вопрос «что делая?» и идёт с estar, причастие — «какой?/что сделанный?» и служит для образования составных прошедших времён."
+      },
+      "bodyPath": {
+        "ru": "grammar/gerundio-participio-cfcdd934.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a607a99-2514-83eb-bb6d-9fa633a6f39a",
+        "conversationTitle": "Герундий и причастие в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_gustar-me-mola-me-flipa-se-mola-6d3ef917",
+      "title": {
+        "ru": "Конструкция типа gustar: me mola / me flipa и почему не se mola"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Как работают глаголы molar и flipar по модели gustar: спрягается то, что нравится, а me/te/le/nos/os/les показывают, кому нравится. Se — возвратное местоимение и меняет смысл."
+      },
+      "bodyPath": {
+        "ru": "grammar/gustar-me-mola-me-flipa-se-mola-6d3ef917.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "pronoun-placement",
+        "reflexive"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_hay-haber-tener-169b6ec6",
+      "title": {
+        "ru": "Hay (haber) и tener: существование против владения"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Безличная форма hay сообщает о существовании/наличии и не меняется по лицам; владение выражается глаголом tener. Другие формы haber (he, has, ha…) нужны для сложных времён."
+      },
+      "bodyPath": {
+        "ru": "grammar/hay-haber-tener-169b6ec6.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_he-empezado-empece-estoy-aprendiendo-279c5cfa",
+      "title": {
+        "ru": "He empezado / Empecé / Estoy aprendiendo: как сказать «я начал учить испанский»"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Разбор трёх способов сказать «я начал/учу испанский»: pretérito perfecto (he empezado), pretérito indefinido (empecé) и конструкция estar + gerundio (estoy aprendiendo), а также базовый план изучения испанского для жизни в Испании."
+      },
+      "bodyPath": {
+        "ru": "grammar/he-empezado-empece-estoy-aprendiendo-279c5cfa.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5c6b63-cca8-83eb-b37c-69821aeedd9a",
+        "conversationTitle": "Учим испанский для жизни",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_imperativo-220deed3",
+      "title": {
+        "ru": "Как образуется imperativo (повелительное наклонение)"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Правила образования повелительного наклонения для tú, usted, vosotros, ustedes и nosotros, список неправильных форм для tú и практическое применение в разговоре с таксистом."
+      },
+      "bodyPath": {
+        "ru": "grammar/imperativo-220deed3.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "mood-choice",
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ir-a-casa-997dc65d",
+      "title": {
+        "ru": "Ir a casa: «идти/ехать домой» и опущение артикля"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Разбор выражения ir a casa: формы глагола ir в настоящем времени (voy, vas, va, vamos) и почему перед casa не ставится артикль la, когда речь о доме как о месте, куда возвращаются."
+      },
+      "bodyPath": {
+        "ru": "grammar/ir-a-casa-997dc65d.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "article"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a578f0f-cbb4-83eb-b867-dc0b1aba90f2",
+        "conversationTitle": "Ir a casa объяснение",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_lo-esto-eso-aquello-e5833484",
+      "title": {
+        "ru": "Нейтральное lo и указательные esto / eso / aquello"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Почему в «No creo lo que estás diciendo» стоит lo (нейтральный артикль, а не местоимение-дополнение) и когда можно смело говорить eso, не думая о роде."
+      },
+      "bodyPath": {
+        "ru": "grammar/lo-esto-eso-aquello-e5833484.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "article",
+        "gender"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
+        "conversationTitle": "Фразы для такси",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_mucho-gran-graves-serios-0bab5e2e",
+      "title": {
+        "ru": "Квантификаторы и прилагательные: mucho/gran перед существительным, graves/serios после"
+      },
+      "order": 999,
+      "summary": {
+        "ru": "Квантификаторы (mucho, poco, varios) всегда стоят перед существительным, а описательные прилагательные (grave, grande) — как правило после; grande усекается до gran перед существительным в единственном числе и меняет смысл."
+      },
+      "bodyPath": {
+        "ru": "grammar/mucho-gran-graves-serios-0bab5e2e.ru.md"
+      },
+      "examples": [
+        {
+          "text": "muchos problemas",
+          "tr": {
+            "ru": "много проблем (квантификатор перед)"
+          }
+        },
+        {
+          "text": "problemas graves",
+          "tr": {
+            "ru": "серьёзные проблемы (описательное после)"
+          }
+        },
+        {
+          "text": "un gran problema",
+          "tr": {
+            "ru": "серьёзная проблема (gran перед сущ. ед.ч.)"
+          }
+        }
+      ],
+      "tags": [
+        "word-order",
+        "agreement"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
+        "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
+        "ingestBatch": "ingest-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_pequeno-81fdfc31",
+      "title": {
+        "ru": "Прилагательное pequeño: род и число"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Разбор форм прилагательного pequeño (pequeña, pequeños, pequeñas), их согласования с существительным и частых выражений с ним."
+      },
+      "bodyPath": {
+        "ru": "grammar/pequeno-81fdfc31.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
+        "conversationTitle": "Ошибка атрибута в Python",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_por-eso-por-lo-tanto-asi-que-entonces-514bc31c",
+      "title": {
+        "ru": "Как сказать «поэтому» по-испански: por eso, por lo tanto, así que, entonces"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Четыре способа передать русское «поэтому» в испанском и разница в их регистре и оттенках значения."
+      },
+      "bodyPath": {
+        "ru": "grammar/por-eso-por-lo-tanto-asi-que-entonces-514bc31c.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a60e104-ea54-83eb-8571-ce8b31356dfc",
+        "conversationTitle": "Перевод слова поэтому",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_porque-por-que-el-porque-por-que-7c9f286a",
+      "title": {
+        "ru": "porque, ¿por qué?, el porqué, por que — как не путать"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Различие четырёх похожих форм: porque («потому что»), ¿por qué? («почему?»), el porqué («причина») и редкое por que."
+      },
+      "bodyPath": {
+        "ru": "grammar/porque-por-que-el-porque-por-que-7c9f286a.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
+        "conversationTitle": "Siempre que significado",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_presente-8dc2346c",
+      "title": {
+        "ru": "Все местоимения испанского языка и их место в предложении (Presente)"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Обзор основных групп испанских местоимений — личных, прямых и косвенных дополнений, возвратных, притяжательных, указательных, неопределённых, вопросительных, относительных и безличного se — с правилами порядка слов в настоящем времени (местоимение стоит перед спрягаемым глаголом, порядок «косвенное + прямое + глагол», замена le → se)."
+      },
+      "bodyPath": {
+        "ru": "grammar/presente-8dc2346c.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "pronoun-placement",
+        "reflexive",
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
+        "conversationTitle": "Местоимения в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_presente-ar-er-ir-e16e3a36",
+      "title": {
+        "ru": "Presente: правильные глаголы -ar / -er / -ir"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Полные формы hablar, comer, vivir в настоящем времени, окончания трёх спряжений и примеры употребления."
+      },
+      "bodyPath": {
+        "ru": "grammar/presente-ar-er-ir-e16e3a36.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_preterito-indefinido-preterito-perfecto-bb021f13",
+      "title": {
+        "ru": "Pretérito indefinido или pretérito perfecto: llegaste vs has llegado"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Почему в вопросе ¿Por qué llegaste tarde? стоит прошедшее время, спряжение llegar в pretérito indefinido и разница с формой has llegado."
+      },
+      "bodyPath": {
+        "ru": "grammar/preterito-indefinido-preterito-perfecto-bb021f13.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
+        "conversationTitle": "Siempre que significado",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_que-cual-1cd61731",
+      "title": {
+        "ru": "¿Qué? или ¿Cuál? — как выбрать вопросительное слово"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Qué спрашивает о сути («что это?»), cuál — о выборе или уточнении конкретного варианта; аналогия с английскими what / which и устойчивые выражения вроде ¿Cuál es tu nombre?"
+      },
+      "bodyPath": {
+        "ru": "grammar/que-cual-1cd61731.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_que-subjuntivo-a17f97c1",
+      "title": {
+        "ru": "Пожелания с «Que + subjuntivo» и вечерние прощания"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Как пожелать хорошего вечера при прощании: конструкция Que tenga(s)/pase(s) una buena tarde, роль subjuntivo и слова que («пусть»), почему в приветствиях días/tardes/noches стоят во множественном числе, когда можно опускать un/una, а также разница tú/usted (¿Cómo te llamas? / ¿Cómo se llama?, ¿Y tú? / ¿Y usted?)."
+      },
+      "bodyPath": {
+        "ru": "grammar/que-subjuntivo-a17f97c1.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
+        "conversationTitle": "Как пожелать хорошего вечера",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_se-se-busca-se-buscan-b0302836",
+      "title": {
+        "ru": "Безличная конструкция se + глагол (se busca / se buscan)"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Как работает пассивно-безличная конструкция se + глагол в 3-м лице, согласование в числе (se busca / se buscan) и чем она отличается от личного busco."
+      },
+      "bodyPath": {
+        "ru": "grammar/se-se-busca-se-buscan-b0302836.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "reflexive"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ser-estar-1e320c30",
+      "title": {
+        "ru": "Базовая грамматика испанского из плана обучения: SER/ESTAR, времена, местоимения"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Краткий обзор грамматических блоков, которые встретились в плане изучения испанского с нуля: различие SER и ESTAR, настоящее время правильных глаголов, прошедшие времена (pretérito perfecto и pretérito indefinido), будущее время (ir a + инфинитив и futuro simple) и косвенные местоимения — с параллелями с французским языком."
+      },
+      "bodyPath": {
+        "ru": "grammar/ser-estar-1e320c30.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "ser-estar",
+        "tense-choice",
+        "false-friend"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
+        "conversationTitle": "План изучения испанского",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ser-estar-8c4a3ccb",
+      "title": {
+        "ru": "Ser и estar: сущность против состояния и места"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Оба глагола переводятся как «быть». Ser — о сущности (профессия, национальность, происхождение, характер, время, дата, материал), estar — о состоянии и местонахождении."
+      },
+      "bodyPath": {
+        "ru": "grammar/ser-estar-8c4a3ccb.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "ser-estar"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
+        "conversationTitle": "Неправильные глаголы в испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ser-listo-estar-listo-ser-estar-36d93c5d",
+      "title": {
+        "ru": "Ser listo или estar listo: как ser/estar меняют смысл прилагательного"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Дословное значение listo («готовый») и разница между ser listo (умный, сообразительный) и estar listo (готов)."
+      },
+      "bodyPath": {
+        "ru": "grammar/ser-listo-estar-listo-ser-estar-36d93c5d.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "ser-estar",
+        "lexical-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ser-vs-estar",
+      "title": {
+        "ru": "Ser vs Estar"
+      },
+      "level": "A2",
+      "order": 10,
+      "summary": {
+        "ru": "Два испанских глагола 'быть': ser — для постоянных признаков, estar — для временных состояний и местоположения."
+      },
+      "bodyPath": {
+        "ru": "grammar/ser-vs-estar.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Soy médico.",
+          "tr": {
+            "ru": "Я врач. (постоянная профессия — ser)"
+          }
+        },
+        {
+          "text": "Estoy cansado.",
+          "tr": {
+            "ru": "Я устал. (временное состояние — estar)"
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_ser",
+        "vb_estar"
+      ],
+      "tags": [
+        "ser-estar"
+      ],
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed"
+      }
+    },
+    {
+      "id": "gr_soy-yo-ya-he-llegado-3a3c6ea6",
+      "title": {
+        "ru": "«Soy yo» и «Ya he llegado»: как представиться и сообщить о приезде"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Почему по-испански говорят Soy yo, а не Es yo, и когда выбирать he llegado вместо llegué."
+      },
+      "bodyPath": {
+        "ru": "grammar/soy-yo-ya-he-llegado-3a3c6ea6.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
+        "conversationTitle": "Traducción Camp d'en Grassot",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_subjuntivo-no-creo-que-sea-es-cd83613a",
+      "title": {
+        "ru": "Subjuntivo после no creo que: почему sea, а не es"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "После creo que идёт индикатив, а после no creo que — присутствие сомнения требует Presente de Subjuntivo (sea, tenga). Таблица ser в субхунтиво и частые конструкции."
+      },
+      "bodyPath": {
+        "ru": "grammar/subjuntivo-no-creo-que-sea-es-cd83613a.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "mood-choice"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
+        "conversationTitle": "Значение слова vale",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_te-le-les-os-f781ad88",
+      "title": {
+        "ru": "Местоимения косвенного дополнения: te / le / les / os и их присоединение к инфинитиву"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Почему говорят decirles algo, когда и кому соответствуют te, le, les, os, и чем отличается вариант Испании (deciros) от латиноамериканского (decirles)."
+      },
+      "bodyPath": {
+        "ru": "grammar/te-le-les-os-f781ad88.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "pronoun-placement",
+        "enclitic",
+        "pronoun"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
+        "conversationTitle": "Перевод ¿Otra vez?",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_tu-usted-67c4ae12",
+      "title": {
+        "ru": "tú и usted: как обращаться к людям"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Неформальное tú, вежливое usted, множественное vosotros/ustedes и практические правила выбора в Испании."
+      },
+      "bodyPath": {
+        "ru": "grammar/tu-usted-67c4ae12.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
+        "conversationTitle": "Traducción y análisis frase",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_usted-01b32c19",
+      "title": {
+        "ru": "Обращение на «usted» и опущение личных местоимений"
+      },
+      "level": "A1",
+      "order": 999,
+      "summary": {
+        "ru": "Как вежливо обратиться к незнакомому человеку или к персоналу в Испании и почему при обращении на usted глагол стоит в форме 3-го лица, а само местоимение обычно не произносится."
+      },
+      "bodyPath": {
+        "ru": "grammar/usted-01b32c19.ru.md"
+      },
+      "examples": [],
+      "source": {
+        "origin": "chatgpt",
+        "conversationId": "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
+        "conversationTitle": "Обращение на испанском",
+        "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
     }
   ]
 }

@@ -4,36 +4,220 @@
   "generatedAt": "2026-08-04T00:00:00Z",
   "items": [
     {
+      "id": "tp_aprender-idiomas",
+      "name": {
+        "ru": "Изучение языков"
+      },
+      "nameTarget": "Aprender idiomas",
+      "icon": "📚",
+      "order": 80,
+      "description": {
+        "ru": "Фразы о языках и общении: говорить по-испански/по-английски, учить язык, спрашивать «Вы говорите по-английски?»."
+      }
+    },
+    {
       "id": "tp_casa",
-      "name": { "ru": "Дом и быт" },
+      "name": {
+        "ru": "Дом и быт"
+      },
       "nameTarget": "En casa",
       "icon": "🏠",
       "order": 40,
-      "description": { "ru": "Слова и фразы о доме, квартире и быте." }
+      "description": {
+        "ru": "Слова и фразы о доме, квартире и быте."
+      }
+    },
+    {
+      "id": "tp_colores",
+      "name": {
+        "ru": "Цвета"
+      },
+      "nameTarget": "Los colores",
+      "icon": "🎨",
+      "order": 160,
+      "description": {
+        "ru": "Названия цветов и их согласование по роду и числу."
+      }
+    },
+    {
+      "id": "tp_compras",
+      "name": {
+        "ru": "Покупки и магазины"
+      },
+      "nameTarget": "De compras",
+      "icon": "🛒",
+      "order": 60,
+      "description": {
+        "ru": "Магазин, супермаркет и покупки: где найти товар, продукты (agua, pan, leche), размер/цвет/материал, цена."
+      }
+    },
+    {
+      "id": "tp_direcciones-y-envios",
+      "name": {
+        "ru": "Адреса и доставка"
+      },
+      "nameTarget": "Direcciones y envíos",
+      "icon": "📦",
+      "order": 150,
+      "description": {
+        "ru": "Заполнение испанских адресных форм (tipo de vía, número, piso/puerta) и лексика доставки: entrega, lugar de entrega, fecha de entrega."
+      }
+    },
+    {
+      "id": "tp_expresiones-coloquiales",
+      "name": {
+        "ru": "Разговорные выражения"
+      },
+      "nameTarget": "Expresiones coloquiales",
+      "icon": "💬",
+      "order": 110,
+      "description": {
+        "ru": "Испанская разговорная лексика и идиомы: vale, qué más da, yo qué sé, flipar, molar, algo así, a lo mejor, ¿vale?."
+      }
+    },
+    {
+      "id": "tp_futbol",
+      "name": {
+        "ru": "Футбол и спорт"
+      },
+      "nameTarget": "El fútbol",
+      "icon": "⚽",
+      "order": 170,
+      "description": {
+        "ru": "Лексика футбольного матча: тайм, перерыв, пенальти, поздравления с победой."
+      }
+    },
+    {
+      "id": "tp_gimnasio",
+      "name": {
+        "ru": "Спорт и тренажёрный зал"
+      },
+      "nameTarget": "El gimnasio y el deporte",
+      "icon": "🏋️",
+      "order": 140,
+      "description": {
+        "ru": "Лексика и фразы для записи в тренажёрный зал, вопросов о тарифах, абонементе, расписании и включённых услугах."
+      }
+    },
+    {
+      "id": "tp_orientacion-direcciones",
+      "name": {
+        "ru": "Ориентация и направления"
+      },
+      "nameTarget": "Direcciones y orientación",
+      "icon": "🧭",
+      "order": 180,
+      "description": {
+        "ru": "Как спросить и указать направление: allí, a la izquierda, girar, «там налево»."
+      }
+    },
+    {
+      "id": "tp_peluqueria",
+      "name": {
+        "ru": "Парикмахерская и барбершоп"
+      },
+      "nameTarget": "En la peluquería",
+      "icon": "✂️",
+      "order": 130,
+      "description": {
+        "ru": "Фразы для стрижки: окантовка, фейд, ножницы/машинка, длина, запись и время возврата."
+      }
+    },
+    {
+      "id": "tp_pronombres",
+      "name": {
+        "ru": "Местоимения"
+      },
+      "nameTarget": "Pronombres",
+      "icon": "🔤",
+      "order": 120,
+      "description": {
+        "ru": "Личные, объектные, возвратные, притяжательные и другие местоимения испанского языка."
+      }
     },
     {
       "id": "tp_restaurante",
-      "name": { "ru": "В ресторане" },
+      "name": {
+        "ru": "В ресторане"
+      },
       "nameTarget": "En el restaurante",
       "icon": "🍽️",
       "order": 10,
-      "description": { "ru": "Заказ еды, счёт, разговор с официантом." }
+      "description": {
+        "ru": "Заказ еды, счёт, разговор с официантом."
+      }
+    },
+    {
+      "id": "tp_rutina-diaria",
+      "name": {
+        "ru": "Повседневная жизнь и распорядок дня"
+      },
+      "nameTarget": "La rutina diaria",
+      "icon": "☀️",
+      "order": 70,
+      "description": {
+        "ru": "Повседневные дела и возвратные глаголы распорядка дня: жить, работать, есть, вставать, умываться, одеваться, ложиться спать."
+      }
     },
     {
       "id": "tp_saludos",
-      "name": { "ru": "Приветствия и вежливость" },
+      "name": {
+        "ru": "Приветствия и вежливость"
+      },
       "nameTarget": "Saludos y cortesía",
       "icon": "👋",
       "order": 30,
-      "description": { "ru": "Базовые формулы вежливости и приветствия." }
+      "description": {
+        "ru": "Базовые формулы вежливости и приветствия."
+      }
+    },
+    {
+      "id": "tp_ser-estar-hay",
+      "name": {
+        "ru": "Ser, estar и hay"
+      },
+      "nameTarget": "Ser, estar y hay",
+      "icon": "⚖️",
+      "order": 100,
+      "description": {
+        "ru": "Различия между ser, estar и безличной формой hay: сущность, состояние, местонахождение и существование."
+      }
     },
     {
       "id": "tp_transporte",
-      "name": { "ru": "Транспорт" },
+      "name": {
+        "ru": "Транспорт"
+      },
       "nameTarget": "El transporte",
       "icon": "🚕",
       "order": 20,
-      "description": { "ru": "Такси, автобусы, покупка билетов, дорога." }
+      "description": {
+        "ru": "Такси, автобусы, покупка билетов, дорога."
+      }
+    },
+    {
+      "id": "tp_verbos-irregulares",
+      "name": {
+        "ru": "Неправильные глаголы"
+      },
+      "nameTarget": "Verbos irregulares",
+      "icon": "📚",
+      "order": 90,
+      "description": {
+        "ru": "Спряжение и употребление основных неправильных глаголов испанского языка (ser, estar, ir, haber, tener, venir, poner, salir, hacer)."
+      }
+    },
+    {
+      "id": "tp_vivienda",
+      "name": {
+        "ru": "Жильё и аренда"
+      },
+      "nameTarget": "La vivienda y el alquiler",
+      "icon": "🏠",
+      "order": 50,
+      "description": {
+        "ru": "Поиск и аренда квартиры: piso, alquiler, propietario, agencia, contrato, fianza и связанные фразы."
+      }
     }
   ]
 }

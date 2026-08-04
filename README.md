@@ -6,11 +6,11 @@ See `.claude/plans/binary-humming-pond.md` (or the equivalent plan doc) for the 
 
 ## Status
 
-**Phase 1 (skeleton) — done.** Every route is real and working against a small hand-authored seed dataset: 15 phrases, 20 vocab words, 3 verbs (ser/estar/tener), 4 topics, 2 grammar articles, 3 corrections, and 5 fully-populated reference widgets (colors/numbers/days/months/countries). All three practice modes (multiple choice, typing, speech) work; progress persists in `localStorage` via a Leitner-box scheduler.
+**Phase 1 (skeleton) — done.** Every route works end-to-end; originally verified against a small hand-authored seed dataset (still present, `manual: true`, immutable to the extractor). All three practice modes (multiple choice, typing, speech) work; progress persists in `localStorage` via a Leitner-box scheduler.
 
-**Phase 2 (real extraction from `chatGPT_history/`) — not started.** Will populate the same JSON files from the actual archive via `tools/extract.py`.
+**Phase 2 (real extraction from `chatGPT_history/`) — done.** `tools/extract.py`'s four stages (`select` → `regex` → `claude` → `merge`) ran against the real 27-conversation archive and merged into `public/data/es/*.json`. Current dataset: **1,622 phrases, 659 vocab words, 75 verbs, 76 corrections, 42 grammar articles** (up from the 15/20/3/3/2-item seed set). The `claude` stage runs two structured-output calls per conversation (a single combined schema hit the API's compiled-grammar-size limit — see the docstring in `tools/spanish_extract/claude_pass.py`). Re-running `--stage merge` on unchanged cached extractions is a verified no-op (`git status` clean). 16 model-proposed new topics are sitting in `tools/build/proposed_topics.json`, awaiting a human decision on whether to add them to `topics.json` — the extractor never adds topics on its own.
 
-**Phase 3 (`/ingest` Claude Code skill) — not started.** Will let new Spanish Q&A from Claude Code sessions be folded into the same data files without an API key.
+**Phase 3 (`/ingest` Claude Code skill) — done.** Lets new Spanish Q&A from Claude Code sessions be folded into the same data files without an API key — the session itself does the extraction. Shares id/formatting/validation logic with Phase 2 via `tools/ingest/{idgen,normalize,validate}.py`; see `.claude/skills/ingest/SKILL.md`. Live-tested against a real conversation (+6 phrases, +9 vocab, +2 verbs, +2 corrections, +2 grammar topics); re-ingesting the same conversation a second time added zero records, confirming the idempotency guarantee.
 
 ## Development
 
@@ -35,11 +35,19 @@ public/data/
 
 Every record carries a content-derived id (e.g. `ph_1a2b3c4d` = `"ph_" + sha1(normalize(text))[:8]`) so re-running extraction or the `/ingest` skill merges instead of duplicating. See `src/types/data.ts` for the full schema.
 
-## Extraction pipeline (Phase 2, not yet built)
+## Extraction pipeline (Phase 2)
 
-`tools/extract.py` will mine `chatGPT_history/conversations-001.json` (the only export file with Spanish-learning content) in four stages: `select` (filter conversations) → `regex` (structural extraction: conjugation tables, lexicon tables, ES/RU phrase pairs, corrected-mistake blocks) → `claude` (an `claude-opus-5` API pass to classify ambiguous candidates and fill gaps) → `merge` (idempotent upsert into `public/data/es/*.json`).
+`tools/extract.py` mines `chatGPT_history/conversations-001.json` (the only export file with Spanish-learning content) in four stages: `select` (filter conversations) → `regex` (structural extraction: conjugation tables, lexicon tables, ES/RU phrase pairs, corrected-mistake blocks) → `claude` (a `claude-opus-5` API pass to classify ambiguous candidates and fill gaps) → `merge` (idempotent upsert into `public/data/es/*.json`).
 
-Running the `claude` stage will need Anthropic credentials — either:
+```bash
+python -m pip install -r tools/requirements.txt
+python tools/extract.py --stage select   # verified: 27 conversations, 370,865 chars
+python tools/extract.py --stage regex    # verified: tables/pairs/corrections candidates written to tools/build/regex_raw.json
+python tools/extract.py --stage claude --limit 2   # needs credentials, see below; spot-check before running all 27
+python tools/extract.py --stage merge --dry-run    # review counts before a real merge
+```
+
+Running the `claude` stage needs Anthropic credentials — either:
 
 ```bash
 ant auth login
