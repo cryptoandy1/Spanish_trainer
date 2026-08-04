@@ -15,6 +15,8 @@ dist-ssr
 # ChatGPT export (personal data, large — never commit) and extraction scratch output
 chatGPT_history/
 tools/build/
+__pycache__/
+*.pyc
 
 # Secrets
 .env
