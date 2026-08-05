@@ -18,7 +18,7 @@ export function PhrasePractice() {
     <div className="page">
       <h1>{ui.nav.practicePhrases}</h1>
       <p className="muted">Тренировка целых фраз из твоей истории занятий испанским.</p>
-      <QuizRunner pool={deck} />
+      <QuizRunner pool={deck} allowedModes={["choice"]} />
     </div>
   );
 }

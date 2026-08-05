@@ -286,6 +286,12 @@
           "tr": {
             "ru": "Этот билет больше недействителен."
           }
+        },
+        {
+          "text": "Necesito un billete de ida y vuelta.",
+          "tr": {
+            "ru": "Мне нужен билет туда и обратно."
+          }
         }
       ],
       "topics": [
@@ -621,7 +627,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_ver"
     },
     {
       "id": "vc_0b19ca9e",
@@ -1217,7 +1224,8 @@
         "conversationTitle": "Герундий и причастие в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_leer"
     },
     {
       "id": "vc_13d33c47",
@@ -1265,6 +1273,12 @@
           "tr": {
             "ru": "— Встретимся в восемь? — Хорошо!"
           }
+        },
+        {
+          "text": "¿Vamos hoy? — Vale.",
+          "tr": {
+            "ru": "Пойдём сегодня? — Окей."
+          }
         }
       ],
       "topics": [
@@ -1279,6 +1293,9 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
+      },
+      "notes": {
+        "ru": "Форма глагола valer ('стоить'), но в разговорной речи используется как отдельное междометие согласия."
       }
     },
     {
@@ -1594,6 +1611,12 @@
           "tr": {
             "ru": "Где хлеб?"
           }
+        },
+        {
+          "text": "¿Me trae más pan, por favor?",
+          "tr": {
+            "ru": "Принесите ещё хлеба, пожалуйста?"
+          }
         }
       ],
       "topics": [
@@ -1662,7 +1685,14 @@
       "tr": {
         "ru": "спасибо"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Muchas gracias por tu ayuda.",
+          "tr": {
+            "ru": "Большое спасибо за твою помощь."
+          }
+        }
+      ],
       "topics": [
         "tp_saludos"
       ],
@@ -1881,7 +1911,8 @@
         "alsoSeenIn": [
           "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
         ]
-      }
+      },
+      "verbId": "vb_seguir"
     },
     {
       "id": "vc_1eabdb44",
@@ -2049,7 +2080,8 @@
           "6a5c6b63-cca8-83eb-b37c-69821aeedd9a",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_estar"
     },
     {
       "id": "vc_21ba2055",
@@ -2084,7 +2116,8 @@
           "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
-      }
+      },
+      "verbId": "vb_saber"
     },
     {
       "id": "vc_234a1e90",
@@ -2252,7 +2285,8 @@
           "6a5c6b63-cca8-83eb-b37c-69821aeedd9a",
           "6a5cf382-f9ac-83ed-b424-2a050180f9d9"
         ]
-      }
+      },
+      "verbId": "vb_aprender"
     },
     {
       "id": "vc_26d33c7f",
@@ -2305,7 +2339,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_aprobar"
     },
     {
       "id": "vc_27ec16bc",
@@ -2371,6 +2406,12 @@
           "tr": {
             "ru": "Автобус уже уехал."
           }
+        },
+        {
+          "text": "El autobús llega en cinco minutos.",
+          "tr": {
+            "ru": "Автобус приезжает через пять минут."
+          }
         }
       ],
       "topics": [
@@ -2386,7 +2427,8 @@
           "6a54866f-aa70-83eb-9463-ad531e4435c7",
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
-      }
+      },
+      "plural": "autobuses"
     },
     {
       "id": "vc_28749651",
@@ -2411,6 +2453,30 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_28769def",
+      "lemma": "rápido",
+      "pos": "adj",
+      "tr": {
+        "ru": "быстрый"
+      },
+      "examples": [
+        {
+          "text": "El autobús es más rápido que caminar.",
+          "tr": {
+            "ru": "Автобус быстрее, чем идти пешком."
+          }
+        }
+      ],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "seed-2026-08-04",
+        "extractor": "seed"
       }
     },
     {
@@ -2522,7 +2588,8 @@
         "alsoSeenIn": [
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d"
         ]
-      }
+      },
+      "verbId": "vb_oir"
     },
     {
       "id": "vc_2b0d75cc",
@@ -2599,7 +2666,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_empezar"
     },
     {
       "id": "vc_2d06eb7e",
@@ -2705,7 +2773,8 @@
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_parecer"
     },
     {
       "id": "vc_2e76f0b1",
@@ -2876,7 +2945,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
-      }
+      },
+      "verbId": "vb_tener"
     },
     {
       "id": "vc_2f8952aa",
@@ -3077,7 +3147,8 @@
           "6a5c6b63-cca8-83eb-b37c-69821aeedd9a",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_ser"
     },
     {
       "id": "vc_325e3d15",
@@ -3223,7 +3294,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_sentarse"
     },
     {
       "id": "vc_3390406f",
@@ -3428,7 +3500,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_hablar"
     },
     {
       "id": "vc_376605cd",
@@ -3504,7 +3577,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_quedarse"
     },
     {
       "id": "vc_388f0788",
@@ -3763,7 +3837,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_lavarse"
     },
     {
       "id": "vc_3c8001c3",
@@ -4023,7 +4098,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_lograr"
     },
     {
       "id": "vc_4041782d",
@@ -4049,7 +4125,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_vestirse"
     },
     {
       "id": "vc_40c297cf",
@@ -4534,7 +4611,8 @@
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_tirar"
     },
     {
       "id": "vc_46b43fc1",
@@ -4644,7 +4722,8 @@
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_pasar"
     },
     {
       "id": "vc_48cfd008",
@@ -4818,7 +4897,8 @@
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_romper"
     },
     {
       "id": "vc_4ba09500",
@@ -5031,7 +5111,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_servir"
     },
     {
       "id": "vc_4e91670d",
@@ -5266,6 +5347,12 @@
           "tr": {
             "ru": "Я иду/еду домой."
           }
+        },
+        {
+          "text": "Vamos a casa.",
+          "tr": {
+            "ru": "Идём домой."
+          }
         }
       ],
       "topics": [
@@ -5491,31 +5578,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_55629061",
-      "lemma": "cuánto",
-      "pos": "adv",
-      "tr": {
-        "ru": "сколько"
       },
-      "examples": [
-        {
-          "text": "¿Cuánto cuesta?",
-          "tr": {
-            "ru": "Сколько стоит?"
-          }
-        }
-      ],
-      "topics": [],
-      "source": {
-        "origin": "chatgpt",
-        "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
-        "conversationTitle": "Traducción y análisis frase",
-        "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
-      }
+      "verbId": "vb_ducharse"
     },
     {
       "id": "vc_5587fcf5",
@@ -5524,7 +5588,14 @@
       "tr": {
         "ru": "сегодня"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Hoy hace buen tiempo.",
+          "tr": {
+            "ru": "Сегодня хорошая погода."
+          }
+        }
+      ],
       "topics": [],
       "source": {
         "origin": "chatgpt",
@@ -5634,7 +5705,8 @@
           "6a5c6b63-cca8-83eb-b37c-69821aeedd9a",
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
-      }
+      },
+      "verbId": "vb_haber"
     },
     {
       "id": "vc_56c9a890",
@@ -5687,6 +5759,12 @@
           "tr": {
             "ru": "улица Мальорка"
           }
+        },
+        {
+          "text": "Vivo en esta calle.",
+          "tr": {
+            "ru": "Я живу на этой улице."
+          }
         }
       ],
       "topics": [
@@ -5732,7 +5810,8 @@
           "6a533484-a9e8-83eb-8083-813afe2f2d72",
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
-      }
+      },
+      "verbId": "vb_cerrar"
     },
     {
       "id": "vc_58d01b16",
@@ -5858,7 +5937,8 @@
         "alsoSeenIn": [
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_estudiar"
     },
     {
       "id": "vc_59d5b53c",
@@ -5894,7 +5974,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_vivir"
     },
     {
       "id": "vc_5a41ce27",
@@ -6211,10 +6292,17 @@
           "tr": {
             "ru": "Он кладёт мне книгу на стол."
           }
+        },
+        {
+          "text": "Una mesa para dos, por favor.",
+          "tr": {
+            "ru": "Столик на двоих, пожалуйста."
+          }
         }
       ],
       "topics": [
-        "tp_casa"
+        "tp_casa",
+        "tp_restaurante"
       ],
       "source": {
         "origin": "chatgpt",
@@ -6291,6 +6379,12 @@
           "tr": {
             "ru": "Где молоко?"
           }
+        },
+        {
+          "text": "¿Tienes leche en casa?",
+          "tr": {
+            "ru": "У тебя есть молоко дома?"
+          }
         }
       ],
       "topics": [
@@ -6353,7 +6447,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_morir"
     },
     {
       "id": "vc_602bf711",
@@ -6567,7 +6662,8 @@
           "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
           "6a5c6b63-cca8-83eb-b37c-69821aeedd9a"
         ]
-      }
+      },
+      "verbId": "vb_necesitar"
     },
     {
       "id": "vc_629f6c47",
@@ -6819,7 +6915,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_hacer"
     },
     {
       "id": "vc_68c72f0d",
@@ -6959,7 +7056,8 @@
           "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_llegar"
     },
     {
       "id": "vc_698963a7",
@@ -7019,7 +7117,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_esconder"
     },
     {
       "id": "vc_6a5e3d36",
@@ -7157,7 +7256,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_afeitarse"
     },
     {
       "id": "vc_6d9f87ba",
@@ -7280,7 +7380,8 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_molar"
     },
     {
       "id": "vc_6fd54262",
@@ -7385,6 +7486,12 @@
           "tr": {
             "ru": "Можно мне воды?"
           }
+        },
+        {
+          "text": "Un vaso de agua, por favor.",
+          "tr": {
+            "ru": "Стакан воды, пожалуйста."
+          }
         }
       ],
       "topics": [
@@ -7400,6 +7507,9 @@
           "6a49cb83-370c-83eb-98ce-ba148825a547",
           "6a606e40-b940-83eb-b5f5-104079999d29"
         ]
+      },
+      "notes": {
+        "ru": "Женского рода, но используется 'el agua' в единственном числе (избегает стечения гласных)."
       }
     },
     {
@@ -7496,7 +7606,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_acostarse"
     },
     {
       "id": "vc_752b64fa",
@@ -7525,7 +7636,8 @@
         "alsoSeenIn": [
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
-      }
+      },
+      "verbId": "vb_dejar"
     },
     {
       "id": "vc_762e88f9",
@@ -7709,7 +7821,8 @@
           "6a606e40-b940-83eb-b5f5-104079999d29",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_traer"
     },
     {
       "id": "vc_780960f1",
@@ -7826,10 +7939,17 @@
           "tr": {
             "ru": "сломанный стул"
           }
+        },
+        {
+          "text": "Esta silla está libre.",
+          "tr": {
+            "ru": "Этот стул свободен."
+          }
         }
       ],
       "topics": [
-        "tp_casa"
+        "tp_casa",
+        "tp_restaurante"
       ],
       "source": {
         "origin": "chatgpt",
@@ -8173,7 +8293,8 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_decir"
     },
     {
       "id": "vc_8086a353",
@@ -8574,6 +8695,12 @@
           "tr": {
             "ru": "Я оставил ключи дома."
           }
+        },
+        {
+          "text": "No encuentro la llave.",
+          "tr": {
+            "ru": "Я не могу найти ключ."
+          }
         }
       ],
       "topics": [
@@ -8685,7 +8812,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a6b16b9-535c-83eb-abad-4842d7946dd0"
         ]
-      }
+      },
+      "verbId": "vb_volver"
     },
     {
       "id": "vc_87b4ae37",
@@ -8842,7 +8970,8 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_flipar"
     },
     {
       "id": "vc_89dea768",
@@ -9212,7 +9341,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_apagar"
     },
     {
       "id": "vc_9004680a",
@@ -9475,7 +9605,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_irse"
     },
     {
       "id": "vc_974d75d2",
@@ -9499,7 +9630,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_ponerse"
     },
     {
       "id": "vc_97bc8724",
@@ -9715,7 +9847,8 @@
           "6a578f0f-cbb4-83eb-b867-dc0b1aba90f2",
           "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
         ]
-      }
+      },
+      "verbId": "vb_encontrar"
     },
     {
       "id": "vc_9b904d27",
@@ -9776,7 +9909,8 @@
           "6a606e40-b940-83eb-b5f5-104079999d29",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
-      }
+      },
+      "verbId": "vb_gustar"
     },
     {
       "id": "vc_9c76c74a",
@@ -9871,7 +10005,8 @@
           "6a54866f-aa70-83eb-9463-ad531e4435c7",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_abrir"
     },
     {
       "id": "vc_9ded3491",
@@ -10104,7 +10239,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_comer"
     },
     {
       "id": "vc_a12ccad0",
@@ -10128,7 +10264,8 @@
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_conocer"
     },
     {
       "id": "vc_a18fa5d1",
@@ -10145,34 +10282,6 @@
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_a1b2c3d4",
-      "lemma": "agua",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "вода"
-      },
-      "examples": [
-        {
-          "text": "Un vaso de agua, por favor.",
-          "tr": {
-            "ru": "Стакан воды, пожалуйста."
-          }
-        }
-      ],
-      "topics": [
-        "tp_restaurante"
-      ],
-      "notes": {
-        "ru": "Женского рода, но используется 'el agua' в единственном числе (избегает стечения гласных)."
-      },
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -10244,31 +10353,6 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_a3b4c5d6",
-      "lemma": "llave",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "ключ"
-      },
-      "examples": [
-        {
-          "text": "No encuentro la llave.",
-          "tr": {
-            "ru": "Я не могу найти ключ."
-          }
-        }
-      ],
-      "topics": [
-        "tp_casa"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -10452,7 +10536,8 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_valer"
     },
     {
       "id": "vc_a77361a5",
@@ -10478,7 +10563,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_girar"
     },
     {
       "id": "vc_a7a76839",
@@ -10503,31 +10589,6 @@
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_a7b8c9d0",
-      "lemma": "casa",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "дом"
-      },
-      "examples": [
-        {
-          "text": "Vamos a casa.",
-          "tr": {
-            "ru": "Идём домой."
-          }
-        }
-      ],
-      "topics": [
-        "tp_casa"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -10615,33 +10676,8 @@
           "6a54866f-aa70-83eb-9463-ad531e4435c7",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
-    },
-    {
-      "id": "vc_a9b0c1d2",
-      "lemma": "silla",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "стул"
       },
-      "examples": [
-        {
-          "text": "Esta silla está libre.",
-          "tr": {
-            "ru": "Этот стул свободен."
-          }
-        }
-      ],
-      "topics": [
-        "tp_restaurante",
-        "tp_casa"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
+      "verbId": "vb_trabajar"
     },
     {
       "id": "vc_a9ebca4a",
@@ -10957,7 +10993,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_levantarse"
     },
     {
       "id": "vc_af7958f7",
@@ -10986,7 +11023,8 @@
         "alsoSeenIn": [
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_pedir"
     },
     {
       "id": "vc_af9055ee",
@@ -11080,33 +11118,6 @@
         "conversationTitle": "Минерализация воды Font Vella",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_b0c1d2e3",
-      "lemma": "vale",
-      "pos": "interj",
-      "tr": {
-        "ru": "окей, ладно, хорошо"
-      },
-      "examples": [
-        {
-          "text": "¿Vamos hoy? — Vale.",
-          "tr": {
-            "ru": "Пойдём сегодня? — Окей."
-          }
-        }
-      ],
-      "topics": [
-        "tp_saludos"
-      ],
-      "notes": {
-        "ru": "Форма глагола valer ('стоить'), но в разговорной речи используется как отдельное междометие согласия."
-      },
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -11207,7 +11218,8 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_llevar"
     },
     {
       "id": "vc_b2a367c5",
@@ -11232,29 +11244,6 @@
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_b2c3d4e5",
-      "lemma": "amigo",
-      "pos": "noun",
-      "gender": "m",
-      "tr": {
-        "ru": "друг"
-      },
-      "examples": [
-        {
-          "text": "Es mi mejor amigo.",
-          "tr": {
-            "ru": "Это мой лучший друг."
-          }
-        }
-      ],
-      "topics": [],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -11318,7 +11307,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_escribir"
     },
     {
       "id": "vc_b3ddc94b",
@@ -11416,28 +11406,6 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_b4c5d6e7",
-      "lemma": "mañana",
-      "pos": "adv",
-      "tr": {
-        "ru": "завтра; утро"
-      },
-      "examples": [
-        {
-          "text": "Nos vemos mañana.",
-          "tr": {
-            "ru": "Увидимся завтра."
-          }
-        }
-      ],
-      "topics": [],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -11649,7 +11617,8 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_ir"
     },
     {
       "id": "vc_b7acecfe",
@@ -11858,28 +11827,6 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_b8c9d0e1",
-      "lemma": "cuánto",
-      "pos": "pron",
-      "tr": {
-        "ru": "сколько"
-      },
-      "examples": [
-        {
-          "text": "¿Cuánto cuesta?",
-          "tr": {
-            "ru": "Сколько это стоит?"
-          }
-        }
-      ],
-      "topics": [],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -12258,7 +12205,8 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
           "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
         ]
-      }
+      },
+      "verbId": "vb_buscar"
     },
     {
       "id": "vc_c0262280",
@@ -12395,7 +12343,8 @@
         "alsoSeenIn": [
           "6a5cf382-f9ac-83ed-b424-2a050180f9d9"
         ]
-      }
+      },
+      "verbId": "vb_preocuparse"
     },
     {
       "id": "vc_c27a06d2",
@@ -12508,7 +12457,8 @@
           "6a606e40-b940-83eb-b5f5-104079999d29",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_poner"
     },
     {
       "id": "vc_c31f854f",
@@ -12549,7 +12499,8 @@
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_salir"
     },
     {
       "id": "vc_c3416d73",
@@ -12573,32 +12524,6 @@
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_c3d4e5f6",
-      "lemma": "autobús",
-      "pos": "noun",
-      "gender": "m",
-      "plural": "autobuses",
-      "tr": {
-        "ru": "автобус"
-      },
-      "examples": [
-        {
-          "text": "El autobús llega en cinco minutos.",
-          "tr": {
-            "ru": "Автобус приезжает через пять минут."
-          }
-        }
-      ],
-      "topics": [
-        "tp_transporte"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -12741,31 +12666,6 @@
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_c5d6e7f8",
-      "lemma": "mesa",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "стол"
-      },
-      "examples": [
-        {
-          "text": "Una mesa para dos, por favor.",
-          "tr": {
-            "ru": "Столик на двоих, пожалуйста."
-          }
-        }
-      ],
-      "topics": [
-        "tp_restaurante"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -12927,31 +12827,6 @@
       }
     },
     {
-      "id": "vc_c9d0e1f2",
-      "lemma": "cuenta",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "счёт, отчёт"
-      },
-      "examples": [
-        {
-          "text": "La cuenta, por favor.",
-          "tr": {
-            "ru": "Счёт, пожалуйста."
-          }
-        }
-      ],
-      "topics": [
-        "tp_restaurante"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
-    },
-    {
       "id": "vc_c9d4773e",
       "lemma": "beber",
       "pos": "verb",
@@ -12975,7 +12850,8 @@
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_beber"
     },
     {
       "id": "vc_caf2f296",
@@ -13100,7 +12976,8 @@
           "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d"
         ]
-      }
+      },
+      "verbId": "vb_dar"
     },
     {
       "id": "vc_cc518c12",
@@ -13333,7 +13210,8 @@
         "alsoSeenIn": [
           "6a533484-a9e8-83eb-8083-813afe2f2d72"
         ]
-      }
+      },
+      "verbId": "vb_pensar"
     },
     {
       "id": "vc_d016a1ff",
@@ -13370,30 +13248,6 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
-      }
-    },
-    {
-      "id": "vc_d0e1f2a3",
-      "lemma": "gracias",
-      "pos": "interj",
-      "tr": {
-        "ru": "спасибо"
-      },
-      "examples": [
-        {
-          "text": "Muchas gracias por tu ayuda.",
-          "tr": {
-            "ru": "Большое спасибо за твою помощь."
-          }
-        }
-      ],
-      "topics": [
-        "tp_saludos"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -13664,31 +13518,6 @@
       }
     },
     {
-      "id": "vc_d4e5f6a7",
-      "lemma": "billete",
-      "pos": "noun",
-      "gender": "m",
-      "tr": {
-        "ru": "билет"
-      },
-      "examples": [
-        {
-          "text": "Necesito un billete de ida y vuelta.",
-          "tr": {
-            "ru": "Мне нужен билет туда и обратно."
-          }
-        }
-      ],
-      "topics": [
-        "tp_transporte"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
-    },
-    {
       "id": "vc_d513b1a1",
       "lemma": "mejorarse",
       "pos": "verb",
@@ -13922,32 +13751,8 @@
           "6a607174-8fb4-83eb-a6aa-1212daddaf35",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
-      }
-    },
-    {
-      "id": "vc_d6e7f8a9",
-      "lemma": "pan",
-      "pos": "noun",
-      "gender": "m",
-      "tr": {
-        "ru": "хлеб"
       },
-      "examples": [
-        {
-          "text": "¿Me trae más pan, por favor?",
-          "tr": {
-            "ru": "Принесите ещё хлеба, пожалуйста?"
-          }
-        }
-      ],
-      "topics": [
-        "tp_restaurante"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
+      "verbId": "vb_querer"
     },
     {
       "id": "vc_d71e574c",
@@ -14057,7 +13862,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_tardar"
     },
     {
       "id": "vc_d7e5cd51",
@@ -14108,7 +13914,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_llamarse"
     },
     {
       "id": "vc_d8c008ec",
@@ -14215,7 +14022,8 @@
           "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
-      }
+      },
+      "verbId": "vb_parar"
     },
     {
       "id": "vc_d9fc3532",
@@ -14407,7 +14215,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_encender"
     },
     {
       "id": "vc_dafd904e",
@@ -14434,7 +14243,8 @@
         "alsoSeenIn": [
           "6a607a99-2514-83eb-bb6d-9fa633a6f39a"
         ]
-      }
+      },
+      "verbId": "vb_dormir"
     },
     {
       "id": "vc_db51e441",
@@ -14586,6 +14396,12 @@
           "text": "una buena tarde",
           "tr": {
             "ru": "хороший вечер"
+          }
+        },
+        {
+          "text": "Este restaurante es muy bueno.",
+          "tr": {
+            "ru": "Этот ресторан очень хороший."
           }
         }
       ],
@@ -14828,29 +14644,8 @@
           "6a54866f-aa70-83eb-9463-ad531e4435c7",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
-    },
-    {
-      "id": "vc_e1f2a3b4",
-      "lemma": "hoy",
-      "pos": "adv",
-      "tr": {
-        "ru": "сегодня"
       },
-      "examples": [
-        {
-          "text": "Hoy hace buen tiempo.",
-          "tr": {
-            "ru": "Сегодня хорошая погода."
-          }
-        }
-      ],
-      "topics": [],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
+      "verbId": "vb_venir"
     },
     {
       "id": "vc_e298c466",
@@ -15022,28 +14817,6 @@
       }
     },
     {
-      "id": "vc_e5f6a7b8",
-      "lemma": "bueno",
-      "pos": "adj",
-      "tr": {
-        "ru": "хороший"
-      },
-      "examples": [
-        {
-          "text": "Este restaurante es muy bueno.",
-          "tr": {
-            "ru": "Этот ресторан очень хороший."
-          }
-        }
-      ],
-      "topics": [],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
-    },
-    {
       "id": "vc_e602fae2",
       "lemma": "seguro",
       "pos": "adj",
@@ -15171,30 +14944,6 @@
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_e7f8a9b0",
-      "lemma": "por favor",
-      "pos": "phrase",
-      "tr": {
-        "ru": "пожалуйста"
-      },
-      "examples": [
-        {
-          "text": "Ayúdame, por favor.",
-          "tr": {
-            "ru": "Помоги мне, пожалуйста."
-          }
-        }
-      ],
-      "topics": [
-        "tp_saludos"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -15625,6 +15374,12 @@
           "tr": {
             "ru": "Остановитесь здесь, пожалуйста."
           }
+        },
+        {
+          "text": "Ayúdame, por favor.",
+          "tr": {
+            "ru": "Помоги мне, пожалуйста."
+          }
         }
       ],
       "topics": [
@@ -15654,6 +15409,12 @@
           "text": "Mañana iré a Madrid.",
           "tr": {
             "ru": "Завтра поеду в Мадрид."
+          }
+        },
+        {
+          "text": "Nos vemos mañana.",
+          "tr": {
+            "ru": "Увидимся завтра."
           }
         }
       ],
@@ -15868,31 +15629,6 @@
         "conversationTitle": "Ir a casa объяснение",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
-    },
-    {
-      "id": "vc_f2a3b4c5",
-      "lemma": "leche",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "молоко"
-      },
-      "examples": [
-        {
-          "text": "¿Tienes leche en casa?",
-          "tr": {
-            "ru": "У тебя есть молоко дома?"
-          }
-        }
-      ],
-      "topics": [
-        "tp_restaurante"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
       }
     },
     {
@@ -16188,31 +15924,6 @@
       }
     },
     {
-      "id": "vc_f6a7b8c9",
-      "lemma": "calle",
-      "pos": "noun",
-      "gender": "f",
-      "tr": {
-        "ru": "улица"
-      },
-      "examples": [
-        {
-          "text": "Vivo en esta calle.",
-          "tr": {
-            "ru": "Я живу на этой улице."
-          }
-        }
-      ],
-      "topics": [
-        "tp_transporte"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
-    },
-    {
       "id": "vc_f6b04b02",
       "lemma": "esas",
       "pos": "pron",
@@ -16321,31 +16032,8 @@
         "alsoSeenIn": [
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
-      }
-    },
-    {
-      "id": "vc_f8a9b0c1",
-      "lemma": "rápido",
-      "pos": "adj",
-      "tr": {
-        "ru": "быстрый"
       },
-      "examples": [
-        {
-          "text": "El autobús es más rápido que caminar.",
-          "tr": {
-            "ru": "Автобус быстрее, чем идти пешком."
-          }
-        }
-      ],
-      "topics": [
-        "tp_transporte"
-      ],
-      "source": {
-        "origin": "manual",
-        "ingestBatch": "seed-2026-08-04",
-        "extractor": "seed"
-      }
+      "verbId": "vb_esperar"
     },
     {
       "id": "vc_f9096747",
@@ -16487,7 +16175,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_quedar"
     },
     {
       "id": "vc_fb6cc75e",
@@ -16549,7 +16238,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_despertarse"
     },
     {
       "id": "vc_fcc06f26",
@@ -16834,7 +16524,8 @@
           "6a606e40-b940-83eb-b5f5-104079999d29",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_poder"
     },
     {
       "id": "vc_ff7e9c36",
@@ -16898,6 +16589,12 @@
           "text": "unos amigos",
           "tr": {
             "ru": "несколько друзей"
+          }
+        },
+        {
+          "text": "Es mi mejor amigo.",
+          "tr": {
+            "ru": "Это мой лучший друг."
           }
         }
       ],

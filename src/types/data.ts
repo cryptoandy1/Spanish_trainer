@@ -179,6 +179,12 @@ export interface GrammarTopic {
 
 export type ErrorVerdict = "wrong" | "partial" | "ok";
 
+/**
+ * Not part of DataPack — the "my mistakes" drill was removed from the UI, so
+ * corrections.json is no longer fetched at runtime. The type stays because
+ * tools/spanish_extract/schema.py mirrors this file 1:1 and the extraction /
+ * ingest pipeline still writes corrections.json.
+ */
 export interface CorrectedError {
   id: string; // "er_" + sha1(normalize(attempt)+"|"+normalize(correct))[:8]
   prompt?: Tr; // the task the user was answering
@@ -228,6 +234,5 @@ export interface DataPack {
   verbs: Verb[];
   topics: Topic[];
   grammar: GrammarTopic[];
-  corrections: CorrectedError[];
   widgets: WidgetSet[];
 }

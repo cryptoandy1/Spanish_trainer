@@ -13,8 +13,13 @@ export function ConjugationTable({
   tenseId: string;
   nativeLang: string;
 }) {
+  // Tense captions stay in the TARGET language (meta.tenses[].label, e.g.
+  // "Pretérito indefinido") rather than the native gloss — these are the
+  // grammar terms the learner meets in course material, so translating them
+  // here only adds a second vocabulary to map. Person labels below still use
+  // the native gloss, where the translation genuinely disambiguates.
   const tenseMeta = meta.tenses.find((t) => t.id === tenseId);
-  const caption = tenseMeta ? tr(tenseMeta.labelTr, nativeLang) || tenseMeta.label : tenseId;
+  const caption = tenseMeta?.label || tenseId;
 
   return (
     <table className="conj-table">

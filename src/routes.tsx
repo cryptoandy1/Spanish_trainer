@@ -3,7 +3,7 @@ import { Layout } from "./components/Layout";
 import { Dashboard } from "./pages/Dashboard";
 import { PhrasePractice } from "./pages/PhrasePractice";
 import { VocabPractice } from "./pages/VocabPractice";
-import { MistakeDrill } from "./pages/MistakeDrill";
+import { ConjugationPractice } from "./pages/ConjugationPractice";
 import { VerbIndex } from "./pages/VerbIndex";
 import { VerbDetail } from "./pages/VerbDetail";
 import { TopicIndex } from "./pages/TopicIndex";
@@ -25,7 +25,7 @@ export const router = createHashRouter([
       { index: true, element: <Dashboard /> },
       { path: "practice/phrases", element: <PhrasePractice /> },
       { path: "practice/vocab", element: <VocabPractice /> },
-      { path: "practice/mistakes", element: <MistakeDrill /> },
+      { path: "practice/conjugation", element: <ConjugationPractice /> },
       { path: "verbs", element: <VerbIndex /> },
       { path: "verbs/:verbId", element: <VerbDetail /> },
       { path: "topics", element: <TopicIndex /> },

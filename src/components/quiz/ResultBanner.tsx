@@ -26,7 +26,10 @@ export function ResultBanner({
   correctAnswer: string;
   userAnswer?: string;
 }) {
-  const showCorrection = verdict === "wrong";
+  // Also shown for the near-miss verdicts (accent/typo), not just "wrong":
+  // those count as correct for scheduling, but the learner still needs to see
+  // the exact form next to what they actually wrote.
+  const showCorrection = verdict === "wrong" || verdict === "accent" || verdict === "typo";
   return (
     <div className={`result-banner ${verdictClass[verdict]}`}>
       <div className="result-banner__message">{verdictMessage[verdict]}</div>

@@ -29,6 +29,11 @@ export function GrammarDetail() {
   if (loading) return <p className="muted">Загрузка…</p>;
   if (error || !pack || !index) return <p className="error-text">Не удалось загрузить данные: {error}</p>;
 
+  // Dead ids are skipped rather than rendered as broken links. They shouldn't
+  // occur (tools/ingest/validate.py gates relatedVerbIds), but the index is
+  // built from separately-fetched files, so a partial load must not crash.
+  const relatedVerbs = (article?.relatedVerbIds ?? []).flatMap((id) => index?.verbs.get(id) ?? []);
+
   if (!article) {
     return (
       <div className="page">
@@ -56,6 +61,19 @@ export function GrammarDetail() {
           {article.examples.map((ex, i) => (
             <ExampleLine key={i} example={ex} nativeLang={settings.nativeLang} />
           ))}
+        </section>
+      )}
+      {relatedVerbs.length > 0 && (
+        <section>
+          <h2>Глаголы по теме</h2>
+          <div className="related-verbs">
+            {relatedVerbs.map((verb) => (
+              <Link key={verb.id} to={`/verbs/${verb.id}`} className="related-verbs__item">
+                <span className="related-verbs__infinitive">{verb.infinitive}</span>
+                <span className="muted">{tr(verb.tr, settings.nativeLang)}</span>
+              </Link>
+            ))}
+          </div>
         </section>
       )}
     </div>

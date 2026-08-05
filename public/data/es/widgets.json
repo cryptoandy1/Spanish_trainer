@@ -1,134 +1,1934 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T00:00:00Z",
+  "generatedAt": "2026-08-05T04:11:36Z",
   "items": [
     {
       "id": "wg_colors",
       "kind": "swatch-grid",
-      "title": { "ru": "Цвета" },
+      "title": {
+        "ru": "Цвета"
+      },
       "icon": "🎨",
       "order": 10,
       "practiceable": true,
       "items": [
-        { "id": "wg_colors_rojo", "text": "rojo", "tr": { "ru": "красный" }, "swatch": "#E53935" },
-        { "id": "wg_colors_naranja", "text": "naranja", "tr": { "ru": "оранжевый" }, "swatch": "#FB8C00" },
-        { "id": "wg_colors_amarillo", "text": "amarillo", "tr": { "ru": "жёлтый" }, "swatch": "#FDD835" },
-        { "id": "wg_colors_verde", "text": "verde", "tr": { "ru": "зелёный" }, "swatch": "#43A047" },
-        { "id": "wg_colors_azul", "text": "azul", "tr": { "ru": "синий" }, "swatch": "#1E88E5" },
-        { "id": "wg_colors_morado", "text": "morado", "tr": { "ru": "фиолетовый" }, "swatch": "#8E24AA" },
-        { "id": "wg_colors_rosa", "text": "rosa", "tr": { "ru": "розовый" }, "swatch": "#EC407A" },
-        { "id": "wg_colors_marron", "text": "marrón", "tr": { "ru": "коричневый" }, "swatch": "#6D4C41" },
-        { "id": "wg_colors_gris", "text": "gris", "tr": { "ru": "серый" }, "swatch": "#757575" },
-        { "id": "wg_colors_negro", "text": "negro", "tr": { "ru": "чёрный" }, "swatch": "#212121" },
-        { "id": "wg_colors_blanco", "text": "blanco", "tr": { "ru": "белый" }, "swatch": "#FAFAFA" },
-        { "id": "wg_colors_dorado", "text": "dorado", "tr": { "ru": "золотой" }, "swatch": "#C9A227" }
-      ]
-    },
-    {
-      "id": "wg_numbers",
-      "kind": "table",
-      "title": { "ru": "Числа" },
-      "icon": "🔢",
-      "order": 20,
-      "practiceable": true,
-      "items": [
-        { "id": "wg_numbers_0", "text": "cero", "tr": { "ru": "ноль" }, "value": 0 },
-        { "id": "wg_numbers_1", "text": "uno", "tr": { "ru": "один" }, "value": 1 },
-        { "id": "wg_numbers_2", "text": "dos", "tr": { "ru": "два" }, "value": 2 },
-        { "id": "wg_numbers_3", "text": "tres", "tr": { "ru": "три" }, "value": 3 },
-        { "id": "wg_numbers_4", "text": "cuatro", "tr": { "ru": "четыре" }, "value": 4 },
-        { "id": "wg_numbers_5", "text": "cinco", "tr": { "ru": "пять" }, "value": 5 },
-        { "id": "wg_numbers_6", "text": "seis", "tr": { "ru": "шесть" }, "value": 6 },
-        { "id": "wg_numbers_7", "text": "siete", "tr": { "ru": "семь" }, "value": 7 },
-        { "id": "wg_numbers_8", "text": "ocho", "tr": { "ru": "восемь" }, "value": 8 },
-        { "id": "wg_numbers_9", "text": "nueve", "tr": { "ru": "девять" }, "value": 9 },
-        { "id": "wg_numbers_10", "text": "diez", "tr": { "ru": "десять" }, "value": 10 },
-        { "id": "wg_numbers_11", "text": "once", "tr": { "ru": "одиннадцать" }, "value": 11 },
-        { "id": "wg_numbers_12", "text": "doce", "tr": { "ru": "двенадцать" }, "value": 12 },
-        { "id": "wg_numbers_13", "text": "trece", "tr": { "ru": "тринадцать" }, "value": 13 },
-        { "id": "wg_numbers_14", "text": "catorce", "tr": { "ru": "четырнадцать" }, "value": 14 },
-        { "id": "wg_numbers_15", "text": "quince", "tr": { "ru": "пятнадцать" }, "value": 15 },
-        { "id": "wg_numbers_16", "text": "dieciséis", "tr": { "ru": "шестнадцать" }, "value": 16 },
-        { "id": "wg_numbers_17", "text": "diecisiete", "tr": { "ru": "семнадцать" }, "value": 17 },
-        { "id": "wg_numbers_18", "text": "dieciocho", "tr": { "ru": "восемнадцать" }, "value": 18 },
-        { "id": "wg_numbers_19", "text": "diecinueve", "tr": { "ru": "девятнадцать" }, "value": 19 },
-        { "id": "wg_numbers_20", "text": "veinte", "tr": { "ru": "двадцать" }, "value": 20 },
-        { "id": "wg_numbers_21", "text": "veintiuno", "tr": { "ru": "двадцать один" }, "value": 21 },
-        { "id": "wg_numbers_30", "text": "treinta", "tr": { "ru": "тридцать" }, "value": 30 },
-        { "id": "wg_numbers_40", "text": "cuarenta", "tr": { "ru": "сорок" }, "value": 40 },
-        { "id": "wg_numbers_50", "text": "cincuenta", "tr": { "ru": "пятьдесят" }, "value": 50 },
-        { "id": "wg_numbers_60", "text": "sesenta", "tr": { "ru": "шестьдесят" }, "value": 60 },
-        { "id": "wg_numbers_70", "text": "setenta", "tr": { "ru": "семьдесят" }, "value": 70 },
-        { "id": "wg_numbers_80", "text": "ochenta", "tr": { "ru": "восемьдесят" }, "value": 80 },
-        { "id": "wg_numbers_90", "text": "noventa", "tr": { "ru": "девяносто" }, "value": 90 },
-        { "id": "wg_numbers_100", "text": "cien", "tr": { "ru": "сто" }, "value": 100 }
-      ]
-    },
-    {
-      "id": "wg_days",
-      "kind": "icon-grid",
-      "title": { "ru": "Дни недели" },
-      "icon": "📅",
-      "order": 30,
-      "practiceable": true,
-      "items": [
-        { "id": "wg_days_lunes", "text": "lunes", "tr": { "ru": "понедельник" }, "icon": "1️⃣" },
-        { "id": "wg_days_martes", "text": "martes", "tr": { "ru": "вторник" }, "icon": "2️⃣" },
-        { "id": "wg_days_miercoles", "text": "miércoles", "tr": { "ru": "среда" }, "icon": "3️⃣" },
-        { "id": "wg_days_jueves", "text": "jueves", "tr": { "ru": "четверг" }, "icon": "4️⃣" },
-        { "id": "wg_days_viernes", "text": "viernes", "tr": { "ru": "пятница" }, "icon": "5️⃣" },
-        { "id": "wg_days_sabado", "text": "sábado", "tr": { "ru": "суббота" }, "icon": "6️⃣" },
-        { "id": "wg_days_domingo", "text": "domingo", "tr": { "ru": "воскресенье" }, "icon": "7️⃣" }
-      ]
-    },
-    {
-      "id": "wg_months",
-      "kind": "icon-grid",
-      "title": { "ru": "Месяцы" },
-      "icon": "🗓️",
-      "order": 40,
-      "practiceable": true,
-      "items": [
-        { "id": "wg_months_enero", "text": "enero", "tr": { "ru": "январь" }, "icon": "❄️" },
-        { "id": "wg_months_febrero", "text": "febrero", "tr": { "ru": "февраль" }, "icon": "❄️" },
-        { "id": "wg_months_marzo", "text": "marzo", "tr": { "ru": "март" }, "icon": "🌱" },
-        { "id": "wg_months_abril", "text": "abril", "tr": { "ru": "апрель" }, "icon": "🌱" },
-        { "id": "wg_months_mayo", "text": "mayo", "tr": { "ru": "май" }, "icon": "🌱" },
-        { "id": "wg_months_junio", "text": "junio", "tr": { "ru": "июнь" }, "icon": "☀️" },
-        { "id": "wg_months_julio", "text": "julio", "tr": { "ru": "июль" }, "icon": "☀️" },
-        { "id": "wg_months_agosto", "text": "agosto", "tr": { "ru": "август" }, "icon": "☀️" },
-        { "id": "wg_months_septiembre", "text": "septiembre", "tr": { "ru": "сентябрь" }, "icon": "🍂" },
-        { "id": "wg_months_octubre", "text": "octubre", "tr": { "ru": "октябрь" }, "icon": "🍂" },
-        { "id": "wg_months_noviembre", "text": "noviembre", "tr": { "ru": "ноябрь" }, "icon": "🍂" },
-        { "id": "wg_months_diciembre", "text": "diciembre", "tr": { "ru": "декабрь" }, "icon": "❄️" }
+        {
+          "id": "wg_colors_rojo",
+          "text": "rojo",
+          "tr": {
+            "ru": "красный"
+          },
+          "swatch": "#E53935",
+          "examples": [
+            {
+              "text": "un coche rojo",
+              "tr": {
+                "ru": "красная машина"
+              }
+            },
+            {
+              "text": "una manzana roja",
+              "tr": {
+                "ru": "красное яблоко"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_naranja",
+          "text": "naranja",
+          "tr": {
+            "ru": "оранжевый"
+          },
+          "swatch": "#FB8C00",
+          "examples": [
+            {
+              "text": "una camiseta naranja",
+              "tr": {
+                "ru": "оранжевая футболка"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_amarillo",
+          "text": "amarillo",
+          "tr": {
+            "ru": "жёлтый"
+          },
+          "swatch": "#FDD835",
+          "examples": [
+            {
+              "text": "el sol amarillo",
+              "tr": {
+                "ru": "жёлтое солнце"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_verde",
+          "text": "verde",
+          "tr": {
+            "ru": "зелёный"
+          },
+          "swatch": "#43A047",
+          "examples": [
+            {
+              "text": "los ojos verdes",
+              "tr": {
+                "ru": "зелёные глаза"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_azul",
+          "text": "azul",
+          "tr": {
+            "ru": "синий"
+          },
+          "swatch": "#1E88E5",
+          "examples": [
+            {
+              "text": "el cielo azul",
+              "tr": {
+                "ru": "синее небо"
+              }
+            },
+            {
+              "text": "una camisa azul",
+              "tr": {
+                "ru": "синяя рубашка"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_morado",
+          "text": "morado",
+          "tr": {
+            "ru": "фиолетовый"
+          },
+          "swatch": "#8E24AA",
+          "examples": [
+            {
+              "text": "una flor morada",
+              "tr": {
+                "ru": "фиолетовый цветок"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_rosa",
+          "text": "rosa",
+          "tr": {
+            "ru": "розовый"
+          },
+          "swatch": "#EC407A",
+          "examples": [
+            {
+              "text": "una camisa rosa",
+              "tr": {
+                "ru": "розовая рубашка"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_marron",
+          "text": "marrón",
+          "tr": {
+            "ru": "коричневый"
+          },
+          "swatch": "#6D4C41",
+          "examples": [
+            {
+              "text": "unos zapatos marrones",
+              "tr": {
+                "ru": "коричневые ботинки"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_gris",
+          "text": "gris",
+          "tr": {
+            "ru": "серый"
+          },
+          "swatch": "#757575",
+          "examples": [
+            {
+              "text": "un día gris",
+              "tr": {
+                "ru": "серый день"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_negro",
+          "text": "negro",
+          "tr": {
+            "ru": "чёрный"
+          },
+          "swatch": "#212121",
+          "examples": [
+            {
+              "text": "un café negro",
+              "tr": {
+                "ru": "чёрный кофе"
+              }
+            },
+            {
+              "text": "una chaqueta negra",
+              "tr": {
+                "ru": "чёрная куртка"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_blanco",
+          "text": "blanco",
+          "tr": {
+            "ru": "белый"
+          },
+          "swatch": "#FAFAFA",
+          "examples": [
+            {
+              "text": "vino blanco",
+              "tr": {
+                "ru": "белое вино"
+              }
+            },
+            {
+              "text": "una casa blanca",
+              "tr": {
+                "ru": "белый дом"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_colors_dorado",
+          "text": "dorado",
+          "tr": {
+            "ru": "золотой"
+          },
+          "swatch": "#C9A227",
+          "examples": [
+            {
+              "text": "un anillo dorado",
+              "tr": {
+                "ru": "золотое кольцо"
+              }
+            }
+          ]
+        }
       ]
     },
     {
       "id": "wg_countries",
       "kind": "icon-grid",
-      "title": { "ru": "Страны" },
+      "title": {
+        "ru": "Страны"
+      },
       "icon": "🌍",
       "order": 50,
       "practiceable": true,
       "items": [
-        { "id": "wg_countries_espana", "text": "España", "tr": { "ru": "Испания" }, "icon": "🇪🇸" },
-        { "id": "wg_countries_rusia", "text": "Rusia", "tr": { "ru": "Россия" }, "icon": "🇷🇺" },
-        { "id": "wg_countries_ucrania", "text": "Ucrania", "tr": { "ru": "Украина" }, "icon": "🇺🇦" },
-        { "id": "wg_countries_francia", "text": "Francia", "tr": { "ru": "Франция" }, "icon": "🇫🇷" },
-        { "id": "wg_countries_italia", "text": "Italia", "tr": { "ru": "Италия" }, "icon": "🇮🇹" },
-        { "id": "wg_countries_alemania", "text": "Alemania", "tr": { "ru": "Германия" }, "icon": "🇩🇪" },
-        { "id": "wg_countries_portugal", "text": "Portugal", "tr": { "ru": "Португалия" }, "icon": "🇵🇹" },
-        { "id": "wg_countries_reino_unido", "text": "Reino Unido", "tr": { "ru": "Великобритания" }, "icon": "🇬🇧" },
-        { "id": "wg_countries_eeuu", "text": "Estados Unidos", "tr": { "ru": "США" }, "icon": "🇺🇸" },
-        { "id": "wg_countries_mexico", "text": "México", "tr": { "ru": "Мексика" }, "icon": "🇲🇽" },
-        { "id": "wg_countries_argentina", "text": "Argentina", "tr": { "ru": "Аргентина" }, "icon": "🇦🇷" },
-        { "id": "wg_countries_marruecos", "text": "Marruecos", "tr": { "ru": "Марокко" }, "icon": "🇲🇦" },
-        { "id": "wg_countries_china", "text": "China", "tr": { "ru": "Китай" }, "icon": "🇨🇳" },
-        { "id": "wg_countries_japon", "text": "Japón", "tr": { "ru": "Япония" }, "icon": "🇯🇵" },
-        { "id": "wg_countries_brasil", "text": "Brasil", "tr": { "ru": "Бразилия" }, "icon": "🇧🇷" },
-        { "id": "wg_countries_turquia", "text": "Turquía", "tr": { "ru": "Турция" }, "icon": "🇹🇷" },
-        { "id": "wg_countries_polonia", "text": "Polonia", "tr": { "ru": "Польша" }, "icon": "🇵🇱" }
+        {
+          "id": "wg_countries_espana",
+          "text": "España",
+          "tr": {
+            "ru": "Испания"
+          },
+          "icon": "🇪🇸",
+          "examples": [
+            {
+              "text": "Vivo en España.",
+              "tr": {
+                "ru": "Я живу в Испании."
+              }
+            },
+            {
+              "text": "Ella es española.",
+              "tr": {
+                "ru": "Она испанка."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_rusia",
+          "text": "Rusia",
+          "tr": {
+            "ru": "Россия"
+          },
+          "icon": "🇷🇺",
+          "examples": [
+            {
+              "text": "Soy de Rusia.",
+              "tr": {
+                "ru": "Я из России."
+              }
+            },
+            {
+              "text": "Hablo ruso.",
+              "tr": {
+                "ru": "Я говорю по-русски."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_ucrania",
+          "text": "Ucrania",
+          "tr": {
+            "ru": "Украина"
+          },
+          "icon": "🇺🇦",
+          "examples": [
+            {
+              "text": "Mi amigo es de Ucrania.",
+              "tr": {
+                "ru": "Мой друг из Украины."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_francia",
+          "text": "Francia",
+          "tr": {
+            "ru": "Франция"
+          },
+          "icon": "🇫🇷",
+          "examples": [
+            {
+              "text": "He estado en Francia.",
+              "tr": {
+                "ru": "Я был во Франции."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_italia",
+          "text": "Italia",
+          "tr": {
+            "ru": "Италия"
+          },
+          "icon": "🇮🇹",
+          "examples": [
+            {
+              "text": "La comida de Italia es buena.",
+              "tr": {
+                "ru": "Еда в Италии хорошая."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_alemania",
+          "text": "Alemania",
+          "tr": {
+            "ru": "Германия"
+          },
+          "icon": "🇩🇪",
+          "examples": [
+            {
+              "text": "Trabajé en Alemania.",
+              "tr": {
+                "ru": "Я работал в Германии."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_portugal",
+          "text": "Portugal",
+          "tr": {
+            "ru": "Португалия"
+          },
+          "icon": "🇵🇹",
+          "examples": [
+            {
+              "text": "Portugal está al lado.",
+              "tr": {
+                "ru": "Португалия рядом."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_reino_unido",
+          "text": "Reino Unido",
+          "tr": {
+            "ru": "Великобритания"
+          },
+          "icon": "🇬🇧",
+          "examples": [
+            {
+              "text": "Estudié en el Reino Unido.",
+              "tr": {
+                "ru": "Я учился в Великобритании."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_eeuu",
+          "text": "Estados Unidos",
+          "tr": {
+            "ru": "США"
+          },
+          "icon": "🇺🇸",
+          "examples": [
+            {
+              "text": "Viajo a Estados Unidos.",
+              "tr": {
+                "ru": "Я еду в США."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_mexico",
+          "text": "México",
+          "tr": {
+            "ru": "Мексика"
+          },
+          "icon": "🇲🇽",
+          "examples": [
+            {
+              "text": "En México se habla español.",
+              "tr": {
+                "ru": "В Мексике говорят по-испански."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_argentina",
+          "text": "Argentina",
+          "tr": {
+            "ru": "Аргентина"
+          },
+          "icon": "🇦🇷",
+          "examples": [
+            {
+              "text": "Argentina está en Sudamérica.",
+              "tr": {
+                "ru": "Аргентина в Южной Америке."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_marruecos",
+          "text": "Marruecos",
+          "tr": {
+            "ru": "Марокко"
+          },
+          "icon": "🇲🇦",
+          "examples": [
+            {
+              "text": "Marruecos está cerca de España.",
+              "tr": {
+                "ru": "Марокко близко к Испании."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_china",
+          "text": "China",
+          "tr": {
+            "ru": "Китай"
+          },
+          "icon": "🇨🇳",
+          "examples": [
+            {
+              "text": "China es un país enorme.",
+              "tr": {
+                "ru": "Китай — огромная страна."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_japon",
+          "text": "Japón",
+          "tr": {
+            "ru": "Япония"
+          },
+          "icon": "🇯🇵",
+          "examples": [
+            {
+              "text": "Quiero visitar Japón.",
+              "tr": {
+                "ru": "Я хочу побывать в Японии."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_brasil",
+          "text": "Brasil",
+          "tr": {
+            "ru": "Бразилия"
+          },
+          "icon": "🇧🇷",
+          "examples": [
+            {
+              "text": "En Brasil hablan portugués.",
+              "tr": {
+                "ru": "В Бразилии говорят по-португальски."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_turquia",
+          "text": "Turquía",
+          "tr": {
+            "ru": "Турция"
+          },
+          "icon": "🇹🇷",
+          "examples": [
+            {
+              "text": "Turquía está entre Europa y Asia.",
+              "tr": {
+                "ru": "Турция между Европой и Азией."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_countries_polonia",
+          "text": "Polonia",
+          "tr": {
+            "ru": "Польша"
+          },
+          "icon": "🇵🇱",
+          "examples": [
+            {
+              "text": "Polonia está en el este de Europa.",
+              "tr": {
+                "ru": "Польша на востоке Европы."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wg_days",
+      "kind": "icon-grid",
+      "title": {
+        "ru": "Дни недели"
+      },
+      "icon": "📅",
+      "order": 30,
+      "practiceable": true,
+      "items": [
+        {
+          "id": "wg_days_lunes",
+          "text": "lunes",
+          "tr": {
+            "ru": "понедельник"
+          },
+          "icon": "1️⃣",
+          "examples": [
+            {
+              "text": "El lunes voy al gimnasio.",
+              "tr": {
+                "ru": "В понедельник иду в спортзал."
+              }
+            },
+            {
+              "text": "Los lunes trabajo en casa.",
+              "tr": {
+                "ru": "По понедельникам работаю дома."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_days_martes",
+          "text": "martes",
+          "tr": {
+            "ru": "вторник"
+          },
+          "icon": "2️⃣",
+          "examples": [
+            {
+              "text": "Nos vemos el martes.",
+              "tr": {
+                "ru": "Увидимся во вторник."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_days_miercoles",
+          "text": "miércoles",
+          "tr": {
+            "ru": "среда"
+          },
+          "icon": "3️⃣",
+          "examples": [
+            {
+              "text": "El miércoles tengo clase.",
+              "tr": {
+                "ru": "В среду у меня занятие."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_days_jueves",
+          "text": "jueves",
+          "tr": {
+            "ru": "четверг"
+          },
+          "icon": "4️⃣",
+          "examples": [
+            {
+              "text": "Llego el jueves por la tarde.",
+              "tr": {
+                "ru": "Приезжаю в четверг вечером."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_days_viernes",
+          "text": "viernes",
+          "tr": {
+            "ru": "пятница"
+          },
+          "icon": "5️⃣",
+          "examples": [
+            {
+              "text": "El viernes salimos.",
+              "tr": {
+                "ru": "В пятницу идём гулять."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_days_sabado",
+          "text": "sábado",
+          "tr": {
+            "ru": "суббота"
+          },
+          "icon": "6️⃣",
+          "examples": [
+            {
+              "text": "El sábado no trabajo.",
+              "tr": {
+                "ru": "В субботу я не работаю."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_days_domingo",
+          "text": "domingo",
+          "tr": {
+            "ru": "воскресенье"
+          },
+          "icon": "7️⃣",
+          "examples": [
+            {
+              "text": "Los domingos descanso.",
+              "tr": {
+                "ru": "По воскресеньям я отдыхаю."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wg_months",
+      "kind": "icon-grid",
+      "title": {
+        "ru": "Месяцы"
+      },
+      "icon": "🗓️",
+      "order": 40,
+      "practiceable": true,
+      "items": [
+        {
+          "id": "wg_months_enero",
+          "text": "enero",
+          "tr": {
+            "ru": "январь"
+          },
+          "icon": "❄️",
+          "examples": [
+            {
+              "text": "En enero hace frío.",
+              "tr": {
+                "ru": "В январе холодно."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_febrero",
+          "text": "febrero",
+          "tr": {
+            "ru": "февраль"
+          },
+          "icon": "❄️",
+          "examples": [
+            {
+              "text": "Mi cumpleaños es en febrero.",
+              "tr": {
+                "ru": "Мой день рождения в феврале."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_marzo",
+          "text": "marzo",
+          "tr": {
+            "ru": "март"
+          },
+          "icon": "🌱",
+          "examples": [
+            {
+              "text": "En marzo empieza la primavera.",
+              "tr": {
+                "ru": "В марте начинается весна."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_abril",
+          "text": "abril",
+          "tr": {
+            "ru": "апрель"
+          },
+          "icon": "🌱",
+          "examples": [
+            {
+              "text": "En abril llueve mucho.",
+              "tr": {
+                "ru": "В апреле много дождей."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_mayo",
+          "text": "mayo",
+          "tr": {
+            "ru": "май"
+          },
+          "icon": "🌱",
+          "examples": [
+            {
+              "text": "El uno de mayo es fiesta.",
+              "tr": {
+                "ru": "Первое мая — праздник."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_junio",
+          "text": "junio",
+          "tr": {
+            "ru": "июнь"
+          },
+          "icon": "☀️",
+          "examples": [
+            {
+              "text": "En junio voy a la playa.",
+              "tr": {
+                "ru": "В июне еду на пляж."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_julio",
+          "text": "julio",
+          "tr": {
+            "ru": "июль"
+          },
+          "icon": "☀️",
+          "examples": [
+            {
+              "text": "En julio hace mucho calor.",
+              "tr": {
+                "ru": "В июле очень жарко."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_agosto",
+          "text": "agosto",
+          "tr": {
+            "ru": "август"
+          },
+          "icon": "☀️",
+          "examples": [
+            {
+              "text": "En agosto todo está cerrado.",
+              "tr": {
+                "ru": "В августе всё закрыто."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_septiembre",
+          "text": "septiembre",
+          "tr": {
+            "ru": "сентябрь"
+          },
+          "icon": "🍂",
+          "examples": [
+            {
+              "text": "Vuelvo en septiembre.",
+              "tr": {
+                "ru": "Возвращаюсь в сентябре."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_octubre",
+          "text": "octubre",
+          "tr": {
+            "ru": "октябрь"
+          },
+          "icon": "🍂",
+          "examples": [
+            {
+              "text": "En octubre empieza el curso.",
+              "tr": {
+                "ru": "В октябре начинается учебный год."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_noviembre",
+          "text": "noviembre",
+          "tr": {
+            "ru": "ноябрь"
+          },
+          "icon": "🍂",
+          "examples": [
+            {
+              "text": "En noviembre ya hace frío.",
+              "tr": {
+                "ru": "В ноябре уже холодно."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_months_diciembre",
+          "text": "diciembre",
+          "tr": {
+            "ru": "декабрь"
+          },
+          "icon": "❄️",
+          "examples": [
+            {
+              "text": "En diciembre celebramos la Navidad.",
+              "tr": {
+                "ru": "В декабре празднуем Рождество."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wg_numbers",
+      "kind": "table",
+      "title": {
+        "ru": "Числа"
+      },
+      "icon": "🔢",
+      "order": 20,
+      "practiceable": true,
+      "items": [
+        {
+          "id": "wg_numbers_0",
+          "text": "cero",
+          "tr": {
+            "ru": "ноль"
+          },
+          "value": 0,
+          "examples": [
+            {
+              "text": "Tengo cero problemas.",
+              "tr": {
+                "ru": "У меня ноль проблем."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_1",
+          "text": "uno",
+          "tr": {
+            "ru": "один"
+          },
+          "value": 1,
+          "note": {
+            "ru": "Перед существительным — un/una: un café, una cerveza."
+          },
+          "examples": [
+            {
+              "text": "Solo quiero uno.",
+              "tr": {
+                "ru": "Я хочу только один."
+              }
+            },
+            {
+              "text": "un billete, una mesa",
+              "tr": {
+                "ru": "один билет, один столик"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_2",
+          "text": "dos",
+          "tr": {
+            "ru": "два"
+          },
+          "value": 2,
+          "examples": [
+            {
+              "text": "Dos cafés, por favor.",
+              "tr": {
+                "ru": "Два кофе, пожалуйста."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_3",
+          "text": "tres",
+          "tr": {
+            "ru": "три"
+          },
+          "value": 3,
+          "examples": [
+            {
+              "text": "Somos tres.",
+              "tr": {
+                "ru": "Нас трое."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_4",
+          "text": "cuatro",
+          "tr": {
+            "ru": "четыре"
+          },
+          "value": 4,
+          "examples": [
+            {
+              "text": "Vivo en el cuatro.",
+              "tr": {
+                "ru": "Я живу в четвёртой квартире."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_5",
+          "text": "cinco",
+          "tr": {
+            "ru": "пять"
+          },
+          "value": 5,
+          "examples": [
+            {
+              "text": "Cinco euros.",
+              "tr": {
+                "ru": "Пять евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_6",
+          "text": "seis",
+          "tr": {
+            "ru": "шесть"
+          },
+          "value": 6,
+          "examples": [
+            {
+              "text": "Son las seis.",
+              "tr": {
+                "ru": "Сейчас шесть часов."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_7",
+          "text": "siete",
+          "tr": {
+            "ru": "семь"
+          },
+          "value": 7,
+          "examples": [
+            {
+              "text": "Siete días a la semana.",
+              "tr": {
+                "ru": "Семь дней в неделю."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_8",
+          "text": "ocho",
+          "tr": {
+            "ru": "восемь"
+          },
+          "value": 8,
+          "examples": [
+            {
+              "text": "Trabajo ocho horas.",
+              "tr": {
+                "ru": "Я работаю восемь часов."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_9",
+          "text": "nueve",
+          "tr": {
+            "ru": "девять"
+          },
+          "value": 9,
+          "examples": [
+            {
+              "text": "Abren a las nueve.",
+              "tr": {
+                "ru": "Открывают в девять."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_10",
+          "text": "diez",
+          "tr": {
+            "ru": "десять"
+          },
+          "value": 10,
+          "examples": [
+            {
+              "text": "Diez minutos más.",
+              "tr": {
+                "ru": "Ещё десять минут."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_11",
+          "text": "once",
+          "tr": {
+            "ru": "одиннадцать"
+          },
+          "value": 11,
+          "examples": [
+            {
+              "text": "El tren de las once.",
+              "tr": {
+                "ru": "Поезд в одиннадцать."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_12",
+          "text": "doce",
+          "tr": {
+            "ru": "двенадцать"
+          },
+          "value": 12,
+          "examples": [
+            {
+              "text": "Doce meses.",
+              "tr": {
+                "ru": "Двенадцать месяцев."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_13",
+          "text": "trece",
+          "tr": {
+            "ru": "тринадцать"
+          },
+          "value": 13,
+          "examples": [
+            {
+              "text": "Tengo trece euros.",
+              "tr": {
+                "ru": "У меня тринадцать евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_14",
+          "text": "catorce",
+          "tr": {
+            "ru": "четырнадцать"
+          },
+          "value": 14,
+          "examples": [
+            {
+              "text": "El catorce de febrero.",
+              "tr": {
+                "ru": "Четырнадцатое февраля."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_15",
+          "text": "quince",
+          "tr": {
+            "ru": "пятнадцать"
+          },
+          "value": 15,
+          "examples": [
+            {
+              "text": "Quince minutos.",
+              "tr": {
+                "ru": "Пятнадцать минут."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_16",
+          "text": "dieciséis",
+          "tr": {
+            "ru": "шестнадцать"
+          },
+          "value": 16,
+          "note": {
+            "ru": "16-19 пишутся слитно: dieci- + число."
+          },
+          "examples": [
+            {
+              "text": "Tiene dieciséis años.",
+              "tr": {
+                "ru": "Ему шестнадцать лет."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_17",
+          "text": "diecisiete",
+          "tr": {
+            "ru": "семнадцать"
+          },
+          "value": 17,
+          "examples": [
+            {
+              "text": "Diecisiete grados.",
+              "tr": {
+                "ru": "Семнадцать градусов."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_18",
+          "text": "dieciocho",
+          "tr": {
+            "ru": "восемнадцать"
+          },
+          "value": 18,
+          "examples": [
+            {
+              "text": "A los dieciocho años.",
+              "tr": {
+                "ru": "В восемнадцать лет."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_19",
+          "text": "diecinueve",
+          "tr": {
+            "ru": "девятнадцать"
+          },
+          "value": 19,
+          "examples": [
+            {
+              "text": "El diecinueve de mayo.",
+              "tr": {
+                "ru": "Девятнадцатое мая."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_20",
+          "text": "veinte",
+          "tr": {
+            "ru": "двадцать"
+          },
+          "value": 20,
+          "examples": [
+            {
+              "text": "Veinte euros.",
+              "tr": {
+                "ru": "Двадцать евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_21",
+          "text": "veintiuno",
+          "tr": {
+            "ru": "двадцать один"
+          },
+          "value": 21,
+          "note": {
+            "ru": "Перед существительным — veintiún/veintiuna: veintiún años."
+          },
+          "examples": [
+            {
+              "text": "Tengo veintiún años.",
+              "tr": {
+                "ru": "Мне двадцать один год."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_22",
+          "text": "veintidós",
+          "tr": {
+            "ru": "двадцать два"
+          },
+          "value": 22,
+          "note": {
+            "ru": "21-29 тоже слитно, с графическим ударением у 22, 23, 26."
+          },
+          "examples": [
+            {
+              "text": "Veintidós grados.",
+              "tr": {
+                "ru": "Двадцать два градуса."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_23",
+          "text": "veintitrés",
+          "tr": {
+            "ru": "двадцать три"
+          },
+          "value": 23,
+          "examples": [
+            {
+              "text": "El veintitrés de julio.",
+              "tr": {
+                "ru": "Двадцать третье июля."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_24",
+          "text": "veinticuatro",
+          "tr": {
+            "ru": "двадцать четыре"
+          },
+          "value": 24,
+          "examples": [
+            {
+              "text": "Veinticuatro horas.",
+              "tr": {
+                "ru": "Двадцать четыре часа."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_25",
+          "text": "veinticinco",
+          "tr": {
+            "ru": "двадцать пять"
+          },
+          "value": 25,
+          "examples": [
+            {
+              "text": "Veinticinco euros.",
+              "tr": {
+                "ru": "Двадцать пять евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_26",
+          "text": "veintiséis",
+          "tr": {
+            "ru": "двадцать шесть"
+          },
+          "value": 26,
+          "examples": [
+            {
+              "text": "Somos veintiséis.",
+              "tr": {
+                "ru": "Нас двадцать шесть."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_27",
+          "text": "veintisiete",
+          "tr": {
+            "ru": "двадцать семь"
+          },
+          "value": 27,
+          "examples": [
+            {
+              "text": "Veintisiete grados.",
+              "tr": {
+                "ru": "Двадцать семь градусов."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_28",
+          "text": "veintiocho",
+          "tr": {
+            "ru": "двадцать восемь"
+          },
+          "value": 28,
+          "examples": [
+            {
+              "text": "El veintiocho de junio.",
+              "tr": {
+                "ru": "Двадцать восьмое июня."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_29",
+          "text": "veintinueve",
+          "tr": {
+            "ru": "двадцать девять"
+          },
+          "value": 29,
+          "examples": [
+            {
+              "text": "Veintinueve días.",
+              "tr": {
+                "ru": "Двадцать девять дней."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_30",
+          "text": "treinta",
+          "tr": {
+            "ru": "тридцать"
+          },
+          "value": 30,
+          "note": {
+            "ru": "С 30 и дальше — раздельно, через y."
+          },
+          "examples": [
+            {
+              "text": "Treinta minutos.",
+              "tr": {
+                "ru": "Тридцать минут."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_31",
+          "text": "treinta y uno",
+          "tr": {
+            "ru": "тридцать один"
+          },
+          "value": 31,
+          "note": {
+            "ru": "Образец конструкции: дальше всё по той же схеме — cuarenta y dos, cincuenta y tres, noventa y nueve."
+          },
+          "examples": [
+            {
+              "text": "Treinta y un días.",
+              "tr": {
+                "ru": "Тридцать один день."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_40",
+          "text": "cuarenta",
+          "tr": {
+            "ru": "сорок"
+          },
+          "value": 40,
+          "examples": [
+            {
+              "text": "Cuarenta euros.",
+              "tr": {
+                "ru": "Сорок евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_50",
+          "text": "cincuenta",
+          "tr": {
+            "ru": "пятьдесят"
+          },
+          "value": 50,
+          "examples": [
+            {
+              "text": "Cincuenta por ciento.",
+              "tr": {
+                "ru": "Пятьдесят процентов."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_60",
+          "text": "sesenta",
+          "tr": {
+            "ru": "шестьдесят"
+          },
+          "value": 60,
+          "examples": [
+            {
+              "text": "Sesenta minutos.",
+              "tr": {
+                "ru": "Шестьдесят минут."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_70",
+          "text": "setenta",
+          "tr": {
+            "ru": "семьдесят"
+          },
+          "value": 70,
+          "examples": [
+            {
+              "text": "Setenta euros.",
+              "tr": {
+                "ru": "Семьдесят евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_80",
+          "text": "ochenta",
+          "tr": {
+            "ru": "восемьдесят"
+          },
+          "value": 80,
+          "examples": [
+            {
+              "text": "Ochenta kilómetros.",
+              "tr": {
+                "ru": "Восемьдесят километров."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_90",
+          "text": "noventa",
+          "tr": {
+            "ru": "девяносто"
+          },
+          "value": 90,
+          "examples": [
+            {
+              "text": "Noventa días.",
+              "tr": {
+                "ru": "Девяносто дней."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_100",
+          "text": "cien",
+          "tr": {
+            "ru": "сто"
+          },
+          "value": 100,
+          "note": {
+            "ru": "Ровно 100 и перед существительным — cien; в составных — ciento."
+          },
+          "examples": [
+            {
+              "text": "Cien euros.",
+              "tr": {
+                "ru": "Сто евро."
+              }
+            },
+            {
+              "text": "cien personas",
+              "tr": {
+                "ru": "сто человек"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_101",
+          "text": "ciento uno",
+          "tr": {
+            "ru": "сто один"
+          },
+          "value": 101,
+          "note": {
+            "ru": "От 101 до 199 — ciento (без y): ciento veinte, ciento cincuenta."
+          },
+          "examples": [
+            {
+              "text": "Ciento veinte euros.",
+              "tr": {
+                "ru": "Сто двадцать евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_200",
+          "text": "doscientos",
+          "tr": {
+            "ru": "двести"
+          },
+          "value": 200,
+          "note": {
+            "ru": "Сотни согласуются в роде: doscientas personas."
+          },
+          "examples": [
+            {
+              "text": "Doscientos euros.",
+              "tr": {
+                "ru": "Двести евро."
+              }
+            },
+            {
+              "text": "doscientas casas",
+              "tr": {
+                "ru": "двести домов"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_300",
+          "text": "trescientos",
+          "tr": {
+            "ru": "триста"
+          },
+          "value": 300,
+          "examples": [
+            {
+              "text": "Trescientos kilómetros.",
+              "tr": {
+                "ru": "Триста километров."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_400",
+          "text": "cuatrocientos",
+          "tr": {
+            "ru": "четыреста"
+          },
+          "value": 400,
+          "examples": [
+            {
+              "text": "Cuatrocientos euros.",
+              "tr": {
+                "ru": "Четыреста евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_500",
+          "text": "quinientos",
+          "tr": {
+            "ru": "пятьсот"
+          },
+          "value": 500,
+          "note": {
+            "ru": "Неправильная форма — не «cincocientos»."
+          },
+          "examples": [
+            {
+              "text": "Quinientos euros.",
+              "tr": {
+                "ru": "Пятьсот евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_600",
+          "text": "seiscientos",
+          "tr": {
+            "ru": "шестьсот"
+          },
+          "value": 600,
+          "examples": [
+            {
+              "text": "Seiscientos metros.",
+              "tr": {
+                "ru": "Шестьсот метров."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_700",
+          "text": "setecientos",
+          "tr": {
+            "ru": "семьсот"
+          },
+          "value": 700,
+          "note": {
+            "ru": "Неправильная форма — не «sietecientos»."
+          },
+          "examples": [
+            {
+              "text": "Setecientos euros.",
+              "tr": {
+                "ru": "Семьсот евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_800",
+          "text": "ochocientos",
+          "tr": {
+            "ru": "восемьсот"
+          },
+          "value": 800,
+          "examples": [
+            {
+              "text": "Ochocientos gramos.",
+              "tr": {
+                "ru": "Восемьсот граммов."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_900",
+          "text": "novecientos",
+          "tr": {
+            "ru": "девятьсот"
+          },
+          "value": 900,
+          "note": {
+            "ru": "Неправильная форма — не «nuevecientos»."
+          },
+          "examples": [
+            {
+              "text": "Novecientos euros.",
+              "tr": {
+                "ru": "Девятьсот евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_1000",
+          "text": "mil",
+          "tr": {
+            "ru": "тысяча"
+          },
+          "value": 1000,
+          "note": {
+            "ru": "Всегда просто mil, никогда «un mil»."
+          },
+          "examples": [
+            {
+              "text": "Mil euros.",
+              "tr": {
+                "ru": "Тысяча евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_2000",
+          "text": "dos mil",
+          "tr": {
+            "ru": "две тысячи"
+          },
+          "value": 2000,
+          "examples": [
+            {
+              "text": "En el año dos mil.",
+              "tr": {
+                "ru": "В двухтысячном году."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_100000",
+          "text": "cien mil",
+          "tr": {
+            "ru": "сто тысяч"
+          },
+          "value": 100000,
+          "examples": [
+            {
+              "text": "Cien mil habitantes.",
+              "tr": {
+                "ru": "Сто тысяч жителей."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_1000000",
+          "text": "un millón",
+          "tr": {
+            "ru": "миллион"
+          },
+          "value": 1000000,
+          "note": {
+            "ru": "С существительным нужен de: un millón de euros."
+          },
+          "examples": [
+            {
+              "text": "Un millón de euros.",
+              "tr": {
+                "ru": "Миллион евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_2000000",
+          "text": "dos millones",
+          "tr": {
+            "ru": "два миллиона"
+          },
+          "value": 2000000,
+          "examples": [
+            {
+              "text": "Dos millones de personas.",
+              "tr": {
+                "ru": "Два миллиона человек."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_1000000000",
+          "text": "mil millones",
+          "tr": {
+            "ru": "миллиард"
+          },
+          "value": 1000000000,
+          "note": {
+            "ru": "Внимание: это английский billion. Отдельного слова для миллиарда в испанском нет."
+          },
+          "examples": [
+            {
+              "text": "Mil millones de euros.",
+              "tr": {
+                "ru": "Миллиард евро."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_numbers_1000000000000",
+          "text": "un billón",
+          "tr": {
+            "ru": "триллион (10¹²)"
+          },
+          "value": 1000000000000,
+          "note": {
+            "ru": "Ложный друг: испанский billón — это 10¹², то есть русский триллион, а НЕ миллиард."
+          },
+          "examples": [
+            {
+              "text": "Un billón de euros.",
+              "tr": {
+                "ru": "Триллион евро."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wg_seasons",
+      "kind": "icon-grid",
+      "title": {
+        "ru": "Времена года"
+      },
+      "icon": "🍂",
+      "order": 45,
+      "practiceable": true,
+      "items": [
+        {
+          "id": "wg_seasons_primavera",
+          "text": "primavera",
+          "tr": {
+            "ru": "весна"
+          },
+          "icon": "🌸",
+          "note": {
+            "ru": "la primavera (ж. р.) — de marzo a mayo"
+          },
+          "examples": [
+            {
+              "text": "En primavera hace buen tiempo.",
+              "tr": {
+                "ru": "Весной хорошая погода."
+              }
+            },
+            {
+              "text": "La primavera empieza en marzo.",
+              "tr": {
+                "ru": "Весна начинается в марте."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_seasons_verano",
+          "text": "verano",
+          "tr": {
+            "ru": "лето"
+          },
+          "icon": "☀️",
+          "note": {
+            "ru": "el verano (м. р.) — de junio a agosto"
+          },
+          "examples": [
+            {
+              "text": "En verano hace mucho calor.",
+              "tr": {
+                "ru": "Летом очень жарко."
+              }
+            },
+            {
+              "text": "Este verano voy a la playa.",
+              "tr": {
+                "ru": "Этим летом я еду на пляж."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_seasons_otono",
+          "text": "otoño",
+          "tr": {
+            "ru": "осень"
+          },
+          "icon": "🍂",
+          "note": {
+            "ru": "el otoño (м. р.) — de septiembre a noviembre"
+          },
+          "examples": [
+            {
+              "text": "En otoño llueve mucho.",
+              "tr": {
+                "ru": "Осенью много дождей."
+              }
+            },
+            {
+              "text": "El otoño es mi estación favorita.",
+              "tr": {
+                "ru": "Осень — моё любимое время года."
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_seasons_invierno",
+          "text": "invierno",
+          "tr": {
+            "ru": "зима"
+          },
+          "icon": "❄️",
+          "note": {
+            "ru": "el invierno (м. р.) — de diciembre a febrero"
+          },
+          "examples": [
+            {
+              "text": "En invierno hace frío.",
+              "tr": {
+                "ru": "Зимой холодно."
+              }
+            },
+            {
+              "text": "No me gusta el invierno.",
+              "tr": {
+                "ru": "Мне не нравится зима."
+              }
+            }
+          ]
+        }
       ]
     }
   ]

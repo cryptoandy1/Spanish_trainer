@@ -47,7 +47,6 @@ export function SpeechQuestion({
 
   return (
     <div className="speech-question">
-      <div className="quiz-prompt">{question.prompt}</div>
       <button
         type="button"
         className={"mic-button" + (listening ? " mic-button--listening" : "")}

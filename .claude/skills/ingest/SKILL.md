@@ -43,7 +43,8 @@ so and stop — don't force records out of it.
    - **Verbs**: conjugation tables or forms actually shown in the
      conversation — only the forms that appear, nothing filled in from your
      own Spanish knowledge (see the anti-hallucination rule in
-     `reference/schemas.md`).
+     `reference/schemas.md`). Full paradigms are filled by a separate tool,
+     not by you — see step 9.
    - **Corrections**: places where the user tried Spanish and got
      corrected — `attempt` (what they wrote), `correct` (the fix),
      `verdict`, `explanation`, `errorTags` from the controlled list.
@@ -92,7 +93,13 @@ so and stop — don't force records out of it.
    verbId, bad shape, out-of-order items, duplicate id) — fix the data and
    re-run until it's clean. Do not report success with a failing validate.
 
-8. **Report to the user.** Summarize what was added/updated per file
+8. **If you added a new verb**, run `python tools/conjugate.py --stage all`
+   so it gets a complete paradigm (all tenses/persons, participle, gerund)
+   like every other verb. The tool only touches verbs with empty cells and
+   never overwrites a form attested in a conversation, so running it when
+   nothing was added is a harmless no-op. Re-run `validate` afterwards.
+
+9. **Report to the user.** Summarize what was added/updated per file
    (e.g. "+3 phrases, +1 vocab, 1 correction (already existed, skipped),
    +1 new grammar topic"), list any proposed new topics for their
    approval, and flag anything you set `needsReview: true` on and why.

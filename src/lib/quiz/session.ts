@@ -54,11 +54,35 @@ export function buildQuestion(
 }
 
 /**
- * Assemble the item ids for one practice session: overdue items first (oldest
- * due date first), then never-seen items, capped at sessionSize.
+ * Assemble one practice session: overdue items first (oldest due date first),
+ * then a random sample of never-seen items, capped at sessionSize — then
+ * shuffled again for presentation.
+ *
+ * The candidate list is shuffled BEFORE the cap is applied, not only after.
+ * That ordering matters: `dueItemIds` sorts stably by due date, so a
+ * pre-shuffle leaves the SRS priority intact (most overdue still wins) while
+ * randomising ties and, crucially, the never-seen tail. Shuffling only after
+ * the cap made a capped session always take items 1..N of the deck in raw
+ * JSON file order — on the 4600-cell conjugation deck that meant every
+ * session was the same handful of verbs (all of `abrir`'s forms), merely
+ * presented in a different order each time.
+ *
+ * `rng` defaults to a fresh per-call seed so every session picks and orders
+ * differently; pass a seeded rng to pin both in tests. The seed must not
+ * derive from the deck's contents, or every session would repeat one order.
+ *
+ * `sessionSize` may be Infinity to take the whole deck.
  */
-export function assembleSession(pool: DeckItem[], progress: Progress, sessionSize: number): DeckItem[] {
-  const ids = pool.map((p) => p.itemId);
+export function assembleSession(
+  pool: DeckItem[],
+  progress: Progress,
+  sessionSize: number,
+  rng: () => number = seededRng(`${Date.now()}-${Math.random()}`),
+): DeckItem[] {
+  const ids = seededShuffle(
+    pool.map((p) => p.itemId),
+    rng,
+  );
   const due = dueItemIds(progress, ids);
   const fresh = newItemIds(progress, ids);
   const orderedIds = [...due, ...fresh];
@@ -69,5 +93,5 @@ export function assembleSession(pool: DeckItem[], progress: Progress, sessionSiz
     if (item) items.push(item);
     if (items.length >= sessionSize) break;
   }
-  return items;
+  return seededShuffle(items, rng);
 }

@@ -47,6 +47,38 @@ describe("gradeAnswer", () => {
     expect(gradeAnswer("cavano", "camino", [], { strictAccents: false, speechMode: true })).toBe("typo");
     expect(gradeAnswer("cavano", "camino", [], { strictAccents: false, speechMode: false })).toBe("wrong");
   });
+
+  describe("typoTolerance override", () => {
+    it("without an override, a 1-edit ending change on a short verb form still grades as 'typo' (the bug the conjugation drill needs to opt out of)", () => {
+      expect(gradeAnswer("comemos", "comimos", [], { strictAccents: true })).toBe("typo");
+    });
+
+    it("typoTolerance: 0 turns that same 1-edit miss into 'wrong'", () => {
+      expect(gradeAnswer("comemos", "comimos", [], { strictAccents: true, typoTolerance: 0 })).toBe("wrong");
+    });
+
+    it("typoTolerance: 0 downgrades a short-form ending swap to 'wrong' instead of 'typo'", () => {
+      expect(gradeAnswer("come", "como", [], { strictAccents: true, typoTolerance: 0 })).toBe("wrong");
+      expect(gradeAnswer("come", "como", [], { strictAccents: true })).toBe("typo");
+    });
+
+    it("an accent-only mismatch across tenses is 'wrong' under strictAccents, regardless of typoTolerance", () => {
+      expect(gradeAnswer("hablo", "habló", [], { strictAccents: true })).toBe("wrong");
+      expect(gradeAnswer("hablo", "habló", [], { strictAccents: false })).toBe("accent");
+    });
+
+    it("typoTolerance: 0 does not affect the higher rungs of the ladder", () => {
+      expect(gradeAnswer("comimos", "comimos", [], { strictAccents: true, typoTolerance: 0 })).toBe("perfect");
+      expect(gradeAnswer("Comimos.", "comimos", [], { strictAccents: true, typoTolerance: 0 })).toBe("correct");
+    });
+
+    it("an explicit non-zero typoTolerance widens the band via ??, not ||", () => {
+      // "gsto" -> "gato" is edit-distance 1 (see the 'typo' test above); force a
+      // 2-edit miss and confirm a wider explicit tolerance still catches it.
+      expect(gradeAnswer("gsta", "gato", [], { strictAccents: false })).toBe("wrong"); // dist 2 > default tolerance 1
+      expect(gradeAnswer("gsta", "gato", [], { strictAccents: false, typoTolerance: 3 })).toBe("typo");
+    });
+  });
 });
 
 describe("gradeSpeechAlternatives", () => {

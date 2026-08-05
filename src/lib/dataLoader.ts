@@ -1,5 +1,4 @@
 import type {
-  CorrectedError,
   DataPack,
   GrammarTopic,
   LanguageMeta,
@@ -29,14 +28,16 @@ export async function loadLanguageRegistry(): Promise<LanguageRegistry> {
 
 export async function loadDataPack(targetLang: string): Promise<DataPack> {
   const base = `${DATA_BASE}/${targetLang}`;
-  const [meta, phrases, vocab, verbs, topics, grammar, corrections, widgets] = await Promise.all([
+  // corrections.json is deliberately NOT fetched: the "my mistakes" drill was
+  // removed from the UI, and the file is ~58 KB that nothing renders. The data
+  // and the tools/ pipeline that writes it are intentionally kept on disk.
+  const [meta, phrases, vocab, verbs, topics, grammar, widgets] = await Promise.all([
     fetchJson<LanguageMeta>(`${base}/meta.json`),
     fetchJson<Pack<Phrase>>(`${base}/phrases.json`),
     fetchJson<Pack<VocabWord>>(`${base}/vocab.json`),
     fetchJson<Pack<Verb>>(`${base}/verbs.json`),
     fetchJson<Pack<Topic>>(`${base}/topics.json`),
     fetchJson<Pack<GrammarTopic>>(`${base}/grammar.json`),
-    fetchJson<Pack<CorrectedError>>(`${base}/corrections.json`),
     fetchJson<Pack<WidgetSet>>(`${base}/widgets.json`),
   ]);
   return {
@@ -46,7 +47,6 @@ export async function loadDataPack(targetLang: string): Promise<DataPack> {
     verbs: verbs.items,
     topics: topics.items,
     grammar: grammar.items,
-    corrections: corrections.items,
     widgets: widgets.items,
   };
 }

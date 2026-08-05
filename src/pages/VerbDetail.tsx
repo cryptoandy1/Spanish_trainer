@@ -1,12 +1,16 @@
+import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useData } from "../lib/DataContext";
 import { tr, ui } from "../lib/i18n";
+import { hasConjugationCells } from "../lib/quiz/deck";
 import { ConjugationTable } from "../components/ConjugationTable";
+import { ConjugationDrill } from "../components/quiz/ConjugationDrill";
 import { SpeakButton } from "../components/SpeakButton";
 
 export function VerbDetail() {
   const { verbId } = useParams();
   const { pack, index, settings, loading, error } = useData();
+  const [practicing, setPracticing] = useState(false);
 
   if (loading) return <p className="muted">Загрузка…</p>;
   if (error || !pack || !index) return <p className="error-text">Не удалось загрузить данные: {error}</p>;
@@ -64,18 +68,29 @@ export function VerbDetail() {
 
       <section>
         <h2>Спряжение</h2>
-        <div className="conj-table-grid">
-          {tenseIds.map((tenseId) => (
-            <ConjugationTable
-              key={tenseId}
-              meta={pack.meta}
-              tense={verb.tenses[tenseId]}
-              tenseId={tenseId}
-              nativeLang={settings.nativeLang}
-            />
-          ))}
-        </div>
-        {tenseIds.length === 0 && <p className="muted">Пока нет данных о спряжении.</p>}
+        {hasConjugationCells(verb) && (
+          <button type="button" className="btn btn--secondary" onClick={() => setPracticing((p) => !p)}>
+            {practicing ? ui.quiz.showTable : ui.quiz.practiceToggle}
+          </button>
+        )}
+        {practicing ? (
+          <ConjugationDrill verbId={verb.id} />
+        ) : (
+          <>
+            <div className="conj-table-grid">
+              {tenseIds.map((tenseId) => (
+                <ConjugationTable
+                  key={tenseId}
+                  meta={pack.meta}
+                  tense={verb.tenses[tenseId]}
+                  tenseId={tenseId}
+                  nativeLang={settings.nativeLang}
+                />
+              ))}
+            </div>
+            {tenseIds.length === 0 && <p className="muted">Пока нет данных о спряжении.</p>}
+          </>
+        )}
       </section>
     </div>
   );

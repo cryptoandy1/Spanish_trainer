@@ -25,7 +25,7 @@ id recipe; everything below must match those two files exactly.
 **VocabWord** (`vocab.json`): `id, lemma, pos, gender?("m"|"f"|"mf"), plural?, tr, examples[]({text,tr}), topics[], verbId?, needsReview?, manual?, source`
 
 **Verb** (`verbs.json`): `id, infinitive, tr, regularity, regularityNote?, conjugationClass?("-ar"|"-er"|"-ir"), reflexive, nonFinite{gerund?,participle?,participleIrregular?}, tenses{<tenseId>: {forms: {<personId>: {form,irregular?,example?} | null}}}, topics[], frequency?(1|2|3), needsReview?, manual?, source`
-**Never invent a missing conjugation form.** If the source conversation didn't show a form, omit it (or set that person's value to `null`) and set `needsReview: true` on the verb.
+**You still never invent a conjugation form here.** Record only the forms the conversation actually showed; omit the rest. Complete paradigms are not your job — they are filled separately by `python tools/conjugate.py --stage all`, which never overwrites an attested form. **After an ingest that adds a new verb, run that command** so the new verb gets a full paradigm like the others.
 
 **GrammarTopic** (`grammar.json` index + separate `grammar/<slug>.ru.md` body): `id, title, level?("A1".."C1"), order, summary, bodyPath{ru: "grammar/<file>.ru.md"}, examples[], relatedVerbIds?[], relatedTopicIds?[], tags?[], manual?, source`
 Body markdown goes in the `.ru.md` file, never escaped into the JSON. `order: 999` for new auto-added topics (a human re-orders later if it matters).

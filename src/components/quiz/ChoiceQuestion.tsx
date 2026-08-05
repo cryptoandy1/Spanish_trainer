@@ -5,24 +5,31 @@ import { normalize } from "../../lib/text";
 
 export function ChoiceQuestion({
   question,
+  answeredWith,
   onAnswer,
 }: {
   question: Question;
+  /**
+   * Replays an already-given answer in read-only marked form (the look-back
+   * review view). When set, the component is fully controlled by it and its
+   * own click state is irrelevant — so review can't accidentally re-grade.
+   */
+  answeredWith?: string;
   onAnswer: (verdict: Verdict, userAnswer: string) => void;
 }) {
-  const [chosen, setChosen] = useState<string | null>(null);
+  const [picked, setPicked] = useState<string | null>(null);
+  const chosen = answeredWith ?? picked;
   const correctNorm = normalize(question.answer);
 
   function choose(choice: string) {
     if (chosen) return;
-    setChosen(choice);
+    setPicked(choice);
     const verdict: Verdict = normalize(choice) === correctNorm ? "correct" : "wrong";
     onAnswer(verdict, choice);
   }
 
   return (
     <div className="choice-question">
-      <div className="quiz-prompt">{question.prompt}</div>
       <div className="choice-question__options">
         {(question.choices ?? []).map((choice) => {
           const isCorrect = normalize(choice) === correctNorm;

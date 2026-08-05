@@ -10,6 +10,14 @@ export interface GradeOptions {
    * typo-tolerance band.
    */
   speechMode?: boolean;
+  /**
+   * Max Levenshtein distance still graded "typo". Defaults to the
+   * length-scaled band (or the looser speech band in speechMode). Pass 0 to
+   * disable typo tolerance entirely — the conjugation drill does this,
+   * because there a one-character ending change IS a different answer, not
+   * a slip (e.g. "como" vs "come" would otherwise grade as a forgivable typo).
+   */
+  typoTolerance?: number;
 }
 
 /**
@@ -48,10 +56,13 @@ export function gradeAnswer(
 
   const maxLen = Math.max(normUser.length, normCorrect.length);
   const dist = levenshtein(normUser, normCorrect);
-  const typoTolerance = options.speechMode
+  const defaultTolerance = options.speechMode
     ? Math.max(2, Math.floor(maxLen / 6))
     : Math.max(1, Math.floor(maxLen / 10));
-  if (dist > 0 && dist <= typoTolerance) return "typo";
+  // ?? (not ||) so an explicit typoTolerance: 0 is honored rather than
+  // silently replaced by the default band.
+  const typoTolerance = options.typoTolerance ?? defaultTolerance;
+  if (typoTolerance > 0 && dist > 0 && dist <= typoTolerance) return "typo";
 
   return "wrong";
 }

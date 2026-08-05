@@ -3,15 +3,16 @@ import type { FormEvent } from "react";
 import type { Question } from "../../lib/quiz/session";
 import type { Verdict } from "../../lib/srs";
 import { gradeAnswer } from "../../lib/quiz/grade";
+import type { GradeOptions } from "../../lib/quiz/grade";
 import { ui } from "../../lib/i18n";
 
 export function TypingQuestion({
   question,
-  strictAccents,
+  options,
   onAnswer,
 }: {
   question: Question;
-  strictAccents: boolean;
+  options: GradeOptions;
   onAnswer: (verdict: Verdict, userAnswer: string) => void;
 }) {
   const [value, setValue] = useState("");
@@ -21,13 +22,12 @@ export function TypingQuestion({
     e.preventDefault();
     if (submitted || !value.trim()) return;
     setSubmitted(true);
-    const verdict = gradeAnswer(value, question.answer, question.altAnswers ?? [], { strictAccents });
+    const verdict = gradeAnswer(value, question.answer, question.altAnswers ?? [], options);
     onAnswer(verdict, value);
   }
 
   return (
     <div className="typing-question">
-      <div className="quiz-prompt">{question.prompt}</div>
       <form onSubmit={submit} className="typing-question__form">
         <input
           type="text"

@@ -411,7 +411,80 @@ button, input, select {
   margin-bottom: var(--space-3);
 }
 
+.widget-extras {
+  margin-top: var(--space-2);
+  text-align: left;
+  font-size: 0.85rem;
+}
+.widget-extras__note {
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: var(--space-1);
+}
+
+.vocab-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-3) 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.vocab-list__item {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+.vocab-list__num {
+  min-width: 3ch;
+  text-align: right;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+.vocab-list__body { flex: 1; min-width: 0; }
+.vocab-list__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+.vocab-list__lemma { font-weight: 600; }
+.vocab-list__lemma--link {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 3px;
+}
+.vocab-list__lemma--link:hover { text-decoration-color: var(--color-accent); }
+.item-card__tag--link {
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.item-card__tag--link:hover { background: var(--color-surface-2); }
+.vocab-list__tr { color: var(--color-text-muted); }
+.vocab-list__example { margin-top: var(--space-1); font-size: 0.9rem; }
+
 .non-finite-list { padding-left: var(--space-4); }
+
+.related-verbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.related-verbs__item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  text-decoration: none;
+  color: var(--color-text);
+}
+.related-verbs__item:hover { border-color: var(--color-accent); }
+.related-verbs__infinitive { font-weight: 600; }
 
 .conj-table-grid {
   display: grid;
@@ -518,6 +591,16 @@ button, input, select {
 
 .quiz-done { text-align: center; }
 .quiz-done__score { font-size: 1.5rem; font-weight: 700; margin: var(--space-3) 0; }
+.quiz-done .btn + .btn { margin-left: var(--space-3); }
+
+.quiz-review-bar { margin-bottom: var(--space-3); font-size: 0.85rem; }
+.quiz-review-nav {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-top: var(--space-4);
+}
+.quiz-runner--review { border-style: dashed; }
 
 .progress-bar {
   display: flex;
@@ -534,7 +617,7 @@ button, input, select {
 }
 .progress-bar__fill {
   height: 100%;
-  background: var(--color-accent);
+  background: var(--color-success);
   transition: width 0.2s ease;
 }
 .progress-bar__label { font-size: 0.8rem; color: var(--color-text-muted); white-space: nowrap; }

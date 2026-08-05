@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T15:04:29Z",
+  "generatedAt": "2026-08-05T04:13:41Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -840,6 +840,58 @@
       }
     },
     {
+      "id": "gr_pronombres",
+      "title": {
+        "ru": "Местоимения: полная система"
+      },
+      "level": "A2",
+      "order": 40,
+      "summary": {
+        "ru": "Все разряды местоимений в одной карте: личные, прямое и косвенное дополнение, порядок двух местоимений и правило le → se, позиция при инфинитиве, возвратные, притяжательные, указательные, неопределённые, вопросительные, относительные и безличное se."
+      },
+      "bodyPath": {
+        "ru": "grammar/pronombres.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Se lo doy.",
+          "tr": {
+            "ru": "Я даю это ему."
+          }
+        },
+        {
+          "text": "Quiero decirles algo.",
+          "tr": {
+            "ru": "Я хочу вам кое-что сказать."
+          }
+        },
+        {
+          "text": "Compro la mesa. → La compro.",
+          "tr": {
+            "ru": "Я покупаю стол. → Я его покупаю."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_llamarse",
+        "vb_ducharse",
+        "vb_acostarse",
+        "vb_decir",
+        "vb_dar"
+      ],
+      "tags": [
+        "pronombres",
+        "orden-de-palabras",
+        "cortesia"
+      ],
+      "manual": true,
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "curate-2026-08-05",
+        "extractor": "seed"
+      }
+    },
+    {
       "id": "gr_que-cual-1cd61731",
       "title": {
         "ru": "¿Qué? или ¿Cuál? — как выбрать вопросительное слово"
@@ -1154,6 +1206,75 @@
         "conversationTitle": "Обращение на испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_verbos-irregulares",
+      "title": {
+        "ru": "Неправильные глаголы: как устроена система"
+      },
+      "level": "A2",
+      "order": 30,
+      "summary": {
+        "ru": "Четыре типа неправильности (полностью неправильные, изменение корня, орфографические, неправильные только в отдельных временах), группа -go, шаблоны o→ue / e→ie / e→i и план изучения по группам."
+      },
+      "bodyPath": {
+        "ru": "grammar/verbos-irregulares.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Tengo que salir, pero no vengo tarde.",
+          "tr": {
+            "ru": "Мне надо уйти, но я вернусь не поздно."
+          }
+        },
+        {
+          "text": "Me acuesto tarde, pero nos acostamos temprano los domingos.",
+          "tr": {
+            "ru": "Я ложусь поздно, но по воскресеньям мы ложимся рано."
+          }
+        },
+        {
+          "text": "Voy a estudiar español.",
+          "tr": {
+            "ru": "Я буду учить испанский."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_ser",
+        "vb_estar",
+        "vb_ir",
+        "vb_haber",
+        "vb_tener",
+        "vb_venir",
+        "vb_poner",
+        "vb_salir",
+        "vb_hacer",
+        "vb_decir",
+        "vb_oir",
+        "vb_poder",
+        "vb_querer",
+        "vb_dormir",
+        "vb_pedir",
+        "vb_pensar",
+        "vb_volver",
+        "vb_empezar",
+        "vb_seguir",
+        "vb_buscar",
+        "vb_llegar",
+        "vb_conocer"
+      ],
+      "tags": [
+        "verbos",
+        "irregulares",
+        "conjugacion"
+      ],
+      "manual": true,
+      "source": {
+        "origin": "manual",
+        "ingestBatch": "curate-2026-08-05",
+        "extractor": "seed"
       }
     }
   ]

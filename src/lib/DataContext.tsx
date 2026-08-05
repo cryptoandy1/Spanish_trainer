@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import type {
-  CorrectedError,
   DataPack,
   GrammarTopic,
   LanguageRegistry,
@@ -35,7 +34,6 @@ export interface DataIndex {
   verbs: Map<string, Verb>;
   topics: Map<string, Topic>;
   grammar: Map<string, GrammarTopic>;
-  corrections: Map<string, CorrectedError>;
   widgets: Map<string, WidgetSet>;
 }
 
@@ -96,7 +94,6 @@ export function DataProvider({ children }: { children: ReactNode }) {
       verbs: new Map(pack.verbs.map((v) => [v.id, v])),
       topics: new Map(pack.topics.map((t) => [t.id, t])),
       grammar: new Map(pack.grammar.map((g) => [g.id, g])),
-      corrections: new Map(pack.corrections.map((c) => [c.id, c])),
       widgets: new Map(pack.widgets.map((w) => [w.id, w])),
     };
   }, [pack]);

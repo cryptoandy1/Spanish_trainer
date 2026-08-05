@@ -5,7 +5,7 @@ const links: { to: string; label: string; end?: boolean }[] = [
   { to: "/", label: ui.nav.dashboard, end: true },
   { to: "/practice/phrases", label: ui.nav.practicePhrases },
   { to: "/practice/vocab", label: ui.nav.practiceVocab },
-  { to: "/practice/mistakes", label: ui.nav.mistakes },
+  { to: "/practice/conjugation", label: ui.nav.practiceConjugation },
   { to: "/verbs", label: ui.nav.verbs },
   { to: "/topics", label: ui.nav.topics },
   { to: "/grammar", label: ui.nav.grammar },

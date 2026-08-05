@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useData } from "../lib/DataContext";
 import { dueCount, loadProgress } from "../lib/srs";
+import { verbFormsToDeck } from "../lib/quiz/deck";
 import { ui } from "../lib/i18n";
 
 export function Dashboard() {
@@ -10,6 +11,9 @@ export function Dashboard() {
   if (error || !pack) return <p className="error-text">Не удалось загрузить данные: {error}</p>;
 
   const progress = loadProgress(settings.targetLang);
+  // Reuse verbFormsToDeck (not a separate id-listing helper) so the due-count
+  // here can never drift from what ConjugationDrill actually quizzes.
+  const conjDeck = verbFormsToDeck(pack.verbs, pack.meta, settings.nativeLang);
   const tiles: { to: string; title: string; icon: string; count: number; due?: number }[] = [
     {
       to: "/practice/phrases",
@@ -32,13 +36,13 @@ export function Dashboard() {
       ),
     },
     {
-      to: "/practice/mistakes",
-      title: ui.nav.mistakes,
-      icon: "🩹",
-      count: pack.corrections.length,
+      to: "/practice/conjugation",
+      title: ui.nav.practiceConjugation,
+      icon: "🔀",
+      count: conjDeck.length,
       due: dueCount(
         progress,
-        pack.corrections.map((c) => c.id),
+        conjDeck.map((d) => d.itemId),
       ),
     },
     { to: "/verbs", title: ui.nav.verbs, icon: "🔤", count: pack.verbs.length },

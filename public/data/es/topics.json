@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T00:00:00Z",
+  "generatedAt": "2026-08-05T04:13:41Z",
   "items": [
     {
       "id": "tp_aprender-idiomas",
@@ -124,18 +124,6 @@
       }
     },
     {
-      "id": "tp_pronombres",
-      "name": {
-        "ru": "Местоимения"
-      },
-      "nameTarget": "Pronombres",
-      "icon": "🔤",
-      "order": 120,
-      "description": {
-        "ru": "Личные, объектные, возвратные, притяжательные и другие местоимения испанского языка."
-      }
-    },
-    {
       "id": "tp_restaurante",
       "name": {
         "ru": "В ресторане"
@@ -193,18 +181,6 @@
       "order": 20,
       "description": {
         "ru": "Такси, автобусы, покупка билетов, дорога."
-      }
-    },
-    {
-      "id": "tp_verbos-irregulares",
-      "name": {
-        "ru": "Неправильные глаголы"
-      },
-      "nameTarget": "Verbos irregulares",
-      "icon": "📚",
-      "order": 90,
-      "description": {
-        "ru": "Спряжение и употребление основных неправильных глаголов испанского языка (ser, estar, ir, haber, tener, venir, poner, salir, hacer)."
       }
     },
     {
