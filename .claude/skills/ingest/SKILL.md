@@ -19,16 +19,33 @@ looks stale.
 
 ## Input
 
-The user gives you a Spanish-learning conversation to ingest — usually
-pasted directly into the chat, sometimes "ingest what we just talked
-about" referring to the current session. It's the same kind of material
-Phase 2 extracted from ChatGPT: phrases with translations, vocab with
-glosses, verb conjugation tables, grammar explanations, and corrected
-mistakes (user attempted something in Spanish, got corrected).
+A Spanish-learning conversation, from one of three places. It's the same
+kind of material Phase 2 extracted from ChatGPT: phrases with
+translations, vocab with glosses, verb conjugation tables, grammar
+explanations, and corrected mistakes (user attempted something in
+Spanish, got corrected).
+
+1. **Pasted into the chat** — the common case.
+2. **"ingest what we just talked about"** — the current session.
+3. **The `inbox/` folder** — when `/ingest` is invoked with no text, or
+   the user says "process the inbox". Handle every `.md`/`.txt` file in
+   `inbox/` (ignore `README.md`), as a single batch: extract them all,
+   then run the pipeline in step 6 once. When a file's first line is a
+   markdown heading, use it as `source.conversationTitle`. After the
+   batch validates clean, move each processed file to
+   `inbox/processed/` (create it if needed) so a re-run doesn't reprocess
+   it. Nothing under `inbox/` is ever committed — it's gitignored,
+   because this repo is public and raw transcripts must stay out of git
+   history.
+
+If the phone channel is in play, the user may first ask you to run
+`python -m tools.inbox_pull`, which downloads conversations shared from
+the phone into `inbox/`. See "The phone channel" at the bottom.
 
 If nothing in the given text looks like real Spanish-learning content
 (the user pasted something unrelated, or an empty/trivial exchange), say
-so and stop — don't force records out of it.
+so and stop — don't force records out of it. In inbox mode, skip that
+file, leave it in place, and say which one you skipped.
 
 ## Workflow
 
@@ -83,29 +100,49 @@ so and stop — don't force records out of it.
    separately-computed slug, so it can never diverge from the id). Exact
    insertion position doesn't need to be perfect — step 6 fixes formatting.
 
-6. **Normalize.** Run
-   `python -m tools.ingest.normalize <every file you touched>` to re-sort
-   `items[]` by id and re-serialize with canonical formatting. This is
-   required even if you think you inserted in the right place.
+6. **Finish — one command, hard gate.** Run
+   `python -m tools.ingest.finish`. It runs, in the order that matters:
+   normalize (re-sort `items[]`, canonical formatting) → `conjugate.py`
+   (complete paradigms for any new verb; never overwrites an attested
+   form, a no-op when no verb was added) → `link_vocab_verbs.py` (so a
+   new verb is clickable from the word list) → normalize again →
+   validate.
 
-7. **Validate — hard gate.** Run `python -m tools.ingest.validate`. A
-   non-zero exit means something is wrong (unknown topic id, dangling
-   verbId, bad shape, out-of-order items, duplicate id) — fix the data and
-   re-run until it's clean. Do not report success with a failing validate.
+   A non-zero exit means the data is wrong (unknown topic id, dangling
+   verbId, bad shape, out-of-order items, duplicate id) — fix the records
+   and re-run until it's clean. **Never report success on a failing
+   finish.** Don't run the underlying tools individually; the ordering
+   between them is the whole reason this wrapper exists.
 
-8. **If you added a new verb**, run `python tools/conjugate.py --stage all`
-   so it gets a complete paradigm (all tenses/persons, participle, gerund)
-   like every other verb. The tool only touches verbs with empty cells and
-   never overwrites a form attested in a conversation, so running it when
-   nothing was added is a harmless no-op. Re-run `validate` afterwards.
-
-9. **Report to the user.** Summarize what was added/updated per file
+7. **Report to the user.** Summarize what was added/updated per file
    (e.g. "+3 phrases, +1 vocab, 1 correction (already existed, skipped),
    +1 new grammar topic"), list any proposed new topics for their
    approval, and flag anything you set `needsReview: true` on and why.
    Do not commit — leave the changes in the working tree like every other
    data-writing step in this project (see CLAUDE.md: only commit when
    explicitly asked).
+
+## The phone channel
+
+Conversations happen on the phone, where none of this pipeline can run —
+and this repo is public, so the phone can't drop raw transcripts into it
+either. The route is a separate **private** repository used as a drop box:
+
+```
+phone (share sheet)  ->  github.com/cryptoandy1/spanish-inbox  (private)
+                     ->  python -m tools.inbox_pull   ->  inbox/
+                     ->  /ingest                      ->  public/data/es/*.json
+                     ->  commit + push                ->  Pages redeploys
+```
+
+`python -m tools.inbox_pull` downloads whatever is waiting into `inbox/`
+and deletes the remote copies (after the local write succeeds, never
+before). `--list` shows what's waiting without pulling; `--keep` leaves
+the remote copies alone. It authenticates through the `gh` CLI, so no
+token is stored in this repo.
+
+Run it whenever the user says the phone has something waiting, then
+continue with inbox mode above.
 
 ## Idempotency check (only if the user asks you to verify it, or you're testing the skill itself)
 

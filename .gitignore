@@ -15,6 +15,14 @@ dist-ssr
 # ChatGPT export (personal data, large — never commit) and extraction scratch output
 chatGPT_history/
 tools/build/
+
+# Conversation inbox: raw chat transcripts waiting to be ingested, and the
+# archive of already-ingested ones. This repo is PUBLIC and git history is
+# forever, so raw personal conversations must never be committed — only the
+# extracted, curated records under public/data/ are. The README is the one
+# tracked file, since it documents the format.
+inbox/*
+!inbox/README.md
 __pycache__/
 *.pyc
 

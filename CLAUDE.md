@@ -39,4 +39,10 @@ Two things worth knowing before touching this pipeline again:
 - `normalize.py` holds the canonical pack read/write (sorted `items[]`, indent-2 UTF-8 JSON) that `spanish_extract/merge.py` now also imports, instead of each writer keeping its own copy.
 - `validate.py` is a hard gate: Pydantic shape-checks every record against `tools/spanish_extract/schema.py`, plus referential integrity (topic ids, `verbId`, `relatedGrammarIds`/`relatedVerbIds`/`relatedTopicIds`, `errorTags`, tense/person ids, grammar `bodyPath` files all actually exist). Run as `python -m tools.ingest.validate`.
 
+Ongoing intake now has two front doors beyond pasting into the chat:
+- **`inbox/`** — drop conversation files, run `/ingest` with no arguments to process them as a batch. Gitignored (`inbox/*`, README excepted): this repo is **public**, and raw transcripts must never enter git history. Only extracted records under `public/data/` do.
+- **`python -m tools.inbox_pull`** — pulls conversations shared from the phone into `inbox/` from a separate **private** repo (`cryptoandy1/spanish-inbox`) used as a drop box, deleting the remote copy only after the local write succeeds. Auth via the `gh` CLI, no token in this repo.
+
+`python -m tools.ingest.finish` is the single post-write gate (normalize → conjugate → link_vocab_verbs → normalize → validate). Run it instead of the individual tools — the ordering between them is load-bearing, and spelling them out as separate skill steps is exactly how `link_vocab_verbs.py` got missed when it was added.
+
 Verified live: ingested a real `claude.ai/share/...` conversation (pasted as text — `WebFetch` can't read that URL shape, it's a client-rendered SPA shell), then re-ran the identical ingest and confirmed all record ids already existed with zero new writes — the idempotent-rerun check called for in the plan doc's Phase 4 verification.
