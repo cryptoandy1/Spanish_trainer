@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-05T04:13:41Z",
+  "generatedAt": "2026-08-06T01:48:19Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -209,6 +209,49 @@
         "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
         "conversationTitle": "Список испанских глаголов",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_complex-object-quiero-que-subjuntivo-02a03668",
+      "title": {
+        "ru": "Аналог complex object в испанском: quiero que + subjuntivo"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Прямого аналога английского complex object нет: с глаголами желания и просьбы при разных подлежащих нужно придаточное с subjuntivo, а инфинитивная конструкция работает только с глаголами восприятия и каузативами."
+      },
+      "bodyPath": {
+        "ru": "grammar/complex-object-quiero-que-subjuntivo-02a03668.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Quiero que lo hagas.",
+          "tr": {
+            "ru": "Хочу, чтобы ты сделал."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_querer",
+        "vb_esperar",
+        "vb_pedir",
+        "vb_decir",
+        "vb_ver",
+        "vb_oir",
+        "vb_hacer",
+        "vb_dejar",
+        "vb_salir"
+      ],
+      "tags": [
+        "mood-choice"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -696,6 +739,50 @@
         "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
         "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
         "ingestBatch": "ingest-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_participio-vs-gerundio-esta-confirmada-70295c11",
+      "title": {
+        "ru": "Participio vs gerundio: «Tu cita está confirmada»"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Почему в tu cita está confirmada стоит причастие, а не герундий: -ado/-ido против -ando/-iendo, согласование причастия в роде и числе, и разница estar (pasiva de estado) против ser (pasiva de acción)."
+      },
+      "bodyPath": {
+        "ru": "grammar/participio-vs-gerundio-esta-confirmada-70295c11.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Estoy confirmando la cita.",
+          "tr": {
+            "ru": "Я (сейчас) подтверждаю встречу."
+          }
+        },
+        {
+          "text": "La cita está confirmada.",
+          "tr": {
+            "ru": "Встреча подтверждена."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_estar",
+        "vb_ser",
+        "vb_confirmar"
+      ],
+      "tags": [
+        "ser-estar",
+        "agreement"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },

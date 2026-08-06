@@ -57,5 +57,6 @@ If a phrase/vocab/verb genuinely doesn't fit any existing topic, propose **at mo
 
 - `items[]` sorted by id, canonical `json.dumps(..., indent=2)`-equivalent formatting — always finish with `python -m tools.ingest.normalize <changed files>`.
 - `manual: true` records are immutable — never edit one, even to "fix" something.
-- Never invent Spanish content, a translation, or a conjugation form the source conversation didn't actually contain. Missing → omit + `needsReview: true`.
+- Never invent **Spanish** content or a conjugation form the source conversation didn't contain. No Spanish in the source → no record.
+- **Do supply the Russian translation when the source shows Spanish without one** (user's decision, 2026-08-06) — a Spanish example the user saw is worth keeping, and a phrase with an empty `tr` renders blank. Set `needsReview: true` on any record whose translation you supplied, so they stay auditable. Applies to phrases, vocab glosses, and `examples[]`.
 - Always end with `python -m tools.ingest.validate` and treat a non-zero exit as a hard stop — fix the data, don't skip the gate.

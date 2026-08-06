@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T15:04:29Z",
+  "generatedAt": "2026-08-06T01:55:30Z",
   "items": [
     {
       "id": "vc_006436ac",
@@ -273,6 +273,25 @@
       }
     },
     {
+      "id": "vc_03098ea1",
+      "lemma": "permitir",
+      "pos": "verb",
+      "tr": {
+        "ru": "разрешать, позволять"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_permitir"
+    },
+    {
       "id": "vc_032df062",
       "lemma": "billete",
       "pos": "noun",
@@ -380,6 +399,31 @@
           "6a533484-a9e8-83eb-8083-813afe2f2d72",
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d"
         ]
+      }
+    },
+    {
+      "id": "vc_04f5297e",
+      "lemma": "confirmar",
+      "pos": "verb",
+      "tr": {
+        "ru": "подтверждать"
+      },
+      "examples": [
+        {
+          "text": "Estoy confirmando la cita.",
+          "tr": {
+            "ru": "Я (сейчас) подтверждаю встречу."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_confirmar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
       }
     },
     {
@@ -1757,6 +1801,25 @@
       }
     },
     {
+      "id": "vc_1b4d2d76",
+      "lemma": "escuchar",
+      "pos": "verb",
+      "tr": {
+        "ru": "слушать"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_escuchar"
+    },
+    {
       "id": "vc_1b5ddc7e",
       "lemma": "del",
       "pos": "prep",
@@ -1779,6 +1842,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_1c24fa9f",
+      "lemma": "obligar",
+      "pos": "verb",
+      "tr": {
+        "ru": "обязывать, заставлять"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_obligar"
     },
     {
       "id": "vc_1c38eb2c",
@@ -3765,6 +3847,25 @@
       }
     },
     {
+      "id": "vc_3abf631c",
+      "lemma": "pedido",
+      "pos": "noun",
+      "tr": {
+        "ru": "заказ"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_3ac289f9",
       "lemma": "peso",
       "pos": "noun",
@@ -4443,6 +4544,25 @@
           "e5ff0bc1-3d0e-4b29-8148-d9ff99742411"
         ]
       }
+    },
+    {
+      "id": "vc_44cd9ee5",
+      "lemma": "mirar",
+      "pos": "verb",
+      "tr": {
+        "ru": "смотреть"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_mirar"
     },
     {
       "id": "vc_44e45b68",
@@ -5941,6 +6061,25 @@
       "verbId": "vb_estudiar"
     },
     {
+      "id": "vc_59c5ecfc",
+      "lemma": "prohibir",
+      "pos": "verb",
+      "tr": {
+        "ru": "запрещать"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_prohibir"
+    },
+    {
       "id": "vc_59d5b53c",
       "lemma": "vivir",
       "pos": "verb",
@@ -6364,6 +6503,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_5de9400c",
+      "lemma": "dato",
+      "pos": "noun",
+      "tr": {
+        "ru": "данное, факт (мн. datos — данные)"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "gender": "m",
+      "plural": "datos"
     },
     {
       "id": "vc_5e51842c",
@@ -11786,6 +11945,25 @@
       }
     },
     {
+      "id": "vc_b87c9e3c",
+      "lemma": "sentir",
+      "pos": "verb",
+      "tr": {
+        "ru": "чувствовать"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_sentir"
+    },
+    {
       "id": "vc_b88f7476",
       "lemma": "pescado",
       "pos": "noun",
@@ -13249,6 +13427,25 @@
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
       }
+    },
+    {
+      "id": "vc_d16f5192",
+      "lemma": "desear",
+      "pos": "verb",
+      "tr": {
+        "ru": "желать"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_desear"
     },
     {
       "id": "vc_d17aa971",
@@ -15348,6 +15545,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_ed40504c",
+      "lemma": "mandar",
+      "pos": "verb",
+      "tr": {
+        "ru": "приказывать; посылать"
+      },
+      "examples": [],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      },
+      "verbId": "vb_mandar"
     },
     {
       "id": "vc_ed64516f",

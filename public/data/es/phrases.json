@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T15:04:29Z",
+  "generatedAt": "2026-08-06T01:55:30Z",
   "items": [
     {
       "id": "ph_0015d94b",
@@ -2167,6 +2167,25 @@
       }
     },
     {
+      "id": "ph_1467d2d2",
+      "text": "Tu pedido está confirmado.",
+      "tr": {
+        "ru": "Твой заказ подтверждён."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_1469fbee",
       "text": "¿Cómo se llama?",
       "tr": {
@@ -2563,6 +2582,25 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_17ed36dc",
+      "text": "Déjame explicarte.",
+      "tr": {
+        "ru": "Дай мне тебе объяснить."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -4763,6 +4801,25 @@
       }
     },
     {
+      "id": "ph_2e1f5c79",
+      "text": "Te vi salir de casa.",
+      "tr": {
+        "ru": "Я видел, как ты выходил из дома."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_2e24ea4d",
       "text": "Este es el mejor vino.",
       "tr": {
@@ -4868,6 +4925,25 @@
         "alsoSeenIn": [
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
+      }
+    },
+    {
+      "id": "ph_2ef81e3e",
+      "text": "Los datos están confirmados.",
+      "tr": {
+        "ru": "Данные подтверждены."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
       }
     },
     {
@@ -8051,6 +8127,25 @@
       }
     },
     {
+      "id": "ph_4ed2d879",
+      "text": "Tus citas están confirmadas.",
+      "tr": {
+        "ru": "Твои встречи подтверждены."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4edc69cb",
       "text": "¿Cuándo llegará el autobús?",
       "tr": {
@@ -8678,6 +8773,24 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_54cac13c",
+      "text": "Tu cita está confirmada.",
+      "tr": {
+        "ru": "Твоя встреча подтверждена."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -12066,6 +12179,25 @@
       }
     },
     {
+      "id": "ph_76e1a892",
+      "text": "Oí a María cantar.",
+      "tr": {
+        "ru": "Я слышал, как Мария поёт."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_76e86ddc",
       "text": "Mañana iré a Madrid.",
       "tr": {
@@ -12742,6 +12874,25 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_7e8198fe",
+      "text": "Me hizo llorar.",
+      "tr": {
+        "ru": "Он заставил меня плакать."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -13980,6 +14131,24 @@
       }
     },
     {
+      "id": "ph_89459a7e",
+      "text": "La cita está confirmada.",
+      "tr": {
+        "ru": "Встреча подтверждена."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8952ce73",
       "text": "¿Es posible pagar mañana?",
       "tr": {
@@ -14142,6 +14311,25 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8a9ad7b3",
+      "text": "Fue confirmada por el médico.",
+      "tr": {
+        "ru": "Она была подтверждена врачом."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -15312,6 +15500,24 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_94f54094",
+      "text": "Quiero que lo hagas.",
+      "tr": {
+        "ru": "Хочу, чтобы ты сделал."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -18014,6 +18220,25 @@
       }
     },
     {
+      "id": "ph_adbc7100",
+      "text": "Quiero hacerlo.",
+      "tr": {
+        "ru": "Хочу сделать это."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_adcf8301",
       "text": "Venid aquí.",
       "tr": {
@@ -18982,6 +19207,25 @@
         "alsoSeenIn": [
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
+      }
+    },
+    {
+      "id": "ph_b58033a8",
+      "text": "Te prohíbo salir.",
+      "tr": {
+        "ru": "Я запрещаю тебе выходить."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
       }
     },
     {
@@ -20415,6 +20659,25 @@
       }
     },
     {
+      "id": "ph_c547bc4a",
+      "text": "Le hice leer el libro.",
+      "tr": {
+        "ru": "Я заставил его прочитать книгу."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c56cac32",
       "text": "Se entiende.",
       "tr": {
@@ -20516,6 +20779,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_c6484864",
+      "text": "Estoy confirmando la cita.",
+      "tr": {
+        "ru": "Я (сейчас) подтверждаю встречу."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/2.txt",
+        "conversationTitle": "Tu cita está confirmada: причастие и согласование",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
@@ -23008,6 +23289,25 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_dcb41927",
+      "text": "Te prohíbo que salgas.",
+      "tr": {
+        "ru": "Я запрещаю тебе выходить."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_complex-object-quiero-que-subjuntivo-02a03668"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox/1.txt",
+        "conversationTitle": "Аналог complex object в испанском",
+        "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
     },
