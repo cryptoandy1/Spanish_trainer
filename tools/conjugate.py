@@ -44,7 +44,14 @@ def run_generate(limit: int | None, force: bool) -> None:
 def run_merge(dry_run: bool) -> None:
     cache_dir = BUILD_DIR / "conjugation_cache"
     if not cache_dir.exists() or not any(cache_dir.glob("*.json")):
-        raise SystemExit("run --stage generate first (tools/build/conjugation_cache/ is empty)")
+        # An empty cache used to mean "you forgot to run generate". Since
+        # generate started skipping verbs that have no gaps, it is instead the
+        # normal state of a CI run: tools/build/ is gitignored, so the cache
+        # starts empty, and with every verb already complete nothing is
+        # generated and there is nothing to merge. Failing here broke the
+        # ingest workflow on a green extraction.
+        print("merge: nothing cached to merge (no verb needed a generated paradigm)")
+        return
 
     stats = conjugate_pass.merge(REPO_ROOT, BUILD_DIR, dry_run=dry_run)
     label = "merge (dry run)" if dry_run else "merge"
