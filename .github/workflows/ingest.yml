@@ -68,7 +68,8 @@ jobs:
 
       # `gh` is preinstalled on the runner; inbox_pull.py shells out to it.
       # INBOX_TOKEN rather than GITHUB_TOKEN: the inbox is a different, private
-      # repository that GITHUB_TOKEN cannot see.
+      # repository that GITHUB_TOKEN cannot see. It only ever needs
+      # `Contents: Read and write` on cryptoandy1/spanish-inbox — nothing here.
       - name: Check the inbox
         id: check
         if: success() && steps.config.outputs.ready == 'true'
@@ -122,11 +123,17 @@ jobs:
             git status --short public/data
           fi
 
+      # GITHUB_TOKEN, not INBOX_TOKEN: this step acts only on THIS repository,
+      # where the job's own permissions (contents/pull-requests: write) are
+      # enough. `git push` uses the credentials actions/checkout wrote into git
+      # config regardless; `gh pr create` is the only consumer of GH_TOKEN. That
+      # keeps INBOX_TOKEN scoped to the private inbox repo alone, so the token
+      # stored in this public repo's secrets cannot modify this repo at all.
       - name: Open pull request
         id: pr
         if: success() && steps.diff.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.INBOX_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           branch="ingest/$(date -u +%Y-%m-%d)-${{ github.run_number }}"
