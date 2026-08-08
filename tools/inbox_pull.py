@@ -62,6 +62,20 @@ def gh_api(path: str, method: str = "GET", fields: dict[str, str] | None = None)
 def list_remote() -> list[dict]:
     listing = gh_api(f"repos/{INBOX_REPO}/contents/{REMOTE_DIR}")
     if not listing:
+        # A 404 here is ambiguous: the inbox/ directory genuinely doesn't exist
+        # (normal — it only exists while something is waiting), OR the token
+        # can't see the repository at all. GitHub deliberately answers 404
+        # rather than 403 for private repos, so the two are indistinguishable
+        # from this call alone.
+        #
+        # Worth telling apart: an expired or wrong token would otherwise report
+        # "nothing waiting" forever, and the automation would look healthy while
+        # silently ingesting nothing. Asking for the repo itself settles it.
+        if gh_api(f"repos/{INBOX_REPO}") is None:
+            raise SystemExit(
+                f"cannot see {INBOX_REPO} — the token is missing, expired, or lacks "
+                f"'Contents: Read and write' on that repository (GitHub reports this as 404)"
+            )
         return []
     if isinstance(listing, dict):  # a single file where a directory was expected
         listing = [listing]
