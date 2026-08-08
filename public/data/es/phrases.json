@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-06T01:55:30Z",
+  "generatedAt": "2026-08-08T19:18:03Z",
   "items": [
     {
       "id": "ph_0015d94b",
@@ -149,6 +149,22 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_00ed9955",
+      "text": "Te le presenté.",
+      "tr": {
+        "ru": "Я тебя ему представил."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -625,6 +641,22 @@
       }
     },
     {
+      "id": "ph_053e424b",
+      "text": "Me lo das.",
+      "tr": {
+        "ru": "Ты мне это даёшь."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_054768b8",
       "text": "vas a casa",
       "tr": {
@@ -1003,6 +1035,24 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_08d8fcc4",
+      "text": "A mí me gusta el jamón.",
+      "tr": {
+        "ru": "Мне нравится хамон."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -1511,6 +1561,22 @@
       }
     },
     {
+      "id": "ph_0d8f4758",
+      "text": "Estoy leyéndolo. = Lo estoy leyendo.",
+      "tr": {
+        "ru": "Я это читаю (сейчас)."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_0d9b1109",
       "text": "Hace viento.",
       "tr": {
@@ -1697,6 +1763,22 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_0f649553",
+      "text": "Estoy explicándoselo.",
+      "tr": {
+        "ru": "Я ему это объясняю (сейчас)."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -2317,6 +2399,22 @@
       }
     },
     {
+      "id": "ph_15f90985",
+      "text": "Se lo doy a usted.",
+      "tr": {
+        "ru": "Я даю это Вам."
+      },
+      "register": "formal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_15fee480",
       "text": "Hasta luego.",
       "tr": {
@@ -2747,6 +2845,24 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_19816baa",
+      "text": "Se lava.",
+      "tr": {
+        "ru": "Он моется (сам)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_rutina-diaria"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -4079,6 +4195,22 @@
       }
     },
     {
+      "id": "ph_261b3c8e",
+      "text": "Nos explican el problema. → Nos lo explican.",
+      "tr": {
+        "ru": "Они объясняют нам проблему. → Они нам её объясняют."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_264f437f",
       "text": "¡Que pases una buena tarde!",
       "tr": {
@@ -4401,6 +4533,24 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_298a2e08",
+      "text": "Mandan la carta a mí. → Me la mandan.",
+      "tr": {
+        "ru": "Они присылают письмо мне. → Они мне его присылают."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -5281,6 +5431,24 @@
         "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_32b0dc3d",
+      "text": "Te traigo las llaves. → Te las traigo.",
+      "tr": {
+        "ru": "Я приношу тебе ключи. → Я тебе их приношу."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -6339,6 +6507,24 @@
       }
     },
     {
+      "id": "ph_3c93f264",
+      "text": "Os enseño el piso. → Os lo enseño.",
+      "tr": {
+        "ru": "Я показываю вам квартиру. → Я вам её показываю."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_vivienda"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_3c9d805f",
       "text": "¿Con tijeras o con máquina?",
       "tr": {
@@ -6749,6 +6935,22 @@
       }
     },
     {
+      "id": "ph_411c60ab",
+      "text": "Doy el libro a Juan. → Se lo doy.",
+      "tr": {
+        "ru": "Я даю книгу Хуану. → Я ему её даю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4125c5d4",
       "text": "Pare aquí, por favor.",
       "tr": {
@@ -7066,6 +7268,22 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_445cb777",
+      "text": "¿Te la enseño?",
+      "tr": {
+        "ru": "Показать тебе её?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -8577,6 +8795,22 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_53246f1a",
+      "text": "¿Te digo la verdad?",
+      "tr": {
+        "ru": "Сказать тебе правду?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -10273,6 +10507,22 @@
       }
     },
     {
+      "id": "ph_630e18f0",
+      "text": "Digo la verdad a mi madre. → Se la digo.",
+      "tr": {
+        "ru": "Я говорю правду моей маме. → Я ей её говорю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_635cf269",
       "text": "¿Flipas o qué?",
       "tr": {
@@ -10319,6 +10569,22 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_64320106",
+      "text": "A Juan le doy el libro.",
+      "tr": {
+        "ru": "Хуану я даю книгу."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -10524,6 +10790,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_66fc7beb",
+      "text": "¿Me llamas mañana?",
+      "tr": {
+        "ru": "Позвонишь мне завтра?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -10965,6 +11247,24 @@
       }
     },
     {
+      "id": "ph_6b5b5fa4",
+      "text": "Aquí se habla inglés.",
+      "tr": {
+        "ru": "Здесь говорят по-английски."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_aprender-idiomas"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_6b623f62",
       "text": "Voy a la playa.",
       "tr": {
@@ -11306,6 +11606,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_6e420b69",
+      "text": "Voy a dárselo.",
+      "tr": {
+        "ru": "Я собираюсь дать это ему."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -13612,6 +13928,24 @@
       }
     },
     {
+      "id": "ph_8519a12a",
+      "text": "Te devuelvo el coche. → Te lo devuelvo.",
+      "tr": {
+        "ru": "Я возвращаю тебе машину. → Я тебе её возвращаю."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_852ba111",
       "text": "Todas tus horas.",
       "tr": {
@@ -14579,6 +14913,22 @@
       }
     },
     {
+      "id": "ph_8cf13b3b",
+      "text": "Os mando las fotos. → Os las mando.",
+      "tr": {
+        "ru": "Я отправляю вам фотографии. → Я вам их отправляю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8d34fec3",
       "text": "La carta está escrita.",
       "tr": {
@@ -15002,6 +15352,22 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_90cbec2f",
+      "text": "¡Dáselo! / ¡No se lo des!",
+      "tr": {
+        "ru": "Дай ему это! / Не давай ему это!"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -16136,6 +16502,22 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_989bae8e",
+      "text": "Se lo doy a ella.",
+      "tr": {
+        "ru": "Я даю это ей."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -17376,6 +17758,22 @@
       }
     },
     {
+      "id": "ph_a43ab1ea",
+      "text": "Escribo a mis padres. → Les escribo.",
+      "tr": {
+        "ru": "Я пишу своим родителям. → Я им пишу."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_a43ee8d7",
       "text": "Necesitamos un médico.",
       "tr": {
@@ -17951,6 +18349,22 @@
       }
     },
     {
+      "id": "ph_a930bcdd",
+      "text": "Regalo las flores a usted. → Se las regalo.",
+      "tr": {
+        "ru": "Я дарю цветы Вам. → Я Вам их дарю."
+      },
+      "register": "formal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_a941284c",
       "text": "¿Cómo te llamas?",
       "tr": {
@@ -18188,6 +18602,22 @@
       }
     },
     {
+      "id": "ph_acfe8d5d",
+      "text": "Presto los apuntes a Ana. → Se los presto.",
+      "tr": {
+        "ru": "Я даю Ане конспекты. → Я ей их даю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_ad9fe756",
       "text": "¿Giras aquí?",
       "tr": {
@@ -18381,6 +18811,22 @@
         "conversationId": "6a607174-8fb4-83eb-a6aa-1212daddaf35",
         "conversationTitle": "Список испанских глаголов",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ae83e201",
+      "text": "¿Conoces a María? — Sí, la conozco.",
+      "tr": {
+        "ru": "Ты знаешь Марию? — Да, я её знаю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -18661,6 +19107,22 @@
       }
     },
     {
+      "id": "ph_b1e3c518",
+      "text": "Te cuento la historia. → Te la cuento.",
+      "tr": {
+        "ru": "Я рассказываю тебе историю. → Я тебе её рассказываю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_b1e73dd5",
       "text": "Siempre que puedo, voy a la playa.",
       "tr": {
@@ -18927,6 +19389,22 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b3207a78",
+      "text": "¡Dámelo!",
+      "tr": {
+        "ru": "Дай мне это!"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -19496,6 +19974,22 @@
       }
     },
     {
+      "id": "ph_ba1aa59f",
+      "text": "¿Sabes que viene Juan? — Lo sé.",
+      "tr": {
+        "ru": "Ты знаешь, что придёт Хуан? — Я это знаю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_ba1d2bbb",
       "text": "Llámame dentro de una hora.",
       "tr": {
@@ -19787,6 +20281,22 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_bc8fc378",
+      "text": "Cuento las noticias a mis amigas. → Se las cuento.",
+      "tr": {
+        "ru": "Я рассказываю новости своим подругам. → Я им их рассказываю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -20517,6 +21027,22 @@
       }
     },
     {
+      "id": "ph_c2fc3a41",
+      "text": "Veo la película. → La veo.",
+      "tr": {
+        "ru": "Я смотрю фильм. → Я её смотрю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c3004bf6",
       "text": "Necesitamos una mesa.",
       "tr": {
@@ -20530,6 +21056,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_c3b0c027",
+      "text": "Lo compro. / No lo compro.",
+      "tr": {
+        "ru": "Я это покупаю. / Я это не покупаю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -20623,6 +21165,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_c4d6e6f4",
+      "text": "Compro los libros. → Los compro.",
+      "tr": {
+        "ru": "Я покупаю книги. → Я их покупаю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -22187,6 +22745,24 @@
       }
     },
     {
+      "id": "ph_d2438adf",
+      "text": "Envío el paquete a mis primos. → Se lo envío.",
+      "tr": {
+        "ru": "Я отправляю посылку своим кузенам. → Я им её отправляю."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_d24a723b",
       "text": "Voy a la universidad.",
       "tr": {
@@ -22294,6 +22870,22 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_d322927b",
+      "text": "Se lo doy a él.",
+      "tr": {
+        "ru": "Я даю это ему."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -22987,6 +23579,22 @@
       }
     },
     {
+      "id": "ph_d926766f",
+      "text": "Explico la lección a los alumnos. → Se la explico.",
+      "tr": {
+        "ru": "Я объясняю урок ученикам. → Я им его объясняю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_d9309c7b",
       "text": "Porque estoy cansado.",
       "tr": {
@@ -23166,6 +23774,24 @@
       }
     },
     {
+      "id": "ph_da2e112e",
+      "text": "¿Me das el dinero? → ¿Me lo das?",
+      "tr": {
+        "ru": "Ты даёшь мне деньги? → Ты мне их даёшь?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_da4bc517",
       "text": "No vale la pena.",
       "tr": {
@@ -23257,6 +23883,24 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_dbfece58",
+      "text": "Nos sirven las bebidas. → Nos las sirven.",
+      "tr": {
+        "ru": "Нам подают напитки. → Нам их подают."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -23708,6 +24352,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_deee4d17",
+      "text": "Compraron los zapatos para mí. → Me los compraron.",
+      "tr": {
+        "ru": "Они купили туфли для меня. → Они мне их купили."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -24539,6 +25201,22 @@
       }
     },
     {
+      "id": "ph_e57a1402",
+      "text": "Te me presentaron.",
+      "tr": {
+        "ru": "Тебя мне представили."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_e5d7204f",
       "text": "En veinte minutos.",
       "tr": {
@@ -24566,6 +25244,22 @@
         "conversationId": "6a5c6b63-cca8-83eb-b37c-69821aeedd9a",
         "conversationTitle": "Учим испанский для жизни",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_e624be36",
+      "text": "Se lo doy a ellos.",
+      "tr": {
+        "ru": "Я даю это им."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -24908,6 +25602,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_e9f273a4",
+      "text": "¡No me lo des!",
+      "tr": {
+        "ru": "Не давай мне это!"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -25496,6 +26206,22 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ef2dd6b5",
+      "text": "Quiero verlo. = Lo quiero ver.",
+      "tr": {
+        "ru": "Я хочу это увидеть."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
@@ -26930,6 +27656,24 @@
       }
     },
     {
+      "id": "ph_f9f41b4a",
+      "text": "Vendo los muebles a ellos. → Se los vendo.",
+      "tr": {
+        "ru": "Я продаю им мебель. → Я им её продаю."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_f9fcffdd",
       "text": "Vivimos aquí.",
       "tr": {
@@ -27478,6 +28222,22 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_feed7d97",
+      "text": "Doy el libro a Juan. → Le doy el libro.",
+      "tr": {
+        "ru": "Я даю книгу Хуану. → Я даю ему книгу."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },
