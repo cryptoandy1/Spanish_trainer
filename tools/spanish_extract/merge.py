@@ -98,7 +98,11 @@ def upsert(items: list[dict], new_records: list[dict], force: bool) -> tuple[lis
 
 def _source_ref(conv: dict, extractor: str, ingest_batch: str) -> dict:
     return {
-        "origin": "chatgpt",
+        # Carried on the conversation rather than threaded through all five
+        # record builders: Phase 2 reads the ChatGPT archive and leaves it
+        # absent (-> "chatgpt"), while tools/ingest/from_inbox.py stamps
+        # "claude" on each conversation it synthesizes.
+        "origin": conv.get("origin", "chatgpt"),
         "conversationId": conv["id"],
         "conversationTitle": conv["title"],
         "ingestBatch": ingest_batch,
@@ -175,8 +179,18 @@ def verb_record(cand: dict, conv: dict, ingest_batch: str) -> dict:
     }
 
 
-def grammar_record_and_body(cand: dict, conv: dict, ingest_batch: str) -> tuple[dict, str, str]:
-    """Returns (index_record, body_relative_path, body_markdown)."""
+def grammar_record_and_body(cand: dict, conv: dict, ingest_batch: str) -> tuple[dict, str, str] | None:
+    """Returns (index_record, body_relative_path, body_markdown), or None to skip.
+
+    A candidate with a blank title or summary is dropped. The model does
+    occasionally emit one (observed: a wholly empty grammar topic alongside a
+    good one from the same conversation), and it used to sail through: an empty
+    string is a structurally valid `Tr` value, so validate.py accepted it and
+    the grammar list rendered a blank, unclickable row. Now caught at both ends
+    — here, and as a hard gate in tools/ingest/validate.py.
+    """
+    if not cand.get("titleRu", "").strip() or not cand.get("summaryRu", "").strip():
+        return None
     gid = idlib.auto_grammar_id(cand["titleRu"], cand["summaryRu"])
     # Derive the filename from the id itself (gid minus the "gr_" prefix),
     # not a separately-computed slug — otherwise a degenerate/unsafe slug
@@ -199,13 +213,15 @@ def grammar_record_and_body(cand: dict, conv: dict, ingest_batch: str) -> tuple[
 # ---------------------------------------------------------------------------
 
 
-def run(repo_root: Path, build_dir: Path, dry_run: bool, force: bool) -> dict:
+def run(repo_root: Path, build_dir: Path, dry_run: bool, force: bool, batch_prefix: str = "extract") -> dict:
     data_dir = repo_root / "public" / "data" / "es"
     cache_dir = build_dir / "claude_cache"
     selected = json.loads((build_dir / "selected.json").read_text(encoding="utf-8"))
     conv_by_id = {c["id"]: c for c in selected["conversations"]}
 
-    ingest_batch = f"extract-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
+    # "extract-<date>" for the Phase 2 archive run, "ingest-<date>" when driven
+    # from the inbox — same convention the /ingest skill writes by hand.
+    ingest_batch = f"{batch_prefix}-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
 
     new_phrases, new_vocab, new_verbs, new_corrections, new_grammar = [], [], [], [], []
     grammar_bodies: dict[str, str] = {}
@@ -233,7 +249,10 @@ def run(repo_root: Path, build_dir: Path, dry_run: bool, force: bool) -> dict:
             if rec:
                 new_corrections.append(rec)
         for g in result.get("grammarTopics", []):
-            rec, body_rel, body_md = grammar_record_and_body(g, conv, ingest_batch)
+            built = grammar_record_and_body(g, conv, ingest_batch)
+            if built is None:
+                continue
+            rec, body_rel, body_md = built
             new_grammar.append(rec)
             grammar_bodies[body_rel] = body_md
         for pt in result.get("proposedTopics", []):

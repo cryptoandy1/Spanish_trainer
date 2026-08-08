@@ -46,4 +46,14 @@ Ongoing intake now has two front doors beyond pasting into the chat:
 
 `python -m tools.ingest.finish` is the single post-write gate (normalize → conjugate → link_vocab_verbs → normalize → validate). Run it instead of the individual tools — the ordering between them is load-bearing, and spelling them out as separate skill steps is exactly how `link_vocab_verbs.py` got missed when it was added.
 
+## Unattended intake (Phase 5 — done)
+
+A phone drop now reaches the app without touching this machine: the shortcut PUTs the transcript into the private `spanish-inbox` repo → a workflow there fires `repository_dispatch` at this repo → `.github/workflows/ingest.yml` extracts and **opens a pull request** → merging it triggers the Pages deploy.
+
+- `tools/ingest/from_inbox.py` is the headless counterpart of the `/ingest` skill. It only synthesizes `tools/build/selected.json` from `inbox/*.md` and then reuses `regex_stage` → `claude_pass` → `merge` unchanged, so the API path and the Claude Code path share prompts, schemas, id recipes and merge semantics and cannot drift apart.
+- **The API extractor is measurably sloppier than the interactive skill** — on one real conversation it invented a sentence (`La cita fue confirmada por el médico` from a parenthesised fragment) and emitted a grammar topic with an empty title and summary. That is why publishing goes through a PR, and why `merge.py` now drops blank grammar candidates and `validate.py` rejects blank `tr`/`title`/`summary` outright.
+- Never add a `pull_request` trigger to `ingest.yml`: it holds `ANTHROPIC_API_KEY` and this repo is public.
+- In CI, `inbox_pull --keep` writes `tools/build/inbox_manifest.json` and the remote copy is deleted only by a later `--purge-manifest`, once the records are safely in a PR — or once the run establishes they were already in the data, otherwise a duplicate conversation would be re-extracted on every scheduled run forever.
+- `.env` loading lives in `tools/spanish_extract/env.py`, called from `claude_pass.run`/`conjugate_pass.run` (the two places that build an Anthropic client). Previously only `conjugate.py` loaded it, so `tools/extract.py`'s claude stage silently required the key to be exported by hand.
+
 Verified live: ingested a real `claude.ai/share/...` conversation (pasted as text — `WebFetch` can't read that URL shape, it's a client-rendered SPA shell), then re-ran the identical ingest and confirmed all record ids already existed with zero new writes — the idempotent-rerun check called for in the plan doc's Phase 4 verification.

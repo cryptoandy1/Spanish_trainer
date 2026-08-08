@@ -1,0 +1,136 @@
+name: Ingest conversations from the inbox
+
+# Picks up whatever the phone dropped into the private inbox repository, runs
+# the extraction, and opens a pull request with the resulting data diff. Nothing
+# reaches the site without a human merging that PR — the model's extraction is
+# good but not good enough to trust unreviewed (observed on a real conversation:
+# one invented sentence and one wholly blank grammar topic).
+#
+# SECURITY: this workflow reads repository secrets and this repository is
+# public. Never add a `pull_request` trigger — that would run it against code
+# from any fork. All three triggers below require write access to the repo.
+#
+# NOTE on `if:` — adding any `if` to a step removes GitHub's implicit
+# success() check, so every conditional step below states success() explicitly.
+# Without it, a step keeps running after an earlier one has failed.
+on:
+  repository_dispatch:
+    types: [inbox-drop]
+  workflow_dispatch:
+  # Safety net: if the dispatch from the private repo fails to arrive, a dropped
+  # conversation still gets picked up within a few hours.
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    # Skip cleanly until both secrets exist, rather than failing four scheduled
+    # runs a day into the owner's inbox while setup is still pending.
+    if: ${{ secrets.INBOX_TOKEN != '' && secrets.ANTHROPIC_API_KEY != '' }}
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - run: pip install anthropic pydantic
+
+      # `gh` is preinstalled on the runner; inbox_pull.py shells out to it.
+      # INBOX_TOKEN rather than GITHUB_TOKEN: the inbox is a different, private
+      # repository that GITHUB_TOKEN cannot see.
+      - name: Check the inbox
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.INBOX_TOKEN }}
+        run: |
+          python -m tools.inbox_pull --list | tee inbox_list.txt
+          if grep -q "^nothing waiting" inbox_list.txt; then
+            echo "empty=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "empty=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Baseline record counts
+        if: success() && steps.check.outputs.empty == 'false'
+        run: python -m tools.ci.pr_body --snapshot > baseline.json
+
+      # --keep leaves the remote copies in place and records a manifest. They
+      # are deleted only after this run has safely finished with them, so a
+      # failure below leaves the conversation in the inbox to retry.
+      - name: Pull conversations
+        if: success() && steps.check.outputs.empty == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.INBOX_TOKEN }}
+        run: python -m tools.inbox_pull --keep
+
+      - name: Extract
+        if: success() && steps.check.outputs.empty == 'false'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m tools.ingest.from_inbox
+
+      # normalize -> conjugate -> link_vocab_verbs -> normalize -> validate.
+      # Hard gate: a blank record or a dangling reference fails the run, no PR
+      # is opened, and the inbox is left untouched for a retry.
+      - name: Finish and validate
+        if: success() && steps.check.outputs.empty == 'false'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m tools.ingest.finish
+
+      - name: Detect changes
+        id: diff
+        if: success() && steps.check.outputs.empty == 'false'
+        run: |
+          if [ -z "$(git status --porcelain public/data)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Already in the data — nothing to publish."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git status --short public/data
+          fi
+
+      - name: Open pull request
+        id: pr
+        if: success() && steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.INBOX_TOKEN }}
+        run: |
+          set -euo pipefail
+          branch="ingest/$(date -u +%Y-%m-%d)-${{ github.run_number }}"
+          git config user.name "spanish-trainer-ingest"
+          git config user.email "noreply@github.com"
+          git checkout -b "$branch"
+          git add public/data
+          git commit \
+            -m "Ingest new conversations from the inbox" \
+            -m "Extracted automatically by .github/workflows/ingest.yml. Review the data diff before merging."
+          git push -u origin "$branch"
+          python -m tools.ci.pr_body --body baseline.json > pr_body.md
+          gh pr create \
+            --title "Ingest: new conversations from the inbox" \
+            --body-file pr_body.md \
+            --base master \
+            --head "$branch"
+
+      # Safe to drop the remote copies once this run is done with them: either
+      # the records are in a PR, or they were already in the data and there is
+      # nothing to publish. Without the second case a duplicate conversation
+      # would sit in the inbox and be re-extracted on every scheduled run.
+      - name: Clear the private inbox
+        if: success() && steps.check.outputs.empty == 'false' && (steps.pr.outcome == 'success' || steps.diff.outputs.changed == 'false')
+        env:
+          GH_TOKEN: ${{ secrets.INBOX_TOKEN }}
+        run: python -m tools.inbox_pull --purge-manifest

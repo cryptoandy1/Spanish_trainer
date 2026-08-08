@@ -64,6 +64,11 @@ export function Dashboard() {
           </Link>
         ))}
       </div>
+      {pack.generatedAt && (
+        <p className="muted dashboard-vintage">
+          {ui.settings.dataVintage} {new Date(pack.generatedAt).toLocaleString("ru-RU")}
+        </p>
+      )}
     </div>
   );
 }

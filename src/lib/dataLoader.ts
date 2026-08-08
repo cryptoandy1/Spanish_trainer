@@ -16,8 +16,12 @@ import type {
 // built to a GitHub Pages subpath.
 const DATA_BASE = `${import.meta.env.BASE_URL}data`;
 
+// `no-store` on purpose: new material is published by pushing new JSON to the
+// same URLs, so a cached copy is indistinguishable from "nothing new" — which
+// is exactly what the Settings reload button exists to rule out. These files
+// are a few hundred KB and fetched once per session.
 async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(path);
+  const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status} ${res.statusText}`);
   return (await res.json()) as T;
 }
@@ -42,6 +46,10 @@ export async function loadDataPack(targetLang: string): Promise<DataPack> {
   ]);
   return {
     meta,
+    // Taken from phrases.json as the pack's stamp: every writer bumps it only
+    // when content actually changed (see tools/ingest/normalize.py), and
+    // phrases is the file an ingest touches most.
+    generatedAt: phrases.generatedAt,
     phrases: phrases.items,
     vocab: vocab.items,
     verbs: verbs.items,

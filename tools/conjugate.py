@@ -23,7 +23,6 @@ adds nothing rewrites nothing. Run it again after /ingest adds a new verb.
 from __future__ import annotations
 
 import argparse
-import os
 import sys
 from pathlib import Path
 
@@ -35,25 +34,9 @@ sys.path.insert(0, str(REPO_ROOT))
 from tools.spanish_extract import conjugate_pass  # noqa: E402
 
 
-def load_dotenv() -> None:
-    """Read ANTHROPIC_API_KEY out of the gitignored .env, if present.
-
-    Kept dependency-free (no python-dotenv) and non-destructive: a value
-    already exported in the real environment always wins.
-    """
-    env_path = REPO_ROOT / ".env"
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, value = line.split("=", 1)
-        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
-
-
 def run_generate(limit: int | None, force: bool) -> None:
-    load_dotenv()
+    # .env loading lives in conjugate_pass.run() now (shared with claude_pass,
+    # which had the same need and no such loader) — see spanish_extract/env.py.
     conjugate_pass.run(REPO_ROOT, BUILD_DIR, limit=limit, force=force)
     print(f"generate: cached paradigms in {(BUILD_DIR / 'conjugation_cache').relative_to(REPO_ROOT)}")
 

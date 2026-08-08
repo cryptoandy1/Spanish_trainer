@@ -73,5 +73,10 @@ export const ui = {
     importProgress: "Импортировать прогресс",
     resetProgress: "Сбросить весь прогресс",
     resetConfirm: "Точно сбросить весь прогресс? Это необратимо.",
+    reloadData: "Обновить данные",
+    reloading: "Проверяю…",
+    reloadNothingNew: "Новых данных нет — у тебя уже последняя версия.",
+    reloadFailed: "Не удалось обновить данные.",
+    dataVintage: "Данные от",
   },
 } as const;

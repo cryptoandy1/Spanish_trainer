@@ -229,6 +229,8 @@ export interface WidgetSet {
 
 export interface DataPack {
   meta: LanguageMeta;
+  /** `generatedAt` of the loaded packs — shown in the UI so it's visible which vintage of the data is on screen. */
+  generatedAt: string;
   phrases: Phrase[];
   vocab: VocabWord[];
   verbs: Verb[];

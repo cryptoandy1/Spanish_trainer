@@ -144,6 +144,15 @@ token is stored in this repo.
 Run it whenever the user says the phone has something waiting, then
 continue with inbox mode above.
 
+**This path is now also automated** (`.github/workflows/ingest.yml` +
+`tools/ingest/from_inbox.py`): a drop triggers a headless run that opens a
+pull request. So by the time the user asks you to ingest something, the
+workflow may already have done it — check whether an open `ingest/*` PR
+covers the same conversation before extracting it again. Running this skill
+by hand is still the better path when the user wants care taken: the API
+extractor is looser about inventing sentences and occasionally emits an
+empty grammar topic.
+
 ## Idempotency check (only if the user asks you to verify it, or you're testing the skill itself)
 
 Re-running `/ingest` on the *same* conversation a second time should

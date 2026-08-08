@@ -97,12 +97,29 @@ def validate(repo_root: Path, lang: str = "es") -> list[str]:
             if vid not in verb_ids:
                 errors.append(f"{filename}:{item_id}: unknown verb id {vid!r}")
 
+    def check_not_blank(filename: str, item_id: str, field: str, value: object) -> None:
+        """A required Tr field must carry actual text, not just be present.
+
+        The shape check above can't catch this: `{"ru": ""}` is a structurally
+        valid Tr. But a phrase with a blank translation, or a grammar topic with
+        a blank title, renders as an empty row in the UI — and an unattended CI
+        ingest has nobody watching to notice. Observed for real: the API
+        extractor emitted a grammar topic with an empty title AND summary, and
+        it validated clean.
+        """
+        if not isinstance(value, dict) or not any(str(v).strip() for v in value.values()):
+            errors.append(f"{filename}:{item_id}: {field} is blank")
+
     for p in packs.get("phrases", []):
         check_topics("phrases.json", p["id"], p.get("topics"))
         check_grammar_refs("phrases.json", p["id"], p.get("relatedGrammarIds"))
+        check_not_blank("phrases.json", p["id"], "tr", p.get("tr"))
+        if not str(p.get("text", "")).strip():
+            errors.append(f"phrases.json:{p['id']}: text is blank")
 
     for v in packs.get("vocab", []):
         check_topics("vocab.json", v["id"], v.get("topics"))
+        check_not_blank("vocab.json", v["id"], "tr", v.get("tr"))
         if v.get("pos") not in valid_pos:
             errors.append(f"vocab.json:{v['id']}: unknown pos {v.get('pos')!r}")
         if v.get("verbId") and v["verbId"] not in verb_ids:
@@ -121,6 +138,8 @@ def validate(repo_root: Path, lang: str = "es") -> list[str]:
 
     for g in packs.get("grammar", []):
         check_verb_refs("grammar.json", g["id"], g.get("relatedVerbIds"))
+        check_not_blank("grammar.json", g["id"], "title", g.get("title"))
+        check_not_blank("grammar.json", g["id"], "summary", g.get("summary"))
         for tid in g.get("relatedTopicIds") or []:
             if tid not in topic_ids:
                 errors.append(f"grammar.json:{g['id']}: unknown topic id {tid!r}")

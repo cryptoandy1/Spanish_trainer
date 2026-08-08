@@ -310,6 +310,10 @@ def extract_conversation(
 def run(repo_root: Path, build_dir: Path, limit: int | None = None, force: bool = False) -> None:
     import anthropic  # deferred: only needed when this stage actually runs
 
+    from .env import load_dotenv
+
+    load_dotenv(repo_root)
+
     selected = json.loads((build_dir / "selected.json").read_text(encoding="utf-8"))
     regex_raw = json.loads((build_dir / "regex_raw.json").read_text(encoding="utf-8"))
     regex_by_id = {c["conversation_id"]: c for c in regex_raw["conversations"]}

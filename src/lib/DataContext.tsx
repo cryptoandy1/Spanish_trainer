@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import type {
   DataPack,
@@ -45,6 +45,16 @@ interface DataContextValue {
   setSettings: (next: Settings | ((prev: Settings) => Settings)) => void;
   loading: boolean;
   error: string | null;
+  /**
+   * Re-fetch the data packs. New material is published to the same URLs, so
+   * this is how the app picks up an ingest without a full page reload.
+   *
+   * Resolves with the freshly loaded pack (null on failure) rather than
+   * relying on the caller re-reading `pack`: a React state update isn't
+   * visible in the closure that awaited this, so returning the value is what
+   * lets a caller diff before/after counts.
+   */
+  reload: () => Promise<DataPack | null>;
 }
 
 const DataContext = createContext<DataContextValue | null>(null);
@@ -64,27 +74,34 @@ export function DataProvider({ children }: { children: ReactNode }) {
     });
   };
 
-  useEffect(() => {
-    let cancelled = false;
+  const load = useCallback(async (lang: string, isCancelled: () => boolean): Promise<DataPack | null> => {
     setLoading(true);
     setError(null);
-    Promise.all([loadLanguageRegistry(), loadDataPack(settings.targetLang)])
-      .then(([reg, dp]) => {
-        if (cancelled) return;
-        setRegistry(reg);
-        setPack(dp);
-      })
-      .catch((e: unknown) => {
-        if (cancelled) return;
-        setError(e instanceof Error ? e.message : String(e));
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
+    try {
+      const [reg, dp] = await Promise.all([loadLanguageRegistry(), loadDataPack(lang)]);
+      if (isCancelled()) return null;
+      setRegistry(reg);
+      setPack(dp);
+      return dp;
+    } catch (e: unknown) {
+      if (!isCancelled()) setError(e instanceof Error ? e.message : String(e));
+      return null;
+    } finally {
+      if (!isCancelled()) setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    void load(settings.targetLang, () => cancelled);
     return () => {
       cancelled = true;
     };
-  }, [settings.targetLang]);
+  }, [settings.targetLang, load]);
+
+  // No cancellation guard: a manual reload is never superseded by an unmount
+  // the way the effect above is, and its caller is awaiting the result.
+  const reload = useCallback(() => load(settings.targetLang, () => false), [load, settings.targetLang]);
 
   const index = useMemo<DataIndex | null>(() => {
     if (!pack) return null;
@@ -98,7 +115,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     };
   }, [pack]);
 
-  const value: DataContextValue = { registry, pack, index, settings, setSettings, loading, error };
+  const value: DataContextValue = { registry, pack, index, settings, setSettings, loading, error, reload };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }

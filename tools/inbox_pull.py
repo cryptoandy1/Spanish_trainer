@@ -12,13 +12,21 @@ Files are deleted from the private repo once they are safely written locally,
 so the same conversation is never pulled twice. That deletion is the only
 destructive step, and it happens strictly after the local write succeeds.
 
+Deletion can also be deferred, which is what CI does: `--keep` pulls and
+records what it took in `tools/build/inbox_manifest.json`, and a later
+`--purge-manifest` deletes exactly those files. In a workflow the extraction can
+still fail validation after the pull, and dropping the remote copy before the
+records are safely in a pull request would lose the conversation for good.
+
 Authentication piggybacks on the `gh` CLI (already logged in for this project),
-so no token is stored anywhere in this repo.
+so no token is stored anywhere in this repo. In GitHub Actions, `gh` reads
+GH_TOKEN from the environment instead.
 
 Usage:
-    python -m tools.inbox_pull            # pull, then delete from the remote
-    python -m tools.inbox_pull --keep     # pull but leave the remote copies
-    python -m tools.inbox_pull --list     # just show what's waiting
+    python -m tools.inbox_pull                    # pull, then delete from the remote
+    python -m tools.inbox_pull --keep             # pull, record a manifest, delete nothing
+    python -m tools.inbox_pull --purge-manifest   # delete what the manifest lists
+    python -m tools.inbox_pull --list             # just show what's waiting
 """
 
 from __future__ import annotations
@@ -34,6 +42,7 @@ INBOX_REPO = "cryptoandy1/spanish-inbox"
 REMOTE_DIR = "inbox"
 LOCAL_INBOX = Path("inbox")
 TEXT_SUFFIXES = {".md", ".txt"}
+MANIFEST = Path("tools/build/inbox_manifest.json")
 
 
 def gh_api(path: str, method: str = "GET", fields: dict[str, str] | None = None) -> object | None:
@@ -69,11 +78,46 @@ def unique_path(name: str) -> Path:
     return candidate
 
 
+def delete_remote(entries: list[dict]) -> None:
+    for entry in entries:
+        gh_api(
+            f"repos/{INBOX_REPO}/contents/{entry['path']}",
+            method="DELETE",
+            fields={"message": f"pulled {entry['name']} into the trainer", "sha": entry["sha"]},
+        )
+
+
+def purge_manifest() -> int:
+    if not MANIFEST.exists():
+        print(f"no manifest at {MANIFEST} — nothing to purge")
+        return 0
+    entries = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    if not entries:
+        print("manifest is empty — nothing to purge")
+        MANIFEST.unlink()
+        return 0
+    delete_remote(entries)
+    print(f"removed {len(entries)} file(s) from {INBOX_REPO}:")
+    for entry in entries:
+        print(f"  {entry['name']}")
+    MANIFEST.unlink()
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--keep", action="store_true", help="don't delete the remote copies after pulling")
     parser.add_argument("--list", action="store_true", dest="list_only", help="show what's waiting and exit")
+    parser.add_argument(
+        "--purge-manifest",
+        action="store_true",
+        dest="purge",
+        help="delete the remote files recorded by an earlier --keep run, then drop the manifest",
+    )
     args = parser.parse_args(argv)
+
+    if args.purge:
+        return purge_manifest()
 
     files = list_remote()
     if not files:
@@ -100,15 +144,20 @@ def main(argv: list[str] | None = None) -> int:
         pulled.append((f, target))
         print(f"  pulled -> {target}")
 
+    # Record what was taken before deleting anything, so a deferred purge
+    # (--purge-manifest) can delete exactly these and nothing that arrived in
+    # the meantime.
+    manifest = [{"name": f["name"], "path": f["path"], "sha": f["sha"]} for f, _ in pulled]
+    MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+
     # Deletion happens only after every local write above succeeded.
-    if not args.keep:
-        for f, _ in pulled:
-            gh_api(
-                f"repos/{INBOX_REPO}/contents/{f['path']}",
-                method="DELETE",
-                fields={"message": f"pulled {f['name']} into the trainer", "sha": f["sha"]},
-            )
+    if args.keep:
+        print(f"kept remote copies; recorded {len(manifest)} file(s) in {MANIFEST}")
+    else:
+        delete_remote(manifest)
         print(f"removed {len(pulled)} file(s) from the private inbox repo")
+        MANIFEST.unlink(missing_ok=True)
 
     print(f"\n{len(pulled)} conversation(s) in {LOCAL_INBOX}/ — run /ingest to fold them into the data")
     return 0

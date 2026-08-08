@@ -125,7 +125,7 @@ def build_user_message(verb: dict) -> str:
     return "\n\n".join(parts)
 
 
-def generate_paradigm(client, repo_root: Path, verb: dict, attempts: int = 4) -> VerbParadigm:
+def generate_paradigm(client, repo_root: Path, verb: dict, attempts: int = 6) -> VerbParadigm:
     system = [
         {
             "type": "text",
@@ -137,6 +137,11 @@ def generate_paradigm(client, repo_root: Path, verb: dict, attempts: int = 4) ->
     # socket (observed: WinError 10054 mid-run), and without a retry the whole
     # batch dies partway. Cached verbs are skipped on resume, so this only ever
     # re-asks for the one verb that failed.
+    #
+    # 4 attempts / 14s of backoff was not enough: a batch of 8 new verbs died on
+    # a transient API failure that cleared within the minute. This runs
+    # unattended in GitHub Actions now, where nobody is watching to re-run it,
+    # so the ladder goes to ~62s total (2+4+8+16+32).
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
@@ -164,6 +169,10 @@ def generate_paradigm(client, repo_root: Path, verb: dict, attempts: int = 4) ->
 
 def run(repo_root: Path, build_dir: Path, limit: int | None = None, force: bool = False) -> None:
     import anthropic  # deferred: only needed when this stage actually runs
+
+    from .env import load_dotenv
+
+    load_dotenv(repo_root)
 
     verbs = json.loads((repo_root / "public" / "data" / "es" / "verbs.json").read_text(encoding="utf-8"))["items"]
     cache_dir = build_dir / "conjugation_cache"

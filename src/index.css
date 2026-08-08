@@ -278,6 +278,8 @@ button, input, select {
   text-transform: none;
 }
 
+.dashboard-vintage { margin-top: var(--space-4); font-size: 0.85rem; }
+
 .badge--irregular { background: var(--color-warning-bg); color: var(--color-warning); }
 .badge--regular { background: var(--color-success-bg); color: var(--color-success); }
 
