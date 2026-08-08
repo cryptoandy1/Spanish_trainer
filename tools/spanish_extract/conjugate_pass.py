@@ -167,6 +167,52 @@ def generate_paradigm(client, repo_root: Path, verb: dict, attempts: int = 6) ->
     raise RuntimeError(f"failed to generate paradigm for {verb['infinitive']} after {attempts} attempts") from last_error
 
 
+def _filled_cells(verb: dict) -> set[tuple[str, str]]:
+    return {
+        (tense_id, person_id)
+        for tense_id, tense in (verb.get("tenses") or {}).items()
+        for person_id, form in (tense.get("forms") or {}).items()
+        if form and (form.get("form") or "").strip()
+    }
+
+
+def expected_cells(verbs: list[dict], meta: dict) -> set[tuple[str, str]]:
+    """The (tense, person) pairs a complete verb is expected to have.
+
+    Derived from the corpus, not from grammar rules in code: a pair counts as
+    expected if at least one verb in the pack actually has it. The naive
+    definition — every tense x every person from meta.json — is wrong, and
+    silently so: Spanish has no first-person imperative, so `imperativo_* / yo`
+    can never be filled and every verb would look permanently incomplete.
+    Reading it off the data keeps that knowledge in meta/the corpus rather than
+    hardcoding "imperativo" in language-agnostic core code (see CLAUDE.md).
+
+    Falls back to the full cross-product when nothing is attested yet, so a
+    from-scratch corpus still generates everything.
+    """
+    attested: set[tuple[str, str]] = set()
+    for verb in verbs:
+        attested |= _filled_cells(verb)
+    if attested:
+        return attested
+    return {(t["id"], p["id"]) for t in meta["tenses"] for p in meta["persons"]}
+
+
+def has_gaps(verb: dict, expected: set[tuple[str, str]]) -> bool:
+    """True if any cell the merge could fill is still empty.
+
+    Generating a paradigm for an already-complete verb is pure waste — merge
+    keeps every attested form anyway. This matters well beyond tidiness:
+    `tools/build/` is gitignored, so a GitHub Actions run starts with an empty
+    cache and, without this check, re-asks the API for all 86 verbs on every
+    ingest. Observed: a run stuck 25 minutes doing exactly that.
+    """
+    non_finite = verb.get("nonFinite") or {}
+    if not non_finite.get("gerund") or not non_finite.get("participle"):
+        return True
+    return bool(expected - _filled_cells(verb))
+
+
 def run(repo_root: Path, build_dir: Path, limit: int | None = None, force: bool = False) -> None:
     import anthropic  # deferred: only needed when this stage actually runs
 
@@ -175,12 +221,21 @@ def run(repo_root: Path, build_dir: Path, limit: int | None = None, force: bool 
     load_dotenv(repo_root)
 
     verbs = json.loads((repo_root / "public" / "data" / "es" / "verbs.json").read_text(encoding="utf-8"))["items"]
+    meta = _load_meta(repo_root)
     cache_dir = build_dir / "conjugation_cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
 
+    expected = expected_cells(verbs, meta)
+    candidates = verbs if force else [v for v in verbs if has_gaps(v, expected)]
+    skipped = len(verbs) - len(candidates)
+    if skipped:
+        print(f"complete already, not asking the API: {skipped} verb(s)")
+    if not candidates:
+        return
+
     client = anthropic.Anthropic()  # resolves ANTHROPIC_API_KEY or `ant auth login`
 
-    todo = verbs[:limit] if limit is not None else verbs
+    todo = candidates[:limit] if limit is not None else candidates
     for i, verb in enumerate(todo, 1):
         cache_path = cache_dir / f"{verb['id']}.json"
         if cache_path.exists() and not force:
