@@ -32,26 +32,46 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    # Skip cleanly until both secrets exist, rather than failing four scheduled
-    # runs a day into the owner's inbox while setup is still pending.
-    if: ${{ secrets.INBOX_TOKEN != '' && secrets.ANTHROPIC_API_KEY != '' }}
     permissions:
       contents: write
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
+      # Skip cleanly until both secrets exist, rather than failing four
+      # scheduled runs a day into the owner's mailbox while setup is pending.
+      #
+      # This has to be a step, not a job-level `if:` — the `secrets` context is
+      # not available there (only github/needs/vars/inputs are), and a workflow
+      # referencing it fails to validate, which shows up as a 0-second failed
+      # run with "workflow file issue" and no log to read.
+      - name: Check configuration
+        id: config
+        env:
+          INBOX_TOKEN: ${{ secrets.INBOX_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$INBOX_TOKEN" ] && [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::INBOX_TOKEN / ANTHROPIC_API_KEY not configured yet — nothing to do."
+          fi
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
-      - run: pip install anthropic pydantic
+      - name: Install Python deps
+        if: success() && steps.config.outputs.ready == 'true'
+        run: pip install anthropic pydantic
 
       # `gh` is preinstalled on the runner; inbox_pull.py shells out to it.
       # INBOX_TOKEN rather than GITHUB_TOKEN: the inbox is a different, private
       # repository that GITHUB_TOKEN cannot see.
       - name: Check the inbox
         id: check
+        if: success() && steps.config.outputs.ready == 'true'
         env:
           GH_TOKEN: ${{ secrets.INBOX_TOKEN }}
         run: |
