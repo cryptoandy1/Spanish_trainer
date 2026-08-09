@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-06T01:48:19Z",
+  "generatedAt": "2026-08-08T19:18:03Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -407,6 +407,31 @@
         "conversationId": "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
         "conversationTitle": "Минерализация воды Font Vella",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_e498d69e",
+      "title": {
+        "ru": "Замена прямого и косвенного дополнений местоимениями"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Два набора местоимений (прямые lo/la/los/las и косвенные le/les), порядок «косвенное + прямое», превращение le/les в se перед lo/la/los/las и правила постановки местоимений при инфинитиве, герундии и императиве."
+      },
+      "bodyPath": {
+        "ru": "grammar/e498d69e.ru.md"
+      },
+      "examples": [],
+      "tags": [
+        "tp_pronombres-objeto"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
     },

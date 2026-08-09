@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-04T15:04:29Z",
+  "generatedAt": "2026-08-08T19:18:03Z",
   "items": [
     {
       "id": "er_01105d15",
@@ -533,6 +533,25 @@
       }
     },
     {
+      "id": "er_5777ebf9",
+      "attempt": "A Juan le vi.",
+      "correct": "A Juan lo vi.",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Это leísmo — региональная особенность (Мадрид и др.). Для лиц мужского пола Академия его допускает, но нормой везде остаётся прямое дополнение lo."
+      },
+      "errorTags": [
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_5beb0691",
       "attempt": "estamos haciendo un énphasis",
       "correct": "estamos poniendo énfasis en",
@@ -569,6 +588,26 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_6006c344",
+      "attempt": "Voy a dárlelo.",
+      "correct": "Voy a dárselo.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "При присоединении местоимений к инфинитиву правило то же: le перед lo становится se → dárselo (с ударением на á)."
+      },
+      "errorTags": [
+        "enclitic",
+        "accent"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
         "extractor": "correction"
       }
     },
@@ -1080,6 +1119,25 @@
         "origin": "manual",
         "ingestBatch": "seed-2026-08-04",
         "extractor": "seed"
+      }
+    },
+    {
+      "id": "er_b2f05cac",
+      "attempt": "Le lo doy.",
+      "correct": "Se lo doy.",
+      "verdict": "wrong",
+      "explanation": {
+        "ru": "Сочетание le/les + lo/la/los/las в испанском невозможно: косвенное le или les превращается в se. Поэтому «Doy el libro a Juan» → Se lo doy, а не «Le lo doy»."
+      },
+      "errorTags": [
+        "pronoun-placement"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-c3a8ffca",
+        "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
+        "ingestBatch": "ingest-2026-08-08",
+        "extractor": "correction"
       }
     },
     {
