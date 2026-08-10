@@ -3581,6 +3581,26 @@
       }
     },
     {
+      "id": "ph_1fca2f8c",
+      "text": "El veintiséis de febrero de mil novecientos noventa y uno.",
+      "tr": {
+        "ru": "Двадцать шестое февраля тысяча девятьсот девяносто первого года."
+      },
+      "register": "neutral",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_200a18d0",
       "text": "Ella es inteligente.",
       "tr": {
@@ -9993,6 +10013,26 @@
       }
     },
     {
+      "id": "ph_5b61effe",
+      "text": "El quince de junio vamos a Madrid.",
+      "tr": {
+        "ru": "Пятнадцатого июня мы едем в Мадрид."
+      },
+      "register": "neutral",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_5b66b789",
       "text": "Pone dinero en la bolsa.",
       "tr": {
@@ -14858,6 +14898,26 @@
       }
     },
     {
+      "id": "ph_8998eb74",
+      "text": "¿Cuál es tu fecha de nacimiento?",
+      "tr": {
+        "ru": "Какая у тебя дата рождения?"
+      },
+      "register": "informal",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_89acadc2",
       "text": "Quizás podríamos hablar de eso.",
       "tr": {
@@ -15157,6 +15217,26 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8bb824f6",
+      "text": "Nací en el año mil novecientos noventa y uno.",
+      "tr": {
+        "ru": "Я родился в тысяча девятьсот девяносто первом году."
+      },
+      "register": "neutral",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
         "extractor": "model"
       }
     },
@@ -15518,6 +15598,26 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8e34c37d",
+      "text": "Nací el veintiséis de febrero de 1991.",
+      "tr": {
+        "ru": "Я родился двадцать шестого февраля 1991 года."
+      },
+      "register": "neutral",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
         "extractor": "model"
       }
     },
@@ -21169,6 +21269,26 @@
         "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_bebb3149",
+      "text": "Nací en mil novecientos noventa y uno.",
+      "tr": {
+        "ru": "Я родился в тысяча девятьсот девяносто первом."
+      },
+      "register": "neutral",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
         "extractor": "model"
       }
     },
@@ -28826,6 +28946,26 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_fe86c175",
+      "text": "Mi cumpleaños es el veintiséis de febrero.",
+      "tr": {
+        "ru": "Мой день рождения — двадцать шестое февраля."
+      },
+      "register": "neutral",
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_f8701294"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
         "extractor": "model"
       }
     },

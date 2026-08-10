@@ -514,6 +514,51 @@
       }
     },
     {
+      "id": "gr_f8701294",
+      "title": {
+        "ru": "Даты: число, месяц и год"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "В датах употребляются только количественные числительные по схеме el + число + de + месяц + de + год. Разные предлоги для года, месяца и конкретного дня, чтение годов целиком, месяцы со строчной буквы и исключение с первым числом."
+      },
+      "bodyPath": {
+        "ru": "grammar/f8701294.ru.md"
+      },
+      "examples": [
+        {
+          "text": "El quince de junio vamos a Madrid.",
+          "tr": {
+            "ru": "Пятнадцатого июня мы едем в Мадрид."
+          }
+        },
+        {
+          "text": "Nací el veintiséis de febrero de 1991.",
+          "tr": {
+            "ru": "Я родился двадцать шестого февраля 1991 года."
+          }
+        },
+        {
+          "text": "el veintidós de octubre de dos mil veintiséis",
+          "tr": {
+            "ru": "двадцать второе октября две тысячи двадцать шестого года"
+          }
+        }
+      ],
+      "tags": [
+        "article",
+        "preposition"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "gr_gerundio-participio",
       "title": {
         "ru": "Герундий и причастие"

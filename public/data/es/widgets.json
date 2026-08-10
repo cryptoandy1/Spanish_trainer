@@ -1820,6 +1820,318 @@
       ]
     },
     {
+      "id": "wg_ordinales",
+      "kind": "table",
+      "title": {
+        "ru": "Порядковые числительные"
+      },
+      "icon": "🥇",
+      "order": 25,
+      "practiceable": true,
+      "items": [
+        {
+          "id": "wg_ordinales_1",
+          "text": "primero",
+          "tr": {
+            "ru": "первый"
+          },
+          "value": 1,
+          "note": {
+            "ru": "Меняется по роду и числу, как обычное прилагательное: primero / primera / primeros / primeras. Перед существительным мужского рода хвост отваливается — primer. В женском роде ничего не теряется."
+          },
+          "examples": [
+            {
+              "text": "el primer día",
+              "tr": {
+                "ru": "первый день"
+              }
+            },
+            {
+              "text": "la primera vez",
+              "tr": {
+                "ru": "первый раз"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_ordinales_2",
+          "text": "segundo",
+          "tr": {
+            "ru": "второй"
+          },
+          "value": 2,
+          "examples": [
+            {
+              "text": "el segundo piso",
+              "tr": {
+                "ru": "второй этаж"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_ordinales_3",
+          "text": "tercero",
+          "tr": {
+            "ru": "третий"
+          },
+          "value": 3,
+          "note": {
+            "ru": "Как и primero, перед существительным мужского рода сокращается до tercer."
+          },
+          "examples": [
+            {
+              "text": "el tercer piso",
+              "tr": {
+                "ru": "третий этаж"
+              }
+            },
+            {
+              "text": "la tercera puerta",
+              "tr": {
+                "ru": "третья дверь"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_ordinales_4",
+          "text": "cuarto",
+          "tr": {
+            "ru": "четвёртый"
+          },
+          "value": 4
+        },
+        {
+          "id": "wg_ordinales_5",
+          "text": "quinto",
+          "tr": {
+            "ru": "пятый"
+          },
+          "value": 5
+        },
+        {
+          "id": "wg_ordinales_6",
+          "text": "sexto",
+          "tr": {
+            "ru": "шестой"
+          },
+          "value": 6,
+          "examples": [
+            {
+              "text": "Felipe VI — Felipe sexto",
+              "tr": {
+                "ru": "Филипп VI — Филипп Шестой"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wg_ordinales_7",
+          "text": "séptimo",
+          "tr": {
+            "ru": "седьмой"
+          },
+          "value": 7
+        },
+        {
+          "id": "wg_ordinales_8",
+          "text": "octavo",
+          "tr": {
+            "ru": "восьмой"
+          },
+          "value": 8
+        },
+        {
+          "id": "wg_ordinales_9",
+          "text": "noveno",
+          "tr": {
+            "ru": "девятый"
+          },
+          "value": 9
+        },
+        {
+          "id": "wg_ordinales_10",
+          "text": "décimo",
+          "tr": {
+            "ru": "десятый"
+          },
+          "value": 10,
+          "note": {
+            "ru": "Граница живого употребления. Дальше десятого испанцы порядковыми почти не пользуются: берут количественное и ставят после существительного — el piso veintidós, el capítulo veintidós, la fila veintidós."
+          }
+        },
+        {
+          "id": "wg_ordinales_11",
+          "text": "undécimo",
+          "tr": {
+            "ru": "одиннадцатый"
+          },
+          "value": 11,
+          "note": {
+            "ru": "RAE допускает и вариант decimoprimero."
+          }
+        },
+        {
+          "id": "wg_ordinales_12",
+          "text": "duodécimo",
+          "tr": {
+            "ru": "двенадцатый"
+          },
+          "value": 12,
+          "note": {
+            "ru": "RAE допускает и вариант decimosegundo."
+          }
+        },
+        {
+          "id": "wg_ordinales_13",
+          "text": "decimotercero",
+          "tr": {
+            "ru": "тринадцатый"
+          },
+          "value": 13,
+          "note": {
+            "ru": "С 13-го по 19-й пишутся одним словом, а по роду меняется только хвост: decimotercera edición."
+          }
+        },
+        {
+          "id": "wg_ordinales_14",
+          "text": "decimocuarto",
+          "tr": {
+            "ru": "четырнадцатый"
+          },
+          "value": 14
+        },
+        {
+          "id": "wg_ordinales_15",
+          "text": "decimoquinto",
+          "tr": {
+            "ru": "пятнадцатый"
+          },
+          "value": 15
+        },
+        {
+          "id": "wg_ordinales_16",
+          "text": "decimosexto",
+          "tr": {
+            "ru": "шестнадцатый"
+          },
+          "value": 16
+        },
+        {
+          "id": "wg_ordinales_17",
+          "text": "decimoséptimo",
+          "tr": {
+            "ru": "семнадцатый"
+          },
+          "value": 17
+        },
+        {
+          "id": "wg_ordinales_18",
+          "text": "decimoctavo",
+          "tr": {
+            "ru": "восемнадцатый"
+          },
+          "value": 18
+        },
+        {
+          "id": "wg_ordinales_19",
+          "text": "decimonoveno",
+          "tr": {
+            "ru": "девятнадцатый"
+          },
+          "value": 19
+        },
+        {
+          "id": "wg_ordinales_20",
+          "text": "vigésimo",
+          "tr": {
+            "ru": "двадцатый"
+          },
+          "value": 20,
+          "note": {
+            "ru": "Составные от 21-го — два отдельных слова, и согласуются оба: vigésimo primero / vigésima primera, vigésimo segundo (22-й), trigésimo quinto (35-й)."
+          }
+        },
+        {
+          "id": "wg_ordinales_30",
+          "text": "trigésimo",
+          "tr": {
+            "ru": "тридцатый"
+          },
+          "value": 30
+        },
+        {
+          "id": "wg_ordinales_40",
+          "text": "cuadragésimo",
+          "tr": {
+            "ru": "сороковой"
+          },
+          "value": 40
+        },
+        {
+          "id": "wg_ordinales_50",
+          "text": "quincuagésimo",
+          "tr": {
+            "ru": "пятидесятый"
+          },
+          "value": 50,
+          "note": {
+            "ru": "Встречается разве что в текстах про юбилеи: la quincuagésima edición del festival. В обычной речи скажут la edición cincuenta."
+          }
+        },
+        {
+          "id": "wg_ordinales_60",
+          "text": "sexagésimo",
+          "tr": {
+            "ru": "шестидесятый"
+          },
+          "value": 60
+        },
+        {
+          "id": "wg_ordinales_70",
+          "text": "septuagésimo",
+          "tr": {
+            "ru": "семидесятый"
+          },
+          "value": 70
+        },
+        {
+          "id": "wg_ordinales_80",
+          "text": "octogésimo",
+          "tr": {
+            "ru": "восьмидесятый"
+          },
+          "value": 80
+        },
+        {
+          "id": "wg_ordinales_90",
+          "text": "nonagésimo",
+          "tr": {
+            "ru": "девяностый"
+          },
+          "value": 90
+        },
+        {
+          "id": "wg_ordinales_100",
+          "text": "centésimo",
+          "tr": {
+            "ru": "сотый"
+          },
+          "value": 100
+        },
+        {
+          "id": "wg_ordinales_1000",
+          "text": "milésimo",
+          "tr": {
+            "ru": "тысячный"
+          },
+          "value": 1000
+        }
+      ]
+    },
+    {
       "id": "wg_seasons",
       "kind": "icon-grid",
       "title": {

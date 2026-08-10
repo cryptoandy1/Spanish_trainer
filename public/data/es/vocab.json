@@ -954,6 +954,32 @@
       }
     },
     {
+      "id": "vc_0c746b20",
+      "lemma": "capítulo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "глава"
+      },
+      "examples": [
+        {
+          "text": "el capítulo veintidós",
+          "tr": {
+            "ru": "двадцать вторая глава"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_0c99a534",
       "lemma": "mucho",
       "pos": "pron",
@@ -2728,6 +2754,32 @@
       }
     },
     {
+      "id": "vc_25779a77",
+      "lemma": "nacimiento",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "рождение"
+      },
+      "examples": [
+        {
+          "text": "¿Cuál es tu fecha de nacimiento?",
+          "tr": {
+            "ru": "Какая у тебя дата рождения?"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_259a6cb5",
       "lemma": "dueño",
       "pos": "noun",
@@ -3770,6 +3822,36 @@
       }
     },
     {
+      "id": "vc_32b60e8b",
+      "lemma": "papa",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "папа римский"
+      },
+      "examples": [
+        {
+          "text": "el papa Juan Pablo II",
+          "tr": {
+            "ru": "папа Иоанн Павел II"
+          }
+        },
+        {
+          "text": "Juan Pablo II — Juan Pablo segundo",
+          "tr": {
+            "ru": "Иоанн Павел II — Иоанн Павел Второй"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "manual",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10"
+      }
+    },
+    {
       "id": "vc_32f22414",
       "lemma": "señor",
       "pos": "noun",
@@ -3820,6 +3902,38 @@
         "extractor": "model"
       },
       "verbId": "vb_sentarse"
+    },
+    {
+      "id": "vc_33445971",
+      "lemma": "año",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "год"
+      },
+      "examples": [
+        {
+          "text": "Nací en el año mil novecientos noventa y uno.",
+          "tr": {
+            "ru": "Я родился в тысяча девятьсот девяносто первом году."
+          }
+        },
+        {
+          "text": "veintiún años",
+          "tr": {
+            "ru": "двадцать один год"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_3390406f",
@@ -4761,6 +4875,32 @@
         "extractor": "model"
       },
       "verbId": "vb_vestirse"
+    },
+    {
+      "id": "vc_40b999ab",
+      "lemma": "festival",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "фестиваль"
+      },
+      "examples": [
+        {
+          "text": "la quincuagésima edición del festival",
+          "tr": {
+            "ru": "пятидесятый выпуск фестиваля"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_40c297cf",
@@ -10240,6 +10380,32 @@
       }
     },
     {
+      "id": "vc_8cfd5213",
+      "lemma": "fila",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "ряд"
+      },
+      "examples": [
+        {
+          "text": "la fila veintidós",
+          "tr": {
+            "ru": "двадцать второй ряд"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_8d5ba43c",
       "lemma": "llama",
       "pos": "noun",
@@ -10316,6 +10482,31 @@
       }
     },
     {
+      "id": "vc_8e4e2218",
+      "lemma": "fecha de nacimiento",
+      "pos": "phrase",
+      "tr": {
+        "ru": "дата рождения"
+      },
+      "examples": [
+        {
+          "text": "¿Cuál es tu fecha de nacimiento?",
+          "tr": {
+            "ru": "Какая у тебя дата рождения?"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_8e6d100d",
       "lemma": "montón",
       "pos": "noun",
@@ -10363,6 +10554,32 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_8ee38df8",
+      "lemma": "nacer",
+      "pos": "verb",
+      "tr": {
+        "ru": "рождаться, родиться"
+      },
+      "examples": [
+        {
+          "text": "Nací en mil novecientos noventa y uno.",
+          "tr": {
+            "ru": "Я родился в тысяча девятьсот девяносто первом."
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      },
+      "verbId": "vb_nacer"
     },
     {
       "id": "vc_8eeded02",
@@ -13949,6 +14166,38 @@
       }
     },
     {
+      "id": "vc_c3c2ad0d",
+      "lemma": "euro",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "евро"
+      },
+      "examples": [
+        {
+          "text": "doscientos euros",
+          "tr": {
+            "ru": "двести евро"
+          }
+        },
+        {
+          "text": "un millón de euros",
+          "tr": {
+            "ru": "миллион евро"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c3ebf231",
       "lemma": "inglés",
       "pos": "noun",
@@ -14113,6 +14362,36 @@
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c6e5d54f",
+      "lemma": "rey",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "король"
+      },
+      "examples": [
+        {
+          "text": "Felipe VI es el rey de España.",
+          "tr": {
+            "ru": "Филипп VI — король Испании."
+          }
+        },
+        {
+          "text": "Felipe VI — Felipe sexto",
+          "tr": {
+            "ru": "Филипп VI — Филипп Шестой"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "manual",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10"
       }
     },
     {
@@ -14532,6 +14811,32 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ce4f91e6",
+      "lemma": "persona",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "человек, лицо"
+      },
+      "examples": [
+        {
+          "text": "quinientas personas",
+          "tr": {
+            "ru": "пятьсот человек"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
         "extractor": "model"
       }
     },
@@ -16317,6 +16622,38 @@
       }
     },
     {
+      "id": "vc_e2e31052",
+      "lemma": "edición",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "издание, выпуск"
+      },
+      "examples": [
+        {
+          "text": "decimotercera edición",
+          "tr": {
+            "ru": "тринадцатое издание"
+          }
+        },
+        {
+          "text": "la quincuagésima edición del festival",
+          "tr": {
+            "ru": "пятидесятый выпуск фестиваля"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e39f992d",
       "lemma": "vender",
       "pos": "verb",
@@ -17173,6 +17510,32 @@
           "6a606e40-b940-83eb-b5f5-104079999d29",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
+      }
+    },
+    {
+      "id": "vc_ee196a6c",
+      "lemma": "vez",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "раз"
+      },
+      "examples": [
+        {
+          "text": "la primera vez",
+          "tr": {
+            "ru": "первый раз"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
       }
     },
     {
@@ -18172,6 +18535,32 @@
       }
     },
     {
+      "id": "vc_fce61445",
+      "lemma": "fecha",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "дата"
+      },
+      "examples": [
+        {
+          "text": "¿Cuál es tu fecha de nacimiento?",
+          "tr": {
+            "ru": "Какая у тебя дата рождения?"
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_fd6b8b31",
       "lemma": "contorno",
       "pos": "noun",
@@ -18383,6 +18772,32 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ff6f398b",
+      "lemma": "cumpleaños",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "день рождения (не меняется во мн. числе)"
+      },
+      "examples": [
+        {
+          "text": "Mi cumpleaños es el veintiséis de febrero.",
+          "tr": {
+            "ru": "Мой день рождения — двадцать шестое февраля."
+          }
+        }
+      ],
+      "topics": [],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
         "extractor": "model"
       }
     },

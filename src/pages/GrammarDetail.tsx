@@ -5,6 +5,7 @@ import remarkGfm from "remark-gfm";
 import { useData } from "../lib/DataContext";
 import { loadDataText } from "../lib/dataLoader";
 import { tr, ui } from "../lib/i18n";
+import { stripLeadingH1 } from "../lib/markdown";
 import { ExampleLine } from "../components/ExampleLine";
 
 export function GrammarDetail() {
@@ -22,7 +23,7 @@ export function GrammarDetail() {
     setBody(null);
     setBodyError(null);
     loadDataText(settings.targetLang, path)
-      .then(setBody)
+      .then((text) => setBody(stripLeadingH1(text)))
       .catch((e: unknown) => setBodyError(e instanceof Error ? e.message : String(e)));
   }, [article, settings.nativeLang, settings.targetLang]);
 

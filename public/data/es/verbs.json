@@ -21429,6 +21429,259 @@
       "conjugationClass": "-ir"
     },
     {
+      "id": "vb_nacer",
+      "infinitive": "nacer",
+      "tr": {
+        "ru": "рождаться, родиться"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "naciendo",
+        "participle": "nacido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "nazco",
+              "irregular": true
+            },
+            "tu": {
+              "form": "naces"
+            },
+            "el": {
+              "form": "nace"
+            },
+            "nosotros": {
+              "form": "nacemos"
+            },
+            "vosotros": {
+              "form": "nacéis"
+            },
+            "ellos": {
+              "form": "nacen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "nací"
+            },
+            "tu": {
+              "form": "naciste"
+            },
+            "el": {
+              "form": "nació"
+            },
+            "nosotros": {
+              "form": "nacimos"
+            },
+            "vosotros": {
+              "form": "nacisteis"
+            },
+            "ellos": {
+              "form": "nacieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "nacía"
+            },
+            "tu": {
+              "form": "nacías"
+            },
+            "el": {
+              "form": "nacía"
+            },
+            "nosotros": {
+              "form": "nacíamos"
+            },
+            "vosotros": {
+              "form": "nacíais"
+            },
+            "ellos": {
+              "form": "nacían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he nacido"
+            },
+            "tu": {
+              "form": "has nacido"
+            },
+            "el": {
+              "form": "ha nacido"
+            },
+            "nosotros": {
+              "form": "hemos nacido"
+            },
+            "vosotros": {
+              "form": "habéis nacido"
+            },
+            "ellos": {
+              "form": "han nacido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "naceré"
+            },
+            "tu": {
+              "form": "nacerás"
+            },
+            "el": {
+              "form": "nacerá"
+            },
+            "nosotros": {
+              "form": "naceremos"
+            },
+            "vosotros": {
+              "form": "naceréis"
+            },
+            "ellos": {
+              "form": "nacerán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "nacería"
+            },
+            "tu": {
+              "form": "nacerías"
+            },
+            "el": {
+              "form": "nacería"
+            },
+            "nosotros": {
+              "form": "naceríamos"
+            },
+            "vosotros": {
+              "form": "naceríais"
+            },
+            "ellos": {
+              "form": "nacerían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "nazca",
+              "irregular": true
+            },
+            "tu": {
+              "form": "nazcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "nazca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nazcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "nazcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "nazcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "naciera"
+            },
+            "tu": {
+              "form": "nacieras"
+            },
+            "el": {
+              "form": "naciera"
+            },
+            "nosotros": {
+              "form": "naciéramos"
+            },
+            "vosotros": {
+              "form": "nacierais"
+            },
+            "ellos": {
+              "form": "nacieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "nace"
+            },
+            "el": {
+              "form": "nazca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nazcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "naced"
+            },
+            "ellos": {
+              "form": "nazcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no nazcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no nazca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no nazcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no nazcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no nazcan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "inbox-numerales",
+        "conversationTitle": "Количественные и порядковые числительные",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_necesitar",
       "infinitive": "necesitar",
       "tr": {
