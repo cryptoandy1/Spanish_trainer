@@ -2119,7 +2119,74 @@
           "tr": {
             "ru": "сотый"
           },
-          "value": 100
+          "value": 100,
+          "note": {
+            "ru": "Сотни и дальше — чисто для полноты картины. В живой речи их практически не услышишь: скажут la edición cien, а не la centésima edición."
+          }
+        },
+        {
+          "id": "wg_ordinales_200",
+          "text": "ducentésimo",
+          "tr": {
+            "ru": "двухсотый"
+          },
+          "value": 200
+        },
+        {
+          "id": "wg_ordinales_300",
+          "text": "tricentésimo",
+          "tr": {
+            "ru": "трёхсотый"
+          },
+          "value": 300
+        },
+        {
+          "id": "wg_ordinales_400",
+          "text": "cuadringentésimo",
+          "tr": {
+            "ru": "четырёхсотый"
+          },
+          "value": 400
+        },
+        {
+          "id": "wg_ordinales_500",
+          "text": "quingentésimo",
+          "tr": {
+            "ru": "пятисотый"
+          },
+          "value": 500
+        },
+        {
+          "id": "wg_ordinales_600",
+          "text": "sexcentésimo",
+          "tr": {
+            "ru": "шестисотый"
+          },
+          "value": 600
+        },
+        {
+          "id": "wg_ordinales_700",
+          "text": "septingentésimo",
+          "tr": {
+            "ru": "семисотый"
+          },
+          "value": 700
+        },
+        {
+          "id": "wg_ordinales_800",
+          "text": "octingentésimo",
+          "tr": {
+            "ru": "восьмисотый"
+          },
+          "value": 800
+        },
+        {
+          "id": "wg_ordinales_900",
+          "text": "noningentésimo",
+          "tr": {
+            "ru": "девятисотый"
+          },
+          "value": 900
         },
         {
           "id": "wg_ordinales_1000",
@@ -2128,6 +2195,17 @@
             "ru": "тысячный"
           },
           "value": 1000
+        },
+        {
+          "id": "wg_ordinales_1000000",
+          "text": "millonésimo",
+          "tr": {
+            "ru": "миллионный"
+          },
+          "value": 1000000,
+          "note": {
+            "ru": "Чаще всего встречается в переносном смысле: por millonésima vez — «в миллионный раз»."
+          }
         }
       ]
     },
