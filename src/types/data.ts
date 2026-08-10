@@ -83,7 +83,9 @@ export interface LanguageRegistry {
   defaultTarget: string;
   defaultNative: string;
   targets: LanguageTarget[];
-  natives: { code: string; name: Tr }[];
+  /** `speechLocale` (BCP-47) is what the narrator reads translations with; a
+   * native language without one simply isn't spoken aloud. */
+  natives: { code: string; name: Tr; speechLocale?: string }[];
 }
 
 // ---------------------------------------------------------------------------

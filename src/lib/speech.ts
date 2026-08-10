@@ -35,6 +35,43 @@ export function speak(text: string, locale: string): void {
   window.speechSynthesis.speak(utter);
 }
 
+/** Stop whatever is being spoken. Safe to call when nothing is. */
+export function cancelSpeech(): void {
+  if (isTtsAvailable()) window.speechSynthesis.cancel();
+}
+
+/**
+ * Speak `text` and resolve once it has finished — the primitive the narrator
+ * needs to read a phrase and its translation back to back.
+ *
+ * Unlike `speak`, this does NOT cancel what is already queued: callers here are
+ * sequencing deliberately, and cancelling would cut off the utterance before
+ * this one. It resolves on `error` as well as `end`, and cancellation counts as
+ * an error in some browsers, so a caller that stops playback still gets its
+ * promise settled instead of hanging forever.
+ */
+export function speakAsync(text: string, locale: string): Promise<void> {
+  return new Promise((resolve) => {
+    if (!isTtsAvailable() || !text.trim()) {
+      resolve();
+      return;
+    }
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = locale;
+    const voice = pickVoice(locale);
+    if (voice) utter.voice = voice;
+    let settled = false;
+    const finish = () => {
+      if (settled) return;
+      settled = true;
+      resolve();
+    };
+    utter.onend = finish;
+    utter.onerror = finish;
+    window.speechSynthesis.speak(utter);
+  });
+}
+
 // Chrome/Edge expose SpeechRecognition under the webkit-prefixed name; Firefox
 // implements neither. Typed loosely since lib.dom.d.ts doesn't ship these types.
 interface MinimalSpeechRecognition extends EventTarget {

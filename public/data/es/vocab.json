@@ -12063,6 +12063,41 @@
       "verbId": "vb_valer"
     },
     {
+      "id": "vc_a70cd292",
+      "lemma": "gente",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "люди, народ (в ед. числе: la gente habla, а не hablan)"
+      },
+      "examples": [
+        {
+          "text": "La gente habla árabe o español.",
+          "tr": {
+            "ru": "Люди говорят по-арабски или по-испански."
+          }
+        },
+        {
+          "text": "decidir cómo vive la gente allí",
+          "tr": {
+            "ru": "решать, как там живут люди"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a77361a5",
       "lemma": "girar",
       "pos": "verb",

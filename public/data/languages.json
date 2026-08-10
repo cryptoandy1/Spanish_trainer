@@ -12,6 +12,6 @@
     }
   ],
   "natives": [
-    { "code": "ru", "name": { "ru": "Русский", "en": "Russian" } }
+    { "code": "ru", "name": { "ru": "Русский", "en": "Russian" }, "speechLocale": "ru-RU" }
   ]
 }
