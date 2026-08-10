@@ -100,6 +100,18 @@
       }
     },
     {
+      "id": "tp_historia-y-geografia",
+      "name": {
+        "ru": "История и география"
+      },
+      "nameTarget": "Historia y geografía",
+      "icon": "🗺️",
+      "order": 190,
+      "description": {
+        "ru": "Страноведческая лексика: история Испании, территории и границы, государственное устройство, культура и религия."
+      }
+    },
+    {
       "id": "tp_orientacion-direcciones",
       "name": {
         "ru": "Ориентация и направления"

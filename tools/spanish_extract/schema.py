@@ -14,7 +14,7 @@ from pydantic import BaseModel, Field
 LangCode = str
 Tr = dict[LangCode, str]
 
-SourceOrigin = Literal["chatgpt", "claude", "manual"]
+SourceOrigin = Literal["chatgpt", "claude", "manual", "youtube"]
 Extractor = Literal["table", "lexicon", "pair", "correction", "model", "seed"]
 ErrorVerdict = Literal["wrong", "partial", "ok"]
 WidgetKind = Literal["swatch-grid", "icon-grid", "table", "list"]

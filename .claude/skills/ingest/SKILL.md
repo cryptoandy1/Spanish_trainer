@@ -61,7 +61,19 @@ file, leave it in place, and say which one you skipped.
      conversation — only the forms that appear, nothing filled in from your
      own Spanish knowledge (see the anti-hallucination rule in
      `reference/schemas.md`). Full paradigms are filled by a separate tool,
-     not by you — see step 9.
+     not by you — see step 6.
+
+     **Every verb the conversation contains gets a `verbs.json` record**
+     (user's instruction, 2026-08-09), not just the ones the conversation
+     conjugated — a verb that only appears inside an example sentence
+     counts. If `verbs.json` has no entry for it, create one: `tenses: {}`,
+     `nonFinite: {}`, `regularity: "regular"` as a placeholder (step 6's
+     `conjugate.py` replaces regularity/conjugationClass outright and fills
+     the paradigm), and copy `tr`/`topics`/`source` from the vocab record.
+     A `pos: "verb"` vocab entry with no verb record is a defect — it's a
+     dead link in the word list. **Do not do this for a lemma that isn't an
+     infinitive** (`hay`, `buscando`, `darse de baja`, `empezar a` are real
+     examples from the backlog) — flag those to the user instead.
    - **Corrections**: places where the user tried Spanish and got
      corrected — `attempt` (what they wrote), `correct` (the fix),
      `verdict`, `explanation`, `errorTags` from the controlled list.

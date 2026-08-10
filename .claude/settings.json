@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/user/.claude/plans/**)"
+      "Read(//c/Users/user/.claude/plans/**)",
+      "Bash(python -X utf8 -c ' *)",
+      "Bash(git ls-remote *)"
     ]
   }
 }

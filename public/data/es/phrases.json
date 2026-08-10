@@ -267,6 +267,26 @@
       }
     },
     {
+      "id": "ph_01ca78f1",
+      "text": "Son dos economías que sufren muchísimo cuando se cierran las fronteras.",
+      "tr": {
+        "ru": "Это две экономики, которые сильно страдают, когда закрываются границы."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_01fd0f87",
       "text": "¿Podría ponerme un café?",
       "tr": {
@@ -1073,6 +1093,26 @@
       }
     },
     {
+      "id": "ph_08f2153f",
+      "text": "En su gran mayoría fue Francia.",
+      "tr": {
+        "ru": "В подавляющем большинстве это была Франция."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_08f777c0",
       "text": "Tengo sed.",
       "tr": {
@@ -1351,6 +1391,26 @@
       }
     },
     {
+      "id": "ph_0bc2248c",
+      "text": "Esto quiere decir que las fronteras son la puerta de ingreso a Europa.",
+      "tr": {
+        "ru": "Это значит, что границы — это ворота в Европу."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_0becd2f6",
       "text": "Me pone el libro en la mesa.",
       "tr": {
@@ -1365,6 +1425,26 @@
         "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
         "conversationTitle": "Аналог can I have",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_0bf1091e",
+      "text": "Lo que pasa es que España colonizó Marruecos.",
+      "tr": {
+        "ru": "Дело в том, что Испания колонизировала Марокко."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -3310,6 +3390,26 @@
       }
     },
     {
+      "id": "ph_1e7887c1",
+      "text": "Las fronteras están extremadamente vigiladas.",
+      "tr": {
+        "ru": "Границы охраняются крайне строго."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_1e8c674f",
       "text": "¡Enhorabuena!",
       "tr": {
@@ -4503,6 +4603,26 @@
       }
     },
     {
+      "id": "ph_288a0a52",
+      "text": "Empecemos por Ceuta.",
+      "tr": {
+        "ru": "Начнём с Сеуты."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_28e2f9f8",
       "text": "Eres muy tonta.",
       "tr": {
@@ -5562,6 +5682,26 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_341dc60a",
+      "text": "Tanto Ceuta como Melilla son 100% españolas.",
+      "tr": {
+        "ru": "И Сеута, и Мелилья на 100% испанские."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -7004,6 +7144,26 @@
       }
     },
     {
+      "id": "ph_41d57cc0",
+      "text": "Tenemos que viajar al pasado.",
+      "tr": {
+        "ru": "Нам нужно отправиться в прошлое."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_41f85607",
       "text": "Compro un regalo para mi madre.",
       "tr": {
@@ -7712,6 +7872,26 @@
       }
     },
     {
+      "id": "ph_49489e64",
+      "text": "Al ser mucho más pequeñas son ciudades y no comunidades.",
+      "tr": {
+        "ru": "Поскольку они гораздо меньше, это города, а не сообщества."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4997c4a0",
       "text": "Pienso que tienes razón.",
       "tr": {
@@ -7825,6 +8005,26 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4aa93027",
+      "text": "Por otro lado está Melilla.",
+      "tr": {
+        "ru": "С другой стороны, есть Мелилья."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -8262,6 +8462,26 @@
       }
     },
     {
+      "id": "ph_4e68cd52",
+      "text": "Este es un conflicto que cada tanto vuelve a aparecer.",
+      "tr": {
+        "ru": "Это конфликт, который время от времени возникает снова."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4e716083",
       "text": "Me di cuenta de que era verdad.",
       "tr": {
@@ -8495,6 +8715,26 @@
         "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
         "conversationTitle": "Аналог can I have",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4f9e745b",
+      "text": "Cerca del año 700 pasaron a formar parte del imperio árabe.",
+      "tr": {
+        "ru": "Около 700 года они вошли в состав арабской империи."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -8777,6 +9017,26 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_52cd39d1",
+      "text": "España rechaza estas ideas.",
+      "tr": {
+        "ru": "Испания отвергает эти идеи."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -10253,6 +10513,26 @@
       }
     },
     {
+      "id": "ph_5f758686",
+      "text": "En cuanto a la religión, hay muchísimas iglesias.",
+      "tr": {
+        "ru": "Что касается религии, там очень много церквей."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_5f88c632",
       "text": "¿Qué incluye la tarifa? ¿Está incluida la piscina?",
       "tr": {
@@ -10822,6 +11102,26 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_670dbb88",
+      "text": "España se quedó con estas dos ciudades.",
+      "tr": {
+        "ru": "Испания оставила эти два города себе."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -12301,6 +12601,26 @@
       }
     },
     {
+      "id": "ph_75348569",
+      "text": "Se las conoce como ciudades autónomas.",
+      "tr": {
+        "ru": "Их называют автономными городами."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_7582abca",
       "text": "¿Qué tienes? Pareces preocupado.",
       "tr": {
@@ -12744,6 +13064,26 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_78636346",
+      "text": "No tiene sentido que existan ciudades europeas en la costa africana.",
+      "tr": {
+        "ru": "Нет смысла в том, чтобы европейские города существовали на африканском побережье."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -13863,6 +14203,26 @@
       }
     },
     {
+      "id": "ph_84401ef5",
+      "text": "Ceuta y Melilla ya eran parte de España siglos antes de que el protectorado existiera.",
+      "tr": {
+        "ru": "Сеута и Мелилья были частью Испании за века до того, как появился протекторат."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8452a6b3",
       "text": "¿Están abiertos ahora?",
       "tr": {
@@ -14913,6 +15273,26 @@
       }
     },
     {
+      "id": "ph_8ce06b91",
+      "text": "Lo más probable es que digas Marruecos.",
+      "tr": {
+        "ru": "Скорее всего, ты скажешь «Марокко»."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8cf13b3b",
       "text": "Os mando las fotos. → Os las mando.",
       "tr": {
@@ -15285,6 +15665,26 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_906a4823",
+      "text": "Siempre hay un pero.",
+      "tr": {
+        "ru": "Всегда есть какое-то «но»."
+      },
+      "register": "informal",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -16182,6 +16582,26 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_96841041",
+      "text": "Poco a poco los españoles avanzaron hacia el sur.",
+      "tr": {
+        "ru": "Постепенно испанцы продвигались на юг."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -17807,6 +18227,26 @@
       }
     },
     {
+      "id": "ph_a44a78d0",
+      "text": "Nos vemos en el próximo.",
+      "tr": {
+        "ru": "Увидимся в следующем."
+      },
+      "register": "informal",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_a474c2b8",
       "text": "Ponen el coche aquí.",
       "tr": {
@@ -17837,6 +18277,26 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_a515dcd1",
+      "text": "Quieren seguir siendo parte de España.",
+      "tr": {
+        "ru": "Они хотят и дальше оставаться частью Испании."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -19876,6 +20336,26 @@
       }
     },
     {
+      "id": "ph_b8fc4740",
+      "text": "Un imperio que venía expandiéndose desde el oriente.",
+      "tr": {
+        "ru": "Империя, которая расширялась с востока."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_b90e80e4",
       "text": "Lo compro.",
       "tr": {
@@ -20123,6 +20603,26 @@
       }
     },
     {
+      "id": "ph_bacc41d5",
+      "text": "A eso se le suma el hecho de que la mayoría se sienten españoles.",
+      "tr": {
+        "ru": "К этому добавляется то, что большинство чувствуют себя испанцами."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_bae16963",
       "text": "¿Vas a Barcelona otra vez?",
       "tr": {
@@ -20216,6 +20716,26 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_bbdf748e",
+      "text": "Desde su punto de vista, estas ciudades deberían formar parte de su territorio.",
+      "tr": {
+        "ru": "С их точки зрения, эти города должны были бы быть частью их территории."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -20383,6 +20903,26 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_bd4d21d2",
+      "text": "Pero eso no es así.",
+      "tr": {
+        "ru": "Но это не так."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -21750,6 +22290,26 @@
       }
     },
     {
+      "id": "ph_c8dfcd3f",
+      "text": "No todo es color de rosas.",
+      "tr": {
+        "ru": "Не всё так безоблачно."
+      },
+      "register": "informal",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c90c3454",
       "text": "Serían muy felices.",
       "tr": {
@@ -22507,6 +23067,26 @@
         "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
         "conversationTitle": "Аналог can I have",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_cfb6dfb1",
+      "text": "Muchas personas intentan cruzar estas fronteras en busca de un futuro mejor.",
+      "tr": {
+        "ru": "Многие пытаются пересечь эти границы в поисках лучшего будущего."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -25717,6 +26297,26 @@
       }
     },
     {
+      "id": "ph_eb1b0d17",
+      "text": "No te olvides de visitar nuestra web.",
+      "tr": {
+        "ru": "Не забудь заглянуть на наш сайт."
+      },
+      "register": "informal",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_eb20345b",
       "text": "¿Me ha entendido?",
       "tr": {
@@ -27840,6 +28440,26 @@
       }
     },
     {
+      "id": "ph_fbeb241d",
+      "text": "Es muy común ir por la calle y escuchar conversaciones que mezclan español y árabe.",
+      "tr": {
+        "ru": "Очень часто идёшь по улице и слышишь разговоры, где смешаны испанский и арабский."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_fbf0ac0b",
       "text": "¡Enhorabuena por ganar el Mundial!",
       "tr": {
@@ -28254,6 +28874,26 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ff5941a2",
+      "text": "Al estar tan cerca de Marruecos, las costumbres van cambiando.",
+      "tr": {
+        "ru": "Из-за такой близости к Марокко обычаи постепенно меняются."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },

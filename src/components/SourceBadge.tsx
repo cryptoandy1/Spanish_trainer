@@ -4,6 +4,7 @@ const originLabel: Record<SourceOrigin, string> = {
   chatgpt: "из истории ChatGPT",
   claude: "добавлено через Claude",
   manual: "добавлено вручную",
+  youtube: "из видео на YouTube",
 };
 
 export function SourceBadge({ source }: { source: SourceRef }) {

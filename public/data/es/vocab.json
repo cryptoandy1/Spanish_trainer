@@ -35,7 +35,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_quitar"
     },
     {
       "id": "vc_00e90452",
@@ -223,6 +224,35 @@
       }
     },
     {
+      "id": "vc_01d3065b",
+      "lemma": "puerto",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "порт"
+      },
+      "examples": [
+        {
+          "text": "Ceuta fue el puerto desde el que partieron las tropas.",
+          "tr": {
+            "ru": "Сеута была портом, откуда отплыли войска."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_02851e1c",
       "lemma": "porqué",
       "pos": "noun",
@@ -391,7 +421,8 @@
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_importar"
     },
     {
       "id": "vc_047546fe",
@@ -688,6 +719,36 @@
         "conversationTitle": "Как войти в Portafirmas",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      },
+      "verbId": "vb_insertar"
+    },
+    {
+      "id": "vc_0a62478e",
+      "lemma": "promedio",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "среднее значение"
+      },
+      "examples": [
+        {
+          "text": "en promedio, es donde menos dinero gana la gente",
+          "tr": {
+            "ru": "в среднем это место, где люди зарабатывают меньше всего"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
       }
     },
     {
@@ -962,6 +1023,35 @@
       }
     },
     {
+      "id": "vc_0e08a3bc",
+      "lemma": "reino",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "королевство"
+      },
+      "examples": [
+        {
+          "text": "los reinos de España y Portugal se unificaron",
+          "tr": {
+            "ru": "королевства Испании и Португалии объединились"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_0e4b1091",
       "lemma": "problema",
       "pos": "noun",
@@ -1131,6 +1221,35 @@
       }
     },
     {
+      "id": "vc_10b94d51",
+      "lemma": "desafío",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "вызов, трудная задача"
+      },
+      "examples": [
+        {
+          "text": "problemas y desafíos que enfrentan estas ciudades",
+          "tr": {
+            "ru": "проблемы и трудности, с которыми сталкиваются эти города"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_111e85c2",
       "lemma": "malo",
       "pos": "adj",
@@ -1249,7 +1368,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_enviar"
     },
     {
       "id": "vc_126610f9",
@@ -1265,6 +1385,35 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_12e5e763",
+      "lemma": "comercio",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "торговля; магазин"
+      },
+      "examples": [
+        {
+          "text": "Dependen mucho del comercio con Marruecos.",
+          "tr": {
+            "ru": "Они сильно зависят от торговли с Марокко."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -1631,6 +1780,35 @@
       }
     },
     {
+      "id": "vc_175e9f6c",
+      "lemma": "conquista",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "завоевание"
+      },
+      "examples": [
+        {
+          "text": "comenzó la conquista árabe de la península ibérica",
+          "tr": {
+            "ru": "началось арабское завоевание Пиренейского полуострова"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_17d97112",
       "lemma": "tener sed",
       "pos": "phrase",
@@ -1867,6 +2045,35 @@
       }
     },
     {
+      "id": "vc_19c19297",
+      "lemma": "rechazar",
+      "pos": "verb",
+      "tr": {
+        "ru": "отвергать, отклонять"
+      },
+      "examples": [
+        {
+          "text": "España rechaza estas ideas.",
+          "tr": {
+            "ru": "Испания отвергает эти идеи."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      },
+      "verbId": "vb_rechazar"
+    },
+    {
       "id": "vc_1ad68fbc",
       "lemma": "bastón",
       "pos": "noun",
@@ -2059,7 +2266,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_acostar"
     },
     {
       "id": "vc_1ddbe1f8",
@@ -2083,7 +2291,8 @@
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_repetir"
     },
     {
       "id": "vc_1e3b0b7d",
@@ -2120,6 +2329,35 @@
         ]
       },
       "verbId": "vb_seguir"
+    },
+    {
+      "id": "vc_1ea130da",
+      "lemma": "ley",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "закон"
+      },
+      "examples": [
+        {
+          "text": "su propio gobierno, que toma decisiones y crea leyes",
+          "tr": {
+            "ru": "собственное правительство, которое принимает решения и создаёт законы"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_1eabdb44",
@@ -2966,7 +3204,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_vestir"
     },
     {
       "id": "vc_2d60d7c9",
@@ -3007,7 +3246,8 @@
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_inscribirse"
     },
     {
       "id": "vc_2e26f60c",
@@ -3705,7 +3945,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_prestar"
     },
     {
       "id": "vc_3501dee1",
@@ -3935,7 +4176,8 @@
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_haber"
     },
     {
       "id": "vc_38d09aab",
@@ -4170,7 +4412,8 @@
         "conversationTitle": "Герундий и причастие в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_correr"
     },
     {
       "id": "vc_3b926cfd",
@@ -4194,7 +4437,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_regalar"
     },
     {
       "id": "vc_3c3bd10a",
@@ -4755,7 +4999,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_comprender"
     },
     {
       "id": "vc_446abda7",
@@ -5134,7 +5379,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_perfilar"
     },
     {
       "id": "vc_486b7512",
@@ -5776,6 +6022,35 @@
       }
     },
     {
+      "id": "vc_515b61ef",
+      "lemma": "siglo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "век, столетие"
+      },
+      "examples": [
+        {
+          "text": "son parte de España desde hace siglos",
+          "tr": {
+            "ru": "они являются частью Испании уже несколько веков"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_515cece4",
       "lemma": "casa",
       "pos": "noun",
@@ -5864,7 +6139,8 @@
         "conversationTitle": "Как войти в Portafirmas",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_limpiar"
     },
     {
       "id": "vc_52cc2453",
@@ -6343,7 +6619,8 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_entender"
     },
     {
       "id": "vc_597322eb",
@@ -6526,6 +6803,35 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5a48770c",
+      "lemma": "superficie",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "площадь, поверхность"
+      },
+      "examples": [
+        {
+          "text": "tiene una superficie de 18 km2",
+          "tr": {
+            "ru": "его площадь — 18 км2"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -6757,7 +7063,8 @@
         "conversationTitle": "Как войти в Portafirmas",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_deber"
     },
     {
       "id": "vc_5c38b1ed",
@@ -7031,6 +7338,35 @@
       }
     },
     {
+      "id": "vc_60649344",
+      "lemma": "vigilancia",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "охрана, наблюдение"
+      },
+      "examples": [
+        {
+          "text": "muros altísimos, alarmas, alambre y vigilancia",
+          "tr": {
+            "ru": "очень высокие стены, сигнализация, проволока и наблюдение"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_60899d65",
       "lemma": "señora",
       "pos": "noun",
@@ -7158,7 +7494,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_pasear"
     },
     {
       "id": "vc_623d0f8c",
@@ -7182,7 +7519,8 @@
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_entrar"
     },
     {
       "id": "vc_624baded",
@@ -7536,7 +7874,8 @@
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_bromear"
     },
     {
       "id": "vc_69126afe",
@@ -7889,6 +8228,35 @@
       }
     },
     {
+      "id": "vc_6e049594",
+      "lemma": "corona",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "корона; корона как обозначение государства"
+      },
+      "examples": [
+        {
+          "text": "la corona de Castilla reconquistó Melilla",
+          "tr": {
+            "ru": "корона Кастилии отвоевала Мелилью"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_6ec28f5a",
       "lemma": "tuyo",
       "pos": "pron",
@@ -8233,7 +8601,8 @@
           "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
           "6a631c2a-70cc-83ed-b72f-38647e163dfe"
         ]
-      }
+      },
+      "verbId": "vb_ayudar"
     },
     {
       "id": "vc_7695781e",
@@ -8438,6 +8807,35 @@
       }
     },
     {
+      "id": "vc_79284585",
+      "lemma": "alambre",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "проволока"
+      },
+      "examples": [
+        {
+          "text": "muros altísimos, alarmas, alambre y vigilancia",
+          "tr": {
+            "ru": "очень высокие стены, сигнализация, проволока и наблюдение"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_79dc10fc",
       "lemma": "nuevo",
       "pos": "adj",
@@ -8548,6 +8946,35 @@
       }
     },
     {
+      "id": "vc_7cff56c7",
+      "lemma": "hostelería",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "гостинично-ресторанный бизнес"
+      },
+      "examples": [
+        {
+          "text": "los comercios, la hostelería, el turismo y la administración pública",
+          "tr": {
+            "ru": "магазины, гостинично-ресторанный сектор, туризм и госуправление"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_7d783700",
       "lemma": "estos",
       "pos": "pron",
@@ -8606,6 +9033,35 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7df90f92",
+      "lemma": "imperio",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "империя"
+      },
+      "examples": [
+        {
+          "text": "pasaron a formar parte del imperio árabe",
+          "tr": {
+            "ru": "они вошли в состав арабской империи"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -8964,7 +9420,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_devolver"
     },
     {
       "id": "vc_83310738",
@@ -9055,7 +9512,8 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_despertar"
     },
     {
       "id": "vc_84578f15",
@@ -9105,7 +9563,8 @@
         "conversationTitle": "Как войти в Portafirmas",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_introducir"
     },
     {
       "id": "vc_84ae3624",
@@ -9172,6 +9631,36 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      },
+      "verbId": "vb_incluir"
+    },
+    {
+      "id": "vc_84e057d9",
+      "lemma": "costumbre",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "обычай, привычка"
+      },
+      "examples": [
+        {
+          "text": "las costumbres y tradiciones van cambiando",
+          "tr": {
+            "ru": "обычаи и традиции постепенно меняются"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -9668,6 +10157,35 @@
       }
     },
     {
+      "id": "vc_8bf6483c",
+      "lemma": "cruzar",
+      "pos": "verb",
+      "tr": {
+        "ru": "пересекать, переходить"
+      },
+      "examples": [
+        {
+          "text": "las tropas musulmanas que cruzaron el estrecho de Gibraltar",
+          "tr": {
+            "ru": "мусульманские войска, которые пересекли Гибралтарский пролив"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      },
+      "verbId": "vb_cruzar"
+    },
+    {
       "id": "vc_8c99b41e",
       "lemma": "disculpa",
       "pos": "noun",
@@ -10011,7 +10529,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_explicar"
     },
     {
       "id": "vc_90fc2635",
@@ -10131,6 +10650,36 @@
         "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
         "conversationTitle": "Перевод фразы на испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      },
+      "verbId": "vb_buscar"
+    },
+    {
+      "id": "vc_945194c6",
+      "lemma": "gobierno",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "правительство"
+      },
+      "examples": [
+        {
+          "text": "su propio gobierno, que toma decisiones y crea leyes",
+          "tr": {
+            "ru": "собственное правительство, которое принимает решения и создаёт законы"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -10658,6 +11207,35 @@
       }
     },
     {
+      "id": "vc_9e15a797",
+      "lemma": "mezclar",
+      "pos": "verb",
+      "tr": {
+        "ru": "смешивать"
+      },
+      "examples": [
+        {
+          "text": "conversaciones que mezclan español y árabe",
+          "tr": {
+            "ru": "разговоры, в которых смешиваются испанский и арабский"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      },
+      "verbId": "vb_mezclar"
+    },
+    {
       "id": "vc_9e2e7c3f",
       "lemma": "barrio",
       "pos": "noun",
@@ -10781,6 +11359,35 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_9fbf433f",
+      "lemma": "enfrentar",
+      "pos": "verb",
+      "tr": {
+        "ru": "сталкиваться с, противостоять"
+      },
+      "examples": [
+        {
+          "text": "problemas y desafíos que enfrentan estas ciudades",
+          "tr": {
+            "ru": "проблемы и трудности, с которыми сталкиваются эти города"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      },
+      "verbId": "vb_enfrentar"
     },
     {
       "id": "vc_9fde1def",
@@ -11031,6 +11638,35 @@
       }
     },
     {
+      "id": "vc_a3ca41b6",
+      "lemma": "muro",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "стена, ограждение"
+      },
+      "examples": [
+        {
+          "text": "muros altísimos, alarmas, alambre y vigilancia",
+          "tr": {
+            "ru": "очень высокие стены, сигнализация, проволока и наблюдение"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a44fc1f9",
       "lemma": "triunfo",
       "pos": "noun",
@@ -11156,6 +11792,35 @@
       }
     },
     {
+      "id": "vc_a5ad7d52",
+      "lemma": "barco",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "корабль, судно"
+      },
+      "examples": [
+        {
+          "text": "también del transporte por barco",
+          "tr": {
+            "ru": "а также от морских перевозок"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a6684ed2",
       "lemma": "valer",
       "pos": "verb",
@@ -11254,7 +11919,8 @@
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_apuntarse"
     },
     {
       "id": "vc_a8baf866",
@@ -11442,6 +12108,34 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ab449fc4",
+      "lemma": "fronterizo",
+      "pos": "adj",
+      "tr": {
+        "ru": "пограничный"
+      },
+      "examples": [
+        {
+          "text": "Por otro lado está el tema fronterizo.",
+          "tr": {
+            "ru": "С другой стороны, есть пограничный вопрос."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -12029,7 +12723,8 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
-      }
+      },
+      "verbId": "vb_pagar"
     },
     {
       "id": "vc_b4a72ef8",
@@ -12126,7 +12821,8 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
-      }
+      },
+      "verbId": "vb_esconderse"
     },
     {
       "id": "vc_b65a49e6",
@@ -12175,7 +12871,8 @@
         "conversationTitle": "Ir a casa объяснение",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_dar"
     },
     {
       "id": "vc_b6fb05ad",
@@ -12228,7 +12925,8 @@
         "conversationTitle": "Как войти в Portafirmas",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_validar"
     },
     {
       "id": "vc_b75d22a4",
@@ -12654,7 +13352,8 @@
         "alsoSeenIn": [
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
-      }
+      },
+      "verbId": "vb_llamar"
     },
     {
       "id": "vc_baac7f81",
@@ -12776,6 +13475,35 @@
         "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
         "conversationTitle": "Перевод фразы на испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_bd921b65",
+      "lemma": "frontera",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "граница"
+      },
+      "examples": [
+        {
+          "text": "cuando se cierran las fronteras",
+          "tr": {
+            "ru": "когда закрываются границы"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -13388,6 +14116,34 @@
       }
     },
     {
+      "id": "vc_c6f048c4",
+      "lemma": "desarrollado",
+      "pos": "adj",
+      "tr": {
+        "ru": "развитый"
+      },
+      "examples": [
+        {
+          "text": "tienen una economía muy desarrollada",
+          "tr": {
+            "ru": "у них очень развитая экономика"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c78cfe4b",
       "lemma": "conserje",
       "pos": "noun",
@@ -13427,7 +14183,8 @@
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_pesar"
     },
     {
       "id": "vc_c8f86466",
@@ -13518,7 +14275,8 @@
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_entrenar"
     },
     {
       "id": "vc_c9d4773e",
@@ -13778,6 +14536,34 @@
       }
     },
     {
+      "id": "vc_ce9ce12b",
+      "lemma": "alejado",
+      "pos": "adj",
+      "tr": {
+        "ru": "удалённый, расположенный дальше"
+      },
+      "examples": [
+        {
+          "text": "Melilla está un poco más alejada.",
+          "tr": {
+            "ru": "Мелилья расположена немного дальше."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_ce9f9940",
       "lemma": "bueno",
       "pos": "interj",
@@ -13966,7 +14752,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_ensenar"
     },
     {
       "id": "vc_d16f5192",
@@ -14155,7 +14942,8 @@
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
           "inbox-c3a8ffca"
         ]
-      }
+      },
+      "verbId": "vb_contar"
     },
     {
       "id": "vc_d40c2651",
@@ -14290,7 +15078,8 @@
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_mejorarse"
     },
     {
       "id": "vc_d541509e",
@@ -14741,6 +15530,35 @@
       }
     },
     {
+      "id": "vc_d9a404e2",
+      "lemma": "puesto",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "место (в списке, рейтинге)"
+      },
+      "examples": [
+        {
+          "text": "casi siempre están en los últimos puestos de la lista",
+          "tr": {
+            "ru": "почти всегда находятся в конце списка"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_d9ae28f0",
       "lemma": "parar",
       "pos": "verb",
@@ -14808,6 +15626,35 @@
       }
     },
     {
+      "id": "vc_da34a83e",
+      "lemma": "reclamo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "притязание, требование"
+      },
+      "examples": [
+        {
+          "text": "A todo esto se le suma el reclamo de Marruecos.",
+          "tr": {
+            "ru": "Ко всему этому добавляется притязание Марокко."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_da423c66",
       "lemma": "tutear",
       "pos": "verb",
@@ -14831,7 +15678,8 @@
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_tutear"
     },
     {
       "id": "vc_da680f6b",
@@ -14855,7 +15703,8 @@
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_hacerse"
     },
     {
       "id": "vc_da82fe0e",
@@ -15222,7 +16071,8 @@
         "conversationTitle": "Учим испанский для жизни",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_empezar"
     },
     {
       "id": "vc_de3b0e7e",
@@ -15490,7 +16340,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_vender"
     },
     {
       "id": "vc_e3c3b5ee",
@@ -15812,7 +16663,8 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_cortar"
     },
     {
       "id": "vc_e9066365",
@@ -15935,6 +16787,35 @@
       }
     },
     {
+      "id": "vc_ea7f9793",
+      "lemma": "vigilar",
+      "pos": "verb",
+      "tr": {
+        "ru": "охранять, следить, наблюдать"
+      },
+      "examples": [
+        {
+          "text": "Las fronteras están extremadamente vigiladas.",
+          "tr": {
+            "ru": "Границы охраняются крайне строго."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      },
+      "verbId": "vb_vigilar"
+    },
+    {
       "id": "vc_ea8fcec6",
       "lemma": "tener sueño",
       "pos": "phrase",
@@ -16024,7 +16905,8 @@
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_alcanzar"
     },
     {
       "id": "vc_eb8d6a14",
@@ -16128,6 +17010,64 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ece4f943",
+      "lemma": "ocupar",
+      "pos": "verb",
+      "tr": {
+        "ru": "занимать, оккупировать"
+      },
+      "examples": [
+        {
+          "text": "estaba ocupando el norte de África",
+          "tr": {
+            "ru": "она занимала север Африки"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      },
+      "verbId": "vb_ocupar"
+    },
+    {
+      "id": "vc_ed0c99e1",
+      "lemma": "ingreso",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "вход, въезд; поступление"
+      },
+      "examples": [
+        {
+          "text": "la puerta de ingreso a España",
+          "tr": {
+            "ru": "ворота въезда в Испанию"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -16443,7 +17383,8 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
-      }
+      },
+      "verbId": "vb_creer"
     },
     {
       "id": "vc_f236e660",
@@ -16469,7 +17410,8 @@
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_presentar"
     },
     {
       "id": "vc_f28a9853",
@@ -16493,7 +17435,8 @@
         "conversationTitle": "Ir a casa объяснение",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_cobrar"
     },
     {
       "id": "vc_f2da1459",
@@ -16566,6 +17509,35 @@
       }
     },
     {
+      "id": "vc_f3b0fc5d",
+      "lemma": "estrecho",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "пролив"
+      },
+      "examples": [
+        {
+          "text": "cruzando el estrecho de Gibraltar",
+          "tr": {
+            "ru": "пересекая Гибралтарский пролив"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f4366ec5",
       "lemma": "despacio",
       "pos": "adv",
@@ -16605,6 +17577,35 @@
           "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
           "6a606e40-b940-83eb-b5f5-104079999d29"
         ]
+      }
+    },
+    {
+      "id": "vc_f45633f6",
+      "lemma": "población",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "население"
+      },
+      "examples": [
+        {
+          "text": "aproximadamente la mitad de la población",
+          "tr": {
+            "ru": "примерно половина населения"
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
       }
     },
     {
@@ -16649,7 +17650,8 @@
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_caber"
     },
     {
       "id": "vc_f4ee0635",
@@ -16784,6 +17786,35 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f5fe94e5",
+      "lemma": "tropa",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "войско; во мн. числе tropas — войска"
+      },
+      "examples": [
+        {
+          "text": "Ceuta fue el puerto desde el que partieron las tropas.",
+          "tr": {
+            "ru": "Сеута была портом, откуда отплыли войска."
+          }
+        }
+      ],
+      "topics": [
+        "tp_historia-y-geografia"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "youtube",
+        "conversationId": "youtube:UrVBr3jR1Iw",
+        "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
+        "createdAt": "2026-08-06T00:00:00Z",
+        "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
     },
@@ -17180,7 +18211,8 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_jugar"
     },
     {
       "id": "vc_fdadcfbb",
@@ -17468,7 +18500,8 @@
         "conversationTitle": "Ir a casa объяснение",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "verbId": "vb_avisar"
     },
     {
       "id": "vc_ffb5480f",

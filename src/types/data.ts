@@ -17,7 +17,7 @@ export interface Example {
   tr: Tr;
 }
 
-export type SourceOrigin = "chatgpt" | "claude" | "manual";
+export type SourceOrigin = "chatgpt" | "claude" | "manual" | "youtube";
 export type Extractor = "table" | "lexicon" | "pair" | "correction" | "model" | "seed";
 
 export interface SourceRef {
