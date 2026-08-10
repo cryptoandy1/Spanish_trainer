@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Phrase } from "../types/data";
 import { tr, ui } from "../lib/i18n";
-import { cancelSpeech, isTtsAvailable, speakAsync } from "../lib/speech";
+import { cancelSpeech, isTtsAvailable, listVoices, speakAsync, subscribeVoices } from "../lib/speech";
 import { seededShuffle } from "../lib/text";
 
 /** Pause between utterances, long enough to hear where one ends. */
@@ -27,20 +27,33 @@ export function PhraseNarrator({
   nativeLang,
   targetLocale,
   nativeLocale,
+  voiceURI,
+  onVoiceChange,
 }: {
   phrases: Phrase[];
   nativeLang: string;
   targetLocale: string;
   /** Absent when the native language has no `speechLocale`: only the target side is read. */
   nativeLocale?: string;
+  /** Chosen target-language voice; undefined means automatic. */
+  voiceURI?: string;
+  onVoiceChange: (voiceURI: string | undefined) => void;
 }) {
   const [playing, setPlaying] = useState(false);
   const [current, setCurrent] = useState<Phrase | null>(null);
   const [position, setPosition] = useState(0);
+  const [voices, setVoices] = useState(() => listVoices(targetLocale));
 
   const orderRef = useRef<Phrase[]>([]);
   const posRef = useRef(0);
   const runRef = useRef(0);
+
+  // Chrome hands over an empty list on the first call and fires this later.
+  useEffect(() => {
+    const refresh = () => setVoices(listVoices(targetLocale));
+    refresh();
+    return subscribeVoices(refresh);
+  }, [targetLocale]);
 
   useEffect(() => {
     orderRef.current = seededShuffle(phrases, Math.random);
@@ -62,13 +75,15 @@ export function PhraseNarrator({
         setCurrent(phrase);
         setPosition(posRef.current);
 
-        await speakAsync(phrase.text, targetLocale);
+        await speakAsync(phrase.text, targetLocale, voiceURI);
         if (!alive()) break;
         await delay(GAP_MS);
         if (!alive()) break;
 
         const translation = tr(phrase.tr, nativeLang);
         if (translation && nativeLocale) {
+          // No voice override for the translation: it's a different language,
+          // so the picked Spanish voice would be the wrong one entirely.
           await speakAsync(translation, nativeLocale);
           if (!alive()) break;
           await delay(GAP_MS);
@@ -90,7 +105,7 @@ export function PhraseNarrator({
       stopped = true;
       cancelSpeech();
     };
-  }, [playing, nativeLang, targetLocale, nativeLocale]);
+  }, [playing, nativeLang, targetLocale, nativeLocale, voiceURI]);
 
   // Belt and braces: leaving the page mid-phrase must not keep talking.
   useEffect(() => () => cancelSpeech(), []);
@@ -116,6 +131,23 @@ export function PhraseNarrator({
           {total > 0 ? `${position + 1} / ${total}` : ""}
         </span>
       </div>
+
+      {voices.length > 1 && (
+        <label className="field narrator__voice">
+          <span>{ui.narrator.voice}</span>
+          <select
+            value={voiceURI ?? ""}
+            onChange={(e) => onVoiceChange(e.target.value || undefined)}
+          >
+            <option value="">{ui.narrator.voiceAuto}</option>
+            {voices.map((v) => (
+              <option key={v.voiceURI} value={v.voiceURI}>
+                {v.name}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
 
       <p className="muted narrator__hint">{ui.narrator.hint}</p>
 

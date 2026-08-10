@@ -18,6 +18,12 @@ export interface Settings {
   nativeLang: string;
   strictAccents: boolean;
   sessionSize: number;
+  /**
+   * Chosen target-language TTS voice (`SpeechSynthesisVoice.voiceURI`).
+   * Undefined means "pick the best available automatically" — which is also
+   * what happens when a remembered voice isn't installed on this machine.
+   */
+  voiceURI?: string;
 }
 
 const SETTINGS_KEY = "st.settings.v1";

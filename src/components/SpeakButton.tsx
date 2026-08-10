@@ -2,7 +2,7 @@ import { useData } from "../lib/DataContext";
 import { isTtsAvailable, speak } from "../lib/speech";
 
 export function SpeakButton({ text, className }: { text: string; className?: string }) {
-  const { pack } = useData();
+  const { pack, settings } = useData();
   if (!isTtsAvailable() || !text.trim()) return null;
   const locale = pack?.meta.speechLocale ?? "es-ES";
   return (
@@ -11,7 +11,7 @@ export function SpeakButton({ text, className }: { text: string; className?: str
       className={"speak-button" + (className ? " " + className : "")}
       onClick={(e) => {
         e.stopPropagation();
-        speak(text, locale);
+        speak(text, locale, settings.voiceURI);
       }}
       aria-label="Произнести"
       title="Произнести"

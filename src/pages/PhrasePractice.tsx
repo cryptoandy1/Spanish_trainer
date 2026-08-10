@@ -9,7 +9,7 @@ import { ui } from "../lib/i18n";
 type Mode = "practice" | "list" | "narrator";
 
 export function PhrasePractice() {
-  const { pack, registry, settings, loading, error } = useData();
+  const { pack, registry, settings, setSettings, loading, error } = useData();
   // Hooks must run before the early returns below (rules of hooks).
   const [mode, setMode] = useState<Mode>("practice");
   const deck = useMemo(
@@ -60,6 +60,8 @@ export function PhrasePractice() {
           nativeLang={settings.nativeLang}
           targetLocale={pack.meta.speechLocale}
           nativeLocale={nativeLocale}
+          voiceURI={settings.voiceURI}
+          onVoiceChange={(voiceURI) => setSettings((prev) => ({ ...prev, voiceURI }))}
         />
       )}
     </div>
