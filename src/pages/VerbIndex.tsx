@@ -2,6 +2,8 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { useData } from "../lib/DataContext";
 import { tr, ui } from "../lib/i18n";
+import { useListOrder } from "../lib/listOrder";
+import { ListOrderControls } from "../components/ListOrderControls";
 
 export function VerbIndex() {
   const { pack, settings, loading, error } = useData();
@@ -20,6 +22,8 @@ export function VerbIndex() {
       .sort((a, b) => a.infinitive.localeCompare(b.infinitive));
   }, [pack, query, settings.nativeLang]);
 
+  const order = useListOrder(verbs);
+
   if (loading) return <p className="muted">Загрузка…</p>;
   if (error || !pack) return <p className="error-text">Не удалось загрузить данные: {error}</p>;
 
@@ -33,8 +37,14 @@ export function VerbIndex() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
+      <div className="list-toolbar">
+        <p className="muted">
+          {verbs.length} из {pack.verbs.length}
+        </p>
+        <ListOrderControls order={order} />
+      </div>
       <ul className="verb-list">
-        {verbs.map((v) => (
+        {order.ordered.map((v) => (
           <li key={v.id}>
             <Link to={`/verbs/${v.id}`} className="verb-list__item">
               <span className="verb-list__infinitive">{v.infinitive}</span>

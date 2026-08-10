@@ -2,6 +2,8 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { VocabWord } from "../types/data";
 import { tr, ui } from "../lib/i18n";
+import { useListOrder } from "../lib/listOrder";
+import { ListOrderControls } from "./ListOrderControls";
 import { SpeakButton } from "./SpeakButton";
 
 /**
@@ -19,6 +21,8 @@ export function VocabList({ words, nativeLang }: { words: VocabWord[]; nativeLan
       .sort((a, b) => a.lemma.localeCompare(b.lemma));
   }, [words, query, nativeLang]);
 
+  const order = useListOrder(filtered);
+
   return (
     <>
       <input
@@ -28,11 +32,14 @@ export function VocabList({ words, nativeLang }: { words: VocabWord[]; nativeLan
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <p className="muted">
-        {filtered.length} из {words.length}
-      </p>
+      <div className="list-toolbar">
+        <p className="muted">
+          {filtered.length} из {words.length}
+        </p>
+        <ListOrderControls order={order} />
+      </div>
       <ol className="vocab-list">
-        {filtered.map((w, i) => {
+        {order.ordered.map((w, i) => {
           const example = w.examples?.[0];
           return (
             <li key={w.id} className="vocab-list__item">

@@ -1,6 +1,8 @@
 import { useMemo, useState } from "react";
 import type { Phrase } from "../types/data";
 import { tr } from "../lib/i18n";
+import { useListOrder } from "../lib/listOrder";
+import { ListOrderControls } from "./ListOrderControls";
 import { SpeakButton } from "./SpeakButton";
 
 /**
@@ -28,6 +30,8 @@ export function PhraseList({ phrases, nativeLang }: { phrases: Phrase[]; nativeL
       .sort((a, b) => a.text.localeCompare(b.text));
   }, [phrases, query, nativeLang]);
 
+  const order = useListOrder(filtered);
+
   return (
     <>
       <input
@@ -37,11 +41,14 @@ export function PhraseList({ phrases, nativeLang }: { phrases: Phrase[]; nativeL
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <p className="muted">
-        {filtered.length} из {phrases.length}
-      </p>
+      <div className="list-toolbar">
+        <p className="muted">
+          {filtered.length} из {phrases.length}
+        </p>
+        <ListOrderControls order={order} />
+      </div>
       <ol className="vocab-list">
-        {filtered.map((p, i) => (
+        {order.ordered.map((p, i) => (
           <li key={p.id} className="vocab-list__item">
             <span className="vocab-list__num">{i + 1}.</span>
             <div className="vocab-list__body">

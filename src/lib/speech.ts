@@ -105,14 +105,33 @@ export function textForSpeech(text: string): string {
     .trim();
 }
 
+export interface SpeakOptions {
+  /** `SpeechSynthesisVoice.voiceURI`; omitted means "pick the best available". */
+  voiceURI?: string;
+  /** 1 is the engine's normal pace. See DEFAULT_SPEECH_RATE for why we default below it. */
+  rate?: number;
+}
+
+/**
+ * Default pace. The offline system voices most machines ship with read at a
+ * clip that is fine for a native speaker and too fast to follow for a learner,
+ * so the app asks for slightly slower than normal out of the box.
+ */
+export const DEFAULT_SPEECH_RATE = 0.9;
+
+function configure(utter: SpeechSynthesisUtterance, locale: string, options?: SpeakOptions): void {
+  utter.lang = locale;
+  utter.rate = options?.rate ?? DEFAULT_SPEECH_RATE;
+  const voice = pickVoice(locale, options?.voiceURI);
+  if (voice) utter.voice = voice;
+}
+
 /** Speak `text` in the given BCP-47 locale (e.g. "es-ES"). No-op if unsupported. */
-export function speak(text: string, locale: string, voiceURI?: string): void {
+export function speak(text: string, locale: string, options?: SpeakOptions): void {
   if (!isTtsAvailable() || !text.trim()) return;
   window.speechSynthesis.cancel(); // don't stack overlapping utterances
   const utter = new SpeechSynthesisUtterance(textForSpeech(text));
-  utter.lang = locale;
-  const voice = pickVoice(locale, voiceURI);
-  if (voice) utter.voice = voice;
+  configure(utter, locale, options);
   window.speechSynthesis.speak(utter);
 }
 
@@ -131,16 +150,14 @@ export function cancelSpeech(): void {
  * an error in some browsers, so a caller that stops playback still gets its
  * promise settled instead of hanging forever.
  */
-export function speakAsync(text: string, locale: string, voiceURI?: string): Promise<void> {
+export function speakAsync(text: string, locale: string, options?: SpeakOptions): Promise<void> {
   return new Promise((resolve) => {
     if (!isTtsAvailable() || !text.trim()) {
       resolve();
       return;
     }
     const utter = new SpeechSynthesisUtterance(textForSpeech(text));
-    utter.lang = locale;
-    const voice = pickVoice(locale, voiceURI);
-    if (voice) utter.voice = voice;
+    configure(utter, locale, options);
     let settled = false;
     const finish = () => {
       if (settled) return;

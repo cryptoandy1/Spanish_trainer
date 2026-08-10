@@ -11,7 +11,7 @@ export function SpeakButton({ text, className }: { text: string; className?: str
       className={"speak-button" + (className ? " " + className : "")}
       onClick={(e) => {
         e.stopPropagation();
-        speak(text, locale, settings.voiceURI);
+        speak(text, locale, { voiceURI: settings.voiceURI, rate: settings.speechRate });
       }}
       aria-label="Произнести"
       title="Произнести"

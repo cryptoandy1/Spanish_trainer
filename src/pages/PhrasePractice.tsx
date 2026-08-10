@@ -3,7 +3,7 @@ import { useData } from "../lib/DataContext";
 import { phrasesToDeck } from "../lib/quiz/deck";
 import { QuizRunner } from "../components/quiz/QuizRunner";
 import { PhraseList } from "../components/PhraseList";
-import { PhraseNarrator } from "../components/PhraseNarrator";
+import { Narrator } from "../components/Narrator";
 import { ui } from "../lib/i18n";
 
 type Mode = "practice" | "list" | "narrator";
@@ -55,13 +55,14 @@ export function PhrasePractice() {
       {mode === "practice" && <QuizRunner pool={deck} allowedModes={["choice"]} />}
       {mode === "list" && <PhraseList phrases={pack.phrases} nativeLang={settings.nativeLang} />}
       {mode === "narrator" && (
-        <PhraseNarrator
-          phrases={pack.phrases}
-          nativeLang={settings.nativeLang}
+        <Narrator
+          items={deck}
           targetLocale={pack.meta.speechLocale}
           nativeLocale={nativeLocale}
           voiceURI={settings.voiceURI}
+          rate={settings.speechRate}
           onVoiceChange={(voiceURI) => setSettings((prev) => ({ ...prev, voiceURI }))}
+          onRateChange={(speechRate) => setSettings((prev) => ({ ...prev, speechRate }))}
         />
       )}
     </div>

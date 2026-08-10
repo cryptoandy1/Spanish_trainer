@@ -24,6 +24,8 @@ export interface Settings {
    * what happens when a remembered voice isn't installed on this machine.
    */
   voiceURI?: string;
+  /** Speaking pace; undefined falls back to DEFAULT_SPEECH_RATE. */
+  speechRate?: number;
 }
 
 const SETTINGS_KEY = "st.settings.v1";
