@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useData } from "../lib/DataContext";
 import { dueCount, loadProgress } from "../lib/srs";
 import { verbFormsToDeck } from "../lib/quiz/deck";
+import { collectRecentBatches } from "../lib/recent";
 import { ui } from "../lib/i18n";
 
 export function Dashboard() {
@@ -14,7 +15,9 @@ export function Dashboard() {
   // Reuse verbFormsToDeck (not a separate id-listing helper) so the due-count
   // here can never drift from what ConjugationDrill actually quizzes.
   const conjDeck = verbFormsToDeck(pack.verbs, pack.meta, settings.nativeLang);
-  const tiles: { to: string; title: string; icon: string; count: number; due?: number }[] = [
+  // The freshest intake batch — what the "recently added" tile counts.
+  const latestBatch = collectRecentBatches(pack)[0];
+  const tiles: { to: string; title: string; icon: string; count: number; countLabel?: string; due?: number }[] = [
     {
       to: "/practice/phrases",
       title: ui.nav.practicePhrases,
@@ -49,6 +52,13 @@ export function Dashboard() {
     { to: "/topics", title: ui.nav.topics, icon: "🗂️", count: pack.topics.length },
     { to: "/grammar", title: ui.nav.grammar, icon: "📖", count: pack.grammar.length },
     { to: "/reference", title: ui.nav.reference, icon: "🧩", count: pack.widgets.length },
+    {
+      to: "/recent",
+      title: ui.nav.recent,
+      icon: "🆕",
+      count: latestBatch?.total ?? 0,
+      countLabel: ui.recent.records,
+    },
   ];
 
   return (
@@ -59,7 +69,9 @@ export function Dashboard() {
           <Link key={t.to} to={t.to} className="dashboard-tile">
             <div className="dashboard-tile__icon">{t.icon}</div>
             <div className="dashboard-tile__title">{t.title}</div>
-            <div className="dashboard-tile__count">{t.count} карточек</div>
+            <div className="dashboard-tile__count">
+              {t.count} {t.countLabel ?? "карточек"}
+            </div>
             {typeof t.due === "number" && t.due > 0 && <div className="dashboard-tile__due">{t.due} к повторению</div>}
           </Link>
         ))}

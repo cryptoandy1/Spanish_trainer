@@ -11,6 +11,7 @@ import { TopicDetail } from "./pages/TopicDetail";
 import { GrammarIndex } from "./pages/GrammarIndex";
 import { GrammarDetail } from "./pages/GrammarDetail";
 import { ReferenceIndex } from "./pages/ReferenceIndex";
+import { RecentIndex } from "./pages/RecentIndex";
 import { WidgetDetail } from "./pages/WidgetDetail";
 import { Settings } from "./pages/Settings";
 
@@ -34,6 +35,7 @@ export const router = createHashRouter([
       { path: "grammar/:grammarId", element: <GrammarDetail /> },
       { path: "reference", element: <ReferenceIndex /> },
       { path: "reference/:widgetId", element: <WidgetDetail /> },
+      { path: "recent", element: <RecentIndex /> },
       { path: "settings", element: <Settings /> },
     ],
   },

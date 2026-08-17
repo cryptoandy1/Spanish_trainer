@@ -26,7 +26,20 @@ export const ui = {
     topics: "Темы",
     grammar: "Грамматика",
     reference: "Справочник",
+    recent: "Недавнее",
     settings: "Настройки",
+  },
+  recent: {
+    title: "Недавно добавленное",
+    hint: "Всё, что попало в данные за одно пополнение — самое свежее сверху.",
+    // Batch-kind labels, keyed by the prefix of source.ingestBatch.
+    kinds: {
+      ingest: "Пополнение",
+      curate: "Правки",
+      extract: "Извлечение из архива",
+      seed: "Начальный набор",
+    } as Record<string, string>,
+    records: "записей",
   },
   quiz: {
     start: "Начать",

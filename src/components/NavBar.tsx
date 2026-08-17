@@ -10,6 +10,7 @@ const links: { to: string; label: string; end?: boolean }[] = [
   { to: "/topics", label: ui.nav.topics },
   { to: "/grammar", label: ui.nav.grammar },
   { to: "/reference", label: ui.nav.reference },
+  { to: "/recent", label: ui.nav.recent },
   { to: "/settings", label: ui.nav.settings },
 ];
 
