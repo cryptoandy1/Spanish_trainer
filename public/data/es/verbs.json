@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-06T01:55:30Z",
+  "generatedAt": "2026-08-17T19:16:08Z",
   "items": [
     {
       "id": "vb_abrir",
@@ -252,6 +252,496 @@
         ]
       },
       "conjugationClass": "-ir"
+    },
+    {
+      "id": "vb_acabar",
+      "infinitive": "acabar",
+      "tr": {
+        "ru": "заканчивать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "acabando",
+        "participle": "acabado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "acabo"
+            },
+            "tu": {
+              "form": "acabas"
+            },
+            "el": {
+              "form": "acaba"
+            },
+            "nosotros": {
+              "form": "acabamos"
+            },
+            "vosotros": {
+              "form": "acabáis"
+            },
+            "ellos": {
+              "form": "acaban"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "acabé"
+            },
+            "tu": {
+              "form": "acabaste"
+            },
+            "el": {
+              "form": "acabó"
+            },
+            "nosotros": {
+              "form": "acabamos"
+            },
+            "vosotros": {
+              "form": "acabasteis"
+            },
+            "ellos": {
+              "form": "acabaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "acababa"
+            },
+            "tu": {
+              "form": "acababas"
+            },
+            "el": {
+              "form": "acababa"
+            },
+            "nosotros": {
+              "form": "acabábamos"
+            },
+            "vosotros": {
+              "form": "acababais"
+            },
+            "ellos": {
+              "form": "acababan"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he acabado"
+            },
+            "tu": {
+              "form": "has acabado"
+            },
+            "el": {
+              "form": "ha acabado"
+            },
+            "nosotros": {
+              "form": "hemos acabado"
+            },
+            "vosotros": {
+              "form": "habéis acabado"
+            },
+            "ellos": {
+              "form": "han acabado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "acabaré"
+            },
+            "tu": {
+              "form": "acabarás"
+            },
+            "el": {
+              "form": "acabará"
+            },
+            "nosotros": {
+              "form": "acabaremos"
+            },
+            "vosotros": {
+              "form": "acabaréis"
+            },
+            "ellos": {
+              "form": "acabarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "acabaría"
+            },
+            "tu": {
+              "form": "acabarías"
+            },
+            "el": {
+              "form": "acabaría"
+            },
+            "nosotros": {
+              "form": "acabaríamos"
+            },
+            "vosotros": {
+              "form": "acabaríais"
+            },
+            "ellos": {
+              "form": "acabarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "acabe"
+            },
+            "tu": {
+              "form": "acabes"
+            },
+            "el": {
+              "form": "acabe"
+            },
+            "nosotros": {
+              "form": "acabemos"
+            },
+            "vosotros": {
+              "form": "acabéis"
+            },
+            "ellos": {
+              "form": "acaben"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "acabara"
+            },
+            "tu": {
+              "form": "acabaras"
+            },
+            "el": {
+              "form": "acabara"
+            },
+            "nosotros": {
+              "form": "acabáramos"
+            },
+            "vosotros": {
+              "form": "acabarais"
+            },
+            "ellos": {
+              "form": "acabaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "acaba"
+            },
+            "el": {
+              "form": "acabe"
+            },
+            "nosotros": {
+              "form": "acabemos"
+            },
+            "vosotros": {
+              "form": "acabad"
+            },
+            "ellos": {
+              "form": "acaben"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no acabes"
+            },
+            "el": {
+              "form": "no acabe"
+            },
+            "nosotros": {
+              "form": "no acabemos"
+            },
+            "vosotros": {
+              "form": "no acabéis"
+            },
+            "ellos": {
+              "form": "no acaben"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_acordarse",
+      "infinitive": "acordarse",
+      "tr": {
+        "ru": "вспоминать, помнить"
+      },
+      "regularity": "stem-changing",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "acordándose",
+        "participle": "acordado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me acuerdo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te acuerdas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se acuerda",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos acordamos"
+            },
+            "vosotros": {
+              "form": "os acordáis"
+            },
+            "ellos": {
+              "form": "se acuerdan",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me acordé"
+            },
+            "tu": {
+              "form": "te acordaste"
+            },
+            "el": {
+              "form": "se acordó"
+            },
+            "nosotros": {
+              "form": "nos acordamos"
+            },
+            "vosotros": {
+              "form": "os acordasteis"
+            },
+            "ellos": {
+              "form": "se acordaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me acordaba"
+            },
+            "tu": {
+              "form": "te acordabas"
+            },
+            "el": {
+              "form": "se acordaba"
+            },
+            "nosotros": {
+              "form": "nos acordábamos"
+            },
+            "vosotros": {
+              "form": "os acordabais"
+            },
+            "ellos": {
+              "form": "se acordaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he acordado"
+            },
+            "tu": {
+              "form": "te has acordado"
+            },
+            "el": {
+              "form": "se ha acordado"
+            },
+            "nosotros": {
+              "form": "nos hemos acordado"
+            },
+            "vosotros": {
+              "form": "os habéis acordado"
+            },
+            "ellos": {
+              "form": "se han acordado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me acordaré"
+            },
+            "tu": {
+              "form": "te acordarás"
+            },
+            "el": {
+              "form": "se acordará"
+            },
+            "nosotros": {
+              "form": "nos acordaremos"
+            },
+            "vosotros": {
+              "form": "os acordaréis"
+            },
+            "ellos": {
+              "form": "se acordarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me acordaría"
+            },
+            "tu": {
+              "form": "te acordarías"
+            },
+            "el": {
+              "form": "se acordaría"
+            },
+            "nosotros": {
+              "form": "nos acordaríamos"
+            },
+            "vosotros": {
+              "form": "os acordaríais"
+            },
+            "ellos": {
+              "form": "se acordarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me acuerde",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te acuerdes",
+              "irregular": true
+            },
+            "el": {
+              "form": "se acuerde",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos acordemos"
+            },
+            "vosotros": {
+              "form": "os acordéis"
+            },
+            "ellos": {
+              "form": "se acuerden",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me acordara"
+            },
+            "tu": {
+              "form": "te acordaras"
+            },
+            "el": {
+              "form": "se acordara"
+            },
+            "nosotros": {
+              "form": "nos acordáramos"
+            },
+            "vosotros": {
+              "form": "os acordarais"
+            },
+            "ellos": {
+              "form": "se acordaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "acuérdate",
+              "irregular": true
+            },
+            "el": {
+              "form": "acuérdese",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "acordémonos"
+            },
+            "vosotros": {
+              "form": "acordaos"
+            },
+            "ellos": {
+              "form": "acuérdense",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te acuerdes",
+              "irregular": true
+            },
+            "el": {
+              "form": "no se acuerde",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no nos acordemos"
+            },
+            "vosotros": {
+              "form": "no os acordéis"
+            },
+            "ellos": {
+              "form": "no se acuerden",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_acostar",
@@ -761,6 +1251,271 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_advertir",
+      "infinitive": "advertir",
+      "tr": {
+        "ru": "заметить (книжн.); предупредить"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "advirtiendo",
+        "participle": "advertido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "advierto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "adviertes",
+              "irregular": true
+            },
+            "el": {
+              "form": "advierte",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "advertimos"
+            },
+            "vosotros": {
+              "form": "advertís"
+            },
+            "ellos": {
+              "form": "advierten",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "advertí"
+            },
+            "tu": {
+              "form": "advertiste"
+            },
+            "el": {
+              "form": "advirtió",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "advertimos"
+            },
+            "vosotros": {
+              "form": "advertisteis"
+            },
+            "ellos": {
+              "form": "advirtieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "advertía"
+            },
+            "tu": {
+              "form": "advertías"
+            },
+            "el": {
+              "form": "advertía"
+            },
+            "nosotros": {
+              "form": "advertíamos"
+            },
+            "vosotros": {
+              "form": "advertíais"
+            },
+            "ellos": {
+              "form": "advertían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he advertido"
+            },
+            "tu": {
+              "form": "has advertido"
+            },
+            "el": {
+              "form": "ha advertido"
+            },
+            "nosotros": {
+              "form": "hemos advertido"
+            },
+            "vosotros": {
+              "form": "habéis advertido"
+            },
+            "ellos": {
+              "form": "han advertido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "advertiré"
+            },
+            "tu": {
+              "form": "advertirás"
+            },
+            "el": {
+              "form": "advertirá"
+            },
+            "nosotros": {
+              "form": "advertiremos"
+            },
+            "vosotros": {
+              "form": "advertiréis"
+            },
+            "ellos": {
+              "form": "advertirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "advertiría"
+            },
+            "tu": {
+              "form": "advertirías"
+            },
+            "el": {
+              "form": "advertiría"
+            },
+            "nosotros": {
+              "form": "advertiríamos"
+            },
+            "vosotros": {
+              "form": "advertiríais"
+            },
+            "ellos": {
+              "form": "advertirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "advierta",
+              "irregular": true
+            },
+            "tu": {
+              "form": "adviertas",
+              "irregular": true
+            },
+            "el": {
+              "form": "advierta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "advirtamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "advirtáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "adviertan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "advirtiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "advirtieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "advirtiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "advirtiéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "advirtierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "advirtieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "advierte",
+              "irregular": true
+            },
+            "el": {
+              "form": "advierta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "advirtamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "advertid"
+            },
+            "ellos": {
+              "form": "adviertan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no adviertas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no advierta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no advirtamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no advirtáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no adviertan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ir"
+    },
+    {
       "id": "vb_afeitarse",
       "infinitive": "afeitarse",
       "tr": {
@@ -1259,6 +2014,256 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_andar",
+      "infinitive": "andar",
+      "tr": {
+        "ru": "ходить, идти"
+      },
+      "regularity": "irregular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "andando",
+        "participle": "andado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "ando"
+            },
+            "tu": {
+              "form": "andas"
+            },
+            "el": {
+              "form": "anda"
+            },
+            "nosotros": {
+              "form": "andamos"
+            },
+            "vosotros": {
+              "form": "andáis"
+            },
+            "ellos": {
+              "form": "andan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "anduve",
+              "irregular": true
+            },
+            "tu": {
+              "form": "anduviste",
+              "irregular": true
+            },
+            "el": {
+              "form": "anduvo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "anduvimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "anduvisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "anduvieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "andaba"
+            },
+            "tu": {
+              "form": "andabas"
+            },
+            "el": {
+              "form": "andaba"
+            },
+            "nosotros": {
+              "form": "andábamos"
+            },
+            "vosotros": {
+              "form": "andabais"
+            },
+            "ellos": {
+              "form": "andaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he andado"
+            },
+            "tu": {
+              "form": "has andado"
+            },
+            "el": {
+              "form": "ha andado"
+            },
+            "nosotros": {
+              "form": "hemos andado"
+            },
+            "vosotros": {
+              "form": "habéis andado"
+            },
+            "ellos": {
+              "form": "han andado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "andaré"
+            },
+            "tu": {
+              "form": "andarás"
+            },
+            "el": {
+              "form": "andará"
+            },
+            "nosotros": {
+              "form": "andaremos"
+            },
+            "vosotros": {
+              "form": "andaréis"
+            },
+            "ellos": {
+              "form": "andarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "andaría"
+            },
+            "tu": {
+              "form": "andarías"
+            },
+            "el": {
+              "form": "andaría"
+            },
+            "nosotros": {
+              "form": "andaríamos"
+            },
+            "vosotros": {
+              "form": "andaríais"
+            },
+            "ellos": {
+              "form": "andarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "ande"
+            },
+            "tu": {
+              "form": "andes"
+            },
+            "el": {
+              "form": "ande"
+            },
+            "nosotros": {
+              "form": "andemos"
+            },
+            "vosotros": {
+              "form": "andéis"
+            },
+            "ellos": {
+              "form": "anden"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "anduviera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "anduvieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "anduviera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "anduviéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "anduvierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "anduvieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "anda"
+            },
+            "el": {
+              "form": "ande"
+            },
+            "nosotros": {
+              "form": "andemos"
+            },
+            "vosotros": {
+              "form": "andad"
+            },
+            "ellos": {
+              "form": "anden"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no andes"
+            },
+            "el": {
+              "form": "no ande"
+            },
+            "nosotros": {
+              "form": "no andemos"
+            },
+            "vosotros": {
+              "form": "no andéis"
+            },
+            "ellos": {
+              "form": "no anden"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_apagar",
@@ -2255,6 +3260,244 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_atreverse",
+      "infinitive": "atreverse",
+      "tr": {
+        "ru": "осмелиться"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "atreviéndose",
+        "participle": "atrevido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me atrevo"
+            },
+            "tu": {
+              "form": "te atreves"
+            },
+            "el": {
+              "form": "se atreve"
+            },
+            "nosotros": {
+              "form": "nos atrevemos"
+            },
+            "vosotros": {
+              "form": "os atrevéis"
+            },
+            "ellos": {
+              "form": "se atreven"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me atreví"
+            },
+            "tu": {
+              "form": "te atreviste"
+            },
+            "el": {
+              "form": "se atrevió"
+            },
+            "nosotros": {
+              "form": "nos atrevimos"
+            },
+            "vosotros": {
+              "form": "os atrevisteis"
+            },
+            "ellos": {
+              "form": "se atrevieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me atrevía"
+            },
+            "tu": {
+              "form": "te atrevías"
+            },
+            "el": {
+              "form": "se atrevía"
+            },
+            "nosotros": {
+              "form": "nos atrevíamos"
+            },
+            "vosotros": {
+              "form": "os atrevíais"
+            },
+            "ellos": {
+              "form": "se atrevían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he atrevido"
+            },
+            "tu": {
+              "form": "te has atrevido"
+            },
+            "el": {
+              "form": "se ha atrevido"
+            },
+            "nosotros": {
+              "form": "nos hemos atrevido"
+            },
+            "vosotros": {
+              "form": "os habéis atrevido"
+            },
+            "ellos": {
+              "form": "se han atrevido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me atreveré"
+            },
+            "tu": {
+              "form": "te atreverás"
+            },
+            "el": {
+              "form": "se atreverá"
+            },
+            "nosotros": {
+              "form": "nos atreveremos"
+            },
+            "vosotros": {
+              "form": "os atreveréis"
+            },
+            "ellos": {
+              "form": "se atreverán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me atrevería"
+            },
+            "tu": {
+              "form": "te atreverías"
+            },
+            "el": {
+              "form": "se atrevería"
+            },
+            "nosotros": {
+              "form": "nos atreveríamos"
+            },
+            "vosotros": {
+              "form": "os atreveríais"
+            },
+            "ellos": {
+              "form": "se atreverían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me atreva"
+            },
+            "tu": {
+              "form": "te atrevas"
+            },
+            "el": {
+              "form": "se atreva"
+            },
+            "nosotros": {
+              "form": "nos atrevamos"
+            },
+            "vosotros": {
+              "form": "os atreváis"
+            },
+            "ellos": {
+              "form": "se atrevan"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me atreviera"
+            },
+            "tu": {
+              "form": "te atrevieras"
+            },
+            "el": {
+              "form": "se atreviera"
+            },
+            "nosotros": {
+              "form": "nos atreviéramos"
+            },
+            "vosotros": {
+              "form": "os atrevierais"
+            },
+            "ellos": {
+              "form": "se atrevieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "atrévete"
+            },
+            "el": {
+              "form": "atrévase"
+            },
+            "nosotros": {
+              "form": "atrevámonos"
+            },
+            "vosotros": {
+              "form": "atreveos"
+            },
+            "ellos": {
+              "form": "atrévanse"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te atrevas"
+            },
+            "el": {
+              "form": "no se atreva"
+            },
+            "nosotros": {
+              "form": "no nos atrevamos"
+            },
+            "vosotros": {
+              "form": "no os atreváis"
+            },
+            "ellos": {
+              "form": "no se atrevan"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-er"
     },
     {
       "id": "vb_avisar",
@@ -4488,6 +5731,264 @@
       }
     },
     {
+      "id": "vb_comenzar",
+      "infinitive": "comenzar",
+      "tr": {
+        "ru": "начинать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "comenzando",
+        "participle": "comenzado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "comienzo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "comienzas",
+              "irregular": true
+            },
+            "el": {
+              "form": "comienza",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "comenzamos"
+            },
+            "vosotros": {
+              "form": "comenzáis"
+            },
+            "ellos": {
+              "form": "comienzan",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "comencé",
+              "irregular": true
+            },
+            "tu": {
+              "form": "comenzaste"
+            },
+            "el": {
+              "form": "comenzó"
+            },
+            "nosotros": {
+              "form": "comenzamos"
+            },
+            "vosotros": {
+              "form": "comenzasteis"
+            },
+            "ellos": {
+              "form": "comenzaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "comenzaba"
+            },
+            "tu": {
+              "form": "comenzabas"
+            },
+            "el": {
+              "form": "comenzaba"
+            },
+            "nosotros": {
+              "form": "comenzábamos"
+            },
+            "vosotros": {
+              "form": "comenzabais"
+            },
+            "ellos": {
+              "form": "comenzaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he comenzado"
+            },
+            "tu": {
+              "form": "has comenzado"
+            },
+            "el": {
+              "form": "ha comenzado"
+            },
+            "nosotros": {
+              "form": "hemos comenzado"
+            },
+            "vosotros": {
+              "form": "habéis comenzado"
+            },
+            "ellos": {
+              "form": "han comenzado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "comenzaré"
+            },
+            "tu": {
+              "form": "comenzarás"
+            },
+            "el": {
+              "form": "comenzará"
+            },
+            "nosotros": {
+              "form": "comenzaremos"
+            },
+            "vosotros": {
+              "form": "comenzaréis"
+            },
+            "ellos": {
+              "form": "comenzarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "comenzaría"
+            },
+            "tu": {
+              "form": "comenzarías"
+            },
+            "el": {
+              "form": "comenzaría"
+            },
+            "nosotros": {
+              "form": "comenzaríamos"
+            },
+            "vosotros": {
+              "form": "comenzaríais"
+            },
+            "ellos": {
+              "form": "comenzarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "comience",
+              "irregular": true
+            },
+            "tu": {
+              "form": "comiences",
+              "irregular": true
+            },
+            "el": {
+              "form": "comience",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "comencemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "comencéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "comiencen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "comenzara"
+            },
+            "tu": {
+              "form": "comenzaras"
+            },
+            "el": {
+              "form": "comenzara"
+            },
+            "nosotros": {
+              "form": "comenzáramos"
+            },
+            "vosotros": {
+              "form": "comenzarais"
+            },
+            "ellos": {
+              "form": "comenzaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "comienza",
+              "irregular": true
+            },
+            "el": {
+              "form": "comience",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "comencemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "comenzad"
+            },
+            "ellos": {
+              "form": "comiencen",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no comiences",
+              "irregular": true
+            },
+            "el": {
+              "form": "no comience",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no comencemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no comencéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no comiencen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
       "id": "vb_comer",
       "infinitive": "comer",
       "tr": {
@@ -5489,6 +6990,271 @@
       "conjugationClass": "-er"
     },
     {
+      "id": "vb_conseguir",
+      "infinitive": "conseguir",
+      "tr": {
+        "ru": "добиться, получить"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "consiguiendo",
+        "participle": "conseguido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "consigo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "consigues",
+              "irregular": true
+            },
+            "el": {
+              "form": "consigue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "conseguimos"
+            },
+            "vosotros": {
+              "form": "conseguís"
+            },
+            "ellos": {
+              "form": "consiguen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "conseguí"
+            },
+            "tu": {
+              "form": "conseguiste"
+            },
+            "el": {
+              "form": "consiguió",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "conseguimos"
+            },
+            "vosotros": {
+              "form": "conseguisteis"
+            },
+            "ellos": {
+              "form": "consiguieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "conseguía"
+            },
+            "tu": {
+              "form": "conseguías"
+            },
+            "el": {
+              "form": "conseguía"
+            },
+            "nosotros": {
+              "form": "conseguíamos"
+            },
+            "vosotros": {
+              "form": "conseguíais"
+            },
+            "ellos": {
+              "form": "conseguían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he conseguido"
+            },
+            "tu": {
+              "form": "has conseguido"
+            },
+            "el": {
+              "form": "ha conseguido"
+            },
+            "nosotros": {
+              "form": "hemos conseguido"
+            },
+            "vosotros": {
+              "form": "habéis conseguido"
+            },
+            "ellos": {
+              "form": "han conseguido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "conseguiré"
+            },
+            "tu": {
+              "form": "conseguirás"
+            },
+            "el": {
+              "form": "conseguirá"
+            },
+            "nosotros": {
+              "form": "conseguiremos"
+            },
+            "vosotros": {
+              "form": "conseguiréis"
+            },
+            "ellos": {
+              "form": "conseguirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "conseguiría"
+            },
+            "tu": {
+              "form": "conseguirías"
+            },
+            "el": {
+              "form": "conseguiría"
+            },
+            "nosotros": {
+              "form": "conseguiríamos"
+            },
+            "vosotros": {
+              "form": "conseguiríais"
+            },
+            "ellos": {
+              "form": "conseguirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "consiga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "consigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "consiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "consigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "consigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "consigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "consiguiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "consiguieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "consiguiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "consiguiéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "consiguierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "consiguieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "consigue",
+              "irregular": true
+            },
+            "el": {
+              "form": "consiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "consigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "conseguid"
+            },
+            "ellos": {
+              "form": "consigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no consigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no consiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no consigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no consigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no consigan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ir"
+    },
+    {
       "id": "vb_contar",
       "infinitive": "contar",
       "tr": {
@@ -5744,6 +7510,258 @@
           "inbox-c3a8ffca"
         ]
       }
+    },
+    {
+      "id": "vb_continuar",
+      "infinitive": "continuar",
+      "tr": {
+        "ru": "продолжать"
+      },
+      "regularity": "orthographic",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "continuando",
+        "participle": "continuado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "continúo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "continúas",
+              "irregular": true
+            },
+            "el": {
+              "form": "continúa",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "continuamos"
+            },
+            "vosotros": {
+              "form": "continuáis"
+            },
+            "ellos": {
+              "form": "continúan",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "continué"
+            },
+            "tu": {
+              "form": "continuaste"
+            },
+            "el": {
+              "form": "continuó"
+            },
+            "nosotros": {
+              "form": "continuamos"
+            },
+            "vosotros": {
+              "form": "continuasteis"
+            },
+            "ellos": {
+              "form": "continuaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "continuaba"
+            },
+            "tu": {
+              "form": "continuabas"
+            },
+            "el": {
+              "form": "continuaba"
+            },
+            "nosotros": {
+              "form": "continuábamos"
+            },
+            "vosotros": {
+              "form": "continuabais"
+            },
+            "ellos": {
+              "form": "continuaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he continuado"
+            },
+            "tu": {
+              "form": "has continuado"
+            },
+            "el": {
+              "form": "ha continuado"
+            },
+            "nosotros": {
+              "form": "hemos continuado"
+            },
+            "vosotros": {
+              "form": "habéis continuado"
+            },
+            "ellos": {
+              "form": "han continuado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "continuaré"
+            },
+            "tu": {
+              "form": "continuarás"
+            },
+            "el": {
+              "form": "continuará"
+            },
+            "nosotros": {
+              "form": "continuaremos"
+            },
+            "vosotros": {
+              "form": "continuaréis"
+            },
+            "ellos": {
+              "form": "continuarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "continuaría"
+            },
+            "tu": {
+              "form": "continuarías"
+            },
+            "el": {
+              "form": "continuaría"
+            },
+            "nosotros": {
+              "form": "continuaríamos"
+            },
+            "vosotros": {
+              "form": "continuaríais"
+            },
+            "ellos": {
+              "form": "continuarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "continúe",
+              "irregular": true
+            },
+            "tu": {
+              "form": "continúes",
+              "irregular": true
+            },
+            "el": {
+              "form": "continúe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "continuemos"
+            },
+            "vosotros": {
+              "form": "continuéis"
+            },
+            "ellos": {
+              "form": "continúen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "continuara"
+            },
+            "tu": {
+              "form": "continuaras"
+            },
+            "el": {
+              "form": "continuara"
+            },
+            "nosotros": {
+              "form": "continuáramos"
+            },
+            "vosotros": {
+              "form": "continuarais"
+            },
+            "ellos": {
+              "form": "continuaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "continúa",
+              "irregular": true
+            },
+            "el": {
+              "form": "continúe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "continuemos"
+            },
+            "vosotros": {
+              "form": "continuad"
+            },
+            "ellos": {
+              "form": "continúen",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no continúes",
+              "irregular": true
+            },
+            "el": {
+              "form": "no continúe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no continuemos"
+            },
+            "vosotros": {
+              "form": "no continuéis"
+            },
+            "ellos": {
+              "form": "no continúen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_correr",
@@ -7493,6 +9511,244 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_decidir",
+      "infinitive": "decidir",
+      "tr": {
+        "ru": "решать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "decidiendo",
+        "participle": "decidido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "decido"
+            },
+            "tu": {
+              "form": "decides"
+            },
+            "el": {
+              "form": "decide"
+            },
+            "nosotros": {
+              "form": "decidimos"
+            },
+            "vosotros": {
+              "form": "decidís"
+            },
+            "ellos": {
+              "form": "deciden"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "decidí"
+            },
+            "tu": {
+              "form": "decidiste"
+            },
+            "el": {
+              "form": "decidió"
+            },
+            "nosotros": {
+              "form": "decidimos"
+            },
+            "vosotros": {
+              "form": "decidisteis"
+            },
+            "ellos": {
+              "form": "decidieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "decidía"
+            },
+            "tu": {
+              "form": "decidías"
+            },
+            "el": {
+              "form": "decidía"
+            },
+            "nosotros": {
+              "form": "decidíamos"
+            },
+            "vosotros": {
+              "form": "decidíais"
+            },
+            "ellos": {
+              "form": "decidían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he decidido"
+            },
+            "tu": {
+              "form": "has decidido"
+            },
+            "el": {
+              "form": "ha decidido"
+            },
+            "nosotros": {
+              "form": "hemos decidido"
+            },
+            "vosotros": {
+              "form": "habéis decidido"
+            },
+            "ellos": {
+              "form": "han decidido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "decidiré"
+            },
+            "tu": {
+              "form": "decidirás"
+            },
+            "el": {
+              "form": "decidirá"
+            },
+            "nosotros": {
+              "form": "decidiremos"
+            },
+            "vosotros": {
+              "form": "decidiréis"
+            },
+            "ellos": {
+              "form": "decidirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "decidiría"
+            },
+            "tu": {
+              "form": "decidirías"
+            },
+            "el": {
+              "form": "decidiría"
+            },
+            "nosotros": {
+              "form": "decidiríamos"
+            },
+            "vosotros": {
+              "form": "decidiríais"
+            },
+            "ellos": {
+              "form": "decidirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "decida"
+            },
+            "tu": {
+              "form": "decidas"
+            },
+            "el": {
+              "form": "decida"
+            },
+            "nosotros": {
+              "form": "decidamos"
+            },
+            "vosotros": {
+              "form": "decidáis"
+            },
+            "ellos": {
+              "form": "decidan"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "decidiera"
+            },
+            "tu": {
+              "form": "decidieras"
+            },
+            "el": {
+              "form": "decidiera"
+            },
+            "nosotros": {
+              "form": "decidiéramos"
+            },
+            "vosotros": {
+              "form": "decidierais"
+            },
+            "ellos": {
+              "form": "decidieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "decide"
+            },
+            "el": {
+              "form": "decida"
+            },
+            "nosotros": {
+              "form": "decidamos"
+            },
+            "vosotros": {
+              "form": "decidid"
+            },
+            "ellos": {
+              "form": "decidan"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no decidas"
+            },
+            "el": {
+              "form": "no decida"
+            },
+            "nosotros": {
+              "form": "no decidamos"
+            },
+            "vosotros": {
+              "form": "no decidáis"
+            },
+            "ellos": {
+              "form": "no decidan"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ir"
     },
     {
       "id": "vb_decir",
@@ -13535,6 +15791,244 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_evitar",
+      "infinitive": "evitar",
+      "tr": {
+        "ru": "избегать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "evitando",
+        "participle": "evitado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "evito"
+            },
+            "tu": {
+              "form": "evitas"
+            },
+            "el": {
+              "form": "evita"
+            },
+            "nosotros": {
+              "form": "evitamos"
+            },
+            "vosotros": {
+              "form": "evitáis"
+            },
+            "ellos": {
+              "form": "evitan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "evité"
+            },
+            "tu": {
+              "form": "evitaste"
+            },
+            "el": {
+              "form": "evitó"
+            },
+            "nosotros": {
+              "form": "evitamos"
+            },
+            "vosotros": {
+              "form": "evitasteis"
+            },
+            "ellos": {
+              "form": "evitaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "evitaba"
+            },
+            "tu": {
+              "form": "evitabas"
+            },
+            "el": {
+              "form": "evitaba"
+            },
+            "nosotros": {
+              "form": "evitábamos"
+            },
+            "vosotros": {
+              "form": "evitabais"
+            },
+            "ellos": {
+              "form": "evitaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he evitado"
+            },
+            "tu": {
+              "form": "has evitado"
+            },
+            "el": {
+              "form": "ha evitado"
+            },
+            "nosotros": {
+              "form": "hemos evitado"
+            },
+            "vosotros": {
+              "form": "habéis evitado"
+            },
+            "ellos": {
+              "form": "han evitado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "evitaré"
+            },
+            "tu": {
+              "form": "evitarás"
+            },
+            "el": {
+              "form": "evitará"
+            },
+            "nosotros": {
+              "form": "evitaremos"
+            },
+            "vosotros": {
+              "form": "evitaréis"
+            },
+            "ellos": {
+              "form": "evitarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "evitaría"
+            },
+            "tu": {
+              "form": "evitarías"
+            },
+            "el": {
+              "form": "evitaría"
+            },
+            "nosotros": {
+              "form": "evitaríamos"
+            },
+            "vosotros": {
+              "form": "evitaríais"
+            },
+            "ellos": {
+              "form": "evitarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "evite"
+            },
+            "tu": {
+              "form": "evites"
+            },
+            "el": {
+              "form": "evite"
+            },
+            "nosotros": {
+              "form": "evitemos"
+            },
+            "vosotros": {
+              "form": "evitéis"
+            },
+            "ellos": {
+              "form": "eviten"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "evitara"
+            },
+            "tu": {
+              "form": "evitaras"
+            },
+            "el": {
+              "form": "evitara"
+            },
+            "nosotros": {
+              "form": "evitáramos"
+            },
+            "vosotros": {
+              "form": "evitarais"
+            },
+            "ellos": {
+              "form": "evitaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "evita"
+            },
+            "el": {
+              "form": "evite"
+            },
+            "nosotros": {
+              "form": "evitemos"
+            },
+            "vosotros": {
+              "form": "evitad"
+            },
+            "ellos": {
+              "form": "eviten"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no evites"
+            },
+            "el": {
+              "form": "no evite"
+            },
+            "nosotros": {
+              "form": "no evitemos"
+            },
+            "vosotros": {
+              "form": "no evitéis"
+            },
+            "ellos": {
+              "form": "no eviten"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
       "id": "vb_explicar",
       "infinitive": "explicar",
       "tr": {
@@ -13788,6 +16282,244 @@
       }
     },
     {
+      "id": "vb_fijarse",
+      "infinitive": "fijarse",
+      "tr": {
+        "ru": "обращать внимание"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "fijándose",
+        "participle": "fijado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me fijo"
+            },
+            "tu": {
+              "form": "te fijas"
+            },
+            "el": {
+              "form": "se fija"
+            },
+            "nosotros": {
+              "form": "nos fijamos"
+            },
+            "vosotros": {
+              "form": "os fijáis"
+            },
+            "ellos": {
+              "form": "se fijan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me fijé"
+            },
+            "tu": {
+              "form": "te fijaste"
+            },
+            "el": {
+              "form": "se fijó"
+            },
+            "nosotros": {
+              "form": "nos fijamos"
+            },
+            "vosotros": {
+              "form": "os fijasteis"
+            },
+            "ellos": {
+              "form": "se fijaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me fijaba"
+            },
+            "tu": {
+              "form": "te fijabas"
+            },
+            "el": {
+              "form": "se fijaba"
+            },
+            "nosotros": {
+              "form": "nos fijábamos"
+            },
+            "vosotros": {
+              "form": "os fijabais"
+            },
+            "ellos": {
+              "form": "se fijaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he fijado"
+            },
+            "tu": {
+              "form": "te has fijado"
+            },
+            "el": {
+              "form": "se ha fijado"
+            },
+            "nosotros": {
+              "form": "nos hemos fijado"
+            },
+            "vosotros": {
+              "form": "os habéis fijado"
+            },
+            "ellos": {
+              "form": "se han fijado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me fijaré"
+            },
+            "tu": {
+              "form": "te fijarás"
+            },
+            "el": {
+              "form": "se fijará"
+            },
+            "nosotros": {
+              "form": "nos fijaremos"
+            },
+            "vosotros": {
+              "form": "os fijaréis"
+            },
+            "ellos": {
+              "form": "se fijarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me fijaría"
+            },
+            "tu": {
+              "form": "te fijarías"
+            },
+            "el": {
+              "form": "se fijaría"
+            },
+            "nosotros": {
+              "form": "nos fijaríamos"
+            },
+            "vosotros": {
+              "form": "os fijaríais"
+            },
+            "ellos": {
+              "form": "se fijarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me fije"
+            },
+            "tu": {
+              "form": "te fijes"
+            },
+            "el": {
+              "form": "se fije"
+            },
+            "nosotros": {
+              "form": "nos fijemos"
+            },
+            "vosotros": {
+              "form": "os fijéis"
+            },
+            "ellos": {
+              "form": "se fijen"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me fijara"
+            },
+            "tu": {
+              "form": "te fijaras"
+            },
+            "el": {
+              "form": "se fijara"
+            },
+            "nosotros": {
+              "form": "nos fijáramos"
+            },
+            "vosotros": {
+              "form": "os fijarais"
+            },
+            "ellos": {
+              "form": "se fijaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "fíjate"
+            },
+            "el": {
+              "form": "fíjese"
+            },
+            "nosotros": {
+              "form": "fijémonos"
+            },
+            "vosotros": {
+              "form": "fijaos"
+            },
+            "ellos": {
+              "form": "fíjense"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te fijes"
+            },
+            "el": {
+              "form": "no se fije"
+            },
+            "nosotros": {
+              "form": "no nos fijemos"
+            },
+            "vosotros": {
+              "form": "no os fijéis"
+            },
+            "ellos": {
+              "form": "no se fijen"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
       "id": "vb_flipar",
       "infinitive": "flipar",
       "tr": {
@@ -14030,6 +16762,244 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "table"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_fumar",
+      "infinitive": "fumar",
+      "tr": {
+        "ru": "курить"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "fumando",
+        "participle": "fumado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "fumo"
+            },
+            "tu": {
+              "form": "fumas"
+            },
+            "el": {
+              "form": "fuma"
+            },
+            "nosotros": {
+              "form": "fumamos"
+            },
+            "vosotros": {
+              "form": "fumáis"
+            },
+            "ellos": {
+              "form": "fuman"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "fumé"
+            },
+            "tu": {
+              "form": "fumaste"
+            },
+            "el": {
+              "form": "fumó"
+            },
+            "nosotros": {
+              "form": "fumamos"
+            },
+            "vosotros": {
+              "form": "fumasteis"
+            },
+            "ellos": {
+              "form": "fumaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "fumaba"
+            },
+            "tu": {
+              "form": "fumabas"
+            },
+            "el": {
+              "form": "fumaba"
+            },
+            "nosotros": {
+              "form": "fumábamos"
+            },
+            "vosotros": {
+              "form": "fumabais"
+            },
+            "ellos": {
+              "form": "fumaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he fumado"
+            },
+            "tu": {
+              "form": "has fumado"
+            },
+            "el": {
+              "form": "ha fumado"
+            },
+            "nosotros": {
+              "form": "hemos fumado"
+            },
+            "vosotros": {
+              "form": "habéis fumado"
+            },
+            "ellos": {
+              "form": "han fumado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "fumaré"
+            },
+            "tu": {
+              "form": "fumarás"
+            },
+            "el": {
+              "form": "fumará"
+            },
+            "nosotros": {
+              "form": "fumaremos"
+            },
+            "vosotros": {
+              "form": "fumaréis"
+            },
+            "ellos": {
+              "form": "fumarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "fumaría"
+            },
+            "tu": {
+              "form": "fumarías"
+            },
+            "el": {
+              "form": "fumaría"
+            },
+            "nosotros": {
+              "form": "fumaríamos"
+            },
+            "vosotros": {
+              "form": "fumaríais"
+            },
+            "ellos": {
+              "form": "fumarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "fume"
+            },
+            "tu": {
+              "form": "fumes"
+            },
+            "el": {
+              "form": "fume"
+            },
+            "nosotros": {
+              "form": "fumemos"
+            },
+            "vosotros": {
+              "form": "fuméis"
+            },
+            "ellos": {
+              "form": "fumen"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "fumara"
+            },
+            "tu": {
+              "form": "fumaras"
+            },
+            "el": {
+              "form": "fumara"
+            },
+            "nosotros": {
+              "form": "fumáramos"
+            },
+            "vosotros": {
+              "form": "fumarais"
+            },
+            "ellos": {
+              "form": "fumaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "fuma"
+            },
+            "el": {
+              "form": "fume"
+            },
+            "nosotros": {
+              "form": "fumemos"
+            },
+            "vosotros": {
+              "form": "fumad"
+            },
+            "ellos": {
+              "form": "fumen"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no fumes"
+            },
+            "el": {
+              "form": "no fume"
+            },
+            "nosotros": {
+              "form": "no fumemos"
+            },
+            "vosotros": {
+              "form": "no fuméis"
+            },
+            "ellos": {
+              "form": "no fumen"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
       },
       "conjugationClass": "-ar"
     },
@@ -16651,6 +19621,244 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_intentar",
+      "infinitive": "intentar",
+      "tr": {
+        "ru": "пытаться"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "intentando",
+        "participle": "intentado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "intento"
+            },
+            "tu": {
+              "form": "intentas"
+            },
+            "el": {
+              "form": "intenta"
+            },
+            "nosotros": {
+              "form": "intentamos"
+            },
+            "vosotros": {
+              "form": "intentáis"
+            },
+            "ellos": {
+              "form": "intentan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "intenté"
+            },
+            "tu": {
+              "form": "intentaste"
+            },
+            "el": {
+              "form": "intentó"
+            },
+            "nosotros": {
+              "form": "intentamos"
+            },
+            "vosotros": {
+              "form": "intentasteis"
+            },
+            "ellos": {
+              "form": "intentaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "intentaba"
+            },
+            "tu": {
+              "form": "intentabas"
+            },
+            "el": {
+              "form": "intentaba"
+            },
+            "nosotros": {
+              "form": "intentábamos"
+            },
+            "vosotros": {
+              "form": "intentabais"
+            },
+            "ellos": {
+              "form": "intentaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he intentado"
+            },
+            "tu": {
+              "form": "has intentado"
+            },
+            "el": {
+              "form": "ha intentado"
+            },
+            "nosotros": {
+              "form": "hemos intentado"
+            },
+            "vosotros": {
+              "form": "habéis intentado"
+            },
+            "ellos": {
+              "form": "han intentado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "intentaré"
+            },
+            "tu": {
+              "form": "intentarás"
+            },
+            "el": {
+              "form": "intentará"
+            },
+            "nosotros": {
+              "form": "intentaremos"
+            },
+            "vosotros": {
+              "form": "intentaréis"
+            },
+            "ellos": {
+              "form": "intentarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "intentaría"
+            },
+            "tu": {
+              "form": "intentarías"
+            },
+            "el": {
+              "form": "intentaría"
+            },
+            "nosotros": {
+              "form": "intentaríamos"
+            },
+            "vosotros": {
+              "form": "intentaríais"
+            },
+            "ellos": {
+              "form": "intentarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "intente"
+            },
+            "tu": {
+              "form": "intentes"
+            },
+            "el": {
+              "form": "intente"
+            },
+            "nosotros": {
+              "form": "intentemos"
+            },
+            "vosotros": {
+              "form": "intentéis"
+            },
+            "ellos": {
+              "form": "intenten"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "intentara"
+            },
+            "tu": {
+              "form": "intentaras"
+            },
+            "el": {
+              "form": "intentara"
+            },
+            "nosotros": {
+              "form": "intentáramos"
+            },
+            "vosotros": {
+              "form": "intentarais"
+            },
+            "ellos": {
+              "form": "intentaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "intenta"
+            },
+            "el": {
+              "form": "intente"
+            },
+            "nosotros": {
+              "form": "intentemos"
+            },
+            "vosotros": {
+              "form": "intentad"
+            },
+            "ellos": {
+              "form": "intenten"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no intentes"
+            },
+            "el": {
+              "form": "no intente"
+            },
+            "nosotros": {
+              "form": "no intentemos"
+            },
+            "vosotros": {
+              "form": "no intentéis"
+            },
+            "ellos": {
+              "form": "no intenten"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_introducir",
@@ -19718,6 +22926,258 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_llover",
+      "infinitive": "llover",
+      "tr": {
+        "ru": "идти (о дожде)"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "lloviendo",
+        "participle": "llovido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "lluevo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "llueves",
+              "irregular": true
+            },
+            "el": {
+              "form": "llueve",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "llovemos"
+            },
+            "vosotros": {
+              "form": "llovéis"
+            },
+            "ellos": {
+              "form": "llueven",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "lloví"
+            },
+            "tu": {
+              "form": "llloviste"
+            },
+            "el": {
+              "form": "llovió"
+            },
+            "nosotros": {
+              "form": "llovimos"
+            },
+            "vosotros": {
+              "form": "llovisteis"
+            },
+            "ellos": {
+              "form": "llovieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "llovía"
+            },
+            "tu": {
+              "form": "llovías"
+            },
+            "el": {
+              "form": "llovía"
+            },
+            "nosotros": {
+              "form": "llovíamos"
+            },
+            "vosotros": {
+              "form": "llovíais"
+            },
+            "ellos": {
+              "form": "llovían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he llovido"
+            },
+            "tu": {
+              "form": "has llovido"
+            },
+            "el": {
+              "form": "ha llovido"
+            },
+            "nosotros": {
+              "form": "hemos llovido"
+            },
+            "vosotros": {
+              "form": "habéis llovido"
+            },
+            "ellos": {
+              "form": "han llovido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "lloveré"
+            },
+            "tu": {
+              "form": "lloverás"
+            },
+            "el": {
+              "form": "lloverá"
+            },
+            "nosotros": {
+              "form": "lloveremos"
+            },
+            "vosotros": {
+              "form": "lloveréis"
+            },
+            "ellos": {
+              "form": "lloverán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "llovería"
+            },
+            "tu": {
+              "form": "lloverías"
+            },
+            "el": {
+              "form": "llovería"
+            },
+            "nosotros": {
+              "form": "lloveríamos"
+            },
+            "vosotros": {
+              "form": "lloveríais"
+            },
+            "ellos": {
+              "form": "lloverían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "llueva",
+              "irregular": true
+            },
+            "tu": {
+              "form": "lluevas",
+              "irregular": true
+            },
+            "el": {
+              "form": "llueva",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "llovamos"
+            },
+            "vosotros": {
+              "form": "llováis"
+            },
+            "ellos": {
+              "form": "lluevan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "lloviera"
+            },
+            "tu": {
+              "form": "llovieras"
+            },
+            "el": {
+              "form": "lloviera"
+            },
+            "nosotros": {
+              "form": "lloviéramos"
+            },
+            "vosotros": {
+              "form": "llovierais"
+            },
+            "ellos": {
+              "form": "llovieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "llueve",
+              "irregular": true
+            },
+            "el": {
+              "form": "llueva",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "llovamos"
+            },
+            "vosotros": {
+              "form": "lloved"
+            },
+            "ellos": {
+              "form": "lluevan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no lluevas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no llueva",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no llovamos"
+            },
+            "vosotros": {
+              "form": "no llováis"
+            },
+            "ellos": {
+              "form": "no lluevan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-er"
+    },
+    {
       "id": "vb_lograr",
       "infinitive": "lograr",
       "tr": {
@@ -21429,6 +24889,244 @@
       "conjugationClass": "-ir"
     },
     {
+      "id": "vb_mudarse",
+      "infinitive": "mudarse",
+      "tr": {
+        "ru": "переезжать"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "mudándose",
+        "participle": "mudado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me mudo"
+            },
+            "tu": {
+              "form": "te mudas"
+            },
+            "el": {
+              "form": "se muda"
+            },
+            "nosotros": {
+              "form": "nos mudamos"
+            },
+            "vosotros": {
+              "form": "os mudáis"
+            },
+            "ellos": {
+              "form": "se mudan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me mudé"
+            },
+            "tu": {
+              "form": "te mudaste"
+            },
+            "el": {
+              "form": "se mudó"
+            },
+            "nosotros": {
+              "form": "nos mudamos"
+            },
+            "vosotros": {
+              "form": "os mudasteis"
+            },
+            "ellos": {
+              "form": "se mudaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me mudaba"
+            },
+            "tu": {
+              "form": "te mudabas"
+            },
+            "el": {
+              "form": "se mudaba"
+            },
+            "nosotros": {
+              "form": "nos mudábamos"
+            },
+            "vosotros": {
+              "form": "os mudabais"
+            },
+            "ellos": {
+              "form": "se mudaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he mudado"
+            },
+            "tu": {
+              "form": "te has mudado"
+            },
+            "el": {
+              "form": "se ha mudado"
+            },
+            "nosotros": {
+              "form": "nos hemos mudado"
+            },
+            "vosotros": {
+              "form": "os habéis mudado"
+            },
+            "ellos": {
+              "form": "se han mudado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me mudaré"
+            },
+            "tu": {
+              "form": "te mudarás"
+            },
+            "el": {
+              "form": "se mudará"
+            },
+            "nosotros": {
+              "form": "nos mudaremos"
+            },
+            "vosotros": {
+              "form": "os mudaréis"
+            },
+            "ellos": {
+              "form": "se mudarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me mudaría"
+            },
+            "tu": {
+              "form": "te mudarías"
+            },
+            "el": {
+              "form": "se mudaría"
+            },
+            "nosotros": {
+              "form": "nos mudaríamos"
+            },
+            "vosotros": {
+              "form": "os mudaríais"
+            },
+            "ellos": {
+              "form": "se mudarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me mude"
+            },
+            "tu": {
+              "form": "te mudes"
+            },
+            "el": {
+              "form": "se mude"
+            },
+            "nosotros": {
+              "form": "nos mudemos"
+            },
+            "vosotros": {
+              "form": "os mudéis"
+            },
+            "ellos": {
+              "form": "se muden"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me mudara"
+            },
+            "tu": {
+              "form": "te mudaras"
+            },
+            "el": {
+              "form": "se mudara"
+            },
+            "nosotros": {
+              "form": "nos mudáramos"
+            },
+            "vosotros": {
+              "form": "os mudarais"
+            },
+            "ellos": {
+              "form": "se mudaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "múdate"
+            },
+            "el": {
+              "form": "múdese"
+            },
+            "nosotros": {
+              "form": "mudémonos"
+            },
+            "vosotros": {
+              "form": "mudaos"
+            },
+            "ellos": {
+              "form": "múdense"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te mudes"
+            },
+            "el": {
+              "form": "no se mude"
+            },
+            "nosotros": {
+              "form": "no nos mudemos"
+            },
+            "vosotros": {
+              "form": "no os mudéis"
+            },
+            "ellos": {
+              "form": "no se muden"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
       "id": "vb_nacer",
       "infinitive": "nacer",
       "tr": {
@@ -21927,6 +25625,502 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_negarse",
+      "infinitive": "negarse",
+      "tr": {
+        "ru": "отказываться"
+      },
+      "regularity": "stem-changing",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "negándose",
+        "participle": "negado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me niego",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te niegas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se niega",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos negamos"
+            },
+            "vosotros": {
+              "form": "os negáis"
+            },
+            "ellos": {
+              "form": "se niegan",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me negué",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te negaste"
+            },
+            "el": {
+              "form": "se negó"
+            },
+            "nosotros": {
+              "form": "nos negamos"
+            },
+            "vosotros": {
+              "form": "os negasteis"
+            },
+            "ellos": {
+              "form": "se negaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me negaba"
+            },
+            "tu": {
+              "form": "te negabas"
+            },
+            "el": {
+              "form": "se negaba"
+            },
+            "nosotros": {
+              "form": "nos negábamos"
+            },
+            "vosotros": {
+              "form": "os negabais"
+            },
+            "ellos": {
+              "form": "se negaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he negado"
+            },
+            "tu": {
+              "form": "te has negado"
+            },
+            "el": {
+              "form": "se ha negado"
+            },
+            "nosotros": {
+              "form": "nos hemos negado"
+            },
+            "vosotros": {
+              "form": "os habéis negado"
+            },
+            "ellos": {
+              "form": "se han negado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me negaré"
+            },
+            "tu": {
+              "form": "te negarás"
+            },
+            "el": {
+              "form": "se negará"
+            },
+            "nosotros": {
+              "form": "nos negaremos"
+            },
+            "vosotros": {
+              "form": "os negaréis"
+            },
+            "ellos": {
+              "form": "se negarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me negaría"
+            },
+            "tu": {
+              "form": "te negarías"
+            },
+            "el": {
+              "form": "se negaría"
+            },
+            "nosotros": {
+              "form": "nos negaríamos"
+            },
+            "vosotros": {
+              "form": "os negaríais"
+            },
+            "ellos": {
+              "form": "se negarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me niegue",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te niegues",
+              "irregular": true
+            },
+            "el": {
+              "form": "se niegue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos neguemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os neguéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se nieguen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me negara"
+            },
+            "tu": {
+              "form": "te negaras"
+            },
+            "el": {
+              "form": "se negara"
+            },
+            "nosotros": {
+              "form": "nos negáramos"
+            },
+            "vosotros": {
+              "form": "os negarais"
+            },
+            "ellos": {
+              "form": "se negaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "niégate",
+              "irregular": true
+            },
+            "el": {
+              "form": "niéguese",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "neguémonos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "negaos"
+            },
+            "ellos": {
+              "form": "niéguense",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te niegues",
+              "irregular": true
+            },
+            "el": {
+              "form": "no se niegue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no nos neguemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no os neguéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no se nieguen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_notar",
+      "infinitive": "notar",
+      "tr": {
+        "ru": "замечать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "notando",
+        "participle": "notado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "noto"
+            },
+            "tu": {
+              "form": "notas"
+            },
+            "el": {
+              "form": "nota"
+            },
+            "nosotros": {
+              "form": "notamos"
+            },
+            "vosotros": {
+              "form": "notáis"
+            },
+            "ellos": {
+              "form": "notan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "noté"
+            },
+            "tu": {
+              "form": "notaste"
+            },
+            "el": {
+              "form": "notó"
+            },
+            "nosotros": {
+              "form": "notamos"
+            },
+            "vosotros": {
+              "form": "notasteis"
+            },
+            "ellos": {
+              "form": "notaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "notaba"
+            },
+            "tu": {
+              "form": "notabas"
+            },
+            "el": {
+              "form": "notaba"
+            },
+            "nosotros": {
+              "form": "notábamos"
+            },
+            "vosotros": {
+              "form": "notabais"
+            },
+            "ellos": {
+              "form": "notaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he notado"
+            },
+            "tu": {
+              "form": "has notado"
+            },
+            "el": {
+              "form": "ha notado"
+            },
+            "nosotros": {
+              "form": "hemos notado"
+            },
+            "vosotros": {
+              "form": "habéis notado"
+            },
+            "ellos": {
+              "form": "han notado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "notaré"
+            },
+            "tu": {
+              "form": "notarás"
+            },
+            "el": {
+              "form": "notará"
+            },
+            "nosotros": {
+              "form": "notaremos"
+            },
+            "vosotros": {
+              "form": "notaréis"
+            },
+            "ellos": {
+              "form": "notarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "notaría"
+            },
+            "tu": {
+              "form": "notarías"
+            },
+            "el": {
+              "form": "notaría"
+            },
+            "nosotros": {
+              "form": "notaríamos"
+            },
+            "vosotros": {
+              "form": "notaríais"
+            },
+            "ellos": {
+              "form": "notarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "note"
+            },
+            "tu": {
+              "form": "notes"
+            },
+            "el": {
+              "form": "note"
+            },
+            "nosotros": {
+              "form": "notemos"
+            },
+            "vosotros": {
+              "form": "notéis"
+            },
+            "ellos": {
+              "form": "noten"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "notara"
+            },
+            "tu": {
+              "form": "notaras"
+            },
+            "el": {
+              "form": "notara"
+            },
+            "nosotros": {
+              "form": "notáramos"
+            },
+            "vosotros": {
+              "form": "notarais"
+            },
+            "ellos": {
+              "form": "notaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "nota"
+            },
+            "el": {
+              "form": "note"
+            },
+            "nosotros": {
+              "form": "notemos"
+            },
+            "vosotros": {
+              "form": "notad"
+            },
+            "ellos": {
+              "form": "noten"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no notes"
+            },
+            "el": {
+              "form": "no note"
+            },
+            "nosotros": {
+              "form": "no notemos"
+            },
+            "vosotros": {
+              "form": "no notéis"
+            },
+            "ellos": {
+              "form": "no noten"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
+    },
+    {
       "id": "vb_obligar",
       "infinitive": "obligar",
       "tr": {
@@ -22178,6 +26372,244 @@
         "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_observar",
+      "infinitive": "observar",
+      "tr": {
+        "ru": "наблюдать; замечать (книжн.)"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "observando",
+        "participle": "observado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "observo"
+            },
+            "tu": {
+              "form": "observas"
+            },
+            "el": {
+              "form": "observa"
+            },
+            "nosotros": {
+              "form": "observamos"
+            },
+            "vosotros": {
+              "form": "observáis"
+            },
+            "ellos": {
+              "form": "observan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "observé"
+            },
+            "tu": {
+              "form": "observaste"
+            },
+            "el": {
+              "form": "observó"
+            },
+            "nosotros": {
+              "form": "observamos"
+            },
+            "vosotros": {
+              "form": "observasteis"
+            },
+            "ellos": {
+              "form": "observaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "observaba"
+            },
+            "tu": {
+              "form": "observabas"
+            },
+            "el": {
+              "form": "observaba"
+            },
+            "nosotros": {
+              "form": "observábamos"
+            },
+            "vosotros": {
+              "form": "observabais"
+            },
+            "ellos": {
+              "form": "observaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he observado"
+            },
+            "tu": {
+              "form": "has observado"
+            },
+            "el": {
+              "form": "ha observado"
+            },
+            "nosotros": {
+              "form": "hemos observado"
+            },
+            "vosotros": {
+              "form": "habéis observado"
+            },
+            "ellos": {
+              "form": "han observado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "observaré"
+            },
+            "tu": {
+              "form": "observarás"
+            },
+            "el": {
+              "form": "observará"
+            },
+            "nosotros": {
+              "form": "observaremos"
+            },
+            "vosotros": {
+              "form": "observaréis"
+            },
+            "ellos": {
+              "form": "observarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "observaría"
+            },
+            "tu": {
+              "form": "observarías"
+            },
+            "el": {
+              "form": "observaría"
+            },
+            "nosotros": {
+              "form": "observaríamos"
+            },
+            "vosotros": {
+              "form": "observaríais"
+            },
+            "ellos": {
+              "form": "observarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "observe"
+            },
+            "tu": {
+              "form": "observes"
+            },
+            "el": {
+              "form": "observe"
+            },
+            "nosotros": {
+              "form": "observemos"
+            },
+            "vosotros": {
+              "form": "observéis"
+            },
+            "ellos": {
+              "form": "observen"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "observara"
+            },
+            "tu": {
+              "form": "observaras"
+            },
+            "el": {
+              "form": "observara"
+            },
+            "nosotros": {
+              "form": "observáramos"
+            },
+            "vosotros": {
+              "form": "observarais"
+            },
+            "ellos": {
+              "form": "observaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "observa"
+            },
+            "el": {
+              "form": "observe"
+            },
+            "nosotros": {
+              "form": "observemos"
+            },
+            "vosotros": {
+              "form": "observad"
+            },
+            "ellos": {
+              "form": "observen"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no observes"
+            },
+            "el": {
+              "form": "no observe"
+            },
+            "nosotros": {
+              "form": "no observemos"
+            },
+            "vosotros": {
+              "form": "no observéis"
+            },
+            "ellos": {
+              "form": "no observen"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_ocupar",
@@ -22688,6 +27120,244 @@
         "extractor": "table"
       },
       "conjugationClass": "-ir"
+    },
+    {
+      "id": "vb_olvidarse",
+      "infinitive": "olvidarse",
+      "tr": {
+        "ru": "забывать"
+      },
+      "regularity": "regular",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "olvidándose",
+        "participle": "olvidado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me olvido"
+            },
+            "tu": {
+              "form": "te olvidas"
+            },
+            "el": {
+              "form": "se olvida"
+            },
+            "nosotros": {
+              "form": "nos olvidamos"
+            },
+            "vosotros": {
+              "form": "os olvidáis"
+            },
+            "ellos": {
+              "form": "se olvidan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me olvidé"
+            },
+            "tu": {
+              "form": "te olvidaste"
+            },
+            "el": {
+              "form": "se olvidó"
+            },
+            "nosotros": {
+              "form": "nos olvidamos"
+            },
+            "vosotros": {
+              "form": "os olvidasteis"
+            },
+            "ellos": {
+              "form": "se olvidaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me olvidaba"
+            },
+            "tu": {
+              "form": "te olvidabas"
+            },
+            "el": {
+              "form": "se olvidaba"
+            },
+            "nosotros": {
+              "form": "nos olvidábamos"
+            },
+            "vosotros": {
+              "form": "os olvidabais"
+            },
+            "ellos": {
+              "form": "se olvidaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he olvidado"
+            },
+            "tu": {
+              "form": "te has olvidado"
+            },
+            "el": {
+              "form": "se ha olvidado"
+            },
+            "nosotros": {
+              "form": "nos hemos olvidado"
+            },
+            "vosotros": {
+              "form": "os habéis olvidado"
+            },
+            "ellos": {
+              "form": "se han olvidado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me olvidaré"
+            },
+            "tu": {
+              "form": "te olvidarás"
+            },
+            "el": {
+              "form": "se olvidará"
+            },
+            "nosotros": {
+              "form": "nos olvidaremos"
+            },
+            "vosotros": {
+              "form": "os olvidaréis"
+            },
+            "ellos": {
+              "form": "se olvidarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me olvidaría"
+            },
+            "tu": {
+              "form": "te olvidarías"
+            },
+            "el": {
+              "form": "se olvidaría"
+            },
+            "nosotros": {
+              "form": "nos olvidaríamos"
+            },
+            "vosotros": {
+              "form": "os olvidaríais"
+            },
+            "ellos": {
+              "form": "se olvidarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me olvide"
+            },
+            "tu": {
+              "form": "te olvides"
+            },
+            "el": {
+              "form": "se olvide"
+            },
+            "nosotros": {
+              "form": "nos olvidemos"
+            },
+            "vosotros": {
+              "form": "os olvidéis"
+            },
+            "ellos": {
+              "form": "se olviden"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me olvidara"
+            },
+            "tu": {
+              "form": "te olvidaras"
+            },
+            "el": {
+              "form": "se olvidara"
+            },
+            "nosotros": {
+              "form": "nos olvidáramos"
+            },
+            "vosotros": {
+              "form": "os olvidarais"
+            },
+            "ellos": {
+              "form": "se olvidaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "olvídate"
+            },
+            "el": {
+              "form": "olvídese"
+            },
+            "nosotros": {
+              "form": "olvidémonos"
+            },
+            "vosotros": {
+              "form": "olvidaos"
+            },
+            "ellos": {
+              "form": "olvídense"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te olvides"
+            },
+            "el": {
+              "form": "no se olvide"
+            },
+            "nosotros": {
+              "form": "no nos olvidemos"
+            },
+            "vosotros": {
+              "form": "no os olvidéis"
+            },
+            "ellos": {
+              "form": "no se olviden"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_pagar",
@@ -26050,6 +30720,271 @@
       "conjugationClass": "-er"
     },
     {
+      "id": "vb_preferir",
+      "infinitive": "preferir",
+      "tr": {
+        "ru": "предпочитать"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "prefiriendo",
+        "participle": "preferido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "prefiero",
+              "irregular": true
+            },
+            "tu": {
+              "form": "prefieres",
+              "irregular": true
+            },
+            "el": {
+              "form": "prefiere",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "preferimos"
+            },
+            "vosotros": {
+              "form": "preferís"
+            },
+            "ellos": {
+              "form": "prefieren",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "preferí"
+            },
+            "tu": {
+              "form": "preferiste"
+            },
+            "el": {
+              "form": "prefirió",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "preferimos"
+            },
+            "vosotros": {
+              "form": "preferisteis"
+            },
+            "ellos": {
+              "form": "prefirieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "prefería"
+            },
+            "tu": {
+              "form": "preferías"
+            },
+            "el": {
+              "form": "prefería"
+            },
+            "nosotros": {
+              "form": "preferíamos"
+            },
+            "vosotros": {
+              "form": "preferíais"
+            },
+            "ellos": {
+              "form": "preferían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he preferido"
+            },
+            "tu": {
+              "form": "has preferido"
+            },
+            "el": {
+              "form": "ha preferido"
+            },
+            "nosotros": {
+              "form": "hemos preferido"
+            },
+            "vosotros": {
+              "form": "habéis preferido"
+            },
+            "ellos": {
+              "form": "han preferido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "preferiré"
+            },
+            "tu": {
+              "form": "preferirás"
+            },
+            "el": {
+              "form": "preferirá"
+            },
+            "nosotros": {
+              "form": "preferiremos"
+            },
+            "vosotros": {
+              "form": "preferiréis"
+            },
+            "ellos": {
+              "form": "preferirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "preferiría"
+            },
+            "tu": {
+              "form": "preferirías"
+            },
+            "el": {
+              "form": "preferiría"
+            },
+            "nosotros": {
+              "form": "preferiríamos"
+            },
+            "vosotros": {
+              "form": "preferiríais"
+            },
+            "ellos": {
+              "form": "preferirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "prefiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "prefieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "prefiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prefiramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prefiráis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "prefieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "prefiriera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "prefirieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "prefiriera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prefiriéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prefirierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "prefirieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "prefiere",
+              "irregular": true
+            },
+            "el": {
+              "form": "prefiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prefiramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "preferid"
+            },
+            "ellos": {
+              "form": "prefieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no prefieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "no prefiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no prefiramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no prefiráis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no prefieran",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ir"
+    },
+    {
       "id": "vb_preocuparse",
       "infinitive": "preocuparse",
       "tr": {
@@ -27023,6 +31958,244 @@
         "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_prometer",
+      "infinitive": "prometer",
+      "tr": {
+        "ru": "обещать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "prometiendo",
+        "participle": "prometido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "prometo"
+            },
+            "tu": {
+              "form": "prometes"
+            },
+            "el": {
+              "form": "promete"
+            },
+            "nosotros": {
+              "form": "prometemos"
+            },
+            "vosotros": {
+              "form": "prometéis"
+            },
+            "ellos": {
+              "form": "prometen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "prometí"
+            },
+            "tu": {
+              "form": "prometiste"
+            },
+            "el": {
+              "form": "prometió"
+            },
+            "nosotros": {
+              "form": "prometimos"
+            },
+            "vosotros": {
+              "form": "prometisteis"
+            },
+            "ellos": {
+              "form": "prometieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "prometía"
+            },
+            "tu": {
+              "form": "prometías"
+            },
+            "el": {
+              "form": "prometía"
+            },
+            "nosotros": {
+              "form": "prometíamos"
+            },
+            "vosotros": {
+              "form": "prometíais"
+            },
+            "ellos": {
+              "form": "prometían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he prometido"
+            },
+            "tu": {
+              "form": "has prometido"
+            },
+            "el": {
+              "form": "ha prometido"
+            },
+            "nosotros": {
+              "form": "hemos prometido"
+            },
+            "vosotros": {
+              "form": "habéis prometido"
+            },
+            "ellos": {
+              "form": "han prometido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "prometeré"
+            },
+            "tu": {
+              "form": "prometerás"
+            },
+            "el": {
+              "form": "prometerá"
+            },
+            "nosotros": {
+              "form": "prometeremos"
+            },
+            "vosotros": {
+              "form": "prometeréis"
+            },
+            "ellos": {
+              "form": "prometerán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "prometería"
+            },
+            "tu": {
+              "form": "prometerías"
+            },
+            "el": {
+              "form": "prometería"
+            },
+            "nosotros": {
+              "form": "prometeríamos"
+            },
+            "vosotros": {
+              "form": "prometeríais"
+            },
+            "ellos": {
+              "form": "prometerían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "prometa"
+            },
+            "tu": {
+              "form": "prometas"
+            },
+            "el": {
+              "form": "prometa"
+            },
+            "nosotros": {
+              "form": "prometamos"
+            },
+            "vosotros": {
+              "form": "prometáis"
+            },
+            "ellos": {
+              "form": "prometan"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "prometiera"
+            },
+            "tu": {
+              "form": "prometieras"
+            },
+            "el": {
+              "form": "prometiera"
+            },
+            "nosotros": {
+              "form": "prometiéramos"
+            },
+            "vosotros": {
+              "form": "prometierais"
+            },
+            "ellos": {
+              "form": "prometieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "promete"
+            },
+            "el": {
+              "form": "prometa"
+            },
+            "nosotros": {
+              "form": "prometamos"
+            },
+            "vosotros": {
+              "form": "prometed"
+            },
+            "ellos": {
+              "form": "prometan"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no prometas"
+            },
+            "el": {
+              "form": "no prometa"
+            },
+            "nosotros": {
+              "form": "no prometamos"
+            },
+            "vosotros": {
+              "form": "no prometáis"
+            },
+            "ellos": {
+              "form": "no prometan"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-er"
     },
     {
       "id": "vb_quedar",
@@ -30945,6 +36118,258 @@
       "conjugationClass": "-ir"
     },
     {
+      "id": "vb_soler",
+      "infinitive": "soler",
+      "tr": {
+        "ru": "иметь обыкновение (обычно делать что-то)"
+      },
+      "regularity": "stem-changing",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "soliendo",
+        "participle": "solido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "suelo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sueles",
+              "irregular": true
+            },
+            "el": {
+              "form": "suele",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "solemos"
+            },
+            "vosotros": {
+              "form": "soléis"
+            },
+            "ellos": {
+              "form": "suelen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "solí"
+            },
+            "tu": {
+              "form": "soliste"
+            },
+            "el": {
+              "form": "solió"
+            },
+            "nosotros": {
+              "form": "solimos"
+            },
+            "vosotros": {
+              "form": "solisteis"
+            },
+            "ellos": {
+              "form": "solieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "solía"
+            },
+            "tu": {
+              "form": "solías"
+            },
+            "el": {
+              "form": "solía"
+            },
+            "nosotros": {
+              "form": "solíamos"
+            },
+            "vosotros": {
+              "form": "solíais"
+            },
+            "ellos": {
+              "form": "solían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he solido"
+            },
+            "tu": {
+              "form": "has solido"
+            },
+            "el": {
+              "form": "ha solido"
+            },
+            "nosotros": {
+              "form": "hemos solido"
+            },
+            "vosotros": {
+              "form": "habéis solido"
+            },
+            "ellos": {
+              "form": "han solido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "soleré"
+            },
+            "tu": {
+              "form": "solerás"
+            },
+            "el": {
+              "form": "solerá"
+            },
+            "nosotros": {
+              "form": "soleremos"
+            },
+            "vosotros": {
+              "form": "soleréis"
+            },
+            "ellos": {
+              "form": "solerán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "solería"
+            },
+            "tu": {
+              "form": "solerías"
+            },
+            "el": {
+              "form": "solería"
+            },
+            "nosotros": {
+              "form": "soleríamos"
+            },
+            "vosotros": {
+              "form": "soleríais"
+            },
+            "ellos": {
+              "form": "solerían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "suela",
+              "irregular": true
+            },
+            "tu": {
+              "form": "suelas",
+              "irregular": true
+            },
+            "el": {
+              "form": "suela",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "solamos"
+            },
+            "vosotros": {
+              "form": "soláis"
+            },
+            "ellos": {
+              "form": "suelan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "soliera"
+            },
+            "tu": {
+              "form": "solieras"
+            },
+            "el": {
+              "form": "soliera"
+            },
+            "nosotros": {
+              "form": "soliéramos"
+            },
+            "vosotros": {
+              "form": "solierais"
+            },
+            "ellos": {
+              "form": "solieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "suele",
+              "irregular": true
+            },
+            "el": {
+              "form": "suela",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "solamos"
+            },
+            "vosotros": {
+              "form": "soled"
+            },
+            "ellos": {
+              "form": "suelan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no suelas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no suela",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no solamos"
+            },
+            "vosotros": {
+              "form": "no soláis"
+            },
+            "ellos": {
+              "form": "no suelan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-er"
+    },
+    {
       "id": "vb_tardar",
       "infinitive": "tardar",
       "tr": {
@@ -31485,6 +36910,244 @@
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
       }
+    },
+    {
+      "id": "vb_terminar",
+      "infinitive": "terminar",
+      "tr": {
+        "ru": "заканчивать"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "terminando",
+        "participle": "terminado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "termino"
+            },
+            "tu": {
+              "form": "terminas"
+            },
+            "el": {
+              "form": "termina"
+            },
+            "nosotros": {
+              "form": "terminamos"
+            },
+            "vosotros": {
+              "form": "termináis"
+            },
+            "ellos": {
+              "form": "terminan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "terminé"
+            },
+            "tu": {
+              "form": "terminaste"
+            },
+            "el": {
+              "form": "terminó"
+            },
+            "nosotros": {
+              "form": "terminamos"
+            },
+            "vosotros": {
+              "form": "terminasteis"
+            },
+            "ellos": {
+              "form": "terminaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "terminaba"
+            },
+            "tu": {
+              "form": "terminabas"
+            },
+            "el": {
+              "form": "terminaba"
+            },
+            "nosotros": {
+              "form": "terminábamos"
+            },
+            "vosotros": {
+              "form": "terminabais"
+            },
+            "ellos": {
+              "form": "terminaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he terminado"
+            },
+            "tu": {
+              "form": "has terminado"
+            },
+            "el": {
+              "form": "ha terminado"
+            },
+            "nosotros": {
+              "form": "hemos terminado"
+            },
+            "vosotros": {
+              "form": "habéis terminado"
+            },
+            "ellos": {
+              "form": "han terminado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "terminaré"
+            },
+            "tu": {
+              "form": "terminarás"
+            },
+            "el": {
+              "form": "terminará"
+            },
+            "nosotros": {
+              "form": "terminaremos"
+            },
+            "vosotros": {
+              "form": "terminaréis"
+            },
+            "ellos": {
+              "form": "terminarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "terminaría"
+            },
+            "tu": {
+              "form": "terminarías"
+            },
+            "el": {
+              "form": "terminaría"
+            },
+            "nosotros": {
+              "form": "terminaríamos"
+            },
+            "vosotros": {
+              "form": "terminaríais"
+            },
+            "ellos": {
+              "form": "terminarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "termine"
+            },
+            "tu": {
+              "form": "termines"
+            },
+            "el": {
+              "form": "termine"
+            },
+            "nosotros": {
+              "form": "terminemos"
+            },
+            "vosotros": {
+              "form": "terminéis"
+            },
+            "ellos": {
+              "form": "terminen"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "terminara"
+            },
+            "tu": {
+              "form": "terminaras"
+            },
+            "el": {
+              "form": "terminara"
+            },
+            "nosotros": {
+              "form": "termináramos"
+            },
+            "vosotros": {
+              "form": "terminarais"
+            },
+            "ellos": {
+              "form": "terminaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "termina"
+            },
+            "el": {
+              "form": "termine"
+            },
+            "nosotros": {
+              "form": "terminemos"
+            },
+            "vosotros": {
+              "form": "terminad"
+            },
+            "ellos": {
+              "form": "terminen"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no termines"
+            },
+            "el": {
+              "form": "no termine"
+            },
+            "nosotros": {
+              "form": "no terminemos"
+            },
+            "vosotros": {
+              "form": "no terminéis"
+            },
+            "ellos": {
+              "form": "no terminen"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_tirar",
@@ -32481,6 +38144,244 @@
         "ingestBatch": "ingest-2026-08-04",
         "extractor": "table"
       }
+    },
+    {
+      "id": "vb_tratar",
+      "infinitive": "tratar",
+      "tr": {
+        "ru": "пытаться (tratar de)"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "tratando",
+        "participle": "tratado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "trato"
+            },
+            "tu": {
+              "form": "tratas"
+            },
+            "el": {
+              "form": "trata"
+            },
+            "nosotros": {
+              "form": "tratamos"
+            },
+            "vosotros": {
+              "form": "tratáis"
+            },
+            "ellos": {
+              "form": "tratan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "traté"
+            },
+            "tu": {
+              "form": "trataste"
+            },
+            "el": {
+              "form": "trató"
+            },
+            "nosotros": {
+              "form": "tratamos"
+            },
+            "vosotros": {
+              "form": "tratasteis"
+            },
+            "ellos": {
+              "form": "trataron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "trataba"
+            },
+            "tu": {
+              "form": "tratabas"
+            },
+            "el": {
+              "form": "trataba"
+            },
+            "nosotros": {
+              "form": "tratábamos"
+            },
+            "vosotros": {
+              "form": "tratabais"
+            },
+            "ellos": {
+              "form": "trataban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he tratado"
+            },
+            "tu": {
+              "form": "has tratado"
+            },
+            "el": {
+              "form": "ha tratado"
+            },
+            "nosotros": {
+              "form": "hemos tratado"
+            },
+            "vosotros": {
+              "form": "habéis tratado"
+            },
+            "ellos": {
+              "form": "han tratado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "trataré"
+            },
+            "tu": {
+              "form": "tratarás"
+            },
+            "el": {
+              "form": "tratará"
+            },
+            "nosotros": {
+              "form": "trataremos"
+            },
+            "vosotros": {
+              "form": "trataréis"
+            },
+            "ellos": {
+              "form": "tratarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "trataría"
+            },
+            "tu": {
+              "form": "tratarías"
+            },
+            "el": {
+              "form": "trataría"
+            },
+            "nosotros": {
+              "form": "trataríamos"
+            },
+            "vosotros": {
+              "form": "trataríais"
+            },
+            "ellos": {
+              "form": "tratarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "trate"
+            },
+            "tu": {
+              "form": "trates"
+            },
+            "el": {
+              "form": "trate"
+            },
+            "nosotros": {
+              "form": "tratemos"
+            },
+            "vosotros": {
+              "form": "tratéis"
+            },
+            "ellos": {
+              "form": "traten"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "tratara"
+            },
+            "tu": {
+              "form": "trataras"
+            },
+            "el": {
+              "form": "tratara"
+            },
+            "nosotros": {
+              "form": "tratáramos"
+            },
+            "vosotros": {
+              "form": "tratarais"
+            },
+            "ellos": {
+              "form": "trataran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "trata"
+            },
+            "el": {
+              "form": "trate"
+            },
+            "nosotros": {
+              "form": "tratemos"
+            },
+            "vosotros": {
+              "form": "tratad"
+            },
+            "ellos": {
+              "form": "traten"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no trates"
+            },
+            "el": {
+              "form": "no trate"
+            },
+            "nosotros": {
+              "form": "no tratemos"
+            },
+            "vosotros": {
+              "form": "no tratéis"
+            },
+            "ellos": {
+              "form": "no traten"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ar"
     },
     {
       "id": "vb_tutear",

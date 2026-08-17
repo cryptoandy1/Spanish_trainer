@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-08T19:18:03Z",
+  "generatedAt": "2026-08-17T19:16:08Z",
   "items": [
     {
       "id": "vc_006436ac",
@@ -2271,6 +2271,27 @@
       }
     },
     {
+      "id": "vc_1ccadbbe",
+      "lemma": "Correos",
+      "pos": "noun",
+      "tr": {
+        "ru": "почта (испанская почтовая служба)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m",
+      "needsReview": true
+    },
+    {
       "id": "vc_1cfac095",
       "lemma": "acostar",
       "pos": "verb",
@@ -2621,6 +2642,32 @@
         ]
       },
       "verbId": "vb_saber"
+    },
+    {
+      "id": "vc_2347c60e",
+      "lemma": "volver a",
+      "pos": "verb",
+      "tr": {
+        "ru": "(сделать) снова"
+      },
+      "examples": [
+        {
+          "text": "Volví a intentarlo.",
+          "tr": {
+            "ru": "Я снова попробовал."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_volver",
+      "needsReview": true
     },
     {
       "id": "vc_234a1e90",
@@ -3368,6 +3415,26 @@
       }
     },
     {
+      "id": "vc_2e7d3626",
+      "lemma": "contador",
+      "pos": "noun",
+      "tr": {
+        "ru": "счётчик"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_2e7f0ce8",
       "lemma": "cita",
       "pos": "noun",
@@ -3675,6 +3742,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_321bcf9a",
+      "lemma": "paquetería",
+      "pos": "noun",
+      "tr": {
+        "ru": "служба доставки посылок"
+      },
+      "examples": [],
+      "topics": [
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f",
+      "needsReview": true
     },
     {
       "id": "vc_325515d1",
@@ -4344,6 +4432,33 @@
       }
     },
     {
+      "id": "vc_396641e7",
+      "lemma": "fuga",
+      "pos": "noun",
+      "tr": {
+        "ru": "утечка; протечка"
+      },
+      "examples": [
+        {
+          "text": "¡Hay una fuga de gas!",
+          "tr": {
+            "ru": "Утечка газа!"
+          }
+        }
+      ],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_3968f7f7",
       "lemma": "móvil",
       "pos": "noun",
@@ -4393,6 +4508,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_3a3d3ea7",
+      "lemma": "administrador",
+      "pos": "noun",
+      "tr": {
+        "ru": "управляющий домом; администратор"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m",
+      "needsReview": true
     },
     {
       "id": "vc_3a4850d2",
@@ -5577,6 +5713,24 @@
       }
     },
     {
+      "id": "vc_4965e3ad",
+      "lemma": "terminar de",
+      "pos": "verb",
+      "tr": {
+        "ru": "закончить (делать что-то)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_terminar"
+    },
+    {
       "id": "vc_49eb103a",
       "lemma": "repartidor",
       "pos": "noun",
@@ -5892,6 +6046,26 @@
           "inbox-c3a8ffca"
         ]
       }
+    },
+    {
+      "id": "vc_4dee1831",
+      "lemma": "electricista",
+      "pos": "noun",
+      "tr": {
+        "ru": "электрик"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_4df22178",
@@ -6238,6 +6412,33 @@
           "6a578f0f-cbb4-83eb-b867-dc0b1aba90f2"
         ]
       }
+    },
+    {
+      "id": "vc_51ee26c7",
+      "lemma": "vecino",
+      "pos": "noun",
+      "tr": {
+        "ru": "сосед"
+      },
+      "examples": [
+        {
+          "text": "¡Soy el vecino del quinto!",
+          "tr": {
+            "ru": "Я сосед с пятого (этажа)!"
+          }
+        }
+      ],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_52424c8e",
@@ -7403,6 +7604,31 @@
       }
     },
     {
+      "id": "vc_5ecd9406",
+      "lemma": "acabar de",
+      "pos": "verb",
+      "tr": {
+        "ru": "только что (сделать что-то)"
+      },
+      "examples": [
+        {
+          "text": "Acabo de llegar.",
+          "tr": {
+            "ru": "Я только что приехал."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_acabar"
+    },
+    {
       "id": "vc_5f15f4da",
       "lemma": "esposa",
       "pos": "noun",
@@ -7696,6 +7922,24 @@
         ]
       },
       "verbId": "vb_necesitar"
+    },
+    {
+      "id": "vc_6279993f",
+      "lemma": "tratar de",
+      "pos": "verb",
+      "tr": {
+        "ru": "пытаться (что-то сделать)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_tratar"
     },
     {
       "id": "vc_629f6c47",
@@ -8248,6 +8492,27 @@
       }
     },
     {
+      "id": "vc_6b5bb1c9",
+      "lemma": "comunidad",
+      "pos": "noun",
+      "tr": {
+        "ru": "сообщество жильцов дома (ТСЖ); сообщество"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f",
+      "needsReview": true
+    },
+    {
       "id": "vc_6c24ac6a",
       "lemma": "recepción",
       "pos": "noun",
@@ -8291,6 +8556,42 @@
         "extractor": "model"
       },
       "verbId": "vb_afeitarse"
+    },
+    {
+      "id": "vc_6cce5e0a",
+      "lemma": "ponerse a",
+      "pos": "verb",
+      "tr": {
+        "ru": "взяться, приняться (внезапно)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_ponerse"
+    },
+    {
+      "id": "vc_6cf509df",
+      "lemma": "policía",
+      "pos": "noun",
+      "tr": {
+        "ru": "полиция"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_6d9f87ba",
@@ -8419,6 +8720,31 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_6ec8732a",
+      "lemma": "dejar de",
+      "pos": "verb",
+      "tr": {
+        "ru": "перестать (делать что-то)"
+      },
+      "examples": [
+        {
+          "text": "Dejé de fumar.",
+          "tr": {
+            "ru": "Я бросил курить."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_dejar"
     },
     {
       "id": "vc_6fab0f65",
@@ -8765,8 +9091,12 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
-      }
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-2026-08-17-quien-es-hace-perifrasis"
+        ]
+      },
+      "verbId": "vb_darse-cuenta"
     },
     {
       "id": "vc_76b8942d",
@@ -9707,6 +10037,32 @@
       "verbId": "vb_introducir"
     },
     {
+      "id": "vc_84a5d316",
+      "lemma": "tener que",
+      "pos": "verb",
+      "tr": {
+        "ru": "быть должным (сделать)"
+      },
+      "examples": [
+        {
+          "text": "Tengo que irme.",
+          "tr": {
+            "ru": "Мне надо идти."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_tener",
+      "needsReview": true
+    },
+    {
       "id": "vc_84ae3624",
       "lemma": "negro",
       "pos": "adj",
@@ -9993,6 +10349,24 @@
       }
     },
     {
+      "id": "vc_86dd105c",
+      "lemma": "estar a punto de",
+      "pos": "verb",
+      "tr": {
+        "ru": "быть на грани, вот-вот (сделать)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_estar"
+    },
+    {
       "id": "vc_86e1994d",
       "lemma": "volver",
       "pos": "verb",
@@ -10052,6 +10426,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_87be2bb8",
+      "lemma": "fontanero",
+      "pos": "noun",
+      "tr": {
+        "ru": "сантехник"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_87e7de20",
@@ -10243,6 +10637,26 @@
       }
     },
     {
+      "id": "vc_8ac6878f",
+      "lemma": "buzón",
+      "pos": "noun",
+      "tr": {
+        "ru": "почтовый ящик"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_8b14497c",
       "lemma": "maleta",
       "pos": "noun",
@@ -10351,6 +10765,24 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_8cb9b679",
+      "lemma": "identificación",
+      "pos": "noun",
+      "tr": {
+        "ru": "удостоверение личности"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_8cd7f100",
@@ -11014,6 +11446,32 @@
         "extractor": "model"
       },
       "verbId": "vb_ponerse"
+    },
+    {
+      "id": "vc_977fc53d",
+      "lemma": "hay que",
+      "pos": "verb",
+      "tr": {
+        "ru": "надо, нужно (безлично)"
+      },
+      "examples": [
+        {
+          "text": "Hay que esperar.",
+          "tr": {
+            "ru": "Надо подождать."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_haber",
+      "needsReview": true
     },
     {
       "id": "vc_97bc8724",
@@ -12715,6 +13173,31 @@
       }
     },
     {
+      "id": "vc_b0e59433",
+      "lemma": "orden judicial",
+      "pos": "noun",
+      "tr": {
+        "ru": "судебный ордер"
+      },
+      "examples": [
+        {
+          "text": "¿Tienen una orden judicial?",
+          "tr": {
+            "ru": "У вас есть судебный ордер?"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_b11200e3",
       "lemma": "Mundial",
       "pos": "noun",
@@ -12839,6 +13322,24 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_b2c6d731",
+      "lemma": "tener ganas de",
+      "pos": "verb",
+      "tr": {
+        "ru": "хотеть, иметь желание"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_tener"
     },
     {
       "id": "vc_b2eb8fa9",
@@ -15635,6 +16136,24 @@
       "verbId": "vb_querer"
     },
     {
+      "id": "vc_d6f75dfb",
+      "lemma": "ambulancia",
+      "pos": "noun",
+      "tr": {
+        "ru": "скорая помощь"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_d71e574c",
       "lemma": "feliz",
       "pos": "adj",
@@ -16515,6 +17034,24 @@
       }
     },
     {
+      "id": "vc_e0fa067e",
+      "lemma": "bomberos",
+      "pos": "noun",
+      "tr": {
+        "ru": "пожарные"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_e1138a25",
       "lemma": "esos",
       "pos": "pron",
@@ -16961,6 +17498,24 @@
       }
     },
     {
+      "id": "vc_e6fce7b6",
+      "lemma": "llegar a",
+      "pos": "verb",
+      "tr": {
+        "ru": "дойти до того, что"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "verbId": "vb_llegar"
+    },
+    {
       "id": "vc_e8205924",
       "lemma": "restricción",
       "pos": "noun",
@@ -17279,6 +17834,27 @@
         "extractor": "model"
       },
       "verbId": "vb_alcanzar"
+    },
+    {
+      "id": "vc_eb1b6217",
+      "lemma": "mensajería",
+      "pos": "noun",
+      "tr": {
+        "ru": "курьерская служба"
+      },
+      "examples": [],
+      "topics": [
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f",
+      "needsReview": true
     },
     {
       "id": "vc_eb8d6a14",
@@ -17628,6 +18204,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_ee96dd82",
+      "lemma": "mirilla",
+      "pos": "noun",
+      "tr": {
+        "ru": "(дверной) глазок"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_ef9dce4b",
@@ -18032,6 +18628,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_f4a6dbd3",
+      "lemma": "telefonillo",
+      "pos": "noun",
+      "tr": {
+        "ru": "домофон"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_f4a813e2",
@@ -18442,6 +19058,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_fadef81d",
+      "lemma": "emergencia",
+      "pos": "noun",
+      "tr": {
+        "ru": "чрезвычайная ситуация, экстренный случай"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f",
+      "needsReview": true
     },
     {
       "id": "vc_fb28f827",

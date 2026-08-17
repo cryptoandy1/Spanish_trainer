@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-08T19:18:03Z",
+  "generatedAt": "2026-08-17T19:16:08Z",
   "items": [
     {
       "id": "ph_0015d94b",
@@ -151,6 +151,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_00bda935",
+      "text": "Acabo de llegar.",
+      "tr": {
+        "ru": "Я только что приехал."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
     },
     {
       "id": "ph_00ed9955",
@@ -842,6 +861,25 @@
       }
     },
     {
+      "id": "ph_06c7bbb6",
+      "text": "hace un rato",
+      "tr": {
+        "ru": "недавно, только что"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
+    },
+    {
       "id": "ph_06e200c3",
       "text": "Hay un banco cerca.",
       "tr": {
@@ -886,6 +924,24 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_075c7697",
+      "text": "Ahora no puedo abrir.",
+      "tr": {
+        "ru": "Сейчас не могу открыть."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -1372,6 +1428,24 @@
       }
     },
     {
+      "id": "ph_0b69ffcc",
+      "text": "¡Es un paquete para usted!",
+      "tr": {
+        "ru": "Вам посылка!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_0bb6aa46",
       "text": "Perdón, ¿nos puede traer la cuenta?",
       "tr": {
@@ -1762,6 +1836,28 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_0e6bf4d1",
+      "text": "Déjelo en el buzón, por favor.",
+      "tr": {
+        "ru": "Оставьте в почтовом ящике, пожалуйста."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_casa",
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Для почты и рекламы."
       }
     },
     {
@@ -2280,6 +2376,28 @@
       }
     },
     {
+      "id": "ph_14422427",
+      "text": "¿Quién habla?",
+      "tr": {
+        "ru": "Кто говорит?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "По телефону, когда не понял, кто звонит, — не для двери."
+      },
+      "needsReview": true
+    },
+    {
       "id": "ph_14457e17",
       "text": "Explico el problema a los estudiantes.",
       "tr": {
@@ -2648,6 +2766,26 @@
       }
     },
     {
+      "id": "ph_16fffbe2",
+      "text": "Voy a llamarte.",
+      "tr": {
+        "ru": "Я тебе позвоню."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ],
+      "needsReview": true
+    },
+    {
       "id": "ph_171363df",
       "text": "¡Buen provecho!",
       "tr": {
@@ -2667,6 +2805,28 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_171749d5",
+      "text": "¿De parte de quién?",
+      "tr": {
+        "ru": "От кого? / Кто его спрашивает?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Телефонная формула."
+      },
+      "needsReview": true
     },
     {
       "id": "ph_171b00a4",
@@ -2842,6 +3002,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_18aecc98",
+      "text": "He notado que…",
+      "tr": {
+        "ru": "Я заметил (недавно), что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -3203,6 +3379,27 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_1c3960f1",
+      "text": "¡Vengo a leer el contador!",
+      "tr": {
+        "ru": "Я пришёл снять показания счётчика!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "…el contador del agua / de la luz / del gas — счётчик воды / света / газа."
       }
     },
     {
@@ -3747,6 +3944,28 @@
       }
     },
     {
+      "id": "ph_210e4c2b",
+      "text": "Llevo dos meses aquí.",
+      "tr": {
+        "ru": "Я здесь уже два месяца."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Не момент приезда, а длительность пребывания: llevar + срок."
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
+    },
+    {
       "id": "ph_21483203",
       "text": "No quiero degradado, solo el contorno.",
       "tr": {
@@ -4233,6 +4452,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_256ca871",
+      "text": "¿Quién llama?",
+      "tr": {
+        "ru": "Кто звонит? / Кто стучит?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -5218,6 +5455,25 @@
       }
     },
     {
+      "id": "ph_2edc0f4f",
+      "text": "Llevo dos meses estudiando.",
+      "tr": {
+        "ru": "Я учусь уже два месяца."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
+    },
+    {
       "id": "ph_2ef81e3e",
       "text": "Los datos están confirmados.",
       "tr": {
@@ -5252,6 +5508,25 @@
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_2f0bf901",
+      "text": "Noté que…",
+      "tr": {
+        "ru": "Я заметил, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Книжные варианты: Advertí que…, Observé que…"
       }
     },
     {
@@ -5675,6 +5950,28 @@
       }
     },
     {
+      "id": "ph_33cb68ec",
+      "text": "¡Hay una fuga de gas!",
+      "tr": {
+        "ru": "Утечка газа!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa",
+        "tp_ser-estar-hay"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Также: una fuga de agua — протечка воды."
+      }
+    },
+    {
       "id": "ph_33de264f",
       "text": "¿Es posible hablar en inglés?",
       "tr": {
@@ -5925,6 +6222,25 @@
       }
     },
     {
+      "id": "ph_3593fa64",
+      "text": "¡Policía! ¡Abra la puerta!",
+      "tr": {
+        "ru": "Полиция! Откройте дверь!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "needsReview": true
+    },
+    {
       "id": "ph_35ccc8ce",
       "text": "Flipo contigo.",
       "tr": {
@@ -6057,6 +6373,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_3757975a",
+      "text": "Voy a llamar a la policía.",
+      "tr": {
+        "ru": "Я вызову полицию."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "needsReview": true
     },
     {
       "id": "ph_3759d7bc",
@@ -6243,6 +6578,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_38f54c77",
+      "text": "¡Soy de la comunidad!",
+      "tr": {
+        "ru": "Я из домового сообщества (ТСЖ)!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "needsReview": true
     },
     {
       "id": "ph_390050e5",
@@ -6526,6 +6880,28 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_3b70f006",
+      "text": "Llegué aquí hace dos meses.",
+      "tr": {
+        "ru": "Я приехал сюда два месяца назад."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Варианты: Vine aquí hace dos meses; Hace dos meses que llegué aquí."
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
     },
     {
       "id": "ph_3b77643d",
@@ -7144,8 +7520,17 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
-      }
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-2026-08-17-quien-es-hace-perifrasis"
+        ]
+      },
+      "notes": {
+        "ru": "Не путать три hace: hace calor (погода), hace dos meses (назад), él hace (он делает)."
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
     },
     {
       "id": "ph_4166f714",
@@ -7722,6 +8107,28 @@
       }
     },
     {
+      "id": "ph_46f34565",
+      "text": "¿Quién es, por favor?",
+      "tr": {
+        "ru": "Кто это, будьте добры?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Вежливый вариант ответа на звонок в дверь."
+      },
+      "needsReview": true
+    },
+    {
       "id": "ph_4761c91e",
       "text": "La comida está preparada.",
       "tr": {
@@ -8010,6 +8417,27 @@
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4a613cd7",
+      "text": "¡Ya voy!",
+      "tr": {
+        "ru": "Иду!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Можно крикнуть, не открывая, — обозначить, что дома кто-то есть."
       }
     },
     {
@@ -8956,6 +9384,43 @@
       }
     },
     {
+      "id": "ph_519549b1",
+      "text": "hace poco",
+      "tr": {
+        "ru": "недавно"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
+    },
+    {
+      "id": "ph_51b8630c",
+      "text": "Váyase, por favor.",
+      "tr": {
+        "ru": "Уходите, пожалуйста."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_51dd49cd",
       "text": "Flipo con lo caro que es todo.",
       "tr": {
@@ -9563,6 +10028,27 @@
       }
     },
     {
+      "id": "ph_57343cd8",
+      "text": "No estoy interesado, gracias.",
+      "tr": {
+        "ru": "Не интересует, спасибо."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Универсальный ответ коммивояжёрам."
+      }
+    },
+    {
       "id": "ph_577c8414",
       "text": "Disculpe, ¿me puede ayudar?",
       "tr": {
@@ -9611,6 +10097,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_57d4114d",
+      "text": "Enséñeme su identificación por la mirilla.",
+      "tr": {
+        "ru": "Покажите ваше удостоверение в глазок."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -9871,6 +10375,26 @@
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
       }
+    },
+    {
+      "id": "ph_59e7598c",
+      "text": "Tengo que irme.",
+      "tr": {
+        "ru": "Мне надо идти."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ],
+      "needsReview": true
     },
     {
       "id": "ph_5a26761a",
@@ -10655,6 +11179,25 @@
       }
     },
     {
+      "id": "ph_60b25c9e",
+      "text": "¡Un momento!",
+      "tr": {
+        "ru": "Минутку!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "needsReview": true
+    },
+    {
       "id": "ph_60c84b77",
       "text": "Flipé cuando lo vi.",
       "tr": {
@@ -10701,6 +11244,25 @@
         "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
         "conversationTitle": "Перевод фразы на испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_6175c73a",
+      "text": "¿Es un paquete? Déjelo en la puerta, por favor.",
+      "tr": {
+        "ru": "Это посылка? Оставьте у двери, пожалуйста."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_casa",
+        "tp_direcciones-y-envios"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -11640,6 +12202,25 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
       }
+    },
+    {
+      "id": "ph_6bc7d225",
+      "text": "hace unos días",
+      "tr": {
+        "ru": "несколько дней назад"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
     },
     {
       "id": "ph_6bdbf784",
@@ -13593,6 +14174,24 @@
       }
     },
     {
+      "id": "ph_7e959343",
+      "text": "¡Es una emergencia!",
+      "tr": {
+        "ru": "Это срочно! / Это чрезвычайная ситуация!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_7f0d835a",
       "text": "Les felicito por su extraordinario logro y por proclamarse campeones del mundo.",
       "tr": {
@@ -14064,6 +14663,24 @@
         "alsoSeenIn": [
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
+      }
+    },
+    {
+      "id": "ph_82c3366a",
+      "text": "¡Soy el vecino del quinto!",
+      "tr": {
+        "ru": "Я сосед с пятого (этажа)!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
       }
     },
     {
@@ -15139,6 +15756,27 @@
       }
     },
     {
+      "id": "ph_8b3753ac",
+      "text": "¿Tienen una orden judicial?",
+      "tr": {
+        "ru": "У вас есть судебный ордер?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Без ордера (orden judicial / orden de registro) в большинстве случаев впускать не обязан."
+      }
+    },
+    {
       "id": "ph_8b4c25d6",
       "text": "¿Sigues esta calle?",
       "tr": {
@@ -16206,6 +16844,25 @@
       }
     },
     {
+      "id": "ph_932d28b9",
+      "text": "Me mudé aquí hace dos meses.",
+      "tr": {
+        "ru": "Я переехал сюда два месяца назад."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
+    },
+    {
       "id": "ph_933e43b5",
       "text": "Hay un libro en la mesa.",
       "tr": {
@@ -16403,6 +17060,25 @@
       }
     },
     {
+      "id": "ph_9507f2d2",
+      "text": "¡Soy el administrador!",
+      "tr": {
+        "ru": "Я управляющий домом!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "needsReview": true
+    },
+    {
       "id": "ph_9515ce9c",
       "text": "¿Estás listo?",
       "tr": {
@@ -16511,8 +17187,12 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model",
         "alsoSeenIn": [
-          "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d"
+          "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
+          "claude-2026-08-17-quien-es-hace-perifrasis"
         ]
+      },
+      "notes": {
+        "ru": "Стандартный ответ на звонок в дверь. В Испании в домофон (telefonillo) часто отвечают просто «¿Sí?»."
       }
     },
     {
@@ -17654,6 +18334,25 @@
       }
     },
     {
+      "id": "ph_9df1b051",
+      "text": "Voy entendiendo.",
+      "tr": {
+        "ru": "Я потихоньку начинаю понимать."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
+    },
+    {
       "id": "ph_9e36318d",
       "text": "Sigamos recto.",
       "tr": {
@@ -18365,6 +19064,44 @@
       }
     },
     {
+      "id": "ph_a47a1e2e",
+      "text": "hace años",
+      "tr": {
+        "ru": "много лет назад"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
+    },
+    {
+      "id": "ph_a4823d2f",
+      "text": "Pienso ir a España.",
+      "tr": {
+        "ru": "Собираюсь поехать в Испанию."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
+    },
+    {
       "id": "ph_a489bb28",
       "text": "Le doy dinero.",
       "tr": {
@@ -18433,6 +19170,30 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_a56743d8",
+      "text": "Suelo levantarme temprano.",
+      "tr": {
+        "ru": "Обычно я встаю рано."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_rutina-diaria"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "soler + инфинитив; в русском прямого аналога нет."
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
     },
     {
       "id": "ph_a5886654",
@@ -20348,8 +21109,36 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-2026-08-17-quien-es-hace-perifrasis"
+        ]
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
+    },
+    {
+      "id": "ph_b7422660",
+      "text": "Me di cuenta de que…",
+      "tr": {
+        "ru": "Я заметил, что… / Я понял, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
-      }
+      },
+      "notes": {
+        "ru": "Обязательно с de: не «me di cuenta que». В разговоре de часто проглатывают, но грамотно — с ним."
+      },
+      "relatedGrammarIds": [
+        "gr_darse-cuenta-de-que-dfe38d26"
+      ]
     },
     {
       "id": "ph_b7684818",
@@ -22654,6 +23443,24 @@
       }
     },
     {
+      "id": "ph_cadc8d6a",
+      "text": "¡Vengo de parte de…!",
+      "tr": {
+        "ru": "Я от … (такого-то)!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_cae7b619",
       "text": "¿Cuánto pesa?",
       "tr": {
@@ -22767,6 +23574,22 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_cc3e730f",
+      "text": "Me fijé en que…",
+      "tr": {
+        "ru": "Я обратил внимание на то, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -23425,6 +24248,24 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_d2238e52",
+      "text": "No espero a nadie.",
+      "tr": {
+        "ru": "Я никого не жду."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -25317,6 +26158,24 @@
       }
     },
     {
+      "id": "ph_e0c295f8",
+      "text": "Voy a llamar a la empresa para confirmar.",
+      "tr": {
+        "ru": "Я позвоню в компанию, чтобы проверить."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_e0c72ab0",
       "text": "La gatita va a volver a casa.",
       "tr": {
@@ -25416,6 +26275,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_e1e0693b",
+      "text": "Sigue lloviendo.",
+      "tr": {
+        "ru": "Всё ещё идёт дождь."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ]
     },
     {
       "id": "ph_e1feaaa8",
@@ -25595,6 +26473,28 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_e3486b87",
+      "text": "Hay que esperar.",
+      "tr": {
+        "ru": "Надо подождать."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ],
+      "needsReview": true
     },
     {
       "id": "ph_e392209e",
@@ -26322,6 +27222,24 @@
       }
     },
     {
+      "id": "ph_ea050fae",
+      "text": "No voy a abrir.",
+      "tr": {
+        "ru": "Я не буду открывать."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_ea5898ac",
       "text": "Por eso.",
       "tr": {
@@ -26793,6 +27711,28 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_ee3d876b",
+      "text": "hace mucho tiempo",
+      "tr": {
+        "ru": "давно"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Часто просто hace mucho."
+      },
+      "relatedGrammarIds": [
+        "gr_hace-fed92432"
+      ]
     },
     {
       "id": "ph_ee651a54",
@@ -28104,6 +29044,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_f82d38c1",
+      "text": "Volví a intentarlo.",
+      "tr": {
+        "ru": "Я снова попробовал."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_perifrasis-verbales-66021edc"
+      ],
+      "needsReview": true
     },
     {
       "id": "ph_f841a05c",

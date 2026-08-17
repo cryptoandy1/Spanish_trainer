@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-08T19:18:03Z",
+  "generatedAt": "2026-08-17T19:16:08Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -642,6 +642,52 @@
       }
     },
     {
+      "id": "gr_hace-fed92432",
+      "title": {
+        "ru": "Hace + время: как сказать «…назад»"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "hace + количество времени = «…назад»: Llegué aquí hace dos meses. Hace не меняется — всегда 3-е лицо ед. числа, порядок именно hace + число. Набор: hace poco, hace un rato, hace unos días, hace mucho (tiempo), hace años. Не путать с hace calor (погода) и él hace (делает). Альтернатива про длительность: Llevo dos meses aquí."
+      },
+      "bodyPath": {
+        "ru": "grammar/hace-fed92432.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Llegué aquí hace dos meses.",
+          "tr": {
+            "ru": "Я приехал сюда два месяца назад."
+          }
+        },
+        {
+          "text": "Hace dos meses que llegué aquí.",
+          "tr": {
+            "ru": "Я приехал сюда два месяца назад (вариант с que)."
+          }
+        },
+        {
+          "text": "Llevo dos meses aquí.",
+          "tr": {
+            "ru": "Я здесь уже два месяца."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_hacer",
+        "vb_llegar",
+        "vb_llevar"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "gr_hay-haber-tener-169b6ec6",
       "title": {
         "ru": "Hay (haber) и tener: существование против владения"
@@ -875,6 +921,74 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_perifrasis-verbales-66021edc",
+      "title": {
+        "ru": "Perífrasis verbales: глагол + инфинитив и герундий"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Конструкции из двух глаголов: без предлога (poder, soler, pensar + инфинитив), с a (ir a, volver a, empezar a, ponerse a), с de (acabar de, dejar de, tratar de, estar a punto de), с que (tener que, hay que) и только с герундием (estar, seguir, continuar, llevar, ir, andar, venir). Continuar и seguir идут с герундием, не с инфинитивом: continuar leyendo, sigue lloviendo."
+      },
+      "bodyPath": {
+        "ru": "grammar/perifrasis-verbales-66021edc.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Suelo levantarme temprano.",
+          "tr": {
+            "ru": "Обычно я встаю рано."
+          }
+        },
+        {
+          "text": "Acabo de llegar.",
+          "tr": {
+            "ru": "Я только что приехал."
+          }
+        },
+        {
+          "text": "Sigue lloviendo.",
+          "tr": {
+            "ru": "Всё ещё идёт дождь."
+          }
+        },
+        {
+          "text": "Llevo dos meses estudiando.",
+          "tr": {
+            "ru": "Я учусь уже два месяца."
+          }
+        },
+        {
+          "text": "Voy entendiendo.",
+          "tr": {
+            "ru": "Я потихоньку начинаю понимать."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_soler",
+        "vb_continuar",
+        "vb_seguir",
+        "vb_llevar",
+        "vb_estar",
+        "vb_ir",
+        "vb_andar",
+        "vb_venir",
+        "vb_acabar",
+        "vb_dejar",
+        "vb_volver",
+        "vb_tener",
+        "vb_haber"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
