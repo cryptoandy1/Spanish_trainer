@@ -595,6 +595,24 @@
       }
     },
     {
+      "id": "vc_07296d34",
+      "lemma": "llover",
+      "pos": "verb",
+      "tr": {
+        "ru": "идти (о дожде)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_llover",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_084005bc",
       "lemma": "bebida",
       "pos": "noun",
@@ -1894,6 +1912,24 @@
       }
     },
     {
+      "id": "vc_183f491e",
+      "lemma": "observar",
+      "pos": "verb",
+      "tr": {
+        "ru": "наблюдать; замечать (книжн.)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_observar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_1864fac0",
       "lemma": "resolución",
       "pos": "noun",
@@ -2608,6 +2644,24 @@
       }
     },
     {
+      "id": "vc_20e3a17b",
+      "lemma": "olvidarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "забывать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_olvidarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_21ba2055",
       "lemma": "saber",
       "pos": "verb",
@@ -2773,6 +2827,24 @@
         "alsoSeenIn": [
           "6a533484-a9e8-83eb-8083-813afe2f2d72"
         ]
+      }
+    },
+    {
+      "id": "vc_24fa0c82",
+      "lemma": "fumar",
+      "pos": "verb",
+      "tr": {
+        "ru": "курить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_fumar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
       }
     },
     {
@@ -2964,6 +3036,24 @@
         "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_280cea22",
+      "lemma": "evitar",
+      "pos": "verb",
+      "tr": {
+        "ru": "избегать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_evitar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -4151,6 +4241,24 @@
       "verbId": "vb_prestar"
     },
     {
+      "id": "vc_34c2b53d",
+      "lemma": "advertir",
+      "pos": "verb",
+      "tr": {
+        "ru": "заметить (книжн.); предупредить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_advertir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_3501dee1",
       "lemma": "bolsa",
       "pos": "noun",
@@ -4506,6 +4614,24 @@
         "conversationId": "6a60e104-ea54-83eb-8571-ce8b31356dfc",
         "conversationTitle": "Перевод слова поэтому",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_39d98922",
+      "lemma": "prometer",
+      "pos": "verb",
+      "tr": {
+        "ru": "обещать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_prometer",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -5088,6 +5214,24 @@
       }
     },
     {
+      "id": "vc_40e179db",
+      "lemma": "negarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "отказываться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_negarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_40fb92c4",
       "lemma": "precio",
       "pos": "noun",
@@ -5637,6 +5781,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_4773bb62",
+      "lemma": "notar",
+      "pos": "verb",
+      "tr": {
+        "ru": "замечать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_notar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -7251,6 +7413,24 @@
       }
     },
     {
+      "id": "vc_5a8700ab",
+      "lemma": "fijarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "обращать внимание"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_fijarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5a8d7b60",
       "lemma": "vuelta",
       "pos": "noun",
@@ -7962,6 +8142,42 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_62dd6ede",
+      "lemma": "preferir",
+      "pos": "verb",
+      "tr": {
+        "ru": "предпочитать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_preferir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_638a2a43",
+      "lemma": "conseguir",
+      "pos": "verb",
+      "tr": {
+        "ru": "добиться, получить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_conseguir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -9306,6 +9522,24 @@
       }
     },
     {
+      "id": "vc_79355f5a",
+      "lemma": "intentar",
+      "pos": "verb",
+      "tr": {
+        "ru": "пытаться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_intentar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_79dc10fc",
       "lemma": "nuevo",
       "pos": "adj",
@@ -9441,6 +9675,24 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7d739220",
+      "lemma": "comenzar",
+      "pos": "verb",
+      "tr": {
+        "ru": "начинать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_comenzar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -10856,6 +11108,24 @@
       }
     },
     {
+      "id": "vc_8dc83016",
+      "lemma": "atreverse",
+      "pos": "verb",
+      "tr": {
+        "ru": "осмелиться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_atreverse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_8e390e07",
       "lemma": "eso",
       "pos": "pron",
@@ -10984,6 +11254,24 @@
         "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_8ecb7640",
+      "lemma": "acordarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "вспоминать, помнить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_acordarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -14876,6 +15164,24 @@
       }
     },
     {
+      "id": "vc_c5cdc513",
+      "lemma": "mudarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "переезжать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_mudarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c67755f0",
       "lemma": "duda",
       "pos": "noun",
@@ -15334,6 +15640,24 @@
       }
     },
     {
+      "id": "vc_cdeb45ba",
+      "lemma": "decidir",
+      "pos": "verb",
+      "tr": {
+        "ru": "решать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_decidir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_ce040b56",
       "lemma": "tan",
       "pos": "adv",
@@ -15347,6 +15671,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ce28db0d",
+      "lemma": "continuar",
+      "pos": "verb",
+      "tr": {
+        "ru": "продолжать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_continuar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -16806,6 +17148,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_dd936bdd",
+      "lemma": "andar",
+      "pos": "verb",
+      "tr": {
+        "ru": "ходить, идти"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_andar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },
@@ -19056,6 +19416,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_fa640fac",
+      "lemma": "soler",
+      "pos": "verb",
+      "tr": {
+        "ru": "иметь обыкновение (обычно делать что-то)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_soler",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
+        "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
+        "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
       }
     },

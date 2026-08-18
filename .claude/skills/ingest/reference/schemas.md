@@ -28,6 +28,7 @@ id recipe; everything below must match those two files exactly.
 **You still never invent a conjugation form here.** Record only the forms the conversation actually showed; omit the rest. Complete paradigms are not your job — they are filled separately by `python tools/conjugate.py --stage all`, which never overwrites an attested form. **After an ingest that adds a new verb, run that command** so the new verb gets a full paradigm like the others.
 
 **Coverage rule (2026-08-09):** every verb the conversation contains needs a record here, including verbs that merely appear inside an example sentence. A `pos: "verb"` vocab entry whose lemma is missing from `verbs.json` is a defect. Stub it with `tenses: {}` / `nonFinite: {}` / `regularity: "regular"` and let `conjugate.py` fill it. Never stub a lemma that is not an infinitive.
+**And the other way (2026-08-18):** every `verbs.json` record needs a matching `VocabWord` (`lemma` = infinitive, `pos: "verb"`, `verbId` set) — the word list reads `vocab.json` only. Write the pair together; `validate.py` rejects a verb nothing links to.
 
 **GrammarTopic** (`grammar.json` index + separate `grammar/<slug>.ru.md` body): `id, title, level?("A1".."C1"), order, summary, bodyPath{ru: "grammar/<file>.ru.md"}, examples[], relatedVerbIds?[], relatedTopicIds?[], tags?[], manual?, source`
 Body markdown goes in the `.ru.md` file, never escaped into the JSON. `order: 999` for new auto-added topics (a human re-orders later if it matters).

@@ -71,7 +71,13 @@ file, leave it in place, and say which one you skipped.
      `conjugate.py` replaces regularity/conjugationClass outright and fills
      the paradigm), and copy `tr`/`topics`/`source` from the vocab record.
      A `pos: "verb"` vocab entry with no verb record is a defect — it's a
-     dead link in the word list. **Do not do this for a lemma that isn't an
+     dead link in the word list. **The reverse is a defect too:** every verb
+     record needs a `pos: "verb"` vocab record with the bare infinitive as
+     lemma and `verbId` set — the word list is built from `vocab.json` only,
+     so a verb stubbed in `verbs.json` alone is invisible there (this
+     happened to 21 verbs in ingest-2026-08-17). Always write both records
+     together; `finish` will backfill and then fail validation if you
+     forget, but don't rely on it. **Do not do this for a lemma that isn't an
      infinitive** (`hay`, `buscando`, `darse de baja`, `empezar a` are real
      examples from the backlog) — flag those to the user instead.
    - **Corrections**: places where the user tried Spanish and got

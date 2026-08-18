@@ -125,8 +125,21 @@ def validate(repo_root: Path, lang: str = "es") -> list[str]:
         if v.get("verbId") and v["verbId"] not in verb_ids:
             errors.append(f"vocab.json:{v['id']}: unknown verbId {v['verbId']!r}")
 
+    # Every verb must be reachable from the word list. The Слова page (and the
+    # per-batch view in Недавнее) is built from vocab.json alone, so a verb
+    # that exists only in verbs.json is invisible there — 21 verbs shipped
+    # that way in ingest-2026-08-17. tools/link_vocab_verbs.py (run by
+    # tools/ingest/finish.py before this gate) creates the missing vocab
+    # record; this check is what makes forgetting it a hard failure.
+    linked_verb_ids = {v["verbId"] for v in packs.get("vocab", []) if v.get("verbId")}
+
     for vb in packs.get("verbs", []):
         check_topics("verbs.json", vb["id"], vb.get("topics"))
+        if vb["id"] not in linked_verb_ids:
+            errors.append(
+                f"verbs.json:{vb['id']}: no vocab record links to it (verb is invisible in the word list;"
+                " run python -m tools.link_vocab_verbs --apply)"
+            )
         if vb.get("regularity") not in valid_regularity:
             errors.append(f"verbs.json:{vb['id']}: unknown regularity {vb.get('regularity')!r}")
         for tense_id, tense in (vb.get("tenses") or {}).items():
