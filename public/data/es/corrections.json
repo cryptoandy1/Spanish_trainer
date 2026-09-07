@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-08T19:18:03Z",
+  "generatedAt": "2026-09-07T03:06:48Z",
   "items": [
     {
       "id": "er_01105d15",
@@ -84,6 +84,25 @@
       }
     },
     {
+      "id": "er_0c17ee81",
+      "attempt": "el boleto de avíon",
+      "correct": "el boleto de avión",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "avión — ударение на ó (тильда на последнем слоге)."
+      },
+      "errorTags": [
+        "accent"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_0c8c65d5",
       "attempt": "A lo mejor venga.",
       "correct": "A lo mejor viene.",
@@ -99,6 +118,25 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_1474719f",
+      "attempt": "dónde debo diigime para",
+      "correct": "¿Dónde debo dirigirme para...?",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "dirigirme — от dirigirse (направляться, обращаться)."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "correction"
       }
     },
@@ -177,6 +215,25 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_26018d88",
+      "attempt": "Enseguida le traigo sus documntos",
+      "correct": "Enseguida le traigo sus documentos",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "documentos — потерялась e."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "correction"
       }
     },
@@ -334,6 +391,44 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_3a24073e",
+      "attempt": "regrasar",
+      "correct": "regresar",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "regresar — через e."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_3cc1d005",
+      "attempt": "quizás te estas demorando demasiado",
+      "correct": "Quizás te estás demorando demasiado",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "estás (глагол) — с тильдой; estas без тильды — «эти»."
+      },
+      "errorTags": [
+        "accent"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "correction"
       }
     },
@@ -627,6 +722,25 @@
         "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
         "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
         "ingestBatch": "ingest-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_6b87c69e",
+      "attempt": "tarjeta de embaque",
+      "correct": "tarjeta de embarque",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "embarque — с r, от embarcar (садиться на борт)."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "correction"
       }
     },
@@ -940,6 +1054,26 @@
       }
     },
     {
+      "id": "er_a0aacaad",
+      "attempt": "si esto de enseñar español no functiona",
+      "correct": "Si esto de enseñar español no funciona",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "В испанском funcionar, без t — не как английское function."
+      },
+      "errorTags": [
+        "spelling",
+        "false-friend"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_a1b2c3d4",
       "prompt": {
         "ru": "У меня есть машина."
@@ -1239,6 +1373,26 @@
       }
     },
     {
+      "id": "er_c4aca178",
+      "attempt": "el ventana",
+      "correct": "la ventana",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "ventana — женского рода; в транспорте окно — la ventanilla."
+      },
+      "errorTags": [
+        "gender",
+        "article"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_c8b4566e",
       "attempt": "Yo hablo Español",
       "correct": "Yo hablo español",
@@ -1293,6 +1447,26 @@
         "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_d11e5c03",
+      "attempt": "un folleto con más informacion de lo que está permitido abordo",
+      "correct": "un folleto con más información de lo que está permitido a bordo",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "información — с тильдой; a bordo — раздельно."
+      },
+      "errorTags": [
+        "accent",
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "correction"
       }
     },
@@ -1409,6 +1583,25 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_e1ee5f6c",
+      "attempt": "apovechar",
+      "correct": "aprovechar",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "aprovechar — с r после p: a-pro-vechar."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "correction"
       }
     },

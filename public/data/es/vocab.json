@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-09-07T02:38:21Z",
+  "generatedAt": "2026-09-07T03:06:48Z",
   "items": [
     {
       "id": "vc_006436ac",
@@ -485,6 +485,24 @@
       }
     },
     {
+      "id": "vc_055ca645",
+      "lemma": "elegir",
+      "pos": "verb",
+      "tr": {
+        "ru": "выбирать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_elegir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_058dd5ad",
       "lemma": "marrón",
       "pos": "adj",
@@ -923,6 +941,33 @@
       }
     },
     {
+      "id": "vc_0bdc47d3",
+      "lemma": "retraso",
+      "pos": "noun",
+      "tr": {
+        "ru": "задержка, опоздание"
+      },
+      "examples": [
+        {
+          "text": "El vuelo tiene retraso.",
+          "tr": {
+            "ru": "Рейс задерживается."
+          }
+        }
+      ],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_0c58eb22",
       "lemma": "mejor",
       "pos": "adj",
@@ -1120,6 +1165,31 @@
         "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_0e33bd02",
+      "lemma": "pasillo",
+      "pos": "noun",
+      "tr": {
+        "ru": "проход; коридор"
+      },
+      "examples": [
+        {
+          "text": "asiento de pasillo",
+          "tr": {
+            "ru": "место у прохода"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_0e4b1091",
@@ -1333,6 +1403,30 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_114add97",
+      "lemma": "enseguida",
+      "pos": "adv",
+      "tr": {
+        "ru": "сейчас же, тотчас"
+      },
+      "examples": [
+        {
+          "text": "Enseguida vuelvo.",
+          "tr": {
+            "ru": "Сейчас вернусь."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -1593,6 +1687,30 @@
       "verbId": "vb_leer"
     },
     {
+      "id": "vc_13a51418",
+      "lemma": "suficiente",
+      "pos": "adj",
+      "tr": {
+        "ru": "достаточный"
+      },
+      "examples": [
+        {
+          "text": "Con eso es suficiente.",
+          "tr": {
+            "ru": "Этого хватит."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_13d33c47",
       "lemma": "entonces",
       "pos": "adv",
@@ -1661,6 +1779,30 @@
       },
       "notes": {
         "ru": "Форма глагола valer ('стоить'), но в разговорной речи используется как отдельное междометие согласия."
+      }
+    },
+    {
+      "id": "vc_13f58b91",
+      "lemma": "puro",
+      "pos": "adj",
+      "tr": {
+        "ru": "чистый, самый настоящий"
+      },
+      "examples": [
+        {
+          "text": "Es puro teatro.",
+          "tr": {
+            "ru": "Это чистый спектакль, показуха."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -1879,6 +2021,31 @@
       }
     },
     {
+      "id": "vc_17bece54",
+      "lemma": "probarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "примерять (одежду)"
+      },
+      "examples": [
+        {
+          "text": "¿Puedo probármelo?",
+          "tr": {
+            "ru": "Можно примерить?"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_probarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_17d97112",
       "lemma": "tener sed",
       "pos": "phrase",
@@ -1972,6 +2139,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_18a8414f",
+      "lemma": "gambas al ajillo",
+      "pos": "noun",
+      "tr": {
+        "ru": "креветки в чесночном масле (классика тапас-баров)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_18b12651",
@@ -2162,6 +2349,30 @@
       "verbId": "vb_rechazar"
     },
     {
+      "id": "vc_1a48e7fb",
+      "lemma": "después",
+      "pos": "adv",
+      "tr": {
+        "ru": "потом, после"
+      },
+      "examples": [
+        {
+          "text": "Después del trabajo.",
+          "tr": {
+            "ru": "После работы."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_1ad68fbc",
       "lemma": "bastón",
       "pos": "noun",
@@ -2253,6 +2464,23 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_1bf14a9c",
+      "lemma": "tal vez",
+      "pos": "adv",
+      "tr": {
+        "ru": "может быть"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -2645,6 +2873,24 @@
       "verbId": "vb_estar"
     },
     {
+      "id": "vc_20023c06",
+      "lemma": "oportunidad",
+      "pos": "noun",
+      "tr": {
+        "ru": "возможность, шанс"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_204d15ac",
       "lemma": "leísmo",
       "pos": "noun",
@@ -2666,6 +2912,30 @@
         "conversationId": "inbox-c3a8ffca",
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_205c35ba",
+      "lemma": "bastante",
+      "pos": "adv",
+      "tr": {
+        "ru": "достаточно; довольно, весьма"
+      },
+      "examples": [
+        {
+          "text": "Es bastante caro.",
+          "tr": {
+            "ru": "Это довольно дорого."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -2925,6 +3195,24 @@
       }
     },
     {
+      "id": "vc_25809a4e",
+      "lemma": "retirar",
+      "pos": "verb",
+      "tr": {
+        "ru": "убирать, снимать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_retirar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_259a6cb5",
       "lemma": "dueño",
       "pos": "noun",
@@ -2988,6 +3276,24 @@
       "verbId": "vb_aprender"
     },
     {
+      "id": "vc_263705c3",
+      "lemma": "potencia",
+      "pos": "noun",
+      "tr": {
+        "ru": "мощность"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_26d33c7f",
       "lemma": "a la derecha",
       "pos": "phrase",
@@ -3005,6 +3311,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_26f387ed",
+      "lemma": "alioli",
+      "pos": "noun",
+      "tr": {
+        "ru": "чесночный соус (ajo + oli «масло» по-каталански)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_27480b16",
@@ -3320,6 +3646,24 @@
       "verbId": "vb_oir"
     },
     {
+      "id": "vc_2aba7483",
+      "lemma": "asignar",
+      "pos": "verb",
+      "tr": {
+        "ru": "назначать, выделять"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_asignar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2b0d75cc",
       "lemma": "toalla",
       "pos": "noun",
@@ -3440,6 +3784,26 @@
       "verbId": "vb_vestir"
     },
     {
+      "id": "vc_2d1345e0",
+      "lemma": "modelo",
+      "pos": "noun",
+      "tr": {
+        "ru": "модель, фасон"
+      },
+      "examples": [],
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_2d60d7c9",
       "lemma": "mi vida",
       "pos": "phrase",
@@ -3495,6 +3859,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_2e460cb7",
+      "lemma": "quejarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "жаловаться, ныть"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_quejarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -3850,6 +4232,30 @@
       }
     },
     {
+      "id": "vc_30162956",
+      "lemma": "auténtico",
+      "pos": "adj",
+      "tr": {
+        "ru": "подлинный, аутентичный"
+      },
+      "examples": [
+        {
+          "text": "cuero auténtico",
+          "tr": {
+            "ru": "натуральная кожа"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_309638d4",
       "lemma": "bicicleta",
       "pos": "noun",
@@ -3873,6 +4279,24 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_31b0034e",
+      "lemma": "facturar",
+      "pos": "verb",
+      "tr": {
+        "ru": "сдавать (багаж)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_facturar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -4066,6 +4490,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_32b49b2b",
+      "lemma": "mudanza",
+      "pos": "noun",
+      "tr": {
+        "ru": "переезд"
+      },
+      "examples": [],
+      "topics": [
+        "tp_vivienda"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_32b60e8b",
@@ -4352,6 +4796,26 @@
       }
     },
     {
+      "id": "vc_352eea11",
+      "lemma": "esquina",
+      "pos": "noun",
+      "tr": {
+        "ru": "угол (улицы); перекрёсток (ЛатАм)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_3531c0de",
       "lemma": "familia",
       "pos": "noun",
@@ -4366,6 +4830,24 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_361e70ed",
+      "lemma": "grabar",
+      "pos": "verb",
+      "tr": {
+        "ru": "записывать (видео, звук)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_grabar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -4714,6 +5196,31 @@
       }
     },
     {
+      "id": "vc_3a1087c3",
+      "lemma": "tardar en",
+      "pos": "verb",
+      "tr": {
+        "ru": "занимать столько-то времени (tardar + время + en + инфинитив)"
+      },
+      "examples": [
+        {
+          "text": "Tardo diez minutos en llegar.",
+          "tr": {
+            "ru": "Мне добираться десять минут."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "verbId": "vb_tardar"
+    },
+    {
       "id": "vc_3a3d3ea7",
       "lemma": "administrador",
       "pos": "noun",
@@ -4799,6 +5306,26 @@
           "inbox-c3a8ffca"
         ]
       }
+    },
+    {
+      "id": "vc_3aa88c74",
+      "lemma": "talle",
+      "pos": "noun",
+      "tr": {
+        "ru": "размер одежды (Аргентина); талия, стан"
+      },
+      "examples": [],
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_3abf631c",
@@ -5448,6 +5975,32 @@
       }
     },
     {
+      "id": "vc_420bc3a8",
+      "lemma": "harto",
+      "pos": "adj",
+      "tr": {
+        "ru": "сытый по горло, задолбавшийся"
+      },
+      "examples": [
+        {
+          "text": "Estoy harto de esperar.",
+          "tr": {
+            "ru": "Меня достало ждать."
+          }
+        }
+      ],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_42ca7d43",
       "lemma": "apuntes",
       "pos": "noun",
@@ -5622,6 +6175,24 @@
       }
     },
     {
+      "id": "vc_44c29f2f",
+      "lemma": "abrocharse",
+      "pos": "verb",
+      "tr": {
+        "ru": "пристёгивать(ся), застёгивать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_abrocharse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_44cd9ee5",
       "lemma": "mirar",
       "pos": "verb",
@@ -5667,6 +6238,24 @@
       }
     },
     {
+      "id": "vc_452423ac",
+      "lemma": "viajar",
+      "pos": "verb",
+      "tr": {
+        "ru": "путешествовать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_viajar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_455bc4af",
       "lemma": "otro",
       "pos": "pron",
@@ -5698,6 +6287,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_460b1172",
+      "lemma": "coger",
+      "pos": "verb",
+      "tr": {
+        "ru": "брать, хватать (Испания; в ЛатАм — грубое слово, там tomar/agarrar)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_coger",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -5914,6 +6521,26 @@
         "extractor": "model"
       },
       "verbId": "vb_perfilar"
+    },
+    {
+      "id": "vc_48448faa",
+      "lemma": "puerta de embarque",
+      "pos": "noun",
+      "tr": {
+        "ru": "выход на посадку, гейт"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_486b7512",
@@ -7043,6 +7670,26 @@
       }
     },
     {
+      "id": "vc_55fcc042",
+      "lemma": "despegue",
+      "pos": "noun",
+      "tr": {
+        "ru": "взлёт"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_564018ae",
       "lemma": "por casualidad",
       "pos": "phrase",
@@ -7175,6 +7822,24 @@
       }
     },
     {
+      "id": "vc_57d76e43",
+      "lemma": "aguantar",
+      "pos": "verb",
+      "tr": {
+        "ru": "выдерживать, терпеть"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_aguantar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_581afd23",
       "lemma": "mueble",
       "pos": "noun",
@@ -7256,6 +7921,31 @@
         "extractor": "model"
       },
       "verbId": "vb_entender"
+    },
+    {
+      "id": "vc_593c66ae",
+      "lemma": "recordar",
+      "pos": "verb",
+      "tr": {
+        "ru": "помнить, вспоминать; напоминать"
+      },
+      "examples": [
+        {
+          "text": "No recuerdo su nombre.",
+          "tr": {
+            "ru": "Не помню его имя."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_recordar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_597322eb",
@@ -8016,6 +8706,26 @@
       }
     },
     {
+      "id": "vc_6031e4c4",
+      "lemma": "parada",
+      "pos": "noun",
+      "tr": {
+        "ru": "остановка"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_60649344",
       "lemma": "vigilancia",
       "pos": "noun",
@@ -8242,7 +8952,14 @@
       "tr": {
         "ru": "пытаться (что-то сделать)"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Estoy tratando de dormir.",
+          "tr": {
+            "ru": "Я пытаюсь уснуть."
+          }
+        }
+      ],
       "topics": [],
       "source": {
         "origin": "claude",
@@ -8365,6 +9082,25 @@
         "alsoSeenIn": [
           "6a676600-fb7c-83eb-8df6-9c004bf8bbb8"
         ]
+      }
+    },
+    {
+      "id": "vc_654e9155",
+      "lemma": "pues",
+      "pos": "interj",
+      "tr": {
+        "ru": "ну… (разговорная затычка)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -8813,6 +9549,31 @@
       }
     },
     {
+      "id": "vc_6a66e983",
+      "lemma": "calzar",
+      "pos": "verb",
+      "tr": {
+        "ru": "носить (размер обуви)"
+      },
+      "examples": [
+        {
+          "text": "¿Qué número calzas?",
+          "tr": {
+            "ru": "Какой размер обуви носишь?"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_calzar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_6ac906f5",
       "lemma": "app",
       "pos": "noun",
@@ -8920,6 +9681,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_6c97e6e1",
+      "lemma": "aterrizaje",
+      "pos": "noun",
+      "tr": {
+        "ru": "посадка (самолёта)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_6ccbe757",
@@ -9187,6 +9968,53 @@
       }
     },
     {
+      "id": "vc_70b61dda",
+      "lemma": "ventanilla",
+      "pos": "noun",
+      "tr": {
+        "ru": "окошко (кассы); место у окна (в транспорте)"
+      },
+      "examples": [
+        {
+          "text": "¿Ventanilla o pasillo?",
+          "tr": {
+            "ru": "Окно или проход?"
+          }
+        }
+      ],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
+      "id": "vc_71d8b9a7",
+      "lemma": "semáforo",
+      "pos": "noun",
+      "tr": {
+        "ru": "светофор"
+      },
+      "examples": [],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_71f006e4",
       "lemma": "probablemente",
       "pos": "adv",
@@ -9242,6 +10070,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_72aa9cc3",
+      "lemma": "utilizar",
+      "pos": "verb",
+      "tr": {
+        "ru": "использовать (формальнее, чем usar)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_utilizar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -9305,6 +10151,24 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_74091818",
+      "lemma": "recoger",
+      "pos": "verb",
+      "tr": {
+        "ru": "забирать, подбирать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_recoger",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -9387,6 +10251,26 @@
         "extractor": "model"
       },
       "verbId": "vb_acostarse"
+    },
+    {
+      "id": "vc_74ec5c56",
+      "lemma": "equipaje",
+      "pos": "noun",
+      "tr": {
+        "ru": "багаж"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_752b64fa",
@@ -9581,6 +10465,49 @@
           "6a533484-a9e8-83eb-8083-813afe2f2d72",
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d"
         ]
+      }
+    },
+    {
+      "id": "vc_777169a8",
+      "lemma": "demorarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "задерживаться, долго возиться (ЛатАм)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_demorarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_77bb7a3e",
+      "lemma": "sonar",
+      "pos": "verb",
+      "tr": {
+        "ru": "звучать; звенеть"
+      },
+      "examples": [
+        {
+          "text": "Me suena su nombre.",
+          "tr": {
+            "ru": "Его имя мне знакомо."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_sonar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -9919,6 +10846,31 @@
       }
     },
     {
+      "id": "vc_7dc0b283",
+      "lemma": "bajarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "выходить (из транспорта)"
+      },
+      "examples": [
+        {
+          "text": "Me bajo en la próxima.",
+          "tr": {
+            "ru": "Выхожу на следующей."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_bajarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_7dc7d1e8",
       "lemma": "visto",
       "pos": "adj",
@@ -9978,6 +10930,24 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7dff3bfc",
+      "lemma": "dirigirse",
+      "pos": "verb",
+      "tr": {
+        "ru": "направляться; обращаться (к)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_dirigirse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -10185,6 +11155,26 @@
       }
     },
     {
+      "id": "vc_8040c455",
+      "lemma": "mostrador",
+      "pos": "noun",
+      "tr": {
+        "ru": "стойка (регистрации, бара)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_80495be0",
       "lemma": "decir",
       "pos": "verb",
@@ -10364,6 +11354,30 @@
       }
     },
     {
+      "id": "vc_835d0544",
+      "lemma": "verdadero",
+      "pos": "adj",
+      "tr": {
+        "ru": "настоящий, истинный"
+      },
+      "examples": [
+        {
+          "text": "un verdadero amigo",
+          "tr": {
+            "ru": "настоящий друг"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_838c7ce1",
       "lemma": "degradado",
       "pos": "noun",
@@ -10524,6 +11538,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_84bd89af",
+      "lemma": "pasajero",
+      "pos": "noun",
+      "tr": {
+        "ru": "пассажир"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_84c3b2f0",
@@ -10783,6 +11817,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_8639334f",
+      "lemma": "comprar",
+      "pos": "verb",
+      "tr": {
+        "ru": "покупать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_comprar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -11421,6 +12473,31 @@
       }
     },
     {
+      "id": "vc_8e4e55ab",
+      "lemma": "aprovechar",
+      "pos": "verb",
+      "tr": {
+        "ru": "воспользоваться, использовать с толком"
+      },
+      "examples": [
+        {
+          "text": "¡Aprovecha la oportunidad!",
+          "tr": {
+            "ru": "Лови момент, не упусти шанс!"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_aprovechar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_8e6d100d",
       "lemma": "montón",
       "pos": "noun",
@@ -11657,6 +12734,30 @@
       }
     },
     {
+      "id": "vc_90e65abd",
+      "lemma": "real",
+      "pos": "adj",
+      "tr": {
+        "ru": "реальный, существующий; королевский"
+      },
+      "examples": [
+        {
+          "text": "Basado en hechos reales.",
+          "tr": {
+            "ru": "Основано на реальных событиях."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_90f4f487",
       "lemma": "explicar",
       "pos": "verb",
@@ -11802,6 +12903,26 @@
         "extractor": "model"
       },
       "verbId": "vb_buscar"
+    },
+    {
+      "id": "vc_940e2794",
+      "lemma": "probador",
+      "pos": "noun",
+      "tr": {
+        "ru": "примерочная"
+      },
+      "examples": [],
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_945194c6",
@@ -12040,6 +13161,26 @@
       }
     },
     {
+      "id": "vc_981273c9",
+      "lemma": "aduana",
+      "pos": "noun",
+      "tr": {
+        "ru": "таможня"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_9857c246",
       "lemma": "vosotros",
       "pos": "pron",
@@ -12118,6 +13259,24 @@
         "alsoSeenIn": [
           "6a5cf382-f9ac-83ed-b424-2a050180f9d9"
         ]
+      }
+    },
+    {
+      "id": "vc_99d7b823",
+      "lemma": "dedicarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "заниматься (чем-то), посвятить себя"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_dedicarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -12211,6 +13370,24 @@
       "verbId": "vb_encontrar"
     },
     {
+      "id": "vc_9b69f999",
+      "lemma": "cintura",
+      "pos": "noun",
+      "tr": {
+        "ru": "талия; поясница"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_9b904d27",
       "lemma": "restaurante",
       "pos": "noun",
@@ -12286,6 +13463,31 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_9ca7ee6e",
+      "lemma": "sentirse",
+      "pos": "verb",
+      "tr": {
+        "ru": "чувствовать себя"
+      },
+      "examples": [
+        {
+          "text": "Me siento de maravilla.",
+          "tr": {
+            "ru": "Чувствую себя отлично."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_sentirse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -13411,6 +14613,49 @@
       }
     },
     {
+      "id": "vc_ab695e29",
+      "lemma": "prepararse",
+      "pos": "verb",
+      "tr": {
+        "ru": "собираться, готовиться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_prepararse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_abd109a5",
+      "lemma": "funcionar",
+      "pos": "verb",
+      "tr": {
+        "ru": "работать, функционировать (о технике, планах)"
+      },
+      "examples": [
+        {
+          "text": "Mi teléfono no funciona.",
+          "tr": {
+            "ru": "Мой телефон не работает."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_funcionar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_abef8871",
       "lemma": "jugador",
       "pos": "noun",
@@ -13427,6 +14672,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_ad1345c9",
+      "lemma": "pan de ajo",
+      "pos": "noun",
+      "tr": {
+        "ru": "чесночный хлеб"
+      },
+      "examples": [],
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_ad21d3db",
@@ -13759,6 +15024,33 @@
       "gender": "f"
     },
     {
+      "id": "vc_b0ff0ac9",
+      "lemma": "rebajas",
+      "pos": "noun",
+      "tr": {
+        "ru": "распродажа, скидки"
+      },
+      "examples": [
+        {
+          "text": "Hay rebajas en esa tienda.",
+          "tr": {
+            "ru": "В том магазине скидки."
+          }
+        }
+      ],
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_b11200e3",
       "lemma": "Mundial",
       "pos": "noun",
@@ -13782,6 +15074,33 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_b15a8462",
+      "lemma": "escala",
+      "pos": "noun",
+      "tr": {
+        "ru": "пересадка (в полёте)"
+      },
+      "examples": [
+        {
+          "text": "Hago escala en Madrid.",
+          "tr": {
+            "ru": "Лечу с пересадкой в Мадриде."
+          }
+        }
+      ],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_b1e55f29",
@@ -14077,6 +15396,24 @@
       }
     },
     {
+      "id": "vc_b54c52c8",
+      "lemma": "agarrar",
+      "pos": "verb",
+      "tr": {
+        "ru": "хватать, брать (ЛатАм)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_agarrar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b57809ec",
       "lemma": "supermercado",
       "pos": "noun",
@@ -14216,6 +15553,26 @@
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d"
         ]
       }
+    },
+    {
+      "id": "vc_b7518c49",
+      "lemma": "panadería",
+      "pos": "noun",
+      "tr": {
+        "ru": "булочная"
+      },
+      "examples": [],
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_b757cebf",
@@ -14544,6 +15901,24 @@
       }
     },
     {
+      "id": "vc_b8eb5967",
+      "lemma": "aprovecharse",
+      "pos": "verb",
+      "tr": {
+        "ru": "пользоваться (кем-то), наглеть"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_aprovecharse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b8f57c15",
       "lemma": "onda",
       "pos": "noun",
@@ -14627,6 +16002,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_b9530501",
+      "lemma": "cruce",
+      "pos": "noun",
+      "tr": {
+        "ru": "перекрёсток"
+      },
+      "examples": [],
+      "topics": [
+        "tp_orientacion-direcciones",
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_b97d8b17",
@@ -14842,6 +16238,23 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_be156107",
+      "lemma": "tras",
+      "pos": "prep",
+      "tr": {
+        "ru": "после, вслед за (книжн.)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -15131,6 +16544,31 @@
       "verbId": "vb_preocuparse"
     },
     {
+      "id": "vc_c11d6333",
+      "lemma": "dudar",
+      "pos": "verb",
+      "tr": {
+        "ru": "сомневаться"
+      },
+      "examples": [
+        {
+          "text": "Lo dudo.",
+          "tr": {
+            "ru": "Сомневаюсь."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_dudar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c27a06d2",
       "lemma": "inteligente",
       "pos": "adj",
@@ -15285,6 +16723,26 @@
         ]
       },
       "verbId": "vb_salir"
+    },
+    {
+      "id": "vc_c33c349b",
+      "lemma": "diente de ajo",
+      "pos": "noun",
+      "tr": {
+        "ru": "зубчик чеснока"
+      },
+      "examples": [],
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_c3416d73",
@@ -15961,6 +17419,31 @@
       }
     },
     {
+      "id": "vc_cd6f2425",
+      "lemma": "tomar",
+      "pos": "verb",
+      "tr": {
+        "ru": "брать; пить; ехать (на транспорте)"
+      },
+      "examples": [
+        {
+          "text": "Toma la línea 3.",
+          "tr": {
+            "ru": "Садись на третью линию."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_tomar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_cdeb45ba",
       "lemma": "decidir",
       "pos": "verb",
@@ -16339,6 +17822,24 @@
       }
     },
     {
+      "id": "vc_d2c36796",
+      "lemma": "referirse",
+      "pos": "verb",
+      "tr": {
+        "ru": "иметь в виду, ссылаться (на)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_referirse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_d2d3e286",
       "lemma": "la",
       "pos": "pron",
@@ -16405,6 +17906,30 @@
         "alsoSeenIn": [
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
+      }
+    },
+    {
+      "id": "vc_d31a7faa",
+      "lemma": "luego",
+      "pos": "adv",
+      "tr": {
+        "ru": "потом, затем, позже"
+      },
+      "examples": [
+        {
+          "text": "Lo hago luego.",
+          "tr": {
+            "ru": "Сделаю попозже."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -16677,6 +18202,26 @@
       }
     },
     {
+      "id": "vc_d5fbc604",
+      "lemma": "corte",
+      "pos": "noun",
+      "tr": {
+        "ru": "крой, покрой; стрижка"
+      },
+      "examples": [],
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_d6326749",
       "lemma": "playa",
       "pos": "noun",
@@ -16876,6 +18421,24 @@
       }
     },
     {
+      "id": "vc_d75a996f",
+      "lemma": "abordar",
+      "pos": "verb",
+      "tr": {
+        "ru": "садиться на борт (ЛатАм)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_abordar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_d773f30e",
       "lemma": "fútbol",
       "pos": "noun",
@@ -17025,6 +18588,24 @@
           "inbox-c3a8ffca"
         ]
       }
+    },
+    {
+      "id": "vc_d8ecd1c2",
+      "lemma": "señal",
+      "pos": "noun",
+      "tr": {
+        "ru": "указатель, знак; сигнал"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_d8ed8b95",
@@ -17498,6 +19079,24 @@
       }
     },
     {
+      "id": "vc_dd87a4a0",
+      "lemma": "cinturón",
+      "pos": "noun",
+      "tr": {
+        "ru": "ремень"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_dd936bdd",
       "lemma": "andar",
       "pos": "verb",
@@ -17665,6 +19264,30 @@
       }
     },
     {
+      "id": "vc_ded39b14",
+      "lemma": "demasiado",
+      "pos": "adv",
+      "tr": {
+        "ru": "слишком; слишком много"
+      },
+      "examples": [
+        {
+          "text": "Es demasiado caro.",
+          "tr": {
+            "ru": "Это слишком дорого."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e001557d",
       "lemma": "la semana pasada",
       "pos": "phrase",
@@ -17702,6 +19325,31 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e081865d",
+      "lemma": "regresar",
+      "pos": "verb",
+      "tr": {
+        "ru": "возвращаться (чаще ЛатАм; в Испании volver)"
+      },
+      "examples": [
+        {
+          "text": "¿Cuándo regresas?",
+          "tr": {
+            "ru": "Когда вернёшься?"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_regresar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -17810,6 +19458,24 @@
       }
     },
     {
+      "id": "vc_e18cadfd",
+      "lemma": "embarcar",
+      "pos": "verb",
+      "tr": {
+        "ru": "садиться на борт"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_embarcar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e1b38f8c",
       "lemma": "venir",
       "pos": "verb",
@@ -17844,6 +19510,24 @@
         ]
       },
       "verbId": "vb_venir"
+    },
+    {
+      "id": "vc_e1d8d300",
+      "lemma": "recuerdo",
+      "pos": "noun",
+      "tr": {
+        "ru": "воспоминание; сувенир"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_e298c466",
@@ -17932,6 +19616,24 @@
       }
     },
     {
+      "id": "vc_e3429283",
+      "lemma": "responder",
+      "pos": "verb",
+      "tr": {
+        "ru": "отвечать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_responder",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e39f992d",
       "lemma": "vender",
       "pos": "verb",
@@ -17983,6 +19685,24 @@
       }
     },
     {
+      "id": "vc_e4488679",
+      "lemma": "aviso",
+      "pos": "noun",
+      "tr": {
+        "ru": "предупреждение, объявление"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_e4631569",
       "lemma": "bono",
       "pos": "noun",
@@ -18004,6 +19724,24 @@
         "conversationId": "6a578f0f-cbb4-83eb-b867-dc0b1aba90f2",
         "conversationTitle": "Ir a casa объяснение",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e4a43a44",
+      "lemma": "usar",
+      "pos": "verb",
+      "tr": {
+        "ru": "использовать; носить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_usar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -18048,6 +19786,26 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_e521a0da",
+      "lemma": "grifo",
+      "pos": "noun",
+      "tr": {
+        "ru": "(водопроводный) кран"
+      },
+      "examples": [],
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_e5b36046",
@@ -18220,6 +19978,26 @@
         "extractor": "model"
       },
       "verbId": "vb_llegar"
+    },
+    {
+      "id": "vc_e7848ad4",
+      "lemma": "equipaje de mano",
+      "pos": "noun",
+      "tr": {
+        "ru": "ручная кладь"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_e8205924",
@@ -19477,6 +21255,24 @@
       }
     },
     {
+      "id": "vc_f5e4383a",
+      "lemma": "bastar",
+      "pos": "verb",
+      "tr": {
+        "ru": "быть достаточным, хватать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_bastar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f5e64f67",
       "lemma": "servidor",
       "pos": "noun",
@@ -19769,6 +21565,24 @@
       }
     },
     {
+      "id": "vc_f8c6af55",
+      "lemma": "visitar",
+      "pos": "verb",
+      "tr": {
+        "ru": "навещать, посещать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_visitar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f9096747",
       "lemma": "tipo de vía",
       "pos": "noun",
@@ -19921,6 +21735,26 @@
       "needsReview": true
     },
     {
+      "id": "vc_fb00d04e",
+      "lemma": "asiento",
+      "pos": "noun",
+      "tr": {
+        "ru": "место, сиденье"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_fb28f827",
       "lemma": "quedar",
       "pos": "verb",
@@ -19995,6 +21829,44 @@
       }
     },
     {
+      "id": "vc_fb7fdb08",
+      "lemma": "atender",
+      "pos": "verb",
+      "tr": {
+        "ru": "обслуживать; принимать (клиента)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_atender",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_fc01e446",
+      "lemma": "pasaje",
+      "pos": "noun",
+      "tr": {
+        "ru": "билет (ЛатАм, юг)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_fc49452d",
       "lemma": "despertarse",
       "pos": "verb",
@@ -20020,6 +21892,24 @@
         "extractor": "model"
       },
       "verbId": "vb_despertarse"
+    },
+    {
+      "id": "vc_fc5f778a",
+      "lemma": "imprimir",
+      "pos": "verb",
+      "tr": {
+        "ru": "печатать (на принтере)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_imprimir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_fcc06f26",

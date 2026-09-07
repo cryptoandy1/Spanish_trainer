@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-09-07T02:38:20Z",
+  "generatedAt": "2026-09-07T03:06:48Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -211,6 +211,52 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "gr_como-hago-adonde-voy-95241256",
+      "title": {
+        "ru": "¿Cómo hago? ¿Adónde voy?: настоящее время вместо «мне…»"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Там, где русский берёт инфинитив («как добраться?», «что делать?»), испанский ставит первое лицо настоящего: ¿Cómo hago para llegar?, ¿Adónde voy?, ¿Dónde me bajo?, ¿Qué hago?, ¿Lo compro o no? Настоящее работает и вместо будущего для «сейчас сделаю»: Ahora te llamo, Enseguida le traigo."
+      },
+      "bodyPath": {
+        "ru": "grammar/como-hago-adonde-voy-95241256.ru.md"
+      },
+      "examples": [
+        {
+          "text": "¿Adónde voy?",
+          "tr": {
+            "ru": "Куда мне идти?"
+          }
+        },
+        {
+          "text": "¿Qué hago?",
+          "tr": {
+            "ru": "Что мне делать?"
+          }
+        },
+        {
+          "text": "¿Dónde me bajo?",
+          "tr": {
+            "ru": "Где мне выходить?"
+          }
+        }
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedVerbIds": [
+        "vb_hacer",
+        "vb_ir",
+        "vb_bajarse"
+      ]
     },
     {
       "id": "gr_complex-object-quiero-que-subjuntivo-02a03668",
@@ -789,6 +835,44 @@
       }
     },
     {
+      "id": "gr_leismo-conocerle-conocerlo-7ea0b54b",
+      "title": {
+        "ru": "Leísmo: conocerle или conocerlo"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "По правилам lo/la — прямое дополнение, le — косвенное; conocer требует прямого: Encantado de conocerlo/conocerla. Но в Испании массово говорят le про мужчину — leísmo, узаконенный RAE для одушевлённого муж. рода ед. числа: Encantado de conocerle. В ЛатАм — только conocerlo/conocerla. Laísmo и loísmo — ошибка везде. Читерский обход — conocerte на «ты» или Mucho gusto."
+      },
+      "bodyPath": {
+        "ru": "grammar/leismo-conocerle-conocerlo-7ea0b54b.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Encantado de conocerlo.",
+          "tr": {
+            "ru": "Рад познакомиться с вами (классика, ЛатАм)."
+          }
+        },
+        {
+          "text": "Encantado de conocerle.",
+          "tr": {
+            "ru": "Рад познакомиться с вами (Испания, leísmo)."
+          }
+        }
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedVerbIds": [
+        "vb_conocer"
+      ]
+    },
+    {
       "id": "gr_lo-4549ddcc",
       "title": {
         "ru": "Lo + причастие или прилагательное: абстрактное «то, что…»"
@@ -857,6 +941,47 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_lo-que-lo-de-esto-de-7d6cc932",
+      "title": {
+        "ru": "Lo que, lo de, esto de: разговорные абстракции"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Lo que + глагол — «то, что»: lo que está permitido, no entiendo lo que pasa, lo que quieras. Lo de + существительное — «та тема/история про»: lo de ayer, te llamaba por lo del sábado. Esto de / eso de + инфинитив или существительное — «вся эта затея с…», часто со скепсисом: esto de enseñar español, ¿cómo va eso de tu mudanza?"
+      },
+      "bodyPath": {
+        "ru": "grammar/lo-que-lo-de-esto-de-7d6cc932.ru.md"
+      },
+      "examples": [
+        {
+          "text": "No entiendo lo que pasa.",
+          "tr": {
+            "ru": "Не понимаю, что происходит."
+          }
+        },
+        {
+          "text": "Lo que quieras.",
+          "tr": {
+            "ru": "Что захочешь."
+          }
+        },
+        {
+          "text": "Esto de trabajar desde casa no es para mí.",
+          "tr": {
+            "ru": "Вся эта тема с удалёнкой не для меня."
+          }
+        }
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -1518,6 +1643,52 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd",
+      "title": {
+        "ru": "Вежливое смягчение: te llamaba, quería, quisiera, yo diría"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Imperfecto вежливости (Te llamaba para…, Quería preguntarte algo) и condicional (Yo diría que…, Me gustaría…) отодвигают просьбу от «сейчас» и снимают категоричность — как русское «я хотел спросить». Quisiera — учтивый стандарт магазинов и ресторанов. Bueno… и Pues… — затычки-раздумья перед мнением."
+      },
+      "bodyPath": {
+        "ru": "grammar/te-llamaba-queria-quisiera-yo-diria-9a61bfbd.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Te llamaba para preguntarte una cosa.",
+          "tr": {
+            "ru": "Я звоню спросить одну вещь."
+          }
+        },
+        {
+          "text": "Quería preguntarte algo.",
+          "tr": {
+            "ru": "Я хотел кое-что спросить."
+          }
+        },
+        {
+          "text": "Bueno, yo diría que depende.",
+          "tr": {
+            "ru": "Ну, я бы сказал, смотря как."
+          }
+        }
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedVerbIds": [
+        "vb_llamar",
+        "vb_querer",
+        "vb_decir"
+      ]
     },
     {
       "id": "gr_tu-usted-67c4ae12",

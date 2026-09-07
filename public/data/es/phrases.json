@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-09-07T02:38:20Z",
+  "generatedAt": "2026-09-07T03:06:48Z",
   "items": [
     {
       "id": "ph_0015d94b",
@@ -112,6 +112,22 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_00a55968",
+      "text": "No lo dudes.",
+      "tr": {
+        "ru": "Даже не сомневайся."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -516,6 +532,22 @@
       }
     },
     {
+      "id": "ph_039fb9c6",
+      "text": "¡Oye! ¿Me puedes ayudar?",
+      "tr": {
+        "ru": "Эй, поможешь?"
+      },
+      "register": "informal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_03dee251",
       "text": "desde pequeño",
       "tr": {
@@ -561,6 +593,24 @@
         "conversationId": "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
         "conversationTitle": "Минерализация воды Font Vella",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_043a2413",
+      "text": "No te olvides de las llaves.",
+      "tr": {
+        "ru": "Не забудь ключи."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -861,6 +911,27 @@
       }
     },
     {
+      "id": "ph_06bbda2f",
+      "text": "¡Yo no fui!",
+      "tr": {
+        "ru": "Это не я! (мамой клянусь)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_usted-01b32c19"
+      ]
+    },
+    {
       "id": "ph_06c7bbb6",
       "text": "hace un rato",
       "tr": {
@@ -926,6 +997,49 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_072bd89c",
+      "text": "Es difícil, ¿sabes?",
+      "tr": {
+        "ru": "Это сложно, знаешь ли."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "В Аргентине то же — ¿viste?"
+      }
+    },
+    {
+      "id": "ph_07377a1a",
+      "text": "Quisiera…",
+      "tr": {
+        "ru": "Я хотел бы… (очень вежливо)"
+      },
+      "register": "formal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Imperfecto de subjuntivo от querer — стандарт магазинов и ресторанов."
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
     },
     {
       "id": "ph_075c7697",
@@ -1027,6 +1141,25 @@
       }
     },
     {
+      "id": "ph_07f44b30",
+      "text": "Se lo tomó mal.",
+      "tr": {
+        "ru": "Он это плохо воспринял."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Tomarse algo bien/mal — воспринять хорошо/плохо."
+      }
+    },
+    {
       "id": "ph_07ff34a6",
       "text": "La puerta está abierta.",
       "tr": {
@@ -1077,6 +1210,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_08445e4c",
+      "text": "Está prohibido fumar.",
+      "tr": {
+        "ru": "Курить запрещено."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ]
     },
     {
       "id": "ph_08491e21",
@@ -1523,6 +1675,27 @@
       }
     },
     {
+      "id": "ph_0bfe3972",
+      "text": "por cierto",
+      "tr": {
+        "ru": "кстати, между прочим"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Ложный друг: не «конечно»! Конечно — por supuesto / claro / desde luego."
+      }
+    },
+    {
       "id": "ph_0c002798",
       "text": "¿Qué tal?",
       "tr": {
@@ -1545,6 +1718,25 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
+      }
+    },
+    {
+      "id": "ph_0c442297",
+      "text": "No te aproveches de la situación.",
+      "tr": {
+        "ru": "Не наглей, не пользуйся ситуацией."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Aprovechar algo — молодец; aprovecharse de alguien — редиска."
       }
     },
     {
@@ -1762,6 +1954,24 @@
       }
     },
     {
+      "id": "ph_0db8e94e",
+      "text": "Nos vemos al rato.",
+      "tr": {
+        "ru": "Увидимся скоро (ЛатАм)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_0dbdfd7e",
       "text": "camisa blanca",
       "tr": {
@@ -1774,6 +1984,22 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_0dc4919c",
+      "text": "¿A quién debo dirigirme?",
+      "tr": {
+        "ru": "К кому мне обратиться?"
+      },
+      "register": "formal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -1821,6 +2047,41 @@
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_0e15e59a",
+      "text": "Mi teléfono no funciona.",
+      "tr": {
+        "ru": "Мой телефон не работает."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_0e401273",
+      "text": "Hace calor, ¿verdad?",
+      "tr": {
+        "ru": "Жарко, да?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "¿verdad? / ¿no? — хвостик для поиска согласия."
       }
     },
     {
@@ -2057,6 +2318,43 @@
       }
     },
     {
+      "id": "ph_1072b450",
+      "text": "¡Que aproveche!",
+      "tr": {
+        "ru": "Приятного аппетита! (Испания)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "В ЛатАм чаще ¡Buen provecho!"
+      }
+    },
+    {
+      "id": "ph_10be87ca",
+      "text": "antes de salir",
+      "tr": {
+        "ru": "перед выходом"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_10c4f17f",
       "text": "Tiene dos hijos.",
       "tr": {
@@ -2101,6 +2399,24 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_110b4e0c",
+      "text": "Lo dudo.",
+      "tr": {
+        "ru": "Сомневаюсь."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -2592,6 +2908,27 @@
       }
     },
     {
+      "id": "ph_15a21716",
+      "text": "El autobús tarda 10 minutos en llegar a la estación.",
+      "tr": {
+        "ru": "Автобус едет до станции 10 минут."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Формула: tardar + время + en + инфинитив."
+      }
+    },
+    {
       "id": "ph_15a2714d",
       "text": "Estoy aquí.",
       "tr": {
@@ -2724,6 +3061,27 @@
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_16684865",
+      "text": "Tengo una duda.",
+      "tr": {
+        "ru": "У меня вопрос."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_aprender-idiomas"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Так спрашивают на занятиях — чаще, чем tengo una pregunta."
       }
     },
     {
@@ -2951,6 +3309,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_17b87db6",
+      "text": "Te llamaba para ver si quedamos mañana.",
+      "tr": {
+        "ru": "Звоню узнать, может, пересечёмся завтра."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
     },
     {
       "id": "ph_17bba608",
@@ -3380,6 +3757,24 @@
       }
     },
     {
+      "id": "ph_1af7c92e",
+      "text": "a decir verdad",
+      "tr": {
+        "ru": "по правде говоря"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_1b434872",
       "text": "Vengo del trabajo.",
       "tr": {
@@ -3581,6 +3976,45 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_1d66d9df",
+      "text": "Gracias, muy amable.",
+      "tr": {
+        "ru": "Спасибо, очень любезно."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_1dc87959",
+      "text": "¿Adónde voy para recoger las maletas?",
+      "tr": {
+        "ru": "Куда мне идти за чемоданами?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
     },
     {
       "id": "ph_1ddd61f5",
@@ -3857,6 +4291,22 @@
       }
     },
     {
+      "id": "ph_1faa2f67",
+      "text": "Estoy tratando de dormir.",
+      "tr": {
+        "ru": "Я пытаюсь уснуть."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_1fca2f8c",
       "text": "El veintiséis de febrero de mil novecientos noventa y uno.",
       "tr": {
@@ -4094,6 +4544,27 @@
       }
     },
     {
+      "id": "ph_21fb12c7",
+      "text": "La verdad es que no tengo ganas.",
+      "tr": {
+        "ru": "Честно говоря, мне неохота."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "La verdad es que… — ходовой стартер «честно говоря»."
+      }
+    },
+    {
       "id": "ph_2202ed88",
       "text": "¿Puedo pasar? — Adelante.",
       "tr": {
@@ -4109,6 +4580,24 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_2207bed4",
+      "text": "cerrar con llave",
+      "tr": {
+        "ru": "запереть на ключ"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -4437,6 +4926,27 @@
       }
     },
     {
+      "id": "ph_24a274f0",
+      "text": "facturar el equipaje",
+      "tr": {
+        "ru": "сдать багаж (Испания)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "В Мексике — documentar."
+      }
+    },
+    {
       "id": "ph_24c4de7f",
       "text": "¡Vale!",
       "tr": {
@@ -4715,6 +5225,25 @@
       }
     },
     {
+      "id": "ph_268aad8f",
+      "text": "Esto de trabajar desde casa no es para mí.",
+      "tr": {
+        "ru": "Вся эта тема с удалёнкой не для меня."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
+    },
+    {
       "id": "ph_26a59ff6",
       "text": "¿Todo listo?",
       "tr": {
@@ -4973,6 +5502,45 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_28cb8bf6",
+      "text": "Me queda grande.",
+      "tr": {
+        "ru": "Мне велико."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Me queda pequeño — мало́; me queda bien — сидит хорошо."
+      }
+    },
+    {
+      "id": "ph_28dafa76",
+      "text": "Todo salió de maravilla.",
+      "tr": {
+        "ru": "Всё прошло просто шикарно."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -5284,6 +5852,24 @@
       }
     },
     {
+      "id": "ph_2bd301ab",
+      "text": "a la plancha",
+      "tr": {
+        "ru": "на гриле"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_2c1aa3f9",
       "text": "Sale del trabajo.",
       "tr": {
@@ -5337,6 +5923,22 @@
       }
     },
     {
+      "id": "ph_2cd2424a",
+      "text": "Oye, ¿qué haces mañana?",
+      "tr": {
+        "ru": "Слушай, что делаешь завтра?"
+      },
+      "register": "informal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_2d09d602",
       "text": "No, nunca fui a la universidad.",
       "tr": {
@@ -5349,6 +5951,24 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_2d6344dd",
+      "text": "¡Recuerdos a tu familia!",
+      "tr": {
+        "ru": "Привет семье!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -5480,6 +6100,25 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_2e5107e3",
+      "text": "Enseguida le traigo sus documentos.",
+      "tr": {
+        "ru": "Сейчас же принесу вам ваши документы."
+      },
+      "register": "formal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Настоящее вместо будущего для «сейчас сделаю». Traer — нести сюда, llevar — нести туда."
       }
     },
     {
@@ -5715,6 +6354,22 @@
       }
     },
     {
+      "id": "ph_2f7bdcc2",
+      "text": "ahora mismo",
+      "tr": {
+        "ru": "прямо сейчас"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_2fb446da",
       "text": "Hace un tiempo feo.",
       "tr": {
@@ -5881,6 +6536,22 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
+      }
+    },
+    {
+      "id": "ph_318d9eca",
+      "text": "Aproveché el viaje para visitar a mi familia.",
+      "tr": {
+        "ru": "Заодно с поездкой навестил семью."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -6360,6 +7031,27 @@
       "needsReview": true
     },
     {
+      "id": "ph_35bed7d3",
+      "text": "Le asignaré un asiento y le imprimiré su tarjeta de embarque.",
+      "tr": {
+        "ru": "Я назначу вам место и распечатаю ваш посадочный талон."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Futuro simple (-ré) звучит официально; вживую чаще Le asigno / Le voy a asignar."
+      }
+    },
+    {
       "id": "ph_35ccc8ce",
       "text": "Flipo contigo.",
       "tr": {
@@ -6478,6 +7170,24 @@
       }
     },
     {
+      "id": "ph_36d3bb4d",
+      "text": "Voy a pensarlo, gracias.",
+      "tr": {
+        "ru": "Я подумаю, спасибо."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_3718a724",
       "text": "¿Eres el conserje?",
       "tr": {
@@ -6542,6 +7252,25 @@
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_3774dd38",
+      "text": "¿Te acuerdas de mí?",
+      "tr": {
+        "ru": "Ты меня помнишь?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Recordar algo (без предлога) = acordarse DE algo."
       }
     },
     {
@@ -6643,6 +7372,24 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_387ec0bd",
+      "text": "Fue un gusto conocerte.",
+      "tr": {
+        "ru": "Было приятно познакомиться."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -7044,6 +7791,22 @@
       ]
     },
     {
+      "id": "ph_3b74be12",
+      "text": "tomar en serio",
+      "tr": {
+        "ru": "воспринимать всерьёз"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_3b77643d",
       "text": "Lo que dices",
       "tr": {
@@ -7179,6 +7942,24 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_3c32c67a",
+      "text": "¿Puede parar después del cruce?",
+      "tr": {
+        "ru": "Можете остановить после перекрёстка?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -7368,6 +8149,24 @@
       }
     },
     {
+      "id": "ph_3e257a22",
+      "text": "Es un placer.",
+      "tr": {
+        "ru": "Очень приятно (галантно)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_3e5c6b6f",
       "text": "Enseño español a mis amigos.",
       "tr": {
@@ -7438,6 +8237,25 @@
       }
     },
     {
+      "id": "ph_3edf22db",
+      "text": "El banco funciona de 9 a 14.",
+      "tr": {
+        "ru": "Банк работает с 9 до 14."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Funcionar — о технике и учреждениях; trabajar — о людях и труде."
+      }
+    },
+    {
       "id": "ph_3f038073",
       "text": "desde pequeña",
       "tr": {
@@ -7471,6 +8289,22 @@
       }
     },
     {
+      "id": "ph_3f2e7b06",
+      "text": "¿Es oro de verdad?",
+      "tr": {
+        "ru": "Это настоящее золото?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_3f356d6d",
       "text": "Le cuento la historia.",
       "tr": {
@@ -7499,6 +8333,27 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_3f992900",
+      "text": "Encantado de conocerte.",
+      "tr": {
+        "ru": "Рад познакомиться (на «ты»)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Говорящий-женщина: encantada. Согласование по своему полу."
       }
     },
     {
@@ -7614,6 +8469,27 @@
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_40dd1e53",
+      "text": "¿Me estás tomando el pelo?",
+      "tr": {
+        "ru": "Ты меня разыгрываешь?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Tomar el pelo — прикалываться, буквально «брать за волосы»."
       }
     },
     {
@@ -7937,6 +8813,27 @@
       }
     },
     {
+      "id": "ph_43acda44",
+      "text": "ser pan comido",
+      "tr": {
+        "ru": "быть проще пареной репы"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "El examen fue pan comido — экзамен был изи."
+      }
+    },
+    {
       "id": "ph_43acdda0",
       "text": "A ver... no es tan fácil de explicar.",
       "tr": {
@@ -7948,6 +8845,24 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_43c7d630",
+      "text": "El camarero viene enseguida.",
+      "tr": {
+        "ru": "Официант сейчас подойдёт."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -7985,6 +8900,24 @@
       }
     },
     {
+      "id": "ph_4415fbbf",
+      "text": "Hablas demasiado rápido.",
+      "tr": {
+        "ru": "Ты говоришь слишком быстро."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_aprender-idiomas"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4428c34e",
       "text": "Tenemos frío.",
       "tr": {
@@ -7997,6 +8930,24 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4459e7e4",
+      "text": "Este vestido te queda de maravilla.",
+      "tr": {
+        "ru": "Это платье сидит на тебе бомбически."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -8432,6 +9383,25 @@
       }
     },
     {
+      "id": "ph_48d68bae",
+      "text": "¿Cuándo regresas?",
+      "tr": {
+        "ru": "Когда вернёшься?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Regresar — любимчик ЛатАм; в Испании чаще volver."
+      }
+    },
+    {
       "id": "ph_48e7028b",
       "text": "Les envío un mensaje.",
       "tr": {
@@ -8674,6 +9644,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_4addd25c",
+      "text": "¿Qué es eso de que te vas?",
+      "tr": {
+        "ru": "Это что ещё за новости, что ты уезжаешь?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
     },
     {
       "id": "ph_4aee1b44",
@@ -9067,6 +10056,58 @@
       }
     },
     {
+      "id": "ph_4d78d3fa",
+      "text": "Siga las señales.",
+      "tr": {
+        "ru": "Следуйте по указателям."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4d7db2d4",
+      "text": "Me da la impresión de que…",
+      "tr": {
+        "ru": "У меня впечатление, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4e0b5823",
+      "text": "El autobús pasa cada 15 minutos.",
+      "tr": {
+        "ru": "Автобус ходит каждые 15 минут."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4e16c266",
       "text": "Mejor a las nueve.",
       "tr": {
@@ -9079,6 +10120,40 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4e1758cc",
+      "text": "Bienvenidos a bordo.",
+      "tr": {
+        "ru": "Добро пожаловать на борт."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4e4f4369",
+      "text": "al cabo de dos años",
+      "tr": {
+        "ru": "спустя два года"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -9286,6 +10361,25 @@
       }
     },
     {
+      "id": "ph_4f087feb",
+      "text": "¿Te ayudo?",
+      "tr": {
+        "ru": "Помочь тебе?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
+    },
+    {
       "id": "ph_4f17fc0e",
       "text": "Ya he comido.",
       "tr": {
@@ -9459,6 +10553,22 @@
       }
     },
     {
+      "id": "ph_5042c000",
+      "text": "Enseguida vuelvo.",
+      "tr": {
+        "ru": "Сейчас вернусь."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_504dcab2",
       "text": "Todo muy rico, gracias.",
       "tr": {
@@ -9542,6 +10652,27 @@
       }
     },
     {
+      "id": "ph_50dede34",
+      "text": "si sabes a lo que me refiero",
+      "tr": {
+        "ru": "если понимаешь, о чём я"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Вариант: Ya sabes a qué me refiero."
+      }
+    },
+    {
       "id": "ph_512a4e8a",
       "text": "¿Me pondría un café?",
       "tr": {
@@ -9604,6 +10735,24 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_51835e2c",
+      "text": "Si te soy sincero…",
+      "tr": {
+        "ru": "Если честно…"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -9750,6 +10899,25 @@
       }
     },
     {
+      "id": "ph_52d6189d",
+      "text": "No entiendo lo que pasa.",
+      "tr": {
+        "ru": "Не понимаю, что происходит."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
+    },
+    {
       "id": "ph_52e1dfae",
       "text": "¿Bebes café?",
       "tr": {
@@ -9764,6 +10932,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_52fb691c",
+      "text": "¿Está abierto o cerrado?",
+      "tr": {
+        "ru": "Открыто или закрыто?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -9844,7 +11030,10 @@
       },
       "notes": {
         "ru": "¿Cómo hago para + инфинитив? — разговорное «как мне…?» (особенно в ЛатАм); годится для любого «как провернуть», не только про дорогу."
-      }
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
     },
     {
       "id": "ph_5379d97f",
@@ -10135,6 +11324,24 @@
       }
     },
     {
+      "id": "ph_55364806",
+      "text": "Me entiendes, ¿no?",
+      "tr": {
+        "ru": "Ты ж меня понял, да?"
+      },
+      "register": "informal",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_55757114",
       "text": "Adelante con la presentación.",
       "tr": {
@@ -10185,6 +11392,43 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_55d2c1eb",
+      "text": "A lo mejor voy.",
+      "tr": {
+        "ru": "Может, пойду."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "A lo mejor — самое разговорное «может быть», всегда с индикативом."
+      }
+    },
+    {
+      "id": "ph_56116caf",
+      "text": "Estoy convencido de que…",
+      "tr": {
+        "ru": "Я убеждён, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -10412,6 +11656,27 @@
       }
     },
     {
+      "id": "ph_57d17817",
+      "text": "Desde luego.",
+      "tr": {
+        "ru": "Конечно, разумеется."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Засада: НЕ «с тех пор». Одна команда с por supuesto и claro."
+      }
+    },
+    {
       "id": "ph_57d4114d",
       "text": "Enséñeme su identificación por la mirilla.",
       "tr": {
@@ -10514,6 +11779,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_59082179",
+      "text": "un folleto con más información de lo que está permitido a bordo",
+      "tr": {
+        "ru": "буклет с информацией о том, что разрешено на борту"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
     },
     {
       "id": "ph_59109f92",
@@ -10688,6 +11974,24 @@
       }
     },
     {
+      "id": "ph_59dbdac7",
+      "text": "Toma la línea 3.",
+      "tr": {
+        "ru": "Садись на третью линию."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_59de5f49",
       "text": "Nunca digo eso.",
       "tr": {
@@ -10798,6 +12102,22 @@
       }
     },
     {
+      "id": "ph_5a8fde0a",
+      "text": "Trabajas demasiado.",
+      "tr": {
+        "ru": "Ты слишком много работаешь."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_5ab23189",
       "text": "Tenéis razón.",
       "tr": {
@@ -10842,6 +12162,24 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_5b37c766",
+      "text": "al horno",
+      "tr": {
+        "ru": "в духовке, запечённый"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -11197,6 +12535,24 @@
       }
     },
     {
+      "id": "ph_5df8b5f9",
+      "text": "¿Adónde debo dirigirme para facturar el equipaje?",
+      "tr": {
+        "ru": "Куда мне обратиться, чтобы сдать багаж?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_5e091bbc",
       "text": "Estoy bromeando.",
       "tr": {
@@ -11369,6 +12725,24 @@
         "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_5f26976a",
+      "text": "cambiando de tema",
+      "tr": {
+        "ru": "меняя тему"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -11574,6 +12948,24 @@
         "conversationId": "6a676600-fb7c-83eb-8df6-9c004bf8bbb8",
         "conversationTitle": "Перевод фразы на испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_6174bb18",
+      "text": "Eso es.",
+      "tr": {
+        "ru": "Вот-вот, в точку."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -11852,6 +13244,24 @@
       }
     },
     {
+      "id": "ph_648f05ca",
+      "text": "ahora que lo pienso",
+      "tr": {
+        "ru": "сейчас как подумал… / раз уж вспомнил"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_649bb4cb",
       "text": "Mi español es peor que mi inglés.",
       "tr": {
@@ -11987,6 +13397,22 @@
       }
     },
     {
+      "id": "ph_66a429d1",
+      "text": "No tengo suficiente tiempo.",
+      "tr": {
+        "ru": "У меня недостаточно времени."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_66f2d883",
       "text": "unas puertas cerradas",
       "tr": {
@@ -12091,6 +13517,24 @@
       }
     },
     {
+      "id": "ph_671be601",
+      "text": "Es verdad.",
+      "tr": {
+        "ru": "Это правда. / Ну да, факт."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_671cfd4f",
       "text": "De nada",
       "tr": {
@@ -12143,6 +13587,25 @@
       }
     },
     {
+      "id": "ph_6735f106",
+      "text": "Quizás te estás demorando demasiado.",
+      "tr": {
+        "ru": "Возможно, ты слишком долго возишься."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Demorarse — ЛатАм; в Испании: Estás tardando demasiado."
+      }
+    },
+    {
       "id": "ph_67423db2",
       "text": "La chica con quien hablo...",
       "tr": {
@@ -12155,6 +13618,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_676f1da3",
+      "text": "¿Este autobús va a…?",
+      "tr": {
+        "ru": "Этот автобус идёт до…?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -12472,6 +13953,27 @@
       }
     },
     {
+      "id": "ph_6a8a7645",
+      "text": "¿Dónde queda la puerta 12?",
+      "tr": {
+        "ru": "Где находится выход 12?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Quedar в смысле «находиться» — ещё одна его жизнь."
+      }
+    },
+    {
       "id": "ph_6a8fb359",
       "text": "Aquella es una historia muy larga.",
       "tr": {
@@ -12596,6 +14098,44 @@
       }
     },
     {
+      "id": "ph_6b88b26f",
+      "text": "Recuérdame que compre pan.",
+      "tr": {
+        "ru": "Напомни мне купить хлеба."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "После recuérdame que — субхунтив (compre)."
+      }
+    },
+    {
+      "id": "ph_6ba6f555",
+      "text": "Ahora te llamo.",
+      "tr": {
+        "ru": "Сейчас позвоню."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
+    },
+    {
       "id": "ph_6bc7d225",
       "text": "hace unos días",
       "tr": {
@@ -12707,6 +14247,25 @@
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_6c9a7534",
+      "text": "No fumar.",
+      "tr": {
+        "ru": "Не курить (табличка)."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Инфинитив как запрет — стандарт табличек и инструкций: no tocar — не трогать."
       }
     },
     {
@@ -13117,6 +14676,64 @@
       }
     },
     {
+      "id": "ph_7064e132",
+      "text": "¿Cuánto se tarda en llegar al centro?",
+      "tr": {
+        "ru": "Сколько добираться до центра?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_se-se-busca-se-buscan-b0302836"
+      ]
+    },
+    {
+      "id": "ph_708581f4",
+      "text": "Quizás llueva.",
+      "tr": {
+        "ru": "Может, дождь будет."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "После quizás индикатив (скорее да) или субхунтив (полное хз) — по степени сомнения."
+      }
+    },
+    {
+      "id": "ph_70bd8072",
+      "text": "tomar un café",
+      "tr": {
+        "ru": "выпить кофе"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_712b8e0c",
       "text": "No me gusta su onda.",
       "tr": {
@@ -13131,6 +14748,30 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_71303479",
+      "text": "Encantado de conocerle.",
+      "tr": {
+        "ru": "Рад познакомиться с вами (Испания, leísmo)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Классика по учебнику — conocerlo/conocerla."
+      },
+      "relatedGrammarIds": [
+        "gr_leismo-conocerle-conocerlo-7ea0b54b"
+      ]
     },
     {
       "id": "ph_713b3541",
@@ -13495,6 +15136,22 @@
       }
     },
     {
+      "id": "ph_73f0392c",
+      "text": "Para mí, es el mejor bar de la ciudad.",
+      "tr": {
+        "ru": "По мне так это лучший бар города."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_73f9a501",
       "text": "¿Cómo te lo digo...?",
       "tr": {
@@ -13523,6 +15180,24 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_742e0a02",
+      "text": "ya sabes",
+      "tr": {
+        "ru": "ну ты знаешь… / ну ты понял"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -13561,6 +15236,22 @@
       }
     },
     {
+      "id": "ph_7495f6d5",
+      "text": "Hemos quedado en el bar.",
+      "tr": {
+        "ru": "Мы договорились встретиться в баре."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_74965c7e",
       "text": "Él se mola.",
       "tr": {
@@ -13578,6 +15269,28 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_749f0b2f",
+      "text": "Si esto de enseñar español no funciona, me dedicaré a otra cosa.",
+      "tr": {
+        "ru": "Если вся эта затея с преподаванием испанского не выгорит, займусь чем-то другим."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Esto de + инфинитив — «вся эта тема с…». Si + presente — реальное условие."
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
     },
     {
       "id": "ph_74d2de86",
@@ -13610,6 +15323,22 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_74f067d0",
+      "text": "Ten en cuenta que…",
+      "tr": {
+        "ru": "Имей в виду, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -13662,6 +15391,22 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_75aa9ac2",
+      "text": "¿Quedamos a las ocho?",
+      "tr": {
+        "ru": "Встретимся в восемь? / Забьёмся на восемь?"
+      },
+      "register": "informal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -13804,6 +15549,24 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_76ada47c",
+      "text": "¿Me permite su pasaporte?",
+      "tr": {
+        "ru": "Можно ваш паспорт?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -14065,6 +15828,24 @@
       }
     },
     {
+      "id": "ph_77f25168",
+      "text": "Ya te digo.",
+      "tr": {
+        "ru": "И не говори (Испания)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_783bcc51",
       "text": "Era broma.",
       "tr": {
@@ -14117,6 +15898,48 @@
       }
     },
     {
+      "id": "ph_78a7e3ee",
+      "text": "¿Qué talla tienes?",
+      "tr": {
+        "ru": "Какой у тебя размер?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "В Аргентине: ¿Qué talle usás?"
+      }
+    },
+    {
+      "id": "ph_790afeff",
+      "text": "Necesito una talla más grande. ¿Tiene?",
+      "tr": {
+        "ru": "Мне нужен размер побольше. У вас есть?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "«Do you have one?» — испанский выкидывает one: просто ¿Tiene? или ¿Lo tiene?"
+      }
+    },
+    {
       "id": "ph_79343705",
       "text": "Perdí peso.",
       "tr": {
@@ -14152,6 +15975,24 @@
       }
     },
     {
+      "id": "ph_796769c1",
+      "text": "Abróchense los cinturones.",
+      "tr": {
+        "ru": "Пристегните ремни."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_7971c8fe",
       "text": "un montón de piedras",
       "tr": {
@@ -14182,6 +16023,24 @@
         "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_79a36b2f",
+      "text": "Tienes razón.",
+      "tr": {
+        "ru": "Ты прав."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -14636,6 +16495,24 @@
       }
     },
     {
+      "id": "ph_7f133092",
+      "text": "¡Ya está!",
+      "tr": {
+        "ru": "Готово! / Всё!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_7f19e546",
       "text": "¿Cuántos gorritos de papel de plata me he hecho ya?",
       "tr": {
@@ -14721,6 +16598,22 @@
       }
     },
     {
+      "id": "ph_7fc863d7",
+      "text": "No es demasiado tarde.",
+      "tr": {
+        "ru": "Ещё не поздно."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_800569b2",
       "text": "Te la compro.",
       "tr": {
@@ -14787,6 +16680,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_807fba12",
+      "text": "No me acuerdo.",
+      "tr": {
+        "ru": "Не помню."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -14956,6 +16865,24 @@
       }
     },
     {
+      "id": "ph_8182dce0",
+      "text": "El gusto es mío.",
+      "tr": {
+        "ru": "Это мне приятно."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_81852685",
       "text": "¿Dónde están los paraguas?",
       "tr": {
@@ -15070,6 +16997,24 @@
         "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
         "conversationTitle": "Аналог can I have",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_82505897",
+      "text": "Sin duda.",
+      "tr": {
+        "ru": "Без сомнения, стопудово."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -15359,6 +17304,24 @@
       }
     },
     {
+      "id": "ph_84755a5a",
+      "text": "¿Nos trae pan de ajo, por favor?",
+      "tr": {
+        "ru": "Принесёте нам чесночный хлеб?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_847af3fe",
       "text": "No sé.",
       "tr": {
@@ -15387,6 +17350,24 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_84a57bb2",
+      "text": "El vuelo está retrasado.",
+      "tr": {
+        "ru": "Рейс задерживается."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -15492,6 +17473,24 @@
       }
     },
     {
+      "id": "ph_859120f8",
+      "text": "Cierra el grifo.",
+      "tr": {
+        "ru": "Закрой кран."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_85a746e6",
       "text": "No seas tonta.",
       "tr": {
@@ -15506,6 +17505,63 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_85aa8e60",
+      "text": "entre nos",
+      "tr": {
+        "ru": "между нами"
+      },
+      "register": "informal",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_85b40412",
+      "text": "Cierra la puerta.",
+      "tr": {
+        "ru": "Закрой дверь."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_85e6f8ef",
+      "text": "Bueno, yo diría que depende.",
+      "tr": {
+        "ru": "Ну, я бы сказал, смотря как."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
     },
     {
       "id": "ph_85f757be",
@@ -15575,6 +17631,25 @@
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8637e913",
+      "text": "después del trabajo",
+      "tr": {
+        "ru": "после работы"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "De + el = del. После того как + глагол: después de que…"
       }
     },
     {
@@ -16241,6 +18316,24 @@
       }
     },
     {
+      "id": "ph_8b3c396f",
+      "text": "Tal cual.",
+      "tr": {
+        "ru": "Прям вот так и есть (Аргентина)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8b4c25d6",
       "text": "¿Sigues esta calle?",
       "tr": {
@@ -16475,6 +18568,22 @@
       }
     },
     {
+      "id": "ph_8ceff02b",
+      "text": "Se me cerraban los ojos.",
+      "tr": {
+        "ru": "У меня глаза слипались."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8cf13b3b",
       "text": "Os mando las fotos. → Os las mando.",
       "tr": {
@@ -16503,6 +18612,22 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8d385eab",
+      "text": "Un verdadero amigo te dice la verdad.",
+      "tr": {
+        "ru": "Настоящий друг говорит тебе правду."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -16575,6 +18700,43 @@
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8d610b82",
+      "text": "No me suena de nada.",
+      "tr": {
+        "ru": "Вообще не в курсе, впервые слышу."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_8d64a4ee",
+      "text": "Dudo que venga.",
+      "tr": {
+        "ru": "Сомневаюсь, что он придёт."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "После dudar que — субхунтив: сомнение = неуверенность."
       }
     },
     {
@@ -16704,6 +18866,22 @@
       }
     },
     {
+      "id": "ph_8e2d229e",
+      "text": "Primero comemos, luego vamos al cine.",
+      "tr": {
+        "ru": "Сперва поедим, потом в кино."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8e34c37d",
       "text": "Nací el veintiséis de febrero de 1991.",
       "tr": {
@@ -16789,6 +18967,24 @@
       }
     },
     {
+      "id": "ph_8ef8fa46",
+      "text": "¿Prefiere ventanilla o pasillo?",
+      "tr": {
+        "ru": "Вам окно или проход?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_8efde857",
       "text": "Me parece interesante, sí.",
       "tr": {
@@ -16867,6 +19063,22 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_90612503",
+      "text": "El banco cierra a las dos.",
+      "tr": {
+        "ru": "Банк закрывается в два."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -17126,6 +19338,24 @@
       }
     },
     {
+      "id": "ph_9178ec3b",
+      "text": "¿Cada cuánto pasa el autobús?",
+      "tr": {
+        "ru": "Как часто ходит автобус?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_9181e94a",
       "text": "Hablo español.",
       "tr": {
@@ -17258,6 +19488,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_92dbe4c5",
+      "text": "Yo diría que sí.",
+      "tr": {
+        "ru": "Я бы сказал, да."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
     },
     {
       "id": "ph_92f77875",
@@ -17407,6 +19656,27 @@
         "conversationTitle": "Обращение на испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_93bc2cec",
+      "text": "Mucho gusto.",
+      "tr": {
+        "ru": "Очень приятно (при знакомстве)."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Универсально; особенно ходовое в ЛатАм. В Испании чаще encantado/encantada."
       }
     },
     {
@@ -17765,6 +20035,27 @@
       }
     },
     {
+      "id": "ph_962be6f9",
+      "text": "¿Cómo va eso de tu mudanza?",
+      "tr": {
+        "ru": "Ну как там твоя история с переездом?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_vivienda"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
+    },
+    {
       "id": "ph_962f1643",
       "text": "Es rojo.",
       "tr": {
@@ -18003,6 +20294,24 @@
       }
     },
     {
+      "id": "ph_973bf96b",
+      "text": "¿Qué lleva este plato?",
+      "tr": {
+        "ru": "Что входит в это блюдо?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_974d259d",
       "text": "¿Cuánto tardas en aprender español?",
       "tr": {
@@ -18155,6 +20464,22 @@
       }
     },
     {
+      "id": "ph_981d64b5",
+      "text": "Suena la alarma.",
+      "tr": {
+        "ru": "Звенит будильник."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_984874ec",
       "text": "Salimos mañana.",
       "tr": {
@@ -18287,6 +20612,24 @@
       }
     },
     {
+      "id": "ph_98fc2cf4",
+      "text": "¿Cuál es la puerta de embarque?",
+      "tr": {
+        "ru": "Какой выход на посадку?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_9909b6c5",
       "text": "¿Qué más da? Lo importante es que te entiendan.",
       "tr": {
@@ -18357,6 +20700,27 @@
       }
     },
     {
+      "id": "ph_9936a3c5",
+      "text": "Pero es que esta tarde no puedo.",
+      "tr": {
+        "ru": "Но дело в том, что сегодня днём я не могу."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Es que… — смягчалка для отмазок. Esta tarde — примерно с 14 до 20–21; esta mañana — утром, esta noche — вечером/ночью."
+      }
+    },
+    {
       "id": "ph_99633dba",
       "text": "Es buscando soluciones como aprendemos.",
       "tr": {
@@ -18385,6 +20749,22 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_9a254797",
+      "text": "Aprovecho para decirte que…",
+      "tr": {
+        "ru": "Пользуясь случаем, скажу тебе, что…"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -18626,6 +21006,24 @@
       }
     },
     {
+      "id": "ph_9bc4592e",
+      "text": "Después de usted.",
+      "tr": {
+        "ru": "После вас (уступая, вежливо)."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_9beaf470",
       "text": "Incluye acceso al gimnasio.",
       "tr": {
@@ -18719,6 +21117,22 @@
       }
     },
     {
+      "id": "ph_9ca31548",
+      "text": "No recuerdo su nombre.",
+      "tr": {
+        "ru": "Не помню его имя."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_9ca42500",
       "text": "Me llamo Ana.",
       "tr": {
@@ -18749,6 +21163,22 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_9d17814d",
+      "text": "Suena el teléfono.",
+      "tr": {
+        "ru": "Звонит телефон."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -18904,6 +21334,24 @@
       }
     },
     {
+      "id": "ph_9ed23648",
+      "text": "Enseguida le atiendo.",
+      "tr": {
+        "ru": "Сейчас вас обслужу."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_9f1513e0",
       "text": "Hola, guapa.",
       "tr": {
@@ -18969,6 +21417,25 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_9fce587f",
+      "text": "lo de ayer",
+      "tr": {
+        "ru": "та вчерашняя тема, то, что было вчера"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
     },
     {
       "id": "ph_9fe805be",
@@ -19139,6 +21606,24 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_a1963bdf",
+      "text": "en un abrir y cerrar de ojos",
+      "tr": {
+        "ru": "в мгновение ока"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -19350,6 +21835,24 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_a32d8895",
+      "text": "¡Basta de excusas!",
+      "tr": {
+        "ru": "Хватит отмазок!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -19583,6 +22086,24 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_a453219d",
+      "text": "por si las dudas",
+      "tr": {
+        "ru": "на всякий случай (ЛатАм)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -19892,6 +22413,24 @@
       }
     },
     {
+      "id": "ph_a69ed014",
+      "text": "Sin ajo, por favor.",
+      "tr": {
+        "ru": "Без чеснока, пожалуйста."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_a6b62227",
       "text": "Te espero.",
       "tr": {
@@ -19938,6 +22477,45 @@
         "conversationId": "6a5ab282-af20-83eb-85ce-e3fdb8d6baa5",
         "conversationTitle": "Сокращения для квартиры",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_a715462b",
+      "text": "Me gusta el modelo, pero quisiera verlo en otro color.",
+      "tr": {
+        "ru": "Фасон нравится, но хотел бы посмотреть в другом цвете."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
+    },
+    {
+      "id": "ph_a7210bd7",
+      "text": "¿Qué quieres tomar?",
+      "tr": {
+        "ru": "Что будешь пить? (вопрос официанта)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -20136,6 +22714,22 @@
       }
     },
     {
+      "id": "ph_a877ab7c",
+      "text": "Tardé una semana en terminar el libro.",
+      "tr": {
+        "ru": "Я осилил книгу за неделю."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_a8ac311d",
       "text": "Siempre llegas tarde.",
       "tr": {
@@ -20232,6 +22826,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_a9095278",
+      "text": "¡Basta ya!",
+      "tr": {
+        "ru": "Да хватит уже!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -20422,6 +23034,25 @@
         "conversationTitle": "Минерализация воды Font Vella",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_aabfd024",
+      "text": "Pienso, luego existo.",
+      "tr": {
+        "ru": "Мыслю, следовательно существую."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Декарт. Логическое luego — книжное, в жизни почти не встречается."
       }
     },
     {
@@ -20885,6 +23516,27 @@
       }
     },
     {
+      "id": "ph_afc5a292",
+      "text": "Sólo estoy mirando.",
+      "tr": {
+        "ru": "Я просто смотрю."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Щит от навязчивых продавцов."
+      }
+    },
+    {
       "id": "ph_afe8b032",
       "text": "Nos vemos dentro de una hora.",
       "tr": {
@@ -20912,6 +23564,22 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b026b395",
+      "text": "cerrar un trato",
+      "tr": {
+        "ru": "заключить сделку, ударить по рукам"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -20964,6 +23632,22 @@
       }
     },
     {
+      "id": "ph_b0d42267",
+      "text": "Recuerda que el banco cierra a las dos.",
+      "tr": {
+        "ru": "Помни, что банк закрывается в два."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_b11f0da2",
       "text": "la más pequeña",
       "tr": {
@@ -20978,6 +23662,28 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_b140bf3e",
+      "text": "Te llamaba para preguntarte una cosa.",
+      "tr": {
+        "ru": "Я звоню спросить одну вещь."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Imperfecto вежливости: прошедшее время смягчает просьбу, как русское «я хотел спросить»."
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
     },
     {
       "id": "ph_b19b7725",
@@ -21182,6 +23888,27 @@
       }
     },
     {
+      "id": "ph_b26e4e4c",
+      "text": "Me gustaría algo más barato.",
+      "tr": {
+        "ru": "Хотелось бы что-то подешевле."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
+    },
+    {
       "id": "ph_b273a210",
       "text": "Fue una buena noche.",
       "tr": {
@@ -21212,6 +23939,24 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b28eafd1",
+      "text": "¿Me deja en la esquina?",
+      "tr": {
+        "ru": "Высадите на углу? (классика ЛатАм)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -21265,6 +24010,25 @@
       }
     },
     {
+      "id": "ph_b30e376c",
+      "text": "¿Adónde voy?",
+      "tr": {
+        "ru": "Куда мне идти?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
+    },
+    {
       "id": "ph_b30ff1b8",
       "text": "Quiero una cosa así.",
       "tr": {
@@ -21316,6 +24080,22 @@
       }
     },
     {
+      "id": "ph_b31ebd1a",
+      "text": "¡Oye! ¡Eso es mío!",
+      "tr": {
+        "ru": "Эй, это моё вообще-то!"
+      },
+      "register": "informal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_b3207a78",
       "text": "¡Dámelo!",
       "tr": {
@@ -21328,6 +24108,22 @@
         "conversationId": "inbox-c3a8ffca",
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b33f096b",
+      "text": "tomar el sol",
+      "tr": {
+        "ru": "загорать"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -21527,6 +24323,24 @@
       }
     },
     {
+      "id": "ph_b53b3fa1",
+      "text": "Diríjase al mostrador 8.",
+      "tr": {
+        "ru": "Пройдите к стойке 8."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_b5459c0a",
       "text": "¿Cómo lo digo?",
       "tr": {
@@ -21628,6 +24442,44 @@
         "ingestBatch": "ingest-2026-08-06",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_b594be92",
+      "text": "¿Cuánto se demora?",
+      "tr": {
+        "ru": "Сколько это займёт? (ЛатАм)"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b5d60c2d",
+      "text": "Yo tomo café y ella toma té.",
+      "tr": {
+        "ru": "Я-то кофе, а вот она чай."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Местоимение оставляют для контраста, ясности или нажима — по умолчанию его дропают."
+      },
+      "relatedGrammarIds": [
+        "gr_usted-01b32c19"
+      ]
     },
     {
       "id": "ph_b6250474",
@@ -21740,6 +24592,64 @@
       ]
     },
     {
+      "id": "ph_b70fbaf6",
+      "text": "Después de que termines, hablamos.",
+      "tr": {
+        "ru": "После того как закончишь, поговорим."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Про будущее — субхунтив (termines); про прошлое — индикатив."
+      }
+    },
+    {
+      "id": "ph_b7218a59",
+      "text": "a mi parecer",
+      "tr": {
+        "ru": "на мой взгляд"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b733b63e",
+      "text": "¿Dónde me bajo?",
+      "tr": {
+        "ru": "Где мне выходить?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
+    },
+    {
       "id": "ph_b7422660",
       "text": "Me di cuenta de que…",
       "tr": {
@@ -21830,6 +24740,27 @@
       }
     },
     {
+      "id": "ph_b81320b9",
+      "text": "¿Me puede dejar después del cruce?",
+      "tr": {
+        "ru": "Можете меня высадить после перекрёстка?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Dejar здесь — высадить."
+      }
+    },
+    {
       "id": "ph_b815b6f9",
       "text": "¿A qué hora me recomienda venir?",
       "tr": {
@@ -21842,6 +24773,24 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b8361348",
+      "text": "Pare en el semáforo.",
+      "tr": {
+        "ru": "Остановите у светофора."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -21862,6 +24811,24 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b8febe09",
+      "text": "Demasiado bueno para ser verdad.",
+      "tr": {
+        "ru": "Слишком хорошо, чтобы быть правдой."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -21960,6 +24927,24 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ba15a9fd",
+      "text": "Ya no aguanto más.",
+      "tr": {
+        "ru": "Больше не выдерживаю."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -22072,6 +25057,24 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ba9b0994",
+      "text": "Totalmente.",
+      "tr": {
+        "ru": "Стопудово, полностью согласен."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -22248,6 +25251,44 @@
         "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_bc167bf2",
+      "text": "Lo que quieras.",
+      "tr": {
+        "ru": "Что захочешь."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_lo-que-lo-de-esto-de-7d6cc932"
+      ]
+    },
+    {
+      "id": "ph_bc24cad9",
+      "text": "¿Dónde lo pongo?",
+      "tr": {
+        "ru": "Куда это положить?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
     },
     {
       "id": "ph_bc430b43",
@@ -22465,6 +25506,22 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_bd81b10c",
+      "text": "¿Está María?",
+      "tr": {
+        "ru": "Мария дома? / Можно Марию? (по телефону)"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -22785,6 +25842,25 @@
       }
     },
     {
+      "id": "ph_bfbb4899",
+      "text": "No queda pan.",
+      "tr": {
+        "ru": "Хлеба не осталось."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Quedar — оставаться."
+      }
+    },
+    {
       "id": "ph_c005580d",
       "text": "Me lo da.",
       "tr": {
@@ -22889,6 +25965,24 @@
       ]
     },
     {
+      "id": "ph_c0d81502",
+      "text": "Es que estaba enfermo.",
+      "tr": {
+        "ru": "Да просто я болел."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c1379af2",
       "text": "una puerta cerrada",
       "tr": {
@@ -22952,6 +26046,24 @@
         "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
         "conversationTitle": "Аналог can I have",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_c1509c08",
+      "text": "Suena bien.",
+      "tr": {
+        "ru": "Звучит неплохо."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -23183,6 +26295,27 @@
         "ingestBatch": "ingest-2026-08-08",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_c4162374",
+      "text": "¿Está permitido llevar líquidos?",
+      "tr": {
+        "ru": "Жидкости провозить можно?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_participio-vs-gerundio-esta-confirmada-70295c11"
+      ]
     },
     {
       "id": "ph_c418f58c",
@@ -23496,6 +26629,41 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_c6da131f",
+      "text": "Quería preguntarte algo.",
+      "tr": {
+        "ru": "Я хотел кое-что спросить."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
+    },
+    {
+      "id": "ph_c6ff892e",
+      "text": "¡No tardes!",
+      "tr": {
+        "ru": "Не задерживайся!"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -23827,6 +26995,22 @@
       }
     },
     {
+      "id": "ph_c8b7388b",
+      "text": "El plan no funcionó.",
+      "tr": {
+        "ru": "План не сработал."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c8c26413",
       "text": "Llegó ayer.",
       "tr": {
@@ -24050,6 +27234,24 @@
       }
     },
     {
+      "id": "ph_ca5de184",
+      "text": "¡Oiga, perdone!",
+      "tr": {
+        "ru": "Извините, послушайте! (на usted)"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_saludos"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_ca7f4550",
       "text": "No veo a ninguno.",
       "tr": {
@@ -24156,6 +27358,24 @@
       }
     },
     {
+      "id": "ph_cb25dd2f",
+      "text": "estar en el ajo",
+      "tr": {
+        "ru": "быть в теме, в курсе замеса"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_cb4cf89b",
       "text": "Estoy cansado.",
       "tr": {
@@ -24172,6 +27392,22 @@
         "alsoSeenIn": [
           "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4"
         ]
+      }
+    },
+    {
+      "id": "ph_cb4d124a",
+      "text": "Me recuerdas a mi hermano.",
+      "tr": {
+        "ru": "Ты напоминаешь мне моего брата."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -24278,6 +27514,22 @@
       }
     },
     {
+      "id": "ph_cbe5ab73",
+      "text": "¿Cuánto tardas en prepararte?",
+      "tr": {
+        "ru": "Сколько ты собираешься?"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_cc3e730f",
       "text": "Me fijé en que…",
       "tr": {
@@ -24291,6 +27543,27 @@
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_cc77e7b1",
+      "text": "Está al fondo a la derecha.",
+      "tr": {
+        "ru": "В конце направо."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Универсальный ответ про всё, включая туалет."
       }
     },
     {
@@ -24453,6 +27726,24 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_cdcea55a",
+      "text": "Es cierto.",
+      "tr": {
+        "ru": "Верно, так и есть."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -24783,6 +28074,22 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_cfe036bf",
+      "text": "Basta con llamar.",
+      "tr": {
+        "ru": "Достаточно просто позвонить."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -25348,6 +28655,22 @@
       }
     },
     {
+      "id": "ph_d4d286c4",
+      "text": "después de comer",
+      "tr": {
+        "ru": "после еды, поев"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_d4ee2dc3",
       "text": "Con máquina por los lados y con tijeras arriba.",
       "tr": {
@@ -25500,6 +28823,27 @@
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
+      }
+    },
+    {
+      "id": "ph_d5f07376",
+      "text": "¿Tiene una talla más?",
+      "tr": {
+        "ru": "Есть на размер больше?"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Una talla más = на размер больше; una talla menos — на размер меньше."
       }
     },
     {
@@ -25656,6 +29000,24 @@
       }
     },
     {
+      "id": "ph_d77e5f90",
+      "text": "Hay que aprovechar el buen tiempo.",
+      "tr": {
+        "ru": "Надо ловить хорошую погоду."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_d7a3c4d1",
       "text": "¿Puede parar aquí, por favor?",
       "tr": {
@@ -25793,6 +29155,22 @@
       }
     },
     {
+      "id": "ph_d882dc1f",
+      "text": "Por cierto, mañana no hay clase.",
+      "tr": {
+        "ru": "Кстати, завтра занятий нет."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_d89be432",
       "text": "¿Por qué llegaste tarde?",
       "tr": {
@@ -25822,6 +29200,25 @@
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_d8ac6867",
+      "text": "Estoy tratando de quedar con Ana.",
+      "tr": {
+        "ru": "Пытаюсь состыковаться с Аной (договориться о встрече)."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Quedar con alguien — договориться пересечься. В ЛатАм чаще vernos / juntarnos / encontrarnos."
       }
     },
     {
@@ -25873,6 +29270,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_d9133e9e",
+      "text": "Hablando de comida, tengo hambre.",
+      "tr": {
+        "ru": "Кстати о еде — я голодный."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -26201,6 +29616,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_dbc75258",
+      "text": "¿Qué deseaba?",
+      "tr": {
+        "ru": "Что вы хотели? (продавец покупателю)"
+      },
+      "register": "formal",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_te-llamaba-queria-quisiera-yo-diria-9a61bfbd"
+      ]
     },
     {
       "id": "ph_dbfece58",
@@ -26536,6 +29972,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_de1850e6",
+      "text": "¿De verdad?",
+      "tr": {
+        "ru": "Серьёзно? Правда?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -26917,6 +30371,27 @@
       }
     },
     {
+      "id": "ph_e00f57e9",
+      "text": "Quédese con el cambio.",
+      "tr": {
+        "ru": "Сдачи не надо."
+      },
+      "register": "formal",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Буквально: оставьте себе сдачу (quedarse)."
+      }
+    },
+    {
       "id": "ph_e02225f3",
       "text": "Estoy buscándolo.",
       "tr": {
@@ -27039,6 +30514,24 @@
       }
     },
     {
+      "id": "ph_e1724168",
+      "text": "Dudo entre el rojo y el azul.",
+      "tr": {
+        "ru": "Не могу выбрать между красным и синим."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_e18a97ba",
       "text": "La casa es blanca.",
       "tr": {
@@ -27073,6 +30566,22 @@
       }
     },
     {
+      "id": "ph_e1b6f7a8",
+      "text": "tomar una decisión",
+      "tr": {
+        "ru": "принять решение"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_e1e0693b",
       "text": "Sigue lloviendo.",
       "tr": {
@@ -27090,6 +30599,22 @@
       "relatedGrammarIds": [
         "gr_perifrasis-verbales-66021edc"
       ]
+    },
+    {
+      "id": "ph_e1ecb837",
+      "text": "Te llamo más tarde.",
+      "tr": {
+        "ru": "Перезвоню попозже."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
     },
     {
       "id": "ph_e1feaaa8",
@@ -27160,6 +30685,24 @@
       }
     },
     {
+      "id": "ph_e23d9cff",
+      "text": "a propósito",
+      "tr": {
+        "ru": "к слову, кстати (чуть книжнее)"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_e261c911",
       "text": "Mi español es mejor que antes.",
       "tr": {
@@ -27171,6 +30714,22 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_e28b0151",
+      "text": "No te demores.",
+      "tr": {
+        "ru": "Не копайся, не тяни."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -27324,6 +30883,25 @@
         "conversationTitle": "Обращение на испанском",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_e3bb32c6",
+      "text": "Comí demasiado.",
+      "tr": {
+        "ru": "Я объелся."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Перед сущ. согласуется: demasiada gente, demasiados problemas."
       }
     },
     {
@@ -27628,6 +31206,25 @@
       }
     },
     {
+      "id": "ph_e61220e9",
+      "text": "tomar fotos",
+      "tr": {
+        "ru": "делать фото (ЛатАм)"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "В Испании чаще sacar fotos."
+      }
+    },
+    {
       "id": "ph_e615f3e1",
       "text": "Empecé a estudiar español.",
       "tr": {
@@ -27770,6 +31367,24 @@
         "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_e753659a",
+      "text": "Último aviso para los pasajeros…",
+      "tr": {
+        "ru": "Последнее предупреждение для пассажиров…"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -28032,6 +31647,22 @@
         "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ea2bcd40",
+      "text": "Tengo bastante dinero.",
+      "tr": {
+        "ru": "У меня достаточно денег."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -28394,6 +32025,25 @@
       }
     },
     {
+      "id": "ph_ed0c4f3d",
+      "text": "Ella sueña con viajar.",
+      "tr": {
+        "ru": "Она мечтает путешествовать."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Не путать: suena (sonar — звучит) и sueña (soñar — мечтает/видит сон)."
+      }
+    },
+    {
       "id": "ph_ed2faba3",
       "text": "Sí, te puedo ayudar.",
       "tr": {
@@ -28438,6 +32088,24 @@
         "conversationId": "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
         "conversationTitle": "Обращение на испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ed52f229",
+      "text": "Ya, ya, entendí.",
+      "tr": {
+        "ru": "Всё-всё, я понял."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -28629,6 +32297,22 @@
         "alsoSeenIn": [
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
+      }
+    },
+    {
+      "id": "ph_eed5ed5a",
+      "text": "cerrar la sesión",
+      "tr": {
+        "ru": "выйти из аккаунта, разлогиниться"
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
       }
     },
     {
@@ -28965,6 +32649,27 @@
       }
     },
     {
+      "id": "ph_f068eba8",
+      "text": "Te queda genial.",
+      "tr": {
+        "ru": "Тебе отлично идёт."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "notes": {
+        "ru": "Quedarle a uno — сидеть (об одежде)."
+      }
+    },
+    {
       "id": "ph_f06df52f",
       "text": "Siga todo recto.",
       "tr": {
@@ -29209,6 +32914,27 @@
       }
     },
     {
+      "id": "ph_f200cc56",
+      "text": "Me bajo en la próxima.",
+      "tr": {
+        "ru": "Выхожу на следующей."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
+    },
+    {
       "id": "ph_f234b593",
       "text": "No entiendo eso.",
       "tr": {
@@ -29241,6 +32967,22 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_f23a181f",
+      "text": "Él toma mucho.",
+      "tr": {
+        "ru": "Он крепко пьёт (ЛатАм)."
+      },
+      "register": "informal",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -29447,6 +33189,22 @@
       }
     },
     {
+      "id": "ph_f3da9552",
+      "text": "Perdón por tardar.",
+      "tr": {
+        "ru": "Извини, что долго."
+      },
+      "register": "neutral",
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_f3eb0670",
       "text": "¡Buena suerte!",
       "tr": {
@@ -29552,6 +33310,24 @@
       }
     },
     {
+      "id": "ph_f43f50c3",
+      "text": "Me quedo en casa.",
+      "tr": {
+        "ru": "Я остаюсь дома."
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_casa"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_f451c697",
       "text": "Tiene que haber una solución.",
       "tr": {
@@ -29566,6 +33342,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_f4f0d933",
+      "text": "¿Lo compro o no?",
+      "tr": {
+        "ru": "Брать или не брать?"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_compras"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
     },
     {
       "id": "ph_f4f55a54",
@@ -30281,6 +34078,27 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "ph_fb29bf9b",
+      "text": "¿Qué hago?",
+      "tr": {
+        "ru": "Что мне делать?!"
+      },
+      "register": "neutral",
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "relatedGrammarIds": [
+        "gr_como-hago-adonde-voy-95241256"
+      ]
     },
     {
       "id": "ph_fbb358f3",
