@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-17T19:16:08Z",
+  "generatedAt": "2026-09-07T02:38:21Z",
   "items": [
     {
       "id": "vc_006436ac",
@@ -670,6 +670,32 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_0906f416",
+      "lemma": "estupendo",
+      "pos": "adj",
+      "tr": {
+        "ru": "отличный, шикарный, супер"
+      },
+      "examples": [
+        {
+          "text": "La comida estaba estupenda.",
+          "tr": {
+            "ru": "Еда была просто огонь."
+          }
+        }
+      ],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -3372,6 +3398,23 @@
       "verbId": "vb_empezar"
     },
     {
+      "id": "vc_2cacad75",
+      "lemma": "magnífico",
+      "pos": "adj",
+      "tr": {
+        "ru": "великолепный"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2d06eb7e",
       "lemma": "vestir",
       "pos": "verb",
@@ -3832,6 +3875,31 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_31e092ec",
+      "lemma": "deuda",
+      "pos": "noun",
+      "tr": {
+        "ru": "долг"
+      },
+      "examples": [
+        {
+          "text": "Estoy en deuda contigo.",
+          "tr": {
+            "ru": "Я в долгу перед тобой."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
     },
     {
       "id": "vc_321bcf9a",
@@ -4624,7 +4692,14 @@
       "tr": {
         "ru": "обещать"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Te lo prometo.",
+          "tr": {
+            "ru": "Обещаю тебе."
+          }
+        }
+      ],
       "topics": [],
       "verbId": "vb_prometer",
       "source": {
@@ -4632,7 +4707,10 @@
         "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-2026-09-07-como-hago-ninguno-lo"
+        ]
       }
     },
     {
@@ -5028,6 +5106,23 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_3f098683",
+      "lemma": "tampoco",
+      "pos": "adv",
+      "tr": {
+        "ru": "тоже не(т)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -6387,6 +6482,26 @@
       }
     },
     {
+      "id": "vc_4fc7ff4e",
+      "lemma": "tarjeta de embarque",
+      "pos": "noun",
+      "tr": {
+        "ru": "посадочный талон"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_5032edeb",
       "lemma": "máquina",
       "pos": "noun",
@@ -6494,6 +6609,23 @@
         "conversationId": "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
         "conversationTitle": "Traducción Camp d'en Grassot",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_51497b83",
+      "lemma": "maravilloso",
+      "pos": "adj",
+      "tr": {
+        "ru": "чудесный, великолепный"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -8355,6 +8487,30 @@
       }
     },
     {
+      "id": "vc_67de9d82",
+      "lemma": "ni... ni",
+      "pos": "conj",
+      "tr": {
+        "ru": "ни… ни"
+      },
+      "examples": [
+        {
+          "text": "No tengo ni tiempo ni dinero.",
+          "tr": {
+            "ru": "У меня нет ни времени, ни денег."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_67e8608b",
       "lemma": "siempre",
       "pos": "adv",
@@ -8375,6 +8531,25 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_681f34c6",
+      "lemma": "bárbaro",
+      "pos": "adj",
+      "tr": {
+        "ru": "потрясающий, классный (разг., Аргентина)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -9242,6 +9417,25 @@
         ]
       },
       "verbId": "vb_dejar"
+    },
+    {
+      "id": "vc_756758a0",
+      "lemma": "junto a",
+      "pos": "prep",
+      "tr": {
+        "ru": "вплотную к, рядом с"
+      },
+      "examples": [],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_762e88f9",
@@ -10454,6 +10648,24 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_8540e698",
+      "lemma": "folleto",
+      "pos": "noun",
+      "tr": {
+        "ru": "буклет, брошюра"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
     },
     {
       "id": "vc_85adde1f",
@@ -11780,6 +11992,26 @@
       }
     },
     {
+      "id": "vc_97cf0d56",
+      "lemma": "boleto",
+      "pos": "noun",
+      "tr": {
+        "ru": "билет (ЛатАм)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_transporte"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "m"
+    },
+    {
       "id": "vc_97d51605",
       "lemma": "mujer",
       "pos": "noun",
@@ -12324,6 +12556,23 @@
       }
     },
     {
+      "id": "vc_9f2b1667",
+      "lemma": "excelente",
+      "pos": "adj",
+      "tr": {
+        "ru": "отличный, превосходный"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_9fbf433f",
       "lemma": "enfrentar",
       "pos": "verb",
@@ -12399,6 +12648,30 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_a0b9de28",
+      "lemma": "ninguno",
+      "pos": "pron",
+      "tr": {
+        "ru": "никакой, ни один"
+      },
+      "examples": [
+        {
+          "text": "Ninguno de mis amigos fuma.",
+          "tr": {
+            "ru": "Никто из моих друзей не курит."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -13970,6 +14243,30 @@
       "verbId": "vb_validar"
     },
     {
+      "id": "vc_b758f105",
+      "lemma": "nunca",
+      "pos": "adv",
+      "tr": {
+        "ru": "никогда"
+      },
+      "examples": [
+        {
+          "text": "Nunca digo eso.",
+          "tr": {
+            "ru": "Я никогда такого не говорю."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b75d22a4",
       "lemma": "ir",
       "pos": "verb",
@@ -14587,6 +14884,30 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_bf5f6d00",
+      "lemma": "alguno",
+      "pos": "pron",
+      "tr": {
+        "ru": "какой-нибудь, какой-то"
+      },
+      "examples": [
+        {
+          "text": "¿Hay algún problema con mi boleto?",
+          "tr": {
+            "ru": "С моим билетом какие-то проблемы?"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -17083,6 +17404,31 @@
       }
     },
     {
+      "id": "vc_dbd05440",
+      "lemma": "promesa",
+      "pos": "noun",
+      "tr": {
+        "ru": "обещание"
+      },
+      "examples": [
+        {
+          "text": "cumplir una promesa",
+          "tr": {
+            "ru": "сдержать обещание"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
       "id": "vc_dca50a02",
       "lemma": "igualmente",
       "pos": "adv",
@@ -18049,6 +18395,25 @@
       }
     },
     {
+      "id": "vc_ea3c61ff",
+      "lemma": "cerca de",
+      "pos": "prep",
+      "tr": {
+        "ru": "недалеко от, поблизости"
+      },
+      "examples": [],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_ea67e1ef",
       "lemma": "inversión",
       "pos": "noun",
@@ -18581,6 +18946,24 @@
         "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      },
+      "gender": "f"
+    },
+    {
+      "id": "vc_eed97ee1",
+      "lemma": "plata",
+      "pos": "noun",
+      "tr": {
+        "ru": "деньги (разг., ЛатАм)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       },
       "gender": "f"
@@ -19193,6 +19576,23 @@
       }
     },
     {
+      "id": "vc_f6361487",
+      "lemma": "fantástico",
+      "pos": "adj",
+      "tr": {
+        "ru": "фантастический, великолепный"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f6b04b02",
       "lemma": "esas",
       "pos": "pron",
@@ -19214,6 +19614,25 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f6e91360",
+      "lemma": "genial",
+      "pos": "adj",
+      "tr": {
+        "ru": "отличный, классный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },
@@ -19303,6 +19722,51 @@
         ]
       },
       "verbId": "vb_esperar"
+    },
+    {
+      "id": "vc_f7f69749",
+      "lemma": "al lado de",
+      "pos": "prep",
+      "tr": {
+        "ru": "рядом с, вплотную к"
+      },
+      "examples": [
+        {
+          "text": "El banco está al lado de la farmacia.",
+          "tr": {
+            "ru": "Банк рядом с аптекой."
+          }
+        }
+      ],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f8968abe",
+      "lemma": "buenísimo",
+      "pos": "adj",
+      "tr": {
+        "ru": "очень хороший, супер"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_f9096747",
@@ -19684,6 +20148,31 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vc_fdf24347",
+      "lemma": "cumplir",
+      "pos": "verb",
+      "tr": {
+        "ru": "выполнять; сдержать (обещание)"
+      },
+      "examples": [
+        {
+          "text": "cumplir una promesa",
+          "tr": {
+            "ru": "сдержать обещание"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "verbId": "vb_cumplir"
     },
     {
       "id": "vc_fe034afa",

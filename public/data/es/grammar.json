@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-17T19:16:08Z",
+  "generatedAt": "2026-09-07T02:38:20Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -789,6 +789,52 @@
       }
     },
     {
+      "id": "gr_lo-4549ddcc",
+      "title": {
+        "ru": "Lo + причастие или прилагательное: абстрактное «то, что…»"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Формула lo + причастие/прилагательное превращает его в абстрактное существительное: lo prometido — обещанное, lo dicho — сказанное, lo hecho — сделанное, lo importante — главное, lo mejor / lo peor — лучшее / худшее. Отсюда пословица Lo prometido es deuda — «обещанное — долг» (уговор дороже денег)."
+      },
+      "bodyPath": {
+        "ru": "grammar/lo-4549ddcc.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Lo prometido es deuda.",
+          "tr": {
+            "ru": "Обещанное — долг (уговор дороже денег)."
+          }
+        },
+        {
+          "text": "Lo importante es intentarlo.",
+          "tr": {
+            "ru": "Главное — попробовать."
+          }
+        },
+        {
+          "text": "Lo hecho, hecho está.",
+          "tr": {
+            "ru": "Сделанного не воротишь."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_prometer",
+        "vb_decir",
+        "vb_hacer"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "gr_lo-esto-eso-aquello-e5833484",
       "title": {
         "ru": "Нейтральное lo и указательные esto / eso / aquello"
@@ -855,6 +901,47 @@
         "conversationId": "e5ff0bc1-3d0e-4b29-8148-d9ff99742411",
         "conversationTitle": "Испанский: акцент, временный адрес, порядок слов, прилагательные",
         "ingestBatch": "ingest-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_ningun-ninguno-7825a1c6",
+      "title": {
+        "ru": "Ningún, ninguno и двойное отрицание"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Ningún — усечение ninguno перед сущ. муж. рода (ningún problema, но ninguno de ellos), женский род — ninguna. Двойное отрицание обязательно: no + глагол + ningún/nada/nadie/nunca (No tengo ningún problema); если отрицательное слово стоит перед глаголом, no убирается (Ninguno de mis amigos fuma). Число почти всегда единственное (No tengo ningún libro). Вся семья: nada, nadie, nunca, tampoco, ni… ni; зеркальные пары algo/nada, alguien/nadie, alguno/ninguno, siempre/nunca."
+      },
+      "bodyPath": {
+        "ru": "grammar/ningun-ninguno-7825a1c6.ru.md"
+      },
+      "examples": [
+        {
+          "text": "No tengo ningún problema.",
+          "tr": {
+            "ru": "У меня нет никаких проблем."
+          }
+        },
+        {
+          "text": "Ninguno de mis amigos fuma.",
+          "tr": {
+            "ru": "Никто из моих друзей не курит."
+          }
+        },
+        {
+          "text": "No tengo ni tiempo ni dinero.",
+          "tr": {
+            "ru": "У меня нет ни времени, ни денег."
+          }
+        }
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
         "extractor": "model"
       }
     },

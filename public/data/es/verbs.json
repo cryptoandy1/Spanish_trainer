@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-17T19:16:08Z",
+  "generatedAt": "2026-09-07T02:38:20Z",
   "items": [
     {
       "id": "vb_abrir",
@@ -8743,6 +8743,244 @@
         "ingestBatch": "ingest-2026-08-09",
         "extractor": "model"
       }
+    },
+    {
+      "id": "vb_cumplir",
+      "infinitive": "cumplir",
+      "tr": {
+        "ru": "выполнять; сдержать (обещание)"
+      },
+      "regularity": "regular",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "cumpliendo",
+        "participle": "cumplido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "cumplo"
+            },
+            "tu": {
+              "form": "cumples"
+            },
+            "el": {
+              "form": "cumple"
+            },
+            "nosotros": {
+              "form": "cumplimos"
+            },
+            "vosotros": {
+              "form": "cumplís"
+            },
+            "ellos": {
+              "form": "cumplen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "cumplí"
+            },
+            "tu": {
+              "form": "cumpliste"
+            },
+            "el": {
+              "form": "cumplió"
+            },
+            "nosotros": {
+              "form": "cumplimos"
+            },
+            "vosotros": {
+              "form": "cumplisteis"
+            },
+            "ellos": {
+              "form": "cumplieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "cumplía"
+            },
+            "tu": {
+              "form": "cumplías"
+            },
+            "el": {
+              "form": "cumplía"
+            },
+            "nosotros": {
+              "form": "cumplíamos"
+            },
+            "vosotros": {
+              "form": "cumplíais"
+            },
+            "ellos": {
+              "form": "cumplían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he cumplido"
+            },
+            "tu": {
+              "form": "has cumplido"
+            },
+            "el": {
+              "form": "ha cumplido"
+            },
+            "nosotros": {
+              "form": "hemos cumplido"
+            },
+            "vosotros": {
+              "form": "habéis cumplido"
+            },
+            "ellos": {
+              "form": "han cumplido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "cumpliré"
+            },
+            "tu": {
+              "form": "cumplirás"
+            },
+            "el": {
+              "form": "cumplirá"
+            },
+            "nosotros": {
+              "form": "cumpliremos"
+            },
+            "vosotros": {
+              "form": "cumpliréis"
+            },
+            "ellos": {
+              "form": "cumplirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "cumpliría"
+            },
+            "tu": {
+              "form": "cumplirías"
+            },
+            "el": {
+              "form": "cumpliría"
+            },
+            "nosotros": {
+              "form": "cumpliríamos"
+            },
+            "vosotros": {
+              "form": "cumpliríais"
+            },
+            "ellos": {
+              "form": "cumplirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "cumpla"
+            },
+            "tu": {
+              "form": "cumplas"
+            },
+            "el": {
+              "form": "cumpla"
+            },
+            "nosotros": {
+              "form": "cumplamos"
+            },
+            "vosotros": {
+              "form": "cumpláis"
+            },
+            "ellos": {
+              "form": "cumplan"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "cumpliera"
+            },
+            "tu": {
+              "form": "cumplieras"
+            },
+            "el": {
+              "form": "cumpliera"
+            },
+            "nosotros": {
+              "form": "cumpliéramos"
+            },
+            "vosotros": {
+              "form": "cumplierais"
+            },
+            "ellos": {
+              "form": "cumplieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "cumple"
+            },
+            "el": {
+              "form": "cumpla"
+            },
+            "nosotros": {
+              "form": "cumplamos"
+            },
+            "vosotros": {
+              "form": "cumplid"
+            },
+            "ellos": {
+              "form": "cumplan"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no cumplas"
+            },
+            "el": {
+              "form": "no cumpla"
+            },
+            "nosotros": {
+              "form": "no cumplamos"
+            },
+            "vosotros": {
+              "form": "no cumpláis"
+            },
+            "ellos": {
+              "form": "no cumplan"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
+        "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
+        "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      },
+      "conjugationClass": "-ir"
     },
     {
       "id": "vb_dar",
