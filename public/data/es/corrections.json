@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-09-07T03:06:48Z",
+  "generatedAt": "2026-10-21T03:44:43Z",
   "items": [
     {
       "id": "er_01105d15",
@@ -180,6 +180,26 @@
       }
     },
     {
+      "id": "er_1a2b735c",
+      "attempt": "Casi son cuello",
+      "correct": "casi sin cuello",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "sin — «без»; son — «они есть» (глагол ser). После sin артикль обычно не ставят."
+      },
+      "errorTags": [
+        "homophone",
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_1a4ac4b0",
       "attempt": "en dos mesos",
       "correct": "en dos meses",
@@ -200,6 +220,25 @@
       }
     },
     {
+      "id": "er_2001af93",
+      "attempt": "Pardon que",
+      "correct": "pardo que",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Pardo — «бурый», без n."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_202acdac",
       "attempt": "nos vestemos",
       "correct": "nos vestimos",
@@ -215,6 +254,25 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_20d8272f",
+      "attempt": "ubiqaciones",
+      "correct": "ubicaciones",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Q пишется только в связках que и qui; перед a всегда c: ubicación, ubicaciones."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "correction"
       }
     },
@@ -356,6 +414,26 @@
       }
     },
     {
+      "id": "er_34593061",
+      "attempt": "No ponsó más que",
+      "correct": "no pensó más que",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Pensó — pensar в indefinido; в indefinido корень правильный: pensé, pensaste, pensó."
+      },
+      "errorTags": [
+        "spelling",
+        "conjugation"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_35113adc",
       "attempt": "Tu comes pizza",
       "correct": "Tú comes pizza",
@@ -372,6 +450,26 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_357f7c2d",
+      "attempt": "Aunque con in bigote inmenso",
+      "correct": "aunque con un bigote inmenso",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Опечатка: неопределённый артикль — un (un bigote)."
+      },
+      "errorTags": [
+        "spelling",
+        "article"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "correction"
       }
     },
@@ -707,6 +805,25 @@
       }
     },
     {
+      "id": "er_6532b450",
+      "attempt": "quizas",
+      "correct": "quizás",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Пишется с тильдой: quizás (или quizá)."
+      },
+      "errorTags": [
+        "accent"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_654b6377",
       "attempt": "Cuando transformamos esta oracion",
       "correct": "Cuando transformamos esta oración",
@@ -803,6 +920,25 @@
       }
     },
     {
+      "id": "er_7378b1a4",
+      "attempt": "Instalaba al ruidos Dudley en la trona",
+      "correct": "instalaba al ruidoso Dudley en la trona",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Прилагательное «шумный» — ruidoso (от ruido «шум» + суффикс -oso)."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_78f5b036",
       "attempt": "Salir con lo.",
       "correct": "Salir con él.",
@@ -857,6 +993,26 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_7ac69851",
+      "attempt": "In completo inútil",
+      "correct": "un completo inútil",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Опечатка: неопределённый артикль — un."
+      },
+      "errorTags": [
+        "spelling",
+        "article"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "correction"
       }
     },
@@ -1030,6 +1186,25 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_9dcd8bf8",
+      "attempt": "Sombrió",
+      "correct": "sombrío",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Ударение на í: som-BRÍ-o — это прилагательное «мрачный». Глагола «sombrir» нет, поэтому формы прошедшего «sombrió» не бывает."
+      },
+      "errorTags": [
+        "accent"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "correction"
       }
     },
@@ -1230,6 +1405,25 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_b0e99347",
+      "attempt": "Mientras iba a la cuidad",
+      "correct": "mientras iba a la ciudad",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Город — ciudad (ciu-dad), а не cuidad. Частая ошибка даже у испанцев."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "correction"
       }
     },
@@ -1564,6 +1758,26 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_e031d667",
+      "attempt": "Sí no lo hubiera hecho así",
+      "correct": "si no lo hubiera hecho así",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Si без тильды — «если»; sí с тильдой — «да»."
+      },
+      "errorTags": [
+        "accent",
+        "homophone"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "correction"
       }
     },

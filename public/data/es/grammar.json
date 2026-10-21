@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-09-07T03:06:48Z",
+  "generatedAt": "2026-10-21T03:44:43Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -325,6 +325,70 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_condicional-si-tuviera-si-hubiera-hecho-826d8f7d",
+      "title": {
+        "ru": "Condicional и «если бы»: si tuviera…, si hubiera hecho…"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Condicional — «бы»: к целому инфинитиву -ía, -ías…; неправильные основы dir-, har-, tendr-, podr-, sabr-, querr-, vendr-. Нереальное сейчас: si + imperfecto de subjuntivo → condicional. Нереальное в прошлом: si + hubiera + participio → habría (или hubiera) + participio; книжно — de + haber + participio."
+      },
+      "bodyPath": {
+        "ru": "grammar/condicional-si-tuviera-si-hubiera-hecho-826d8f7d.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Si tuviera dinero, compraría una casa.",
+          "tr": {
+            "ru": "Если бы у меня были деньги, я бы купил дом."
+          }
+        },
+        {
+          "text": "Si lo hubiera visto, habría tenido problemas.",
+          "tr": {
+            "ru": "Если бы он это увидел, у него были бы проблемы."
+          }
+        },
+        {
+          "text": "Si lo hubiera hecho entonces, no habría habido problemas.",
+          "tr": {
+            "ru": "Сделай я это тогда, не было бы проблем."
+          }
+        },
+        {
+          "text": "De haberlo hecho entonces, no habría habido problemas.",
+          "tr": {
+            "ru": "Сделай я это тогда, не было бы проблем."
+          }
+        },
+        {
+          "text": "Debía de haber sido una ilusión óptica.",
+          "tr": {
+            "ru": "Наверное, это был обман зрения."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_haber",
+        "vb_tener",
+        "vb_decir",
+        "vb_hacer",
+        "vb_deber"
+      ],
+      "tags": [
+        "mood-choice",
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -806,6 +870,128 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_imperativo-e510c8e5",
+      "title": {
+        "ru": "Imperativo: «не делай», местоимения и как просить у незнакомых"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Любое отрицание строится через subjuntivo (no hables, no comas, no habléis); в утвердительном местоимения прилепляются к хвосту с тильдой (dímelo, siéntate), в отрицательном стоят перед глаголом (no me lo digas). С незнакомыми лучше спрашивать, а не командовать: ¿me pasas la sal?, ¿podría ayudarme?, perdone…; в баре прямое ponme una caña — нормально."
+      },
+      "bodyPath": {
+        "ru": "grammar/imperativo-e510c8e5.ru.md"
+      },
+      "examples": [
+        {
+          "text": "no me lo digas",
+          "tr": {
+            "ru": "не говори мне это"
+          }
+        },
+        {
+          "text": "siéntate",
+          "tr": {
+            "ru": "садись"
+          }
+        },
+        {
+          "text": "¿Me pones una caña?",
+          "tr": {
+            "ru": "Нальёшь мне пиво?"
+          }
+        },
+        {
+          "text": "¿Podría ayudarme?",
+          "tr": {
+            "ru": "Не могли бы вы мне помочь?"
+          }
+        },
+        {
+          "text": "Perdone, déjeme pasar.",
+          "tr": {
+            "ru": "Извините, пропустите меня."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_decir",
+        "vb_sentarse",
+        "vb_poner",
+        "vb_ir"
+      ],
+      "tags": [
+        "mood-choice",
+        "pronoun-placement",
+        "enclitic"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_imperfecto-indefinido-870491e8",
+      "title": {
+        "ru": "Imperfecto: как строится и чем отличается от indefinido"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Самое простое время: -aba/-abas/-aba/-ábamos/-abais/-aban и -ía/-ías/-ía/-íamos/-íais/-ían, неправильных всего три (ser → era, ir → iba, ver → veía). Это декорации: фон, описания, привычки, процесс, возраст и время; indefinido — события, которые ломают рутину."
+      },
+      "bodyPath": {
+        "ru": "grammar/imperfecto-indefinido-870491e8.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Los domingos iba al parque.",
+          "tr": {
+            "ru": "По воскресеньям он ходил в парк."
+          }
+        },
+        {
+          "text": "Leía cuando sonó el teléfono.",
+          "tr": {
+            "ru": "Он читал, когда зазвонил телефон."
+          }
+        },
+        {
+          "text": "Mientras iba a la ciudad, vio algo raro.",
+          "tr": {
+            "ru": "Пока он ехал в город, он увидел что-то странное."
+          }
+        },
+        {
+          "text": "No se veían desde hacía años.",
+          "tr": {
+            "ru": "Они не виделись уже много лет."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_hablar",
+        "vb_vivir",
+        "vb_ser",
+        "vb_ir",
+        "vb_ver"
+      ],
+      "tags": [
+        "conjugation",
+        "tense-choice"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -1301,6 +1487,67 @@
       }
     },
     {
+      "id": "gr_preterito-indefinido-08b01e87",
+      "title": {
+        "ru": "Pretérito indefinido: как строится"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Законченные разовые действия, на которых держится сюжет книги. Окончания -é/-aste/-ó/-amos/-asteis/-aron и -í/-iste/-ió/-imos/-isteis/-ieron, группа с особой основой (tuvo, estuvo, hizo, pudo, puso, supo, quiso, vino, dijo), ser/ir = fue, чередования e→i, o→u в 3-м лице и i→y между гласными."
+      },
+      "bodyPath": {
+        "ru": "grammar/preterito-indefinido-08b01e87.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Sobrevivió a la guerra.",
+          "tr": {
+            "ru": "Пережил войну."
+          }
+        },
+        {
+          "text": "y para Di, que oyó esta primero",
+          "tr": {
+            "ru": "и для Ди, которая услышала эту первой"
+          }
+        },
+        {
+          "text": "Comenzó a llover.",
+          "tr": {
+            "ru": "Начался дождь."
+          }
+        },
+        {
+          "text": "Se negó a comer.",
+          "tr": {
+            "ru": "Он отказался есть."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_hablar",
+        "vb_vivir",
+        "vb_ser",
+        "vb_ir",
+        "vb_tener",
+        "vb_hacer",
+        "vb_decir",
+        "vb_oir",
+        "vb_leer"
+      ],
+      "tags": [
+        "conjugation"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "gr_preterito-indefinido-preterito-perfecto-bb021f13",
       "title": {
         "ru": "Pretérito indefinido или pretérito perfecto: llegaste vs has llegado"
@@ -1589,6 +1836,69 @@
         "conversationId": "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
         "conversationTitle": "Traducción Camp d'en Grassot",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_subjuntivo-53e7f0cb",
+      "title": {
+        "ru": "Subjuntivo: четыре формы и когда он ставится"
+      },
+      "level": "B1",
+      "order": 999,
+      "summary": {
+        "ru": "Наклонение для всего, что не факт: желание, эмоция, страх, сомнение, оценка, будущее после cuando, неизвестный объект, нереальное условие. Presente de subjuntivo строится от yo (hablo → hable), imperfecto — от ellos в indefinido (supieron → supiera / supiese). Время подчинённой части следует за главной: temo que sepan, temían que se supiera."
+      },
+      "bodyPath": {
+        "ru": "grammar/subjuntivo-53e7f0cb.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Temían que se supiera.",
+          "tr": {
+            "ru": "Боялись, что станет известно."
+          }
+        },
+        {
+          "text": "Quiero que vengas.",
+          "tr": {
+            "ru": "Хочу, чтобы ты пришёл."
+          }
+        },
+        {
+          "text": "Busco a alguien que hable español.",
+          "tr": {
+            "ru": "Ищу кого-нибудь, кто говорит по-испански."
+          }
+        },
+        {
+          "text": "Cuando llegues, llámame.",
+          "tr": {
+            "ru": "Когда приедешь, позвони."
+          }
+        },
+        {
+          "text": "No hay nadie que sepa.",
+          "tr": {
+            "ru": "Нет никого, кто бы знал."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_saber",
+        "vb_poder",
+        "vb_sugerir",
+        "vb_aparecer",
+        "vb_haber"
+      ],
+      "tags": [
+        "mood-choice"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },

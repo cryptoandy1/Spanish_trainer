@@ -1,8 +1,26 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-09-07T03:06:48Z",
+  "generatedAt": "2026-10-21T04:07:36Z",
   "items": [
+    {
+      "id": "vc_00208bb3",
+      "lemma": "cabeza",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "голова"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
     {
       "id": "vc_006436ac",
       "lemma": "lo difícil",
@@ -27,8 +45,17 @@
       "tr": {
         "ru": "убрать (длину)"
       },
-      "examples": [],
-      "topics": [],
+      "examples": [
+        {
+          "text": "Quítame solo uno o dos centímetros.",
+          "tr": {
+            "ru": "Сними только 1–2 сантиметра."
+          }
+        }
+      ],
+      "topics": [
+        "tp_peluqueria"
+      ],
       "source": {
         "origin": "chatgpt",
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
@@ -129,6 +156,26 @@
           "6a533484-a9e8-83eb-8083-813afe2f2d72",
           "6a606e40-b940-83eb-b5f5-104079999d29"
         ]
+      }
+    },
+    {
+      "id": "vc_012e89fc",
+      "lemma": "rostro",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "лицо"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -249,6 +296,26 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_02845f00",
+      "lemma": "vidriera",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "витраж; стеклянная витрина"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -400,6 +467,31 @@
       }
     },
     {
+      "id": "vc_03cee1c0",
+      "lemma": "estrujarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "напрягать (мозги)"
+      },
+      "examples": [
+        {
+          "text": "estrujarse el cerebro",
+          "tr": {
+            "ru": "напрягать мозги"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_estrujarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_040df8b3",
       "lemma": "importar",
       "pos": "verb",
@@ -460,6 +552,26 @@
       }
     },
     {
+      "id": "vc_04bcc083",
+      "lemma": "bobada",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "глупость"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_04f5297e",
       "lemma": "confirmar",
       "pos": "verb",
@@ -481,6 +593,31 @@
         "conversationId": "inbox/2.txt",
         "conversationTitle": "Tu cita está confirmada: причастие и согласование",
         "ingestBatch": "ingest-2026-08-06",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_0555a3ad",
+      "lemma": "crecer",
+      "pos": "verb",
+      "tr": {
+        "ru": "расти"
+      },
+      "examples": [
+        {
+          "text": "dejarse crecer el pelo",
+          "tr": {
+            "ru": "отращивать волосы"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_crecer",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -627,6 +764,32 @@
         "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_0794de10",
+      "lemma": "filosófico",
+      "pos": "adj",
+      "tr": {
+        "ru": "философский"
+      },
+      "examples": [
+        {
+          "text": "un libro filosófico",
+          "tr": {
+            "ru": "философская книга"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -814,6 +977,33 @@
       }
     },
     {
+      "id": "vc_0aa8420e",
+      "lemma": "ilusión",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "иллюзия"
+      },
+      "examples": [
+        {
+          "text": "Debía de haber sido una ilusión óptica.",
+          "tr": {
+            "ru": "Наверное, это был обман зрения."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_0ad60647",
       "lemma": "ver",
       "pos": "verb",
@@ -966,6 +1156,31 @@
         "extractor": "model"
       },
       "gender": "m"
+    },
+    {
+      "id": "vc_0c0bdb1a",
+      "lemma": "lavar",
+      "pos": "verb",
+      "tr": {
+        "ru": "мыть, промывать"
+      },
+      "examples": [
+        {
+          "text": "lavar el cerebro",
+          "tr": {
+            "ru": "промыть мозги"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_lavar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_0c58eb22",
@@ -1138,6 +1353,26 @@
       }
     },
     {
+      "id": "vc_0d7f4743",
+      "lemma": "sopa",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "суп"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_0e08a3bc",
       "lemma": "reino",
       "pos": "noun",
@@ -1241,6 +1476,26 @@
       }
     },
     {
+      "id": "vc_0e6cb40f",
+      "lemma": "temer",
+      "pos": "verb",
+      "tr": {
+        "ru": "бояться, опасаться"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_temer",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_0e9e7644",
       "lemma": "por aquí",
       "pos": "adv",
@@ -1263,6 +1518,26 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_0f2ac02c",
+      "lemma": "nublarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "затягиваться облаками"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_nublarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -1390,6 +1665,25 @@
       }
     },
     {
+      "id": "vc_1110c38b",
+      "lemma": "ruidoso",
+      "pos": "adj",
+      "tr": {
+        "ru": "шумный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_111e85c2",
       "lemma": "malo",
       "pos": "adj",
@@ -1448,6 +1742,26 @@
       }
     },
     {
+      "id": "vc_11ac7c6f",
+      "lemma": "búho",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "сова с «ушками», филин"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_11c36730",
       "lemma": "gorrito",
       "pos": "noun",
@@ -1462,6 +1776,23 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_11d40fec",
+      "lemma": "disculpa",
+      "pos": "interj",
+      "tr": {
+        "ru": "извини (на «ты»)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -1582,6 +1913,57 @@
       }
     },
     {
+      "id": "vc_12ec60f8",
+      "lemma": "caso",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "случай"
+      },
+      "examples": [
+        {
+          "text": "En ese caso, me voy.",
+          "tr": {
+            "ru": "Тогда я ухожу."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_12ed52fe",
+      "lemma": "inútil",
+      "pos": "adj",
+      "tr": {
+        "ru": "бесполезный; (сущ.) никчёмный человек"
+      },
+      "examples": [
+        {
+          "text": "un completo inútil",
+          "tr": {
+            "ru": "полный бездельник, совершенно никчёмный человек"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_13353fba",
       "lemma": "acceso",
       "pos": "noun",
@@ -1647,6 +2029,33 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_13859267",
+      "lemma": "resultar",
+      "pos": "verb",
+      "tr": {
+        "ru": "оказываться, получаться"
+      },
+      "examples": [
+        {
+          "text": "Le resultaba útil.",
+          "tr": {
+            "ru": "Ей было удобно."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_resultar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -1728,6 +2137,12 @@
           "text": "No tienes dinero, entonces no puedes comprarlo.",
           "tr": {
             "ru": "У тебя нет денег, поэтому ты не можешь это купить."
+          }
+        },
+        {
+          "text": "Entonces vivía en Madrid.",
+          "tr": {
+            "ru": "Тогда я жил в Мадриде."
           }
         }
       ],
@@ -1840,6 +2255,32 @@
       }
     },
     {
+      "id": "vc_147c1746",
+      "lemma": "afuera",
+      "pos": "adv",
+      "tr": {
+        "ru": "снаружи, на улицу"
+      },
+      "examples": [
+        {
+          "text": "Vamos afuera.",
+          "tr": {
+            "ru": "Пошли на улицу."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_14f5db10",
       "lemma": "se",
       "pos": "pron",
@@ -1895,6 +2336,32 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_15a9a6e7",
+      "lemma": "sombrío",
+      "pos": "adj",
+      "tr": {
+        "ru": "мрачный, хмурый, тёмный"
+      },
+      "examples": [
+        {
+          "text": "un rostro sombrío",
+          "tr": {
+            "ru": "мрачное лицо"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -2266,6 +2733,31 @@
       }
     },
     {
+      "id": "vc_19107267",
+      "lemma": "devanarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "(devanarse los sesos) ломать голову"
+      },
+      "examples": [
+        {
+          "text": "devanarse los sesos",
+          "tr": {
+            "ru": "ломать голову"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_devanarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_194b4470",
       "lemma": "aquel",
       "pos": "pron",
@@ -2278,6 +2770,12 @@
           "text": "Aquella casa.",
           "tr": {
             "ru": "Вон тот дом."
+          }
+        },
+        {
+          "text": "aquel día",
+          "tr": {
+            "ru": "в тот день"
           }
         }
       ],
@@ -2369,6 +2867,26 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_1a584559",
+      "lemma": "fingir",
+      "pos": "verb",
+      "tr": {
+        "ru": "притворяться, делать вид"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_fingir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -2607,6 +3125,27 @@
       "verbId": "vb_acostar"
     },
     {
+      "id": "vc_1d149d7e",
+      "lemma": "varita",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "волшебная палочка"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_1ddbe1f8",
       "lemma": "repetir",
       "pos": "verb",
@@ -2758,6 +3297,32 @@
           "6a6cf173-f534-83eb-89bd-32a90d79b54f",
           "inbox-c3a8ffca"
         ]
+      }
+    },
+    {
+      "id": "vc_1ee59433",
+      "lemma": "ubicado",
+      "pos": "adj",
+      "tr": {
+        "ru": "расположенный"
+      },
+      "examples": [
+        {
+          "text": "La tienda está ubicada en el centro.",
+          "tr": {
+            "ru": "Магазин находится в центре."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -3126,6 +3691,32 @@
       }
     },
     {
+      "id": "vc_24a24fe1",
+      "lemma": "fingido",
+      "pos": "adj",
+      "tr": {
+        "ru": "притворный, фальшивый"
+      },
+      "examples": [
+        {
+          "text": "una sonrisa fingida",
+          "tr": {
+            "ru": "фальшивая улыбка"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_24fa0c82",
       "lemma": "fumar",
       "pos": "verb",
@@ -3140,6 +3731,26 @@
         "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_2510948b",
+      "lemma": "instalar",
+      "pos": "verb",
+      "tr": {
+        "ru": "устанавливать; (шутл.) водружать, пристраивать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_instalar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -3238,6 +3849,26 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
+      }
+    },
+    {
+      "id": "vc_260205d9",
+      "lemma": "gimotear",
+      "pos": "verb",
+      "tr": {
+        "ru": "хныкать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_gimotear",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -3410,6 +4041,31 @@
       }
     },
     {
+      "id": "vc_282e0ffb",
+      "lemma": "perder",
+      "pos": "verb",
+      "tr": {
+        "ru": "терять"
+      },
+      "examples": [
+        {
+          "text": "perder el sentido",
+          "tr": {
+            "ru": "потерять сознание"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_perder",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2852f66b",
       "lemma": "toalla de mano",
       "pos": "noun",
@@ -3547,6 +4203,26 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_28e58769",
+      "lemma": "localización",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "местоположение"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -3742,6 +4418,31 @@
       "verbId": "vb_empezar"
     },
     {
+      "id": "vc_2c9e3773",
+      "lemma": "cenar",
+      "pos": "verb",
+      "tr": {
+        "ru": "ужинать"
+      },
+      "examples": [
+        {
+          "text": "Después de que llegó, cenamos.",
+          "tr": {
+            "ru": "После того как он пришёл, мы поужинали."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_cenar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2cacad75",
       "lemma": "magnífico",
       "pos": "adj",
@@ -3817,6 +4518,33 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_2d7601de",
+      "lemma": "llamada",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "звонок, вызов"
+      },
+      "examples": [
+        {
+          "text": "una llamada telefónica",
+          "tr": {
+            "ru": "телефонный звонок"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -4009,6 +4737,25 @@
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
           "inbox-c3a8ffca"
         ]
+      }
+    },
+    {
+      "id": "vc_2ee8bd72",
+      "lemma": "gordo",
+      "pos": "adj",
+      "tr": {
+        "ru": "толстый, жирный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -4279,6 +5026,45 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_30e4a7d5",
+      "lemma": "negativo",
+      "pos": "adj",
+      "tr": {
+        "ru": "отрицательный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_31861c62",
+      "lemma": "escobera",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "метельник, ракитник; женщина, которая делает или продаёт мётлы"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -4581,6 +5367,12 @@
           "tr": {
             "ru": "я сажусь"
           }
+        },
+        {
+          "text": "Se sentaba de espaldas a la ventana.",
+          "tr": {
+            "ru": "Он сидел спиной к окну."
+          }
         }
       ],
       "topics": [],
@@ -4802,7 +5594,14 @@
       "tr": {
         "ru": "угол (улицы); перекрёсток (ЛатАм)"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "en la esquina de la calle",
+          "tr": {
+            "ru": "на углу улицы"
+          }
+        }
+      ],
       "topics": [
         "tp_orientacion-direcciones"
       ],
@@ -4911,6 +5710,24 @@
         ]
       },
       "verbId": "vb_hablar"
+    },
+    {
+      "id": "vc_36df66b3",
+      "lemma": "cerebrito",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "умник, ботаник"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_376605cd",
@@ -5168,6 +5985,46 @@
       }
     },
     {
+      "id": "vc_398ac410",
+      "lemma": "libertad",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "свобода"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_398b798e",
+      "lemma": "trona",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "детский стульчик для кормления"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_39d98922",
       "lemma": "prometer",
       "pos": "verb",
@@ -5219,6 +6076,26 @@
         "extractor": "model"
       },
       "verbId": "vb_tardar"
+    },
+    {
+      "id": "vc_3a120356",
+      "lemma": "intersección",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "перекрёсток (официально)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_3a3d3ea7",
@@ -5372,6 +6249,33 @@
       }
     },
     {
+      "id": "vc_3b6c2c3a",
+      "lemma": "desvanecer",
+      "pos": "verb",
+      "tr": {
+        "ru": "растворять, рассеивать"
+      },
+      "examples": [
+        {
+          "text": "Desvaneció el vidrio.",
+          "tr": {
+            "ru": "Он растворил стекло."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_desvanecer",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_3b7fd2a9",
       "lemma": "correr",
       "pos": "verb",
@@ -5470,6 +6374,32 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_3cdda6bc",
+      "lemma": "pardo",
+      "pos": "adj",
+      "tr": {
+        "ru": "бурый, серо-коричневый"
+      },
+      "examples": [
+        {
+          "text": "oso pardo",
+          "tr": {
+            "ru": "бурый медведь"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -5706,6 +6636,26 @@
       }
     },
     {
+      "id": "vc_3fa93c91",
+      "lemma": "matrimonio",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "супружеская пара; брак"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_3fce28d3",
       "lemma": "lograr",
       "pos": "verb",
@@ -5842,7 +6792,14 @@
       "tr": {
         "ru": "отказываться"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Se negó a comer.",
+          "tr": {
+            "ru": "Он отказался есть."
+          }
+        }
+      ],
       "topics": [],
       "verbId": "vb_negarse",
       "source": {
@@ -5957,6 +6914,25 @@
       }
     },
     {
+      "id": "vc_417a08e5",
+      "lemma": "junto",
+      "pos": "adv",
+      "tr": {
+        "ru": "вместе"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_41d6a7d2",
       "lemma": "marido",
       "pos": "noun",
@@ -6024,6 +7000,26 @@
         "conversationId": "inbox-c3a8ffca",
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_43a407cf",
+      "lemma": "hábito",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "привычка"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -6157,6 +7153,12 @@
           "text": "un gran problema (перед сущ.) vs. un problema grande (после)",
           "tr": {
             "ru": "серьёзная проблема (по значимости) vs. большая проблема (по объёму/масштабу)"
+          }
+        },
+        {
+          "text": "un gran hombre",
+          "tr": {
+            "ru": "великий человек"
           }
         }
       ],
@@ -6297,7 +7299,14 @@
       "tr": {
         "ru": "брать, хватать (Испания; в ЛатАм — грубое слово, там tomar/agarrar)"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "coger el autobús",
+          "tr": {
+            "ru": "сесть на автобус"
+          }
+        }
+      ],
       "topics": [],
       "verbId": "vb_coger",
       "source": {
@@ -6389,6 +7398,26 @@
         "conversationId": "6a606e40-b940-83eb-b5f5-104079999d29",
         "conversationTitle": "Аналог can I have",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_46770064",
+      "lemma": "estupidez",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "глупость"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -6642,6 +7671,33 @@
       }
     },
     {
+      "id": "vc_4a2a89de",
+      "lemma": "apartarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "отойти в сторону, посторониться"
+      },
+      "examples": [
+        {
+          "text": "¡Apártate!",
+          "tr": {
+            "ru": "Отойди!"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_apartarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_4a3bcbed",
       "lemma": "gatita",
       "pos": "noun",
@@ -6812,6 +7868,27 @@
       }
     },
     {
+      "id": "vc_4bbfa010",
+      "lemma": "tontería",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "tonterías",
+      "tr": {
+        "ru": "глупость, ерунда"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_4c016368",
       "lemma": "hacha",
       "pos": "noun",
@@ -6826,6 +7903,25 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_4c566d9d",
+      "lemma": "rápidamente",
+      "pos": "adv",
+      "tr": {
+        "ru": "быстро"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -7129,6 +8225,33 @@
       "gender": "f"
     },
     {
+      "id": "vc_5004fdf9",
+      "lemma": "dejarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "позволять себе; (dejarse crecer) отращивать"
+      },
+      "examples": [
+        {
+          "text": "dejarse crecer el pelo",
+          "tr": {
+            "ru": "отращивать волосы"
+          }
+        }
+      ],
+      "topics": [
+        "tp_peluqueria"
+      ],
+      "verbId": "vb_dejarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5032edeb",
       "lemma": "máquina",
       "pos": "noun",
@@ -7236,6 +8359,26 @@
         "conversationId": "6a575a7b-f3f4-83eb-9f6b-77e1479ce079",
         "conversationTitle": "Traducción Camp d'en Grassot",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5134d815",
+      "lemma": "cuello",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "шея; воротник"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -7380,6 +8523,26 @@
       }
     },
     {
+      "id": "vc_5296a17c",
+      "lemma": "escobero",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "мастер или продавец мётел"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_52aae089",
       "lemma": "limpiar",
       "pos": "verb",
@@ -7453,6 +8616,48 @@
         "conversationId": "inbox-c3a8ffca",
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_53356c00",
+      "lemma": "después de",
+      "pos": "prep",
+      "tr": {
+        "ru": "после"
+      },
+      "examples": [
+        {
+          "text": "después de la cena",
+          "tr": {
+            "ru": "после ужина"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5336b468",
+      "lemma": "concentrarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "сосредоточиться, концентрироваться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_concentrarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -7601,6 +8806,33 @@
       "verbId": "vb_ducharse"
     },
     {
+      "id": "vc_5533472b",
+      "lemma": "corbata",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "галстук"
+      },
+      "examples": [
+        {
+          "text": "la corbata más sosa",
+          "tr": {
+            "ru": "самый скучный галстук"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5587fcf5",
       "lemma": "hoy",
       "pos": "adv",
@@ -7659,8 +8891,17 @@
       "tr": {
         "ru": "кончик (волос)"
       },
-      "examples": [],
-      "topics": [],
+      "examples": [
+        {
+          "text": "solo las puntas",
+          "tr": {
+            "ru": "только кончики"
+          }
+        }
+      ],
+      "topics": [
+        "tp_peluqueria"
+      ],
       "source": {
         "origin": "chatgpt",
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
@@ -7840,6 +9081,25 @@
       }
     },
     {
+      "id": "vc_57f75764",
+      "lemma": "inmenso",
+      "pos": "adj",
+      "tr": {
+        "ru": "огромный, громадный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_581afd23",
       "lemma": "mueble",
       "pos": "noun",
@@ -7878,6 +9138,12 @@
           "text": "cerrar → cierro",
           "tr": {
             "ru": "закрывать → я закрываю"
+          }
+        },
+        {
+          "text": "¿Puedes cerrar la puerta?",
+          "tr": {
+            "ru": "Можешь закрыть дверь?"
           }
         }
       ],
@@ -7960,6 +9226,12 @@
           "tr": {
             "ru": "Я слушаю музыку, пока работаю."
           }
+        },
+        {
+          "text": "Mientras iba a la ciudad, vio algo raro.",
+          "tr": {
+            "ru": "Пока он ехал в город, он увидел что-то странное."
+          }
         }
       ],
       "topics": [],
@@ -7988,6 +9260,26 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_598a90db",
+      "lemma": "escoba",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "метла"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -8266,6 +9558,12 @@
           "tr": {
             "ru": "Вот ваша сдача."
           }
+        },
+        {
+          "text": "Quédese con la vuelta.",
+          "tr": {
+            "ru": "Сдачи не надо."
+          }
         }
       ],
       "topics": [],
@@ -8361,6 +9659,26 @@
       }
     },
     {
+      "id": "vc_5b581d49",
+      "lemma": "igualar",
+      "pos": "verb",
+      "tr": {
+        "ru": "подравнивать, выравнивать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_peluqueria"
+      ],
+      "verbId": "vb_igualar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5b717c2d",
       "lemma": "mientras tanto",
       "pos": "phrase",
@@ -8397,6 +9715,12 @@
           "tr": {
             "ru": "Вы должны ввести значение CSV-кода."
           }
+        },
+        {
+          "text": "Debe de estar en casa.",
+          "tr": {
+            "ru": "Он, наверное, дома."
+          }
         }
       ],
       "topics": [],
@@ -8423,6 +9747,25 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5c407614",
+      "lemma": "lejos",
+      "pos": "adv",
+      "tr": {
+        "ru": "далеко"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -8526,6 +9869,33 @@
       }
     },
     {
+      "id": "vc_5d8911bf",
+      "lemma": "negar",
+      "pos": "verb",
+      "tr": {
+        "ru": "отрицать, отказывать"
+      },
+      "examples": [
+        {
+          "text": "negar con la cabeza",
+          "tr": {
+            "ru": "покачать головой"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_negar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5da58a5f",
       "lemma": "alguien",
       "pos": "pron",
@@ -8546,6 +9916,25 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5dab3280",
+      "lemma": "así",
+      "pos": "adv",
+      "tr": {
+        "ru": "так"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -8606,6 +9995,44 @@
       }
     },
     {
+      "id": "vc_5eb30c6b",
+      "lemma": "perdonar",
+      "pos": "verb",
+      "tr": {
+        "ru": "прощать, извинять"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_perdonar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5ebc65cf",
+      "lemma": "nube",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "облако"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5ecd9406",
       "lemma": "acabar de",
       "pos": "verb",
@@ -8629,6 +10056,32 @@
         "extractor": "model"
       },
       "verbId": "vb_acabar"
+    },
+    {
+      "id": "vc_5f023685",
+      "lemma": "debajo",
+      "pos": "adv",
+      "tr": {
+        "ru": "снизу, под"
+      },
+      "examples": [
+        {
+          "text": "debajo de la cama",
+          "tr": {
+            "ru": "под кроватью"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_5f15f4da",
@@ -8656,6 +10109,70 @@
         "alsoSeenIn": [
           "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3"
         ]
+      }
+    },
+    {
+      "id": "vc_5f6ae363",
+      "lemma": "aunque",
+      "pos": "conj",
+      "tr": {
+        "ru": "хотя; зато, но при этом"
+      },
+      "examples": [
+        {
+          "text": "aunque con un bigote inmenso",
+          "tr": {
+            "ru": "зато с огромными усами"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5fa3d7d4",
+      "lemma": "ubicación",
+      "pos": "noun",
+      "gender": "f",
+      "plural": "ubicaciones",
+      "tr": {
+        "ru": "место, расположение, местоположение"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5fccbd43",
+      "lemma": "diminuto",
+      "pos": "adj",
+      "tr": {
+        "ru": "крошечный"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -8782,6 +10299,25 @@
       }
     },
     {
+      "id": "vc_608f15e4",
+      "lemma": "ojalá",
+      "pos": "interj",
+      "tr": {
+        "ru": "дай бог, вот бы"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_60dcca52",
       "lemma": "caña",
       "pos": "noun",
@@ -8794,6 +10330,12 @@
           "text": "Una caña, por favor.",
           "tr": {
             "ru": "Маленькое разливное пиво, пожалуйста."
+          }
+        },
+        {
+          "text": "¿Me pones una caña?",
+          "tr": {
+            "ru": "Нальёшь мне пиво?"
           }
         }
       ],
@@ -9031,6 +10573,26 @@
       }
     },
     {
+      "id": "vc_640fc1b0",
+      "lemma": "retama",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "ракитник, метельник (кустарник)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_6492071b",
       "lemma": "fuera",
       "pos": "adv",
@@ -9071,7 +10633,8 @@
         }
       ],
       "topics": [
-        "tp_transporte"
+        "tp_transporte",
+        "tp_orientacion-direcciones"
       ],
       "source": {
         "origin": "chatgpt",
@@ -9124,6 +10687,25 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_65b780d1",
+      "lemma": "caer",
+      "pos": "verb",
+      "tr": {
+        "ru": "падать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_caer",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -9644,6 +11226,32 @@
       }
     },
     {
+      "id": "vc_6b43355d",
+      "lemma": "relacionado",
+      "pos": "adj",
+      "tr": {
+        "ru": "связанный, имеющий отношение"
+      },
+      "examples": [
+        {
+          "text": "relacionado con algo",
+          "tr": {
+            "ru": "связанный с чем-то"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_6b5bb1c9",
       "lemma": "comunidad",
       "pos": "noun",
@@ -9679,6 +11287,43 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_6c6a4521",
+      "lemma": "momento",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "момент"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_6c6c7907",
+      "lemma": "flaco",
+      "pos": "adj",
+      "tr": {
+        "ru": "тощий, худющий"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -9748,6 +11393,31 @@
       "verbId": "vb_ponerse"
     },
     {
+      "id": "vc_6cd7dbb6",
+      "lemma": "cerebro",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "мозг; (перен.) мозг, организатор"
+      },
+      "examples": [
+        {
+          "text": "el cerebro de la banda",
+          "tr": {
+            "ru": "мозг банды"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_6cf509df",
       "lemma": "policía",
       "pos": "noun",
@@ -9764,6 +11434,23 @@
         "extractor": "model"
       },
       "gender": "f"
+    },
+    {
+      "id": "vc_6d3bf96e",
+      "lemma": "chico",
+      "pos": "adj",
+      "tr": {
+        "ru": "маленький (часто в ЛатАм)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_6d9f87ba",
@@ -9919,6 +11606,53 @@
       "verbId": "vb_dejar"
     },
     {
+      "id": "vc_6f0067b2",
+      "lemma": "sobrevivir",
+      "pos": "verb",
+      "tr": {
+        "ru": "выживать, переживать"
+      },
+      "examples": [
+        {
+          "text": "Sobrevivió a la guerra.",
+          "tr": {
+            "ru": "Пережил войну."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_sobrevivir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_6f7e9b96",
+      "lemma": "maletín",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "портфель"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_6fab0f65",
       "lemma": "molar",
       "pos": "verb",
@@ -9968,6 +11702,31 @@
       }
     },
     {
+      "id": "vc_70ab786b",
+      "lemma": "demostrar",
+      "pos": "verb",
+      "tr": {
+        "ru": "показывать, доказывать"
+      },
+      "examples": [
+        {
+          "text": "Los hechos demuestran que...",
+          "tr": {
+            "ru": "Факты показывают, что..."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_demostrar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_70b61dda",
       "lemma": "ventanilla",
       "pos": "noun",
@@ -9993,6 +11752,25 @@
         "extractor": "model"
       },
       "gender": "f"
+    },
+    {
+      "id": "vc_71a15faa",
+      "lemma": "afortunado",
+      "pos": "adj",
+      "tr": {
+        "ru": "удачливый, везучий"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_71d8b9a7",
@@ -10028,6 +11806,25 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_721ed77f",
+      "lemma": "desafortunadamente",
+      "pos": "adv",
+      "tr": {
+        "ru": "к сожалению"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -10138,6 +11935,26 @@
       }
     },
     {
+      "id": "vc_7343a625",
+      "lemma": "extrarradio",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "дальние окраины (Испания)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_73e18c42",
       "lemma": "lo mejor",
       "pos": "phrase",
@@ -10186,6 +12003,32 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7432e09f",
+      "lemma": "tanto",
+      "pos": "adv",
+      "tr": {
+        "ru": "так много, настолько"
+      },
+      "examples": [
+        {
+          "text": "Comió tanto que...",
+          "tr": {
+            "ru": "Он съел столько, что..."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -10562,6 +12405,25 @@
       "verbId": "vb_traer"
     },
     {
+      "id": "vc_780231a0",
+      "lemma": "a lo mejor",
+      "pos": "adv",
+      "tr": {
+        "ru": "может, наверное (разг.)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_780960f1",
       "lemma": "socio",
       "pos": "noun",
@@ -10747,6 +12609,31 @@
       }
     },
     {
+      "id": "vc_7a23a5f3",
+      "lemma": "preguntar",
+      "pos": "verb",
+      "tr": {
+        "ru": "спрашивать"
+      },
+      "examples": [
+        {
+          "text": "Solo quería preguntar una cosa.",
+          "tr": {
+            "ru": "Я просто хотел спросить одну вещь."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_preguntar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_7abfb2b0",
       "lemma": "lindo",
       "pos": "adj",
@@ -10767,6 +12654,26 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7b5dc31d",
+      "lemma": "acera",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "тротуар"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -10806,7 +12713,14 @@
       "tr": {
         "ru": "начинать"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Comenzó a llover.",
+          "tr": {
+            "ru": "Начался дождь."
+          }
+        }
+      ],
       "topics": [],
       "verbId": "vb_comenzar",
       "source": {
@@ -11027,6 +12941,32 @@
       }
     },
     {
+      "id": "vc_7e84d5e6",
+      "lemma": "llamado",
+      "pos": "adj",
+      "tr": {
+        "ru": "называемый, по имени"
+      },
+      "examples": [
+        {
+          "text": "un chico llamado Harry",
+          "tr": {
+            "ru": "мальчик по имени Гарри"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_7efacd69",
       "lemma": "nadie",
       "pos": "pron",
@@ -11085,6 +13025,44 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7f8f48db",
+      "lemma": "nuboso",
+      "pos": "adj",
+      "tr": {
+        "ru": "облачный (в прогнозе погоды)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_7fb40372",
+      "lemma": "frío",
+      "pos": "adj",
+      "tr": {
+        "ru": "холодный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -11294,7 +13272,8 @@
         }
       ],
       "topics": [
-        "tp_transporte"
+        "tp_transporte",
+        "tp_orientacion-direcciones"
       ],
       "source": {
         "origin": "chatgpt",
@@ -11392,6 +13371,33 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_843fa54f",
+      "lemma": "cabaña",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "хижина, домик, шалаш; поголовье скота"
+      },
+      "examples": [
+        {
+          "text": "la cabaña ganadera de España",
+          "tr": {
+            "ru": "поголовье скота Испании"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -11587,6 +13593,26 @@
       }
     },
     {
+      "id": "vc_84ca5956",
+      "lemma": "fortuna",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "удача, судьба"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_84de27a0",
       "lemma": "incluir",
       "pos": "verb",
@@ -11700,6 +13726,53 @@
         "extractor": "model"
       },
       "gender": "m"
+    },
+    {
+      "id": "vc_859cf6bc",
+      "lemma": "selva",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "джунгли, дикий густой лес"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_85a79940",
+      "lemma": "cantidad",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "количество"
+      },
+      "examples": [
+        {
+          "text": "una gran cantidad de",
+          "tr": {
+            "ru": "большое количество чего-то"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_85adde1f",
@@ -11927,6 +14000,24 @@
       "verbId": "vb_volver"
     },
     {
+      "id": "vc_87a79040",
+      "lemma": "época",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "эпоха, время"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_87b4ae37",
       "lemma": "gris",
       "pos": "adj",
@@ -12105,6 +14196,43 @@
       "verbId": "vb_flipar"
     },
     {
+      "id": "vc_89af336b",
+      "lemma": "enorme",
+      "pos": "adj",
+      "tr": {
+        "ru": "огромный"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_89b0a06b",
+      "lemma": "orgullo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "гордость"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_89dea768",
       "lemma": "dar un paseo",
       "pos": "phrase",
@@ -12125,6 +14253,47 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_8a57487a",
+      "lemma": "mago",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "волшебник, маг"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_8a5a62e8",
+      "lemma": "taladro",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "дрель"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -12203,6 +14372,49 @@
       }
     },
     {
+      "id": "vc_8b574666",
+      "lemma": "antes de",
+      "pos": "prep",
+      "tr": {
+        "ru": "до, перед"
+      },
+      "examples": [
+        {
+          "text": "antes de comer",
+          "tr": {
+            "ru": "перед едой"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_8bb5aa60",
+      "lemma": "afortunadamente",
+      "pos": "adv",
+      "tr": {
+        "ru": "к счастью"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_8bdbb378",
       "lemma": "temporal",
       "pos": "adj",
@@ -12242,7 +14454,8 @@
         }
       ],
       "topics": [
-        "tp_historia-y-geografia"
+        "tp_historia-y-geografia",
+        "tp_orientacion-direcciones"
       ],
       "needsReview": true,
       "source": {
@@ -12535,6 +14748,12 @@
           "tr": {
             "ru": "Я не хочу такую машину."
           }
+        },
+        {
+          "text": "tales tonterías",
+          "tr": {
+            "ru": "такие глупости, подобная чепуха"
+          }
         }
       ],
       "topics": [],
@@ -12544,7 +14763,8 @@
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "plural": "tales"
     },
     {
       "id": "vc_8ecb7640",
@@ -13044,6 +15264,34 @@
       "verbId": "vb_irse"
     },
     {
+      "id": "vc_973c2c35",
+      "lemma": "alegrar",
+      "pos": "verb",
+      "tr": {
+        "ru": "радовать"
+      },
+      "examples": [
+        {
+          "text": "Me alegra que estés aquí.",
+          "tr": {
+            "ru": "Рад, что ты здесь."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_alegrar",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_974d75d2",
       "lemma": "ponerse",
       "pos": "verb",
@@ -13145,6 +15393,12 @@
           "text": "una mujer cansada",
           "tr": {
             "ru": "уставшая женщина"
+          }
+        },
+        {
+          "text": "mi mujer",
+          "tr": {
+            "ru": "моя жена"
           }
         }
       ],
@@ -13353,6 +15607,12 @@
           "tr": {
             "ru": "Ты нашёл это?"
           }
+        },
+        {
+          "text": "La encontré cansada.",
+          "tr": {
+            "ru": "Я застал её уставшей."
+          }
         }
       ],
       "topics": [],
@@ -13411,6 +15671,32 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_9c203988",
+      "lemma": "soso",
+      "pos": "adj",
+      "tr": {
+        "ru": "пресный, недосоленный; скучный, унылый"
+      },
+      "examples": [
+        {
+          "text": "La sopa está sosa.",
+          "tr": {
+            "ru": "Суп недосолен."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -13492,6 +15778,73 @@
       }
     },
     {
+      "id": "vc_9cb5cfa9",
+      "lemma": "apartar",
+      "pos": "verb",
+      "tr": {
+        "ru": "отодвигать, отводить, убирать в сторону"
+      },
+      "examples": [
+        {
+          "text": "apartar la mirada",
+          "tr": {
+            "ru": "отвести взгляд"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_apartar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_9ce43b58",
+      "lemma": "miedo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "страх"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_9cefa250",
+      "lemma": "bosquecillo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "лесок, рощица"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_9cf4cdf9",
       "lemma": "café",
       "pos": "noun",
@@ -13539,6 +15892,25 @@
           "6a533484-a9e8-83eb-8083-813afe2f2d72",
           "6a606e40-b940-83eb-b5f5-104079999d29"
         ]
+      }
+    },
+    {
+      "id": "vc_9d3b9481",
+      "lemma": "cerca",
+      "pos": "adv",
+      "tr": {
+        "ru": "близко"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -13829,6 +16201,33 @@
       }
     },
     {
+      "id": "vc_a068ff23",
+      "lemma": "afueras",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "окраины, пригород"
+      },
+      "examples": [
+        {
+          "text": "en las afueras de la ciudad",
+          "tr": {
+            "ru": "на окраине города"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a097a877",
       "lemma": "penalti",
       "pos": "noun",
@@ -13967,6 +16366,46 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_a20de62f",
+      "lemma": "apartamento",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "квартира"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_a2a9e7b5",
+      "lemma": "terror",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "ужас"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -14230,6 +16669,33 @@
       }
     },
     {
+      "id": "vc_a55b78e2",
+      "lemma": "vidrio",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "стекло (материал)"
+      },
+      "examples": [
+        {
+          "text": "una botella de vidrio",
+          "tr": {
+            "ru": "стеклянная бутылка"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a5ad7d52",
       "lemma": "barco",
       "pos": "noun",
@@ -14255,6 +16721,61 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_a5d0e763",
+      "lemma": "hecho",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "факт, событие"
+      },
+      "examples": [
+        {
+          "text": "un hecho extraño",
+          "tr": {
+            "ru": "странное происшествие"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_a5d46f80",
+      "lemma": "invernadero",
+      "pos": "noun",
+      "gender": "m",
+      "plural": "invernaderos",
+      "tr": {
+        "ru": "теплица, оранжерея; (устар.) зимнее пастбище"
+      },
+      "examples": [
+        {
+          "text": "efecto invernadero",
+          "tr": {
+            "ru": "парниковый эффект"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -14460,6 +16981,26 @@
       "verbId": "vb_trabajar"
     },
     {
+      "id": "vc_a9bac225",
+      "lemma": "parloteo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "болтовня"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a9ebca4a",
       "lemma": "al",
       "pos": "prep",
@@ -14480,6 +17021,32 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_aa4e2eb3",
+      "lemma": "orgulloso",
+      "pos": "adj",
+      "tr": {
+        "ru": "гордый"
+      },
+      "examples": [
+        {
+          "text": "orgulloso de su hijo",
+          "tr": {
+            "ru": "гордится сыном"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -14860,6 +17427,12 @@
           "tr": {
             "ru": "Я встаю."
           }
+        },
+        {
+          "text": "¡Levántate!",
+          "tr": {
+            "ru": "Вставай!"
+          }
         }
       ],
       "topics": [
@@ -14873,6 +17446,33 @@
         "extractor": "model"
       },
       "verbId": "vb_levantarse"
+    },
+    {
+      "id": "vc_af5d8e42",
+      "lemma": "asentir",
+      "pos": "verb",
+      "tr": {
+        "ru": "кивать, соглашаться"
+      },
+      "examples": [
+        {
+          "text": "asentir con la cabeza",
+          "tr": {
+            "ru": "кивнуть"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_asentir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_af7958f7",
@@ -15076,6 +17676,33 @@
       }
     },
     {
+      "id": "vc_b120ae1b",
+      "lemma": "sugerir",
+      "pos": "verb",
+      "tr": {
+        "ru": "предлагать; намекать, наводить на мысль, предвещать"
+      },
+      "examples": [
+        {
+          "text": "Te sugiero que...",
+          "tr": {
+            "ru": "Предлагаю тебе..."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_sugerir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b15a8462",
       "lemma": "escala",
       "pos": "noun",
@@ -15101,6 +17728,33 @@
         "extractor": "model"
       },
       "gender": "f"
+    },
+    {
+      "id": "vc_b1d2bdaf",
+      "lemma": "rincón",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "угол (внутренний), уголок"
+      },
+      "examples": [
+        {
+          "text": "en un rincón",
+          "tr": {
+            "ru": "в уголке"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_b1e55f29",
@@ -15286,6 +17940,33 @@
       "verbId": "vb_escribir"
     },
     {
+      "id": "vc_b3b90821",
+      "lemma": "fabricar",
+      "pos": "verb",
+      "tr": {
+        "ru": "производить, изготавливать"
+      },
+      "examples": [
+        {
+          "text": "fabricaba taladros",
+          "tr": {
+            "ru": "производила дрели"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_fabricar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b3ddc94b",
       "lemma": "estas",
       "pos": "pron",
@@ -15311,6 +17992,24 @@
         "alsoSeenIn": [
           "6a533484-a9e8-83eb-8083-813afe2f2d72"
         ]
+      }
+    },
+    {
+      "id": "vc_b406cea4",
+      "lemma": "sesos",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "мозги (разг.; также как еда)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -15901,6 +18600,26 @@
       }
     },
     {
+      "id": "vc_b8cba986",
+      "lemma": "azucarera",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "сахарница"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b8eb5967",
       "lemma": "aprovecharse",
       "pos": "verb",
@@ -16010,7 +18729,14 @@
       "tr": {
         "ru": "перекрёсток"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "después del cruce",
+          "tr": {
+            "ru": "после перекрёстка"
+          }
+        }
+      ],
       "topics": [
         "tp_orientacion-direcciones",
         "tp_transporte"
@@ -16088,6 +18814,24 @@
         ]
       },
       "verbId": "vb_llamar"
+    },
+    {
+      "id": "vc_ba90a4ea",
+      "lemma": "disculpar",
+      "pos": "verb",
+      "tr": {
+        "ru": "извинять"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_disculpar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_baac7f81",
@@ -16213,6 +18957,96 @@
       }
     },
     {
+      "id": "vc_bc123c2f",
+      "lemma": "mente",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "ум, разум"
+      },
+      "examples": [
+        {
+          "text": "tener algo en mente",
+          "tr": {
+            "ru": "иметь что-то в виду"
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_bc35a689",
+      "lemma": "instante",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "мгновение"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_bc3b995f",
+      "lemma": "bosque",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "лес"
+      },
+      "examples": [
+        {
+          "text": "el Bosque Prohibido",
+          "tr": {
+            "ru": "Запретный лес"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_bcd8fe83",
+      "lemma": "parlotear",
+      "pos": "verb",
+      "tr": {
+        "ru": "болтать без умолку, трещать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_parlotear",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_bd921b65",
       "lemma": "frontera",
       "pos": "noun",
@@ -16248,13 +19082,40 @@
       "tr": {
         "ru": "после, вслед за (книжн.)"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "tras la guerra",
+          "tr": {
+            "ru": "после войны"
+          }
+        }
+      ],
       "topics": [],
       "source": {
         "origin": "claude",
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_be357a57",
+      "lemma": "bigote",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "усы"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -16297,6 +19158,31 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_beffb61d",
+      "lemma": "descansar",
+      "pos": "verb",
+      "tr": {
+        "ru": "отдыхать"
+      },
+      "examples": [
+        {
+          "text": "—Estoy cansado. —Entonces descansa.",
+          "tr": {
+            "ru": "— Я устал. — Тогда отдохни."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_descansar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -16397,6 +19283,32 @@
       "verbId": "vb_buscar"
     },
     {
+      "id": "vc_bfee5290",
+      "lemma": "casi",
+      "pos": "adv",
+      "tr": {
+        "ru": "почти"
+      },
+      "examples": [
+        {
+          "text": "casi sin cuello",
+          "tr": {
+            "ru": "почти без шеи"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c0262280",
       "lemma": "dar la vuelta",
       "pos": "phrase",
@@ -16447,6 +19359,33 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c0d3ba1d",
+      "lemma": "temor",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "страх, опасение"
+      },
+      "examples": [
+        {
+          "text": "su mayor temor",
+          "tr": {
+            "ru": "их главный страх"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -16569,6 +19508,99 @@
       }
     },
     {
+      "id": "vc_c11df716",
+      "lemma": "alejar",
+      "pos": "verb",
+      "tr": {
+        "ru": "отдалять, отодвигать"
+      },
+      "examples": [
+        {
+          "text": "Alejó la idea.",
+          "tr": {
+            "ru": "Отогнал мысль."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_alejar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c149bae9",
+      "lemma": "alrededores",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "окрестности"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c15d52ee",
+      "lemma": "ruido",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "шум"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c1e84d95",
+      "lemma": "boscoso",
+      "pos": "adj",
+      "tr": {
+        "ru": "лесистый"
+      },
+      "examples": [
+        {
+          "text": "una zona boscosa",
+          "tr": {
+            "ru": "лесистая местность"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c27a06d2",
       "lemma": "inteligente",
       "pos": "adj",
@@ -16644,6 +19676,26 @@
       }
     },
     {
+      "id": "vc_c2e145bd",
+      "lemma": "imaginar",
+      "pos": "verb",
+      "tr": {
+        "ru": "представлять, воображать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_imaginar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c2e9ceb9",
       "lemma": "poner",
       "pos": "verb",
@@ -16681,6 +19733,32 @@
         ]
       },
       "verbId": "vb_poner"
+    },
+    {
+      "id": "vc_c2f6691a",
+      "lemma": "rollizo",
+      "pos": "adj",
+      "tr": {
+        "ru": "пухлый, упитанный; (сущ.) бревно, кругляк"
+      },
+      "examples": [
+        {
+          "text": "una niña rolliza",
+          "tr": {
+            "ru": "пухленькая девочка"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_c31f854f",
@@ -16859,6 +19937,25 @@
       }
     },
     {
+      "id": "vc_c43705bf",
+      "lemma": "esquelético",
+      "pos": "adj",
+      "tr": {
+        "ru": "тощий как скелет"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_c477799f",
       "lemma": "azul",
       "pos": "adj",
@@ -16939,6 +20036,23 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c5aea85d",
+      "lemma": "bajo",
+      "pos": "adj",
+      "tr": {
+        "ru": "низкий (о росте)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -17206,6 +20320,25 @@
       "verbId": "vb_beber"
     },
     {
+      "id": "vc_c9f313bf",
+      "lemma": "temeroso",
+      "pos": "adj",
+      "tr": {
+        "ru": "боязливый, пугливый"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_caf2f296",
       "lemma": "desarrollo web",
       "pos": "phrase",
@@ -17220,6 +20353,32 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_cb0528e8",
+      "lemma": "nublado",
+      "pos": "adj",
+      "tr": {
+        "ru": "пасмурный, облачный"
+      },
+      "examples": [
+        {
+          "text": "Está nublado.",
+          "tr": {
+            "ru": "Пасмурно."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -17292,6 +20451,27 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_cba71486",
+      "lemma": "lechuza",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "сова"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -17468,7 +20648,14 @@
       "tr": {
         "ru": "так, настолько"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Era tan alto que...",
+          "tr": {
+            "ru": "Он был такой высокий, что..."
+          }
+        }
+      ],
       "topics": [],
       "source": {
         "origin": "chatgpt",
@@ -17519,6 +20706,25 @@
         "conversationId": "inbox-numerales",
         "conversationTitle": "Количественные и порядковые числительные",
         "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ce73a725",
+      "lemma": "felizmente",
+      "pos": "adv",
+      "tr": {
+        "ru": "счастливо"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -17602,6 +20808,32 @@
       }
     },
     {
+      "id": "vc_cefbc970",
+      "lemma": "delgado",
+      "pos": "adj",
+      "tr": {
+        "ru": "худой, стройный; тонкий (о вещах)"
+      },
+      "examples": [
+        {
+          "text": "una pared delgada",
+          "tr": {
+            "ru": "тонкая стена"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_cf097cf5",
       "lemma": "esposo",
       "pos": "noun",
@@ -17647,6 +20879,25 @@
       }
     },
     {
+      "id": "vc_cfa1862c",
+      "lemma": "aparte",
+      "pos": "adv",
+      "tr": {
+        "ru": "отдельно, в сторону"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_cfe7f1c2",
       "lemma": "pensar",
       "pos": "verb",
@@ -17664,6 +20915,12 @@
           "text": "pensar → pienso",
           "tr": {
             "ru": "думать → я думаю"
+          }
+        },
+        {
+          "text": "Pienso en ti.",
+          "tr": {
+            "ru": "Я думаю о тебе."
           }
         }
       ],
@@ -17704,7 +20961,14 @@
       "tr": {
         "ru": "длинный (ложный друг: не «large»)"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "un pelo largo",
+          "tr": {
+            "ru": "длинные волосы"
+          }
+        }
+      ],
       "topics": [],
       "source": {
         "origin": "chatgpt",
@@ -17875,6 +21139,26 @@
       }
     },
     {
+      "id": "vc_d2d49631",
+      "lemma": "ensombrecer",
+      "pos": "verb",
+      "tr": {
+        "ru": "омрачать, затемнять"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_ensombrecer",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_d2d85231",
       "lemma": "mano",
       "pos": "noun",
@@ -17975,6 +21259,33 @@
       "verbId": "vb_contar"
     },
     {
+      "id": "vc_d3ec9223",
+      "lemma": "espalda",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "спина"
+      },
+      "examples": [
+        {
+          "text": "de espaldas a la pared",
+          "tr": {
+            "ru": "спиной к стене"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_d40c2651",
       "lemma": "transferencia",
       "pos": "noun",
@@ -17989,6 +21300,25 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_d420371f",
+      "lemma": "puesto que",
+      "pos": "conj",
+      "tr": {
+        "ru": "так как, ввиду того что (формально)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -18047,6 +21377,12 @@
           "text": "Tiene sentido.",
           "tr": {
             "ru": "Это имеет смысл."
+          }
+        },
+        {
+          "text": "sentido del humor",
+          "tr": {
+            "ru": "чувство юмора"
           }
         }
       ],
@@ -18322,6 +21658,12 @@
           "tr": {
             "ru": "Вы хотите кофе?"
           }
+        },
+        {
+          "text": "Quería un café.",
+          "tr": {
+            "ru": "Я бы хотел кофе."
+          }
         }
       ],
       "topics": [
@@ -18439,6 +21781,52 @@
       }
     },
     {
+      "id": "vc_d76cd0a8",
+      "lemma": "cristal",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "стекло (в Испании), стекло в окне; хрусталь"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_d76e62e7",
+      "lemma": "opuesto",
+      "pos": "adj",
+      "tr": {
+        "ru": "противоположный"
+      },
+      "examples": [
+        {
+          "text": "opuesto a algo",
+          "tr": {
+            "ru": "противоположный чему-то"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_d773f30e",
       "lemma": "fútbol",
       "pos": "noun",
@@ -18512,6 +21900,31 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_d86c8048",
+      "lemma": "pasarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "перебарщивать, перегибать"
+      },
+      "examples": [
+        {
+          "text": "¡Te pasas!",
+          "tr": {
+            "ru": "Ты перегибаешь!"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_pasarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -18770,6 +22183,12 @@
           "tr": {
             "ru": "можешь обращаться ко мне на ты"
           }
+        },
+        {
+          "text": "tutéame",
+          "tr": {
+            "ru": "давай на ты"
+          }
         }
       ],
       "topics": [
@@ -18936,6 +22355,25 @@
       "verbId": "vb_encender"
     },
     {
+      "id": "vc_daed98ef",
+      "lemma": "lentamente",
+      "pos": "adv",
+      "tr": {
+        "ru": "медленно"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_dafd904e",
       "lemma": "dormir",
       "pos": "verb",
@@ -18985,6 +22423,53 @@
       }
     },
     {
+      "id": "vc_db6b582c",
+      "lemma": "invierno",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "зима"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_dbb9e645",
+      "lemma": "conjunto",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "наряд, комплект одежды; совокупность; ансамбль; (мат.) множество"
+      },
+      "examples": [
+        {
+          "text": "en conjunto",
+          "tr": {
+            "ru": "в целом"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_dbd05440",
       "lemma": "promesa",
       "pos": "noun",
@@ -19008,6 +22493,32 @@
         "extractor": "model"
       },
       "gender": "f"
+    },
+    {
+      "id": "vc_dc30a6d7",
+      "lemma": "encima",
+      "pos": "adv",
+      "tr": {
+        "ru": "сверху, наверху; вдобавок, к тому же"
+      },
+      "examples": [
+        {
+          "text": "Llegó tarde y encima sin dinero.",
+          "tr": {
+            "ru": "Пришёл поздно, да ещё и без денег."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_dca50a02",
@@ -19276,6 +22787,12 @@
           "tr": {
             "ru": "Это слишком дорого."
           }
+        },
+        {
+          "text": "demasiado tarde",
+          "tr": {
+            "ru": "слишком поздно"
+          }
         }
       ],
       "topics": [],
@@ -19284,6 +22801,32 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_df8a9601",
+      "lemma": "filosofal",
+      "pos": "adj",
+      "tr": {
+        "ru": "философский (почти только в la piedra filosofal)"
+      },
+      "examples": [
+        {
+          "text": "la piedra filosofal",
+          "tr": {
+            "ru": "философский камень"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -19388,6 +22931,33 @@
       }
     },
     {
+      "id": "vc_e0daf6c4",
+      "lemma": "doblar",
+      "pos": "verb",
+      "tr": {
+        "ru": "поворачивать, сворачивать"
+      },
+      "examples": [
+        {
+          "text": "doblar la esquina",
+          "tr": {
+            "ru": "повернуть за угол"
+          }
+        }
+      ],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "verbId": "vb_doblar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e0fa067e",
       "lemma": "bomberos",
       "pos": "noun",
@@ -19454,6 +23024,46 @@
         "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e1599ad8",
+      "lemma": "ubicar",
+      "pos": "verb",
+      "tr": {
+        "ru": "располагать, находить место"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_ubicar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e16949da",
+      "lemma": "acercarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "приближаться"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_acercarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -19808,6 +23418,51 @@
       "gender": "m"
     },
     {
+      "id": "vc_e59b3914",
+      "lemma": "ya que",
+      "pos": "conj",
+      "tr": {
+        "ru": "так как, поскольку"
+      },
+      "examples": [
+        {
+          "text": "Ya que estás aquí, ayúdame.",
+          "tr": {
+            "ru": "Раз уж ты здесь, помоги."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e5a29511",
+      "lemma": "despejado",
+      "pos": "adj",
+      "tr": {
+        "ru": "ясный, безоблачный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e5b36046",
       "lemma": "pronto",
       "pos": "adv",
@@ -19938,6 +23593,31 @@
       }
     },
     {
+      "id": "vc_e6eb9dfd",
+      "lemma": "volar",
+      "pos": "verb",
+      "tr": {
+        "ru": "летать"
+      },
+      "examples": [
+        {
+          "text": "un búho pardo que pasaba volando",
+          "tr": {
+            "ru": "бурая сова, которая пролетала мимо"
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_volar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e6f15de5",
       "lemma": "ir a + инфинитив",
       "pos": "phrase",
@@ -20000,6 +23680,46 @@
       "gender": "m"
     },
     {
+      "id": "vc_e7b34bfb",
+      "lemma": "relacionar",
+      "pos": "verb",
+      "tr": {
+        "ru": "связывать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_relacionar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e807fcef",
+      "lemma": "comedero",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "кормушка"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e8205924",
       "lemma": "restricción",
       "pos": "noun",
@@ -20057,6 +23777,26 @@
         "alsoSeenIn": [
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
+      }
+    },
+    {
+      "id": "vc_e8e0f692",
+      "lemma": "estirar",
+      "pos": "verb",
+      "tr": {
+        "ru": "вытягивать, растягивать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_estirar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -20170,6 +23910,52 @@
         "alsoSeenIn": [
           "inbox-c3a8ffca"
         ]
+      }
+    },
+    {
+      "id": "vc_e99c8028",
+      "lemma": "dado que",
+      "pos": "conj",
+      "tr": {
+        "ru": "так как, ввиду того что (формально)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e9a634b0",
+      "lemma": "verse",
+      "pos": "verb",
+      "tr": {
+        "ru": "видеться, встречаться (друг с другом)"
+      },
+      "examples": [
+        {
+          "text": "No se veían desde hacía años.",
+          "tr": {
+            "ru": "Они не виделись уже много лет."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_verse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -20419,13 +24205,40 @@
       },
       "examples": [],
       "topics": [
-        "tp_transporte"
+        "tp_transporte",
+        "tp_orientacion-direcciones"
       ],
       "source": {
         "origin": "chatgpt",
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ec19d0ab",
+      "lemma": "sin",
+      "pos": "prep",
+      "tr": {
+        "ru": "без"
+      },
+      "examples": [
+        {
+          "text": "sin miedo",
+          "tr": {
+            "ru": "без страха"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -20624,6 +24437,33 @@
           "6a606e40-b940-83eb-b5f5-104079999d29",
           "6a6cf173-f534-83eb-89bd-32a90d79b54f"
         ]
+      }
+    },
+    {
+      "id": "vc_edaa0909",
+      "lemma": "estremecerse",
+      "pos": "verb",
+      "tr": {
+        "ru": "вздрагивать, содрогаться"
+      },
+      "examples": [
+        {
+          "text": "Se estremecían al pensar qué dirían los vecinos.",
+          "tr": {
+            "ru": "Они содрогались при мысли, что скажут соседи."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_estremecerse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
       }
     },
     {
@@ -20847,6 +24687,33 @@
       }
     },
     {
+      "id": "vc_f0ae976e",
+      "lemma": "alejarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "удаляться, отходить, уезжать"
+      },
+      "examples": [
+        {
+          "text": "Se alejó de la casa.",
+          "tr": {
+            "ru": "Он отошёл от дома."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_alejarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f135195f",
       "lemma": "domicilio",
       "pos": "noun",
@@ -20900,6 +24767,33 @@
         ]
       },
       "verbId": "vb_creer"
+    },
+    {
+      "id": "vc_f1f4036d",
+      "lemma": "desvanecerse",
+      "pos": "verb",
+      "tr": {
+        "ru": "исчезать, растворяться; падать в обморок"
+      },
+      "examples": [
+        {
+          "text": "El vidrio se desvaneció.",
+          "tr": {
+            "ru": "Стекло исчезло."
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_desvanecerse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_f236e660",
@@ -21189,6 +25083,26 @@
       "verbId": "vb_caber"
     },
     {
+      "id": "vc_f4dca145",
+      "lemma": "embarcadero",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "пристань"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f4ee0635",
       "lemma": "manualidades",
       "pos": "noun",
@@ -21210,6 +25124,26 @@
         "conversationId": "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
         "conversationTitle": "Минерализация воды Font Vella",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f51782f2",
+      "lemma": "rollo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "рулон, валик"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -21460,6 +25394,26 @@
       }
     },
     {
+      "id": "vc_f716174e",
+      "lemma": "piedra",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "камень"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f745065c",
       "lemma": "mismo",
       "pos": "adj",
@@ -21542,6 +25496,50 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f8132620",
+      "lemma": "aparecer",
+      "pos": "verb",
+      "tr": {
+        "ru": "появляться"
+      },
+      "examples": [
+        {
+          "text": "apareciesen por la acera",
+          "tr": {
+            "ru": "появились бы на тротуаре"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_aparecer",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f86711aa",
+      "lemma": "solo",
+      "pos": "adv",
+      "tr": {
+        "ru": "только, просто"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -21685,6 +25683,12 @@
           "text": "Quizás podríamos hablar de eso.",
           "tr": {
             "ru": "Возможно, могли бы об этом поговорить."
+          }
+        },
+        {
+          "text": "Quizás venga.",
+          "tr": {
+            "ru": "Может, и придёт."
           }
         }
       ],
@@ -21847,6 +25851,43 @@
       }
     },
     {
+      "id": "vc_fbae7052",
+      "lemma": "corto",
+      "pos": "adj",
+      "tr": {
+        "ru": "короткий"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_fbf50de7",
+      "lemma": "acercar",
+      "pos": "verb",
+      "tr": {
+        "ru": "приближать"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "verbId": "vb_acercar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_fc01e446",
       "lemma": "pasaje",
       "pos": "noun",
@@ -21963,6 +26004,25 @@
       }
     },
     {
+      "id": "vc_fd490b2c",
+      "lemma": "completo",
+      "pos": "adj",
+      "tr": {
+        "ru": "полный, законченный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_fd6b8b31",
       "lemma": "contorno",
       "pos": "noun",
@@ -22004,6 +26064,25 @@
         "extractor": "model"
       },
       "verbId": "vb_jugar"
+    },
+    {
+      "id": "vc_fd8330c7",
+      "lemma": "útil",
+      "pos": "adj",
+      "tr": {
+        "ru": "полезный"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_fdadcfbb",
@@ -22090,6 +26169,52 @@
       }
     },
     {
+      "id": "vc_fe320ad1",
+      "lemma": "habitual",
+      "pos": "adj",
+      "tr": {
+        "ru": "обычный, привычный"
+      },
+      "examples": [
+        {
+          "text": "más de lo habitual",
+          "tr": {
+            "ru": "больше, чем обычно"
+          }
+        }
+      ],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_fe3daf77",
+      "lemma": "panadero",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "пекарь"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_fe723b0c",
       "lemma": "paraguas",
       "pos": "noun",
@@ -22111,6 +26236,26 @@
         "conversationId": "6a4a0307-fbe8-83eb-a5d5-386287bd068f",
         "conversationTitle": "Обращение на испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_feec856b",
+      "lemma": "sombra",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "тень"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
         "extractor": "model"
       }
     },
@@ -22190,6 +26335,12 @@
           "text": "Es broma.",
           "tr": {
             "ru": "Это шутка."
+          }
+        },
+        {
+          "text": "No estoy para bromas.",
+          "tr": {
+            "ru": "Мне не до шуток."
           }
         }
       ],
@@ -22344,6 +26495,26 @@
         "extractor": "model"
       },
       "verbId": "vb_avisar"
+    },
+    {
+      "id": "vc_ffb40905",
+      "lemma": "chorrada",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "чушь, ерунда (разг., Испания)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_harry-potter"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
+        "conversationTitle": "Перевод и грамматический разбор",
+        "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_ffb5480f",

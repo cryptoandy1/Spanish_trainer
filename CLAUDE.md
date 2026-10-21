@@ -9,6 +9,7 @@ A static React/Vite/TypeScript Spanish-learning app, personalized from the user'
 ## Conventions that matter
 
 - **Content-derived ids, always.** Every `Phrase`/`VocabWord`/`Verb`/`CorrectedError`/etc. id is `<prefix>_` + a short hash of its normalized content (see `src/lib/text.ts::normalize`). Never hand-invent an id — a new record with content that already exists must land on the same id as the existing one, so it merges instead of duplicating. This is what makes re-running extraction, or the `/ingest` skill, idempotent.
+  - **ñ-collision caveat (2026-09-07):** `normalize()` strips diacritics, so an ñ/n minimal pair hashes to one id — soñar collides with sonar (both `vb_sonar`), so soñar has **no record** and the sonar/soñar contrast lives in `vb_sonar`'s `regularityNote` plus the phrase «Ella sueña con viajar». Don't hand-invent an id to split such a pair (año/ano would be next) — surface it to the user instead.
 - **Language-pair-agnostic core.** `src/` code must not hardcode "Spanish" or "Russian". Structural language knowledge (persons, tenses, POS, error tags) lives in `public/data/es/meta.json`; every learner-facing string is a `Tr` map (`{"ru": "..."}`) read via `tr()` from `src/lib/i18n.ts`.
 - **`items[]` arrays are sorted by id** in every data file, with canonical `JSON.stringify(..., null, 2)`-style formatting. Keep it that way after any edit — it's what keeps diffs small and reviewable.
 - **`manual: true`** on a record makes it immutable to any automated extractor/ingest pass — never overwrite a record carrying that flag.
@@ -29,6 +30,8 @@ npm run test     # vitest
 npm run build    # tsc -b && vite build
 ```
 
+On this Windows box: Python data scripts need `PYTHONIOENCODING=utf-8` (the console encoding chokes on Cyrillic output). To check the UI headlessly, the dev server and the client must run in the **same** tool invocation (the sandbox isolates network between calls), with Vite bound to IPv4 — `npx vite --host 127.0.0.1` (its default `::1` is unreachable) — then `msedge --headless=new --screenshot=... --virtual-time-budget=15000 "http://127.0.0.1:5173/#/..."`.
+
 ## Extraction pipeline (Phase 2 — done)
 
 `tools/extract.py` (package `tools/spanish_extract/`) runs four stages: `select` → `regex` → `claude` → `merge`, all run against the real `chatGPT_history/` archive and merged into `public/data/es/*.json` (see README for current counts). `tools/spanish_extract/ids.py` mirrors `src/lib/text.ts::normalize` exactly and is the id-generation module the `/ingest` skill also uses (via `tools/ingest/idgen.py`), so both writers land on the same id for the same content.
@@ -46,6 +49,7 @@ Two things worth knowing before touching this pipeline again:
 
 Ongoing intake now has two front doors beyond pasting into the chat:
 - **`inbox/`** — drop conversation files, run `/ingest` with no arguments to process them as a batch. Gitignored (`inbox/*`, README excepted): this repo is **public**, and raw transcripts must never enter git history. Only extracted records under `public/data/` do.
+  - **A phone share can arrive silently truncated** — a real 115KB conversation first landed as its opening 12KB, cut at a natural-looking stopping point (2026-09-07). If the user says an ingest missed material, compare file sizes and ask for a re-share instead of arguing from the file in hand; re-ingesting the full version is safe, id-dedupe absorbs the overlap.
 - **`python -m tools.inbox_pull`** — pulls conversations shared from the phone into `inbox/` from a separate **private** repo (`cryptoandy1/spanish-inbox`) used as a drop box, deleting the remote copy only after the local write succeeds. Auth via the `gh` CLI, no token in this repo.
 
 `python -m tools.ingest.finish` is the single post-write gate (normalize → conjugate → link_vocab_verbs → normalize → validate). Run it instead of the individual tools — the ordering between them is load-bearing, and spelling them out as separate skill steps is exactly how `link_vocab_verbs.py` got missed when it was added.
@@ -60,4 +64,6 @@ A phone drop now reaches the app without touching this machine: the shortcut PUT
 - In CI, `inbox_pull --keep` writes `tools/build/inbox_manifest.json` and the remote copy is deleted only by a later `--purge-manifest`, once the records are safely in a PR — or once the run establishes they were already in the data, otherwise a duplicate conversation would be re-extracted on every scheduled run forever.
 - `.env` loading lives in `tools/spanish_extract/env.py`, called from `claude_pass.run`/`conjugate_pass.run` (the two places that build an Anthropic client). Previously only `conjugate.py` loaded it, so `tools/extract.py`'s claude stage silently required the key to be exported by hand.
 
-Verified live: ingested a real `claude.ai/share/...` conversation (pasted as text — `WebFetch` can't read that URL shape, it's a client-rendered SPA shell), then re-ran the identical ingest and confirmed all record ids already existed with zero new writes — the idempotent-rerun check called for in the plan doc's Phase 4 verification.
+**Reading a `claude.ai/share/<uuid>` link (2026-10-21):** the page itself is a client-rendered SPA shell (WebFetch and headless Edge both get nothing), and WebFetch gets a 403 on the API — but plain `curl -A "Mozilla/5.0 Chrome/130" "https://claude.ai/api/chat_snapshots/<uuid>?rendering_mode=messages&render_all_tools=true"` returns the full JSON (`chat_messages[].content[]`). Dump both `text` blocks **and** `tool_use` inputs into `inbox/` — a `translation_display_v0` widget carries a translation that exists nowhere in the text blocks.
+
+Verified live: ingested a real `claude.ai/share/...` conversation (pasted as text), then re-ran the identical ingest and confirmed all record ids already existed with zero new writes — the idempotent-rerun check called for in the plan doc's Phase 4 verification.

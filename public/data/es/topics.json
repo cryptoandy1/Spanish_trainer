@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-05T04:13:41Z",
+  "generatedAt": "2026-10-21T04:07:36Z",
   "items": [
     {
       "id": "tp_aprender-idiomas",
@@ -97,6 +97,18 @@
       "order": 140,
       "description": {
         "ru": "Лексика и фразы для записи в тренажёрный зал, вопросов о тарифах, абонементе, расписании и включённых услугах."
+      }
+    },
+    {
+      "id": "tp_harry-potter",
+      "name": {
+        "ru": "Чтение: Гарри Поттер"
+      },
+      "nameTarget": "Harry Potter y la piedra filosofal",
+      "icon": "📖",
+      "order": 200,
+      "description": {
+        "ru": "Слова и фразы из «Гарри Поттера» на испанском: разбор первой главы по ходу чтения."
       }
     },
     {
