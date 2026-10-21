@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import type { ChangeEvent } from "react";
 import { useData } from "../lib/DataContext";
+import type { Theme } from "../lib/DataContext";
 import { exportAll, importAll, removeItem } from "../lib/storage";
 import { ui } from "../lib/i18n";
 
@@ -90,6 +91,18 @@ export function Settings() {
       <h1>{ui.nav.settings}</h1>
 
       <section className="settings-section">
+        <label className="field">
+          <span>{ui.settings.theme}</span>
+          <select
+            value={settings.theme ?? "auto"}
+            onChange={(e) => setSettings((s) => ({ ...s, theme: e.target.value as Theme }))}
+          >
+            <option value="auto">{ui.settings.themeAuto}</option>
+            <option value="light">{ui.settings.themeLight}</option>
+            <option value="dark">{ui.settings.themeDark}</option>
+          </select>
+        </label>
+
         <label className="field field--row">
           <input
             type="checkbox"

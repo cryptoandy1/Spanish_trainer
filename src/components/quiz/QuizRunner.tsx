@@ -14,6 +14,7 @@ import { TypingQuestion } from "./TypingQuestion";
 import { SpeechQuestion } from "./SpeechQuestion";
 import { ResultBanner } from "./ResultBanner";
 import { ProgressBar } from "./ProgressBar";
+import { AnswerGrid } from "./AnswerGrid";
 import { SpeakButton } from "../SpeakButton";
 import { ui } from "../../lib/i18n";
 
@@ -60,6 +61,12 @@ interface QuizRunnerProps {
    * QuizRunner itself generic — it never learns what a "tense" is.
    */
   startControls?: ReactNode;
+  /**
+   * Custom rendering of a question's prompt text (e.g. the conjugation drill
+   * turns the infinitive into a button that unfolds its tables). Rendered
+   * inside a keyed wrapper, so any state it holds resets per question.
+   */
+  renderPrompt?: (item: DeckItem, prompt: string) => ReactNode;
 }
 
 export function QuizRunner({
@@ -69,6 +76,7 @@ export function QuizRunner({
   fixedDirection,
   gradeOverrides,
   startControls,
+  renderPrompt,
 }: QuizRunnerProps) {
   const { settings } = useData();
   const speechOk = isRecognitionAvailable();
@@ -124,6 +132,23 @@ export function QuizRunner({
   function next() {
     setAnswered(null);
     setIndex((i) => i + 1);
+  }
+
+  function promptText(item: DeckItem, prompt: string) {
+    return renderPrompt ? <PromptSlot key={item.itemId}>{renderPrompt(item, prompt)}</PromptSlot> : prompt;
+  }
+
+  /** Squares under the question: one per card, coloured by its verdict, click to look back. */
+  function answerGrid(highlighted: number) {
+    return (
+      <AnswerGrid
+        total={sessionTotal}
+        verdicts={history.map((h) => h.verdict)}
+        current={index}
+        highlighted={highlighted}
+        onSelect={(i) => setReviewOffset(index - i)}
+      />
+    );
   }
 
   if (!queue) {
@@ -195,7 +220,7 @@ export function QuizRunner({
             </span>
           </div>
           <div className="quiz-prompt">
-            {reviewQuestion.prompt} <SpeakButton text={reviewQuestion.speakText} />
+            {promptText(record.item, reviewQuestion.prompt)} <SpeakButton text={reviewQuestion.speakText} />
           </div>
           {/* Replay the options with the original pick marked — read-only:
               `answeredWith` fully controls the component, and onAnswer is a
@@ -226,6 +251,7 @@ export function QuizRunner({
               {reviewOffset > 1 ? ui.quiz.nextReviewed : ui.quiz.backToCurrent}
             </button>
           </div>
+          {answerGrid(reviewIdx)}
         </div>
       );
     }
@@ -246,6 +272,7 @@ export function QuizRunner({
         <button type="button" className="btn btn--primary" onClick={() => setQueue(null)}>
           {ui.quiz.start}
         </button>
+        {answerGrid(-1)}
       </div>
     );
   }
@@ -271,7 +298,7 @@ export function QuizRunner({
         answer state can't leak into the next one.
       */}
       <div className="quiz-prompt">
-        {question.prompt} {answered && <SpeakButton text={question.speakText} />}
+        {promptText(current, question.prompt)} {answered && <SpeakButton text={question.speakText} />}
       </div>
       {mode === "choice" && <ChoiceQuestion key={index} question={question} onAnswer={handleAnswer} />}
       {mode === "typing" && (
@@ -298,6 +325,12 @@ export function QuizRunner({
           </button>
         </div>
       )}
+      {answerGrid(index)}
     </div>
   );
+}
+
+/** Keyed wrapper for a custom prompt — the key, not the element, is what matters. */
+function PromptSlot({ children }: { children: ReactNode }) {
+  return <>{children}</>;
 }

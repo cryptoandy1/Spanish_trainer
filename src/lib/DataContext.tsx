@@ -26,7 +26,11 @@ export interface Settings {
   voiceURI?: string;
   /** Speaking pace; undefined falls back to DEFAULT_SPEECH_RATE. */
   speechRate?: number;
+  /** Colour scheme; undefined means "auto" — follow the OS setting. */
+  theme?: Theme;
 }
+
+export type Theme = "auto" | "light" | "dark";
 
 const SETTINGS_KEY = "st.settings.v1";
 const DEFAULT_SETTINGS: Settings = {
@@ -81,6 +85,14 @@ export function DataProvider({ children }: { children: ReactNode }) {
       return resolved;
     });
   };
+
+  // index.html applies the same attribute before first paint (no light flash on
+  // a dark-themed reload); this keeps it in sync when the setting changes.
+  useEffect(() => {
+    const root = document.documentElement;
+    if (settings.theme && settings.theme !== "auto") root.dataset.theme = settings.theme;
+    else delete root.dataset.theme;
+  }, [settings.theme]);
 
   const load = useCallback(async (lang: string, isCancelled: () => boolean): Promise<DataPack | null> => {
     setLoading(true);

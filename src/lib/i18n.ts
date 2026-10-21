@@ -78,6 +78,7 @@ export const ui = {
     backToCurrent: "Вернуться к текущему",
     reviewTitle: "Просмотр пройденного",
     reviewPosition: "Вопрос",
+    answerGrid: "Ответы в этой сессии",
   },
   phrases: {
     modePractice: "Тренировка",
@@ -113,5 +114,10 @@ export const ui = {
     reloadNothingNew: "Новых данных нет — у тебя уже последняя версия.",
     reloadFailed: "Не удалось обновить данные.",
     dataVintage: "Данные от",
+    theme: "Тема",
+    themeAuto: "Как в системе",
+    themeLight: "Светлая",
+    themeDark: "Тёмная",
+    toggleTheme: "Переключить тему",
   },
 } as const;
