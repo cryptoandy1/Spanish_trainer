@@ -675,6 +675,10 @@ button, input, select {
 .widget-table td { padding: var(--space-2) var(--space-3); border-top: 1px solid var(--color-border); }
 .widget-table__value { color: var(--color-text-muted); width: 40px; }
 
+.widget-group__title { font-size: 1.1rem; margin: var(--space-5) 0 var(--space-2); }
+/* each group is its own table — a fixed share keeps the native column aligned across them */
+.widget-group .widget-table__native { width: 35%; }
+
 /* ---------------------------------------------------------------------- */
 /* Quiz engine                                                            */
 /* ---------------------------------------------------------------------- */

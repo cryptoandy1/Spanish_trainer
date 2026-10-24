@@ -1,8 +1,1603 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-08-05T04:11:36Z",
+  "generatedAt": "2026-10-24T05:37:25Z",
   "items": [
+    {
+      "id": "wg_body",
+      "kind": "table",
+      "title": {
+        "ru": "Части тела"
+      },
+      "icon": "🧍",
+      "order": 60,
+      "practiceable": true,
+      "items": [
+        {
+          "id": "wg_body_cuerpo",
+          "text": "el cuerpo",
+          "tr": {
+            "ru": "тело"
+          },
+          "note": {
+            "ru": "С частями тела испанцы ставят артикль, а не «мой»: me duele la cabeza, а не mi cabeza. Чья это часть тела, видно по местоимению me / te / se."
+          },
+          "examples": [
+            {
+              "text": "Me lavo las manos.",
+              "tr": {
+                "ru": "Я мою руки."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_piel",
+          "text": "la piel",
+          "tr": {
+            "ru": "кожа"
+          },
+          "examples": [
+            {
+              "text": "Tengo la piel seca.",
+              "tr": {
+                "ru": "У меня сухая кожа."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_vello",
+          "text": "el vello",
+          "tr": {
+            "ru": "волосы на теле, пушок"
+          },
+          "note": {
+            "ru": "Волосы на голове — el pelo."
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_musculo",
+          "text": "el músculo",
+          "tr": {
+            "ru": "мышца"
+          },
+          "examples": [
+            {
+              "text": "Me duelen los músculos.",
+              "tr": {
+                "ru": "У меня болят мышцы."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_hueso",
+          "text": "el hueso",
+          "tr": {
+            "ru": "кость"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_esqueleto",
+          "text": "el esqueleto",
+          "tr": {
+            "ru": "скелет"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_articulacion",
+          "text": "la articulación",
+          "tr": {
+            "ru": "сустав"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_tendon",
+          "text": "el tendón",
+          "tr": {
+            "ru": "сухожилие"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_ligamento",
+          "text": "el ligamento",
+          "tr": {
+            "ru": "связка"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_sangre",
+          "text": "la sangre",
+          "tr": {
+            "ru": "кровь"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_vena",
+          "text": "la vena",
+          "tr": {
+            "ru": "вена"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_arteria",
+          "text": "la arteria",
+          "tr": {
+            "ru": "артерия"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_nervio",
+          "text": "el nervio",
+          "tr": {
+            "ru": "нерв"
+          },
+          "group": {
+            "ru": "Тело в целом"
+          }
+        },
+        {
+          "id": "wg_body_cabeza",
+          "text": "la cabeza",
+          "tr": {
+            "ru": "голова"
+          },
+          "examples": [
+            {
+              "text": "Me duele la cabeza.",
+              "tr": {
+                "ru": "У меня болит голова."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_craneo",
+          "text": "el cráneo",
+          "tr": {
+            "ru": "череп"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_frente",
+          "text": "la frente",
+          "tr": {
+            "ru": "лоб"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_sien",
+          "text": "la sien",
+          "tr": {
+            "ru": "висок"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_nuca",
+          "text": "la nuca",
+          "tr": {
+            "ru": "затылок"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_coronilla",
+          "text": "la coronilla",
+          "tr": {
+            "ru": "макушка"
+          },
+          "examples": [
+            {
+              "text": "Estoy hasta la coronilla.",
+              "tr": {
+                "ru": "Я сыт по горло."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_pelo",
+          "text": "el pelo",
+          "tr": {
+            "ru": "волосы"
+          },
+          "note": {
+            "ru": "Повседневное слово, в единственном числе: tengo el pelo largo. Ещё значит «шерсть»."
+          },
+          "examples": [
+            {
+              "text": "Tengo el pelo largo.",
+              "tr": {
+                "ru": "У меня длинные волосы."
+              }
+            },
+            {
+              "text": "Me he cortado el pelo.",
+              "tr": {
+                "ru": "Я подстригся."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_cabello",
+          "text": "el cabello",
+          "tr": {
+            "ru": "волосы (книжное)"
+          },
+          "note": {
+            "ru": "Только волосы на голове; в разговоре — el pelo."
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_flequillo",
+          "text": "el flequillo",
+          "tr": {
+            "ru": "чёлка"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_raya",
+          "text": "la raya",
+          "tr": {
+            "ru": "пробор"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_canas",
+          "text": "las canas",
+          "tr": {
+            "ru": "седые волосы"
+          },
+          "note": {
+            "ru": "Один седой волос — una cana."
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_calva",
+          "text": "la calva",
+          "tr": {
+            "ru": "лысина"
+          },
+          "group": {
+            "ru": "Голова и волосы"
+          }
+        },
+        {
+          "id": "wg_body_cara",
+          "text": "la cara",
+          "tr": {
+            "ru": "лицо"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_rostro",
+          "text": "el rostro",
+          "tr": {
+            "ru": "лицо (книжное)"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_ceja",
+          "text": "la ceja",
+          "tr": {
+            "ru": "бровь"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_entrecejo",
+          "text": "el entrecejo",
+          "tr": {
+            "ru": "межбровье"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_pestana",
+          "text": "la pestaña",
+          "tr": {
+            "ru": "ресница"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_parpado",
+          "text": "el párpado",
+          "tr": {
+            "ru": "веко"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_ojo",
+          "text": "el ojo",
+          "tr": {
+            "ru": "глаз"
+          },
+          "examples": [
+            {
+              "text": "Tengo los ojos azules.",
+              "tr": {
+                "ru": "У меня голубые глаза."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_pupila",
+          "text": "la pupila",
+          "tr": {
+            "ru": "зрачок"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_iris",
+          "text": "el iris",
+          "tr": {
+            "ru": "радужка"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_ojera",
+          "text": "la ojera",
+          "tr": {
+            "ru": "круг (мешок) под глазом"
+          },
+          "note": {
+            "ru": "Обычно во множественном: tener ojeras."
+          },
+          "examples": [
+            {
+              "text": "Tengo ojeras.",
+              "tr": {
+                "ru": "У меня круги под глазами."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_nariz",
+          "text": "la nariz",
+          "tr": {
+            "ru": "нос"
+          },
+          "note": {
+            "ru": "Женский род: la nariz."
+          },
+          "examples": [
+            {
+              "text": "Me pica la nariz.",
+              "tr": {
+                "ru": "У меня чешется нос."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_fosa-nasal",
+          "text": "la fosa nasal",
+          "tr": {
+            "ru": "ноздря"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_tabique-nasal",
+          "text": "el tabique nasal",
+          "tr": {
+            "ru": "носовая перегородка"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_mejilla",
+          "text": "la mejilla",
+          "tr": {
+            "ru": "щека"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_pomulo",
+          "text": "el pómulo",
+          "tr": {
+            "ru": "скула"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_oreja",
+          "text": "la oreja",
+          "tr": {
+            "ru": "ухо (снаружи)"
+          },
+          "note": {
+            "ru": "La oreja — то, что видно снаружи. Внутреннее ухо и слух — el oído."
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_oido",
+          "text": "el oído",
+          "tr": {
+            "ru": "ухо (внутреннее), слух"
+          },
+          "examples": [
+            {
+              "text": "Me duele el oído.",
+              "tr": {
+                "ru": "У меня болит ухо."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_lobulo",
+          "text": "el lóbulo",
+          "tr": {
+            "ru": "мочка уха"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_boca",
+          "text": "la boca",
+          "tr": {
+            "ru": "рот"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_labio",
+          "text": "el labio",
+          "tr": {
+            "ru": "губа"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_comisura-de-los-labios",
+          "text": "la comisura de los labios",
+          "tr": {
+            "ru": "уголок рта"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_diente",
+          "text": "el diente",
+          "tr": {
+            "ru": "зуб"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_muela",
+          "text": "la muela",
+          "tr": {
+            "ru": "коренной зуб"
+          },
+          "note": {
+            "ru": "La muela del juicio — зуб мудрости."
+          },
+          "examples": [
+            {
+              "text": "Me duele una muela.",
+              "tr": {
+                "ru": "У меня болит зуб."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_colmillo",
+          "text": "el colmillo",
+          "tr": {
+            "ru": "клык"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_encia",
+          "text": "la encía",
+          "tr": {
+            "ru": "десна"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_lengua",
+          "text": "la lengua",
+          "tr": {
+            "ru": "язык"
+          },
+          "note": {
+            "ru": "И орган, и язык как речь: la lengua española."
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_paladar",
+          "text": "el paladar",
+          "tr": {
+            "ru": "нёбо"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_mandibula",
+          "text": "la mandíbula",
+          "tr": {
+            "ru": "челюсть"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_barbilla",
+          "text": "la barbilla",
+          "tr": {
+            "ru": "подбородок"
+          },
+          "note": {
+            "ru": "Синоним — el mentón."
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_barba",
+          "text": "la barba",
+          "tr": {
+            "ru": "борода"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_bigote",
+          "text": "el bigote",
+          "tr": {
+            "ru": "усы"
+          },
+          "note": {
+            "ru": "В единственном числе: tiene bigote — у него усы."
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_patilla",
+          "text": "la patilla",
+          "tr": {
+            "ru": "бакенбарда"
+          },
+          "note": {
+            "ru": "Ещё дужка очков."
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_hoyuelo",
+          "text": "el hoyuelo",
+          "tr": {
+            "ru": "ямочка (на щеке, подбородке)"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_arruga",
+          "text": "la arruga",
+          "tr": {
+            "ru": "морщина"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_peca",
+          "text": "la peca",
+          "tr": {
+            "ru": "веснушка"
+          },
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_lunar",
+          "text": "el lunar",
+          "tr": {
+            "ru": "родинка"
+          },
+          "examples": [
+            {
+              "text": "Tiene un lunar en la mejilla.",
+              "tr": {
+                "ru": "У неё родинка на щеке."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Лицо"
+          }
+        },
+        {
+          "id": "wg_body_cuello",
+          "text": "el cuello",
+          "tr": {
+            "ru": "шея"
+          },
+          "note": {
+            "ru": "Ещё воротник: el cuello de la camisa."
+          },
+          "examples": [
+            {
+              "text": "Me duele el cuello.",
+              "tr": {
+                "ru": "У меня болит шея."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_garganta",
+          "text": "la garganta",
+          "tr": {
+            "ru": "горло"
+          },
+          "examples": [
+            {
+              "text": "Me duele la garganta.",
+              "tr": {
+                "ru": "У меня болит горло."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_nuez",
+          "text": "la nuez",
+          "tr": {
+            "ru": "кадык"
+          },
+          "note": {
+            "ru": "Полностью — la nuez de Adán. Ещё значит «грецкий орех»."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_hombro",
+          "text": "el hombro",
+          "tr": {
+            "ru": "плечо"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_clavicula",
+          "text": "la clavícula",
+          "tr": {
+            "ru": "ключица"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_pecho",
+          "text": "el pecho",
+          "tr": {
+            "ru": "грудь"
+          },
+          "note": {
+            "ru": "И грудная клетка, и женская грудь."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_seno",
+          "text": "el seno",
+          "tr": {
+            "ru": "женская грудь"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_pezon",
+          "text": "el pezón",
+          "tr": {
+            "ru": "сосок"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_axila",
+          "text": "la axila",
+          "tr": {
+            "ru": "подмышка"
+          },
+          "note": {
+            "ru": "Разговорно — el sobaco."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_costilla",
+          "text": "la costilla",
+          "tr": {
+            "ru": "ребро"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_espalda",
+          "text": "la espalda",
+          "tr": {
+            "ru": "спина"
+          },
+          "examples": [
+            {
+              "text": "Me duele la espalda.",
+              "tr": {
+                "ru": "У меня болит спина."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_columna-vertebral",
+          "text": "la columna vertebral",
+          "tr": {
+            "ru": "позвоночник"
+          },
+          "note": {
+            "ru": "Часто просто la columna."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_omoplato",
+          "text": "el omóplato",
+          "tr": {
+            "ru": "лопатка"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_cintura",
+          "text": "la cintura",
+          "tr": {
+            "ru": "талия"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_vientre",
+          "text": "el vientre",
+          "tr": {
+            "ru": "живот (книжное)"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_barriga",
+          "text": "la barriga",
+          "tr": {
+            "ru": "живот (разговорное)"
+          },
+          "note": {
+            "ru": "Ещё разговорнее — la tripa."
+          },
+          "examples": [
+            {
+              "text": "Me duele la barriga.",
+              "tr": {
+                "ru": "У меня болит живот."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_abdomen",
+          "text": "el abdomen",
+          "tr": {
+            "ru": "живот, брюшная полость"
+          },
+          "note": {
+            "ru": "Мышцы пресса — los abdominales."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_ombligo",
+          "text": "el ombligo",
+          "tr": {
+            "ru": "пупок"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_cadera",
+          "text": "la cadera",
+          "tr": {
+            "ru": "бедро (сбоку, где таз)"
+          },
+          "note": {
+            "ru": "Русское «бедро» — два слова: la cadera (сбоку, у таза) и el muslo (верхняя часть ноги)."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_ingle",
+          "text": "la ingle",
+          "tr": {
+            "ru": "пах"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_trasero",
+          "text": "el trasero",
+          "tr": {
+            "ru": "зад, попа"
+          },
+          "note": {
+            "ru": "Грубее — el culo."
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_nalga",
+          "text": "la nalga",
+          "tr": {
+            "ru": "ягодица"
+          },
+          "group": {
+            "ru": "Шея и туловище"
+          }
+        },
+        {
+          "id": "wg_body_brazo",
+          "text": "el brazo",
+          "tr": {
+            "ru": "рука (от плеча до кисти)"
+          },
+          "note": {
+            "ru": "Русское «рука» — два слова: el brazo (вся рука) и la mano (кисть)."
+          },
+          "examples": [
+            {
+              "text": "Me he roto el brazo.",
+              "tr": {
+                "ru": "Я сломал руку."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_antebrazo",
+          "text": "el antebrazo",
+          "tr": {
+            "ru": "предплечье"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_codo",
+          "text": "el codo",
+          "tr": {
+            "ru": "локоть"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_muneca",
+          "text": "la muñeca",
+          "tr": {
+            "ru": "запястье"
+          },
+          "note": {
+            "ru": "Ещё значит «кукла»."
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_mano",
+          "text": "la mano",
+          "tr": {
+            "ru": "кисть, рука"
+          },
+          "note": {
+            "ru": "Женский род, хотя кончается на -o: la mano, las manos."
+          },
+          "examples": [
+            {
+              "text": "Dame la mano.",
+              "tr": {
+                "ru": "Дай мне руку."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_palma",
+          "text": "la palma",
+          "tr": {
+            "ru": "ладонь"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_dorso-de-la-mano",
+          "text": "el dorso de la mano",
+          "tr": {
+            "ru": "тыльная сторона кисти"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_puno",
+          "text": "el puño",
+          "tr": {
+            "ru": "кулак"
+          },
+          "note": {
+            "ru": "Ещё манжета рукава."
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_dedo",
+          "text": "el dedo",
+          "tr": {
+            "ru": "палец"
+          },
+          "note": {
+            "ru": "Одно слово для пальцев рук и ног; палец ноги — el dedo del pie."
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_pulgar",
+          "text": "el pulgar",
+          "tr": {
+            "ru": "большой палец"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_indice",
+          "text": "el índice",
+          "tr": {
+            "ru": "указательный палец"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_dedo-corazon",
+          "text": "el dedo corazón",
+          "tr": {
+            "ru": "средний палец"
+          },
+          "note": {
+            "ru": "Ещё el dedo medio."
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_anular",
+          "text": "el anular",
+          "tr": {
+            "ru": "безымянный палец"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_menique",
+          "text": "el meñique",
+          "tr": {
+            "ru": "мизинец"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_nudillo",
+          "text": "el nudillo",
+          "tr": {
+            "ru": "костяшка пальца"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_una",
+          "text": "la uña",
+          "tr": {
+            "ru": "ноготь"
+          },
+          "examples": [
+            {
+              "text": "Me corto las uñas.",
+              "tr": {
+                "ru": "Я стригу ногти."
+              }
+            },
+            {
+              "text": "Me como las uñas.",
+              "tr": {
+                "ru": "Я грызу ногти."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_yema-del-dedo",
+          "text": "la yema del dedo",
+          "tr": {
+            "ru": "подушечка пальца"
+          },
+          "note": {
+            "ru": "La yema — ещё и желток."
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_huella-dactilar",
+          "text": "la huella dactilar",
+          "tr": {
+            "ru": "отпечаток пальца"
+          },
+          "group": {
+            "ru": "Руки"
+          }
+        },
+        {
+          "id": "wg_body_pierna",
+          "text": "la pierna",
+          "tr": {
+            "ru": "нога (от бедра до стопы)"
+          },
+          "note": {
+            "ru": "Русское «нога» — тоже два слова: la pierna (вся нога) и el pie (стопа)."
+          },
+          "examples": [
+            {
+              "text": "Tengo agujetas en las piernas.",
+              "tr": {
+                "ru": "У меня крепатура в ногах."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_muslo",
+          "text": "el muslo",
+          "tr": {
+            "ru": "бедро (верхняя часть ноги)"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_rodilla",
+          "text": "la rodilla",
+          "tr": {
+            "ru": "колено"
+          },
+          "examples": [
+            {
+              "text": "Me duelen las rodillas.",
+              "tr": {
+                "ru": "У меня болят колени."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_rotula",
+          "text": "la rótula",
+          "tr": {
+            "ru": "коленная чашечка"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_pantorrilla",
+          "text": "la pantorrilla",
+          "tr": {
+            "ru": "икра"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_espinilla",
+          "text": "la espinilla",
+          "tr": {
+            "ru": "голень (спереди)"
+          },
+          "note": {
+            "ru": "Ещё «чёрная точка» на коже."
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_tobillo",
+          "text": "el tobillo",
+          "tr": {
+            "ru": "лодыжка, щиколотка"
+          },
+          "examples": [
+            {
+              "text": "Me he torcido el tobillo.",
+              "tr": {
+                "ru": "Я подвернул ногу."
+              }
+            }
+          ],
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_pie",
+          "text": "el pie",
+          "tr": {
+            "ru": "стопа, нога (ниже щиколотки)"
+          },
+          "note": {
+            "ru": "A pie — пешком."
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_talon",
+          "text": "el talón",
+          "tr": {
+            "ru": "пятка"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_planta-del-pie",
+          "text": "la planta del pie",
+          "tr": {
+            "ru": "подошва стопы"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_empeine",
+          "text": "el empeine",
+          "tr": {
+            "ru": "подъём стопы"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_dedo-del-pie",
+          "text": "el dedo del pie",
+          "tr": {
+            "ru": "палец ноги"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_dedo-gordo",
+          "text": "el dedo gordo",
+          "tr": {
+            "ru": "большой палец ноги"
+          },
+          "group": {
+            "ru": "Ноги"
+          }
+        },
+        {
+          "id": "wg_body_cerebro",
+          "text": "el cerebro",
+          "tr": {
+            "ru": "мозг"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_corazon",
+          "text": "el corazón",
+          "tr": {
+            "ru": "сердце"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_pulmon",
+          "text": "el pulmón",
+          "tr": {
+            "ru": "лёгкое"
+          },
+          "note": {
+            "ru": "Обычно во множественном: los pulmones."
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_estomago",
+          "text": "el estómago",
+          "tr": {
+            "ru": "желудок"
+          },
+          "note": {
+            "ru": "В разговоре — и «живот»: me duele el estómago."
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_higado",
+          "text": "el hígado",
+          "tr": {
+            "ru": "печень"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_rinon",
+          "text": "el riñón",
+          "tr": {
+            "ru": "почка"
+          },
+          "note": {
+            "ru": "Costar un riñón — стоить целое состояние."
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_intestino",
+          "text": "el intestino",
+          "tr": {
+            "ru": "кишечник"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_vejiga",
+          "text": "la vejiga",
+          "tr": {
+            "ru": "мочевой пузырь"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_pancreas",
+          "text": "el páncreas",
+          "tr": {
+            "ru": "поджелудочная железа"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_bazo",
+          "text": "el bazo",
+          "tr": {
+            "ru": "селезёнка"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_vesicula-biliar",
+          "text": "la vesícula biliar",
+          "tr": {
+            "ru": "желчный пузырь"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_apendice",
+          "text": "el apéndice",
+          "tr": {
+            "ru": "аппендикс"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_esofago",
+          "text": "el esófago",
+          "tr": {
+            "ru": "пищевод"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_traquea",
+          "text": "la tráquea",
+          "tr": {
+            "ru": "трахея"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        },
+        {
+          "id": "wg_body_tiroides",
+          "text": "la tiroides",
+          "tr": {
+            "ru": "щитовидная железа"
+          },
+          "group": {
+            "ru": "Внутренние органы"
+          }
+        }
+      ]
+    },
     {
       "id": "wg_colors",
       "kind": "swatch-grid",

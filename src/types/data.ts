@@ -212,6 +212,8 @@ export interface WidgetItem {
   imageUrl?: string; // escape hatch, unused by default
   note?: Tr;
   examples?: Example[];
+  /** Subheading for long sets — consecutive items sharing a group render under one heading, in item order. */
+  group?: Tr;
 }
 
 export type WidgetKind = "swatch-grid" | "icon-grid" | "table" | "list";

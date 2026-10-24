@@ -154,6 +154,7 @@ class WidgetItem(BaseModel):
     imageUrl: str | None = None
     note: Tr | None = None
     examples: list[Example] | None = None
+    group: Tr | None = None
 
 
 class WidgetSet(BaseModel):
