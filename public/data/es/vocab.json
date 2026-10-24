@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-10-21T04:07:36Z",
+  "generatedAt": "2026-10-24T05:05:27Z",
   "items": [
     {
       "id": "vc_00208bb3",
@@ -467,6 +467,24 @@
       }
     },
     {
+      "id": "vc_03924d4a",
+      "lemma": "momentito",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "минуточка (un momentito — минуточку)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_03cee1c0",
       "lemma": "estrujarse",
       "pos": "verb",
@@ -515,6 +533,25 @@
         "extractor": "model"
       },
       "verbId": "vb_importar"
+    },
+    {
+      "id": "vc_045a2c6a",
+      "lemma": "reír",
+      "pos": "verb",
+      "tr": {
+        "ru": "смеяться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_reir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_047546fe",
@@ -640,6 +677,31 @@
       }
     },
     {
+      "id": "vc_058cb28d",
+      "lemma": "doler",
+      "pos": "verb",
+      "tr": {
+        "ru": "болеть"
+      },
+      "examples": [
+        {
+          "text": "Me duele el cuello.",
+          "tr": {
+            "ru": "У меня болит шея."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_doler",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_058dd5ad",
       "lemma": "marrón",
       "pos": "adj",
@@ -653,6 +715,24 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_05a22eb6",
+      "lemma": "respiración",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "дыхание"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -1581,6 +1661,25 @@
         "conversationId": "6a5517e3-5ee4-83ed-a0e8-d10536d3d9b7",
         "conversationTitle": "Минерализация воды Font Vella",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_0fe55c57",
+      "lemma": "traducir",
+      "pos": "verb",
+      "tr": {
+        "ru": "переводить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_traducir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -2572,6 +2671,25 @@
       }
     },
     {
+      "id": "vc_1832197b",
+      "lemma": "sacar",
+      "pos": "verb",
+      "tr": {
+        "ru": "вынимать, доставать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_sacar",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_183f491e",
       "lemma": "observar",
       "pos": "verb",
@@ -2859,6 +2977,12 @@
           "tr": {
             "ru": "После работы."
           }
+        },
+        {
+          "text": "Cruza la plaza y después toma la segunda calle.",
+          "tr": {
+            "ru": "Перейди площадь, затем сверни на вторую улицу."
+          }
         }
       ],
       "topics": [],
@@ -2867,7 +2991,10 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       }
     },
     {
@@ -3100,6 +3227,25 @@
       "needsReview": true
     },
     {
+      "id": "vc_1ccf87ac",
+      "lemma": "divertirse",
+      "pos": "verb",
+      "tr": {
+        "ru": "веселиться, развлекаться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_divertirse",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_1cfac095",
       "lemma": "acostar",
       "pos": "verb",
@@ -3142,6 +3288,24 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_1d87ae38",
+      "lemma": "cangrejo de río",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "рак (речной)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -3713,6 +3877,26 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_24a908aa",
+      "lemma": "respirar tranquilo",
+      "pos": "phrase",
+      "tr": {
+        "ru": "выдохнуть с облегчением"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "verbId": "vb_respirar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -4301,6 +4485,30 @@
       }
     },
     {
+      "id": "vc_2a095ee6",
+      "lemma": "hasta que",
+      "pos": "conj",
+      "tr": {
+        "ru": "пока не (без отрицания в испанском)"
+      },
+      "examples": [
+        {
+          "text": "Todo iba bien hasta que dejaron de dar permisos de residencia.",
+          "tr": {
+            "ru": "Всё было хорошо, пока они не перестали выдавать ВНЖ."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2a9dd866",
       "lemma": "oír",
       "pos": "verb",
@@ -4373,6 +4581,32 @@
         "alsoSeenIn": [
           "6a55303d-a63c-83ed-a1ee-d5c45129cdec"
         ]
+      }
+    },
+    {
+      "id": "vc_2b3277e0",
+      "lemma": "todo recto",
+      "pos": "phrase",
+      "tr": {
+        "ru": "прямо (о маршруте)"
+      },
+      "examples": [
+        {
+          "text": "Sigue todo recto, luego a la izquierda, y después verás la estación.",
+          "tr": {
+            "ru": "Иди прямо, потом налево, а дальше увидишь станцию."
+          }
+        }
+      ],
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {
@@ -4485,6 +4719,37 @@
       "verbId": "vb_vestir"
     },
     {
+      "id": "vc_2d08be1e",
+      "lemma": "error",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "ошибка"
+      },
+      "examples": [
+        {
+          "text": "Surgió un error.",
+          "tr": {
+            "ru": "Возникла ошибка."
+          }
+        },
+        {
+          "text": "Me sale un error.",
+          "tr": {
+            "ru": "У меня вылезает ошибка."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2d1345e0",
       "lemma": "modelo",
       "pos": "noun",
@@ -4587,6 +4852,36 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_2e3f7a64",
+      "lemma": "ambos",
+      "pos": "adj",
+      "tr": {
+        "ru": "оба (ж. р. ambas — обе)"
+      },
+      "examples": [
+        {
+          "text": "Ambas calles llevan a la playa.",
+          "tr": {
+            "ru": "Обе улицы ведут к пляжу."
+          }
+        },
+        {
+          "text": "Ambos chicos son de aquí.",
+          "tr": {
+            "ru": "Оба парня местные."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -4696,6 +4991,25 @@
       }
     },
     {
+      "id": "vc_2e89963e",
+      "lemma": "deshacer",
+      "pos": "verb",
+      "tr": {
+        "ru": "распаковывать, развязывать; отменять сделанное"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_deshacer",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_2ebcaf71",
       "lemma": "carta",
       "pos": "noun",
@@ -4755,6 +5069,31 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_2eec4a0a",
+      "lemma": "respirar",
+      "pos": "verb",
+      "tr": {
+        "ru": "дышать"
+      },
+      "examples": [
+        {
+          "text": "No puedo respirar.",
+          "tr": {
+            "ru": "Не могу дышать."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_respirar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -5613,6 +5952,37 @@
         "extractor": "model"
       },
       "gender": "f"
+    },
+    {
+      "id": "vc_3530c547",
+      "lemma": "surgir",
+      "pos": "verb",
+      "tr": {
+        "ru": "возникать, появляться"
+      },
+      "examples": [
+        {
+          "text": "Surge un problema.",
+          "tr": {
+            "ru": "Возникает проблема."
+          }
+        },
+        {
+          "text": "Surgió un error.",
+          "tr": {
+            "ru": "Возникла ошибка."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_surgir",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_3531c0de",
@@ -7004,6 +7374,25 @@
       }
     },
     {
+      "id": "vc_430e221a",
+      "lemma": "distraer",
+      "pos": "verb",
+      "tr": {
+        "ru": "отвлекать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_distraer",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_43a407cf",
       "lemma": "hábito",
       "pos": "noun",
@@ -8225,6 +8614,26 @@
       "gender": "f"
     },
     {
+      "id": "vc_4fce2bcf",
+      "lemma": "centollo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "краб-паук (огромный, деликатес)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_5004fdf9",
       "lemma": "dejarse",
       "pos": "verb",
@@ -8273,6 +8682,31 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_504de151",
+      "lemma": "idea",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "идея"
+      },
+      "examples": [
+        {
+          "text": "De repente surge una idea.",
+          "tr": {
+            "ru": "Вдруг приходит идея."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -8370,7 +8804,20 @@
       "tr": {
         "ru": "шея; воротник"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Me duele el cuello.",
+          "tr": {
+            "ru": "У меня болит шея."
+          }
+        },
+        {
+          "text": "el cuello de la camisa",
+          "tr": {
+            "ru": "воротник рубашки"
+          }
+        }
+      ],
       "topics": [
         "tp_harry-potter"
       ],
@@ -8379,7 +8826,10 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       }
     },
     {
@@ -9362,6 +9812,25 @@
       "verbId": "vb_prohibir"
     },
     {
+      "id": "vc_59d1115d",
+      "lemma": "huir",
+      "pos": "verb",
+      "tr": {
+        "ru": "убегать, спасаться бегством"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_huir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_59d5b53c",
       "lemma": "vivir",
       "pos": "verb",
@@ -9675,6 +10144,25 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_5b695cc6",
+      "lemma": "suponer",
+      "pos": "verb",
+      "tr": {
+        "ru": "предполагать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_suponer",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -10555,6 +11043,25 @@
       }
     },
     {
+      "id": "vc_634ada59",
+      "lemma": "prevenir",
+      "pos": "verb",
+      "tr": {
+        "ru": "предотвращать, предупреждать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_prevenir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_638a2a43",
       "lemma": "conseguir",
       "pos": "verb",
@@ -10769,14 +11276,24 @@
       "tr": {
         "ru": "разрешение на проживание, ВНЖ"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Todo iba bien hasta que dejaron de dar permisos de residencia.",
+          "tr": {
+            "ru": "Всё было хорошо, пока они не перестали выдавать ВНЖ."
+          }
+        }
+      ],
       "topics": [],
       "source": {
         "origin": "chatgpt",
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       }
     },
     {
@@ -11105,6 +11622,25 @@
         ]
       },
       "verbId": "vb_esconder"
+    },
+    {
+      "id": "vc_69c209a5",
+      "lemma": "mantener",
+      "pos": "verb",
+      "tr": {
+        "ru": "поддерживать, содержать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_mantener",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_6a5e3d36",
@@ -11601,7 +12137,10 @@
         "conversationId": "claude-2026-08-17-quien-es-hace-perifrasis",
         "conversationTitle": "Кто звонит в дверь: ¿Quién es?, hace + время, перифразы",
         "ingestBatch": "ingest-2026-08-17",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       },
       "verbId": "vb_dejar"
     },
@@ -12094,6 +12633,25 @@
         "extractor": "model"
       },
       "verbId": "vb_acostarse"
+    },
+    {
+      "id": "vc_74d76bb5",
+      "lemma": "construir",
+      "pos": "verb",
+      "tr": {
+        "ru": "строить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_construir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_74ec5c56",
@@ -14257,6 +14815,25 @@
       }
     },
     {
+      "id": "vc_8a09984f",
+      "lemma": "obtener",
+      "pos": "verb",
+      "tr": {
+        "ru": "получать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_obtener",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_8a57487a",
       "lemma": "mago",
       "pos": "noun",
@@ -14392,6 +14969,31 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_8b7282e8",
+      "lemma": "respiro",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "передышка"
+      },
+      "examples": [
+        {
+          "text": "Necesito un respiro.",
+          "tr": {
+            "ru": "Мне нужна пауза."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -14797,6 +15399,12 @@
           "tr": {
             "ru": "Я родился в тысяча девятьсот девяносто первом."
           }
+        },
+        {
+          "text": "La ciudad nació como un pequeño puerto.",
+          "tr": {
+            "ru": "Город появился как маленький порт."
+          }
         }
       ],
       "topics": [],
@@ -14806,7 +15414,10 @@
         "conversationId": "inbox-numerales",
         "conversationTitle": "Количественные и порядковые числительные",
         "ingestBatch": "ingest-2026-08-10",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       },
       "verbId": "vb_nacer"
     },
@@ -15210,6 +15821,49 @@
       }
     },
     {
+      "id": "vc_95b2b0d2",
+      "lemma": "temprano",
+      "pos": "adv",
+      "tr": {
+        "ru": "рано (по часам)"
+      },
+      "examples": [
+        {
+          "text": "Es demasiado temprano para nosotros.",
+          "tr": {
+            "ru": "Нам слишком рано вставать или ехать в такую рань."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_95b8535c",
+      "lemma": "rojo como un cangrejo",
+      "pos": "phrase",
+      "tr": {
+        "ru": "красный как рак (обгоревший на пляже)"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_95bda230",
       "lemma": "contrato",
       "pos": "noun",
@@ -15226,6 +15880,31 @@
         "conversationId": "6a33135d-fa8c-83eb-bd28-01ae67f36326",
         "conversationTitle": "План изучения испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_96a4821e",
+      "lemma": "producirse",
+      "pos": "verb",
+      "tr": {
+        "ru": "происходить (о сбое, ошибке)"
+      },
+      "examples": [
+        {
+          "text": "Se ha producido un error.",
+          "tr": {
+            "ru": "Произошла ошибка."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_producirse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -15317,6 +15996,30 @@
       "verbId": "vb_ponerse"
     },
     {
+      "id": "vc_9777c529",
+      "lemma": "de niño",
+      "pos": "phrase",
+      "tr": {
+        "ru": "в детстве"
+      },
+      "examples": [
+        {
+          "text": "De niño jugaba en la calle.",
+          "tr": {
+            "ru": "В детстве я играл на улице."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_977fc53d",
       "lemma": "hay que",
       "pos": "verb",
@@ -15357,6 +16060,24 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_97c5da02",
+      "lemma": "cafecito",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "кофеёк (un cafecito — кофейку)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -15513,6 +16234,25 @@
         "alsoSeenIn": [
           "6a5cf382-f9ac-83ed-b424-2a050180f9d9"
         ]
+      }
+    },
+    {
+      "id": "vc_99d34f95",
+      "lemma": "conducir",
+      "pos": "verb",
+      "tr": {
+        "ru": "водить (машину), вести"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_conducir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {
@@ -16370,6 +17110,38 @@
       }
     },
     {
+      "id": "vc_a1c265ff",
+      "lemma": "aburrido",
+      "pos": "adj",
+      "tr": {
+        "ru": "скучный, занудный (ser); скучающий (estar)"
+      },
+      "examples": [
+        {
+          "text": "Es aburrido.",
+          "tr": {
+            "ru": "Он зануда."
+          }
+        },
+        {
+          "text": "Está aburrido.",
+          "tr": {
+            "ru": "Ему скучно."
+          }
+        }
+      ],
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a20de62f",
       "lemma": "apartamento",
       "pos": "noun",
@@ -16540,6 +17312,31 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_a41ea3c0",
+      "lemma": "plaza",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "площадь"
+      },
+      "examples": [
+        {
+          "text": "Cruza la plaza y después toma la segunda calle.",
+          "tr": {
+            "ru": "Перейди площадь, затем сверни на вторую улицу."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -16805,6 +17602,26 @@
       "verbId": "vb_valer"
     },
     {
+      "id": "vc_a6d27303",
+      "lemma": "andar como un cangrejo",
+      "pos": "phrase",
+      "tr": {
+        "ru": "пятиться назад"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "verbId": "vb_andar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_a70cd292",
       "lemma": "gente",
       "pos": "noun",
@@ -16915,6 +17732,26 @@
         "extractor": "model"
       },
       "verbId": "vb_apuntarse"
+    },
+    {
+      "id": "vc_a81a1b94",
+      "lemma": "jugarse el cuello",
+      "pos": "phrase",
+      "tr": {
+        "ru": "рисковать головой"
+      },
+      "examples": [],
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "verbId": "vb_jugarse",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_a8baf866",
@@ -17148,6 +17985,25 @@
         "conversationId": "6a49cb83-370c-83eb-98ce-ba148825a547",
         "conversationTitle": "Traducción y análisis frase",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_ab2370d2",
+      "lemma": "jugarse",
+      "pos": "verb",
+      "tr": {
+        "ru": "рисковать (чем-то), ставить на кон"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_jugarse",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -17599,6 +18455,25 @@
       }
     },
     {
+      "id": "vc_b0af692e",
+      "lemma": "contener",
+      "pos": "verb",
+      "tr": {
+        "ru": "содержать (в себе)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_contener",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b0e59433",
       "lemma": "orden judicial",
       "pos": "noun",
@@ -17833,6 +18708,23 @@
       "verbId": "vb_llevar"
     },
     {
+      "id": "vc_b2631563",
+      "lemma": "en aquel entonces",
+      "pos": "phrase",
+      "tr": {
+        "ru": "тогда, в те времена (чуть ностальгически)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b2a367c5",
       "lemma": "victoria",
       "pos": "noun",
@@ -17995,6 +18887,31 @@
       }
     },
     {
+      "id": "vc_b3f786fb",
+      "lemma": "pintar",
+      "pos": "verb",
+      "tr": {
+        "ru": "красить"
+      },
+      "examples": [
+        {
+          "text": "Las casas fueron pintadas de azul.",
+          "tr": {
+            "ru": "Дома покрасили в синий."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_pintar",
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_b406cea4",
       "lemma": "sesos",
       "pos": "noun",
@@ -18092,6 +19009,85 @@
         "alsoSeenIn": [
           "inbox-c3a8ffca"
         ]
+      }
+    },
+    {
+      "id": "vc_b4ce4838",
+      "lemma": "cuello de botella",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "узкое место, затык (букв. горлышко бутылки)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_b4e64988",
+      "lemma": "predecir",
+      "pos": "verb",
+      "tr": {
+        "ru": "предсказывать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_predecir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_b4fe1dbe",
+      "lemma": "en aquella época",
+      "pos": "phrase",
+      "tr": {
+        "ru": "в те времена"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_b51f8dc4",
+      "lemma": "sol",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "солнце"
+      },
+      "examples": [
+        {
+          "text": "El sol surge detrás de las montañas.",
+          "tr": {
+            "ru": "Солнце встаёт из-за гор."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {
@@ -19076,6 +20072,25 @@
       }
     },
     {
+      "id": "vc_bde24b95",
+      "lemma": "componer",
+      "pos": "verb",
+      "tr": {
+        "ru": "составлять, сочинять"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_componer",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_be156107",
       "lemma": "tras",
       "pos": "prep",
@@ -19281,6 +20296,25 @@
         ]
       },
       "verbId": "vb_buscar"
+    },
+    {
+      "id": "vc_bfacdf56",
+      "lemma": "mentir",
+      "pos": "verb",
+      "tr": {
+        "ru": "лгать, врать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_mentir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vc_bfee5290",
@@ -19785,6 +20819,12 @@
           "tr": {
             "ru": "Мария встречается с ним."
           }
+        },
+        {
+          "text": "Me sale un error.",
+          "tr": {
+            "ru": "У меня вылезает ошибка."
+          }
         }
       ],
       "topics": [],
@@ -19797,7 +20837,8 @@
         "alsoSeenIn": [
           "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
-          "6a607174-8fb4-83eb-a6aa-1212daddaf35"
+          "6a607174-8fb4-83eb-a6aa-1212daddaf35",
+          "claude-share-6e539b8c-surge-indefinido"
         ]
       },
       "verbId": "vb_salir"
@@ -19843,6 +20884,23 @@
         "conversationId": "6a4c9c93-7ad4-83eb-b299-5457f2e076b6",
         "conversationTitle": "Отглагольные прилагательные испанского",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c35daa32",
+      "lemma": "ahorita",
+      "pos": "adv",
+      "tr": {
+        "ru": "прямо сейчас (особенно в Латинской Америке)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -20154,6 +21212,26 @@
         "conversationTitle": "Why Spain Controls Two Cities in North Africa - Dreaming Spanish",
         "createdAt": "2026-08-06T00:00:00Z",
         "ingestBatch": "ingest-2026-08-09",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_c788230f",
+      "lemma": "buey de mar",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "крупный краб"
+      },
+      "examples": [],
+      "topics": [
+        "tp_restaurante"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -20472,6 +21550,30 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_cc11c1af",
+      "lemma": "despacito",
+      "pos": "adv",
+      "tr": {
+        "ru": "потихоньку, не спеша (уменьш. от despacio)"
+      },
+      "examples": [
+        {
+          "text": "Vamos despacito.",
+          "tr": {
+            "ru": "Идём потихоньку."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -20879,6 +21981,25 @@
       }
     },
     {
+      "id": "vc_cf227b9e",
+      "lemma": "averiguar",
+      "pos": "verb",
+      "tr": {
+        "ru": "выяснять, узнавать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_averiguar",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_cfa1862c",
       "lemma": "aparte",
       "pos": "adv",
@@ -20894,6 +22015,30 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_cfba8ed5",
+      "lemma": "hondo",
+      "pos": "adv",
+      "tr": {
+        "ru": "глубоко"
+      },
+      "examples": [
+        {
+          "text": "Respira hondo.",
+          "tr": {
+            "ru": "Дыши глубоко."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -21040,6 +22185,25 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_d1b127b8",
+      "lemma": "sonreír",
+      "pos": "verb",
+      "tr": {
+        "ru": "улыбаться"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_sonreir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -21205,6 +22369,12 @@
           "tr": {
             "ru": "Сделаю попозже."
           }
+        },
+        {
+          "text": "Sigue recto y luego gira a la derecha.",
+          "tr": {
+            "ru": "Иди прямо, затем поверни направо."
+          }
         }
       ],
       "topics": [],
@@ -21213,7 +22383,10 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       }
     },
     {
@@ -22423,6 +23596,23 @@
       }
     },
     {
+      "id": "vc_db65ac96",
+      "lemma": "los dos",
+      "pos": "phrase",
+      "tr": {
+        "ru": "оба (las dos — обе); в разговоре чаще, чем ambos"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_db6b582c",
       "lemma": "invierno",
       "pos": "noun",
@@ -22872,6 +24062,25 @@
       }
     },
     {
+      "id": "vc_e039e1e3",
+      "lemma": "atraer",
+      "pos": "verb",
+      "tr": {
+        "ru": "притягивать, привлекать"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_atraer",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e081865d",
       "lemma": "regresar",
       "pos": "verb",
@@ -23140,6 +24349,23 @@
       "gender": "m"
     },
     {
+      "id": "vc_e26e1396",
+      "lemma": "por aquel entonces",
+      "pos": "phrase",
+      "tr": {
+        "ru": "в то время, тогда"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_e298c466",
       "lemma": "dónde",
       "pos": "adv",
@@ -23291,6 +24517,24 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e400fdf2",
+      "lemma": "residencia",
+      "pos": "noun",
+      "gender": "f",
+      "tr": {
+        "ru": "ВНЖ (в разговоре)"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -23475,6 +24719,12 @@
           "tr": {
             "ru": "Ждём Вас снова."
           }
+        },
+        {
+          "text": "Es demasiado pronto para nosotros.",
+          "tr": {
+            "ru": "Это слишком рано для нас."
+          }
         }
       ],
       "topics": [],
@@ -23483,7 +24733,10 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       }
     },
     {
@@ -23614,6 +24867,25 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_e6efcedc",
+      "lemma": "tocar",
+      "pos": "verb",
+      "tr": {
+        "ru": "трогать; играть (на инструменте)"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_tocar",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -24587,6 +25859,25 @@
       "gender": "f"
     },
     {
+      "id": "vc_eee88959",
+      "lemma": "producir",
+      "pos": "verb",
+      "tr": {
+        "ru": "производить"
+      },
+      "examples": [],
+      "topics": [],
+      "verbId": "vb_producir",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_ef9dce4b",
       "lemma": "a ver",
       "pos": "phrase",
@@ -24710,6 +26001,30 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_f0cc2e29",
+      "lemma": "de repente",
+      "pos": "phrase",
+      "tr": {
+        "ru": "вдруг"
+      },
+      "examples": [
+        {
+          "text": "De repente surge una idea.",
+          "tr": {
+            "ru": "Вдруг приходит идея."
+          }
+        }
+      ],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -24873,6 +26188,32 @@
       }
     },
     {
+      "id": "vc_f34da279",
+      "lemma": "conceder",
+      "pos": "verb",
+      "tr": {
+        "ru": "выдавать, предоставлять (официально)"
+      },
+      "examples": [
+        {
+          "text": "Dejaron de conceder residencias.",
+          "tr": {
+            "ru": "Перестали выдавать ВНЖ."
+          }
+        }
+      ],
+      "topics": [],
+      "verbId": "vb_conceder",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_f380d2b6",
       "lemma": "ella",
       "pos": "pron",
@@ -24971,6 +26312,12 @@
           "tr": {
             "ru": "Не могли бы вы говорить медленнее?"
           }
+        },
+        {
+          "text": "Habla más despacio, por favor.",
+          "tr": {
+            "ru": "Говори помедленнее, пожалуйста."
+          }
         }
       ],
       "topics": [
@@ -24984,7 +26331,8 @@
         "extractor": "model",
         "alsoSeenIn": [
           "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
-          "6a606e40-b940-83eb-b5f5-104079999d29"
+          "6a606e40-b940-83eb-b5f5-104079999d29",
+          "claude-share-6e539b8c-surge-indefinido"
         ]
       }
     },
@@ -25512,6 +26860,12 @@
           "tr": {
             "ru": "появились бы на тротуаре"
           }
+        },
+        {
+          "text": "Me aparece un error al abrir la app.",
+          "tr": {
+            "ru": "У меня появляется ошибка при открытии приложения."
+          }
         }
       ],
       "topics": [
@@ -25523,7 +26877,10 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
-        "extractor": "model"
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
       }
     },
     {
@@ -25851,6 +27208,34 @@
       }
     },
     {
+      "id": "vc_fb9f96d9",
+      "lemma": "joven",
+      "pos": "adj",
+      "gender": "mf",
+      "plural": "jóvenes",
+      "tr": {
+        "ru": "молодой"
+      },
+      "examples": [
+        {
+          "text": "Éramos tan jóvenes en aquel entonces.",
+          "tr": {
+            "ru": "Мы были так молоды тогда."
+          }
+        }
+      ],
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vc_fbae7052",
       "lemma": "corto",
       "pos": "adj",
@@ -26000,6 +27385,24 @@
         "conversationId": "inbox-numerales",
         "conversationTitle": "Количественные и порядковые числительные",
         "ingestBatch": "ingest-2026-08-10",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vc_fd47d2bf",
+      "lemma": "cangrejo",
+      "pos": "noun",
+      "gender": "m",
+      "tr": {
+        "ru": "краб"
+      },
+      "examples": [],
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },

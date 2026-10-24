@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-10-21T04:07:36Z",
+  "generatedAt": "2026-10-24T05:05:27Z",
   "items": [
     {
       "id": "ph_0015d94b",
@@ -301,6 +301,21 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_015dec97",
+      "text": "Vamos despacito.",
+      "tr": {
+        "ru": "Идём потихоньку."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -4500,6 +4515,29 @@
       }
     },
     {
+      "id": "ph_1c5ffc6e",
+      "text": "Estábamos tan jóvenes.",
+      "tr": {
+        "ru": "Мы так молодо выглядели (тогда)."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "notes": {
+        "ru": "Estar joven — выглядеть или чувствовать себя молодо, а не «быть молодым»."
+      },
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_1c6ada52",
       "text": "Tenemos sed.",
       "tr": {
@@ -4724,6 +4762,23 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_1e0b71aa",
+      "text": "Estábamos en Barcelona.",
+      "tr": {
+        "ru": "Мы были в Барселоне."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -5222,6 +5277,25 @@
       ]
     },
     {
+      "id": "ph_21365e69",
+      "text": "Déjame respirar.",
+      "tr": {
+        "ru": "Дай мне продохнуть."
+      },
+      "topics": [],
+      "register": "informal",
+      "notes": {
+        "ru": "И буквально, и когда кто-то достал."
+      },
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_21483203",
       "text": "No quiero degradado, solo el contorno.",
       "tr": {
@@ -5505,6 +5579,25 @@
       }
     },
     {
+      "id": "ph_236ecf35",
+      "text": "Ayer vi a Juan.",
+      "tr": {
+        "ru": "Вчера видел Хуана."
+      },
+      "topics": [],
+      "needsReview": true,
+      "relatedGrammarIds": [
+        "gr_preterito-indefinido-preterito-perfecto-bb021f13"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_2384c923",
       "text": "Estoy aprendiendo español porque vivo en Barcelona.",
       "tr": {
@@ -5721,6 +5814,24 @@
       },
       "notes": {
         "ru": "В Мексике — documentar."
+      }
+    },
+    {
+      "id": "ph_24b4f755",
+      "text": "La ciudad surgió en el siglo XII.",
+      "tr": {
+        "ru": "Город возник в XII веке."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {
@@ -8448,6 +8559,24 @@
       }
     },
     {
+      "id": "ph_38483d1c",
+      "text": "Me duele el cuello.",
+      "tr": {
+        "ru": "У меня болит шея."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "О своих частях тела испанцы говорят el cuello, а не mi cuello."
+      },
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_38553b7d",
       "text": "Compro el coche.",
       "tr": {
@@ -9520,6 +9649,24 @@
       }
     },
     {
+      "id": "ph_3eeaa6a4",
+      "text": "Apareció un mensaje.",
+      "tr": {
+        "ru": "Появилось сообщение."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_3f038073",
       "text": "desde pequeña",
       "tr": {
@@ -9979,6 +10126,26 @@
       }
     },
     {
+      "id": "ph_420c26d3",
+      "text": "Todas las casas de la ciudad eran azules.",
+      "tr": {
+        "ru": "Все дома в городе были синими."
+      },
+      "topics": [
+        "tp_colores"
+      ],
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_42202d44",
       "text": "¿Le gustaría tomar un postre?",
       "tr": {
@@ -10091,6 +10258,29 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4308e1ea",
+      "text": "Las casas fueron pintadas de azul.",
+      "tr": {
+        "ru": "Дома покрасили в синий."
+      },
+      "topics": [
+        "tp_colores"
+      ],
+      "notes": {
+        "ru": "Indefinido + ser: кто-то это сделал, событие."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -10751,6 +10941,27 @@
         "conversationId": "6a4dbb43-8e00-83eb-b75b-f8c1d1e6c2d4",
         "conversationTitle": "Неправильные глаголы в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_48327b4e",
+      "text": "Hoy he visto a Juan.",
+      "tr": {
+        "ru": "Сегодня видел Хуана."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "В Испании pretérito perfecto — для сегодняшнего дня; про вчера и раньше уже indefinido: Ayer vi a Juan."
+      },
+      "relatedGrammarIds": [
+        "gr_preterito-indefinido-preterito-perfecto-bb021f13"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -11503,6 +11714,24 @@
       }
     },
     {
+      "id": "ph_4d23e71a",
+      "text": "Es demasiado pronto para nosotros.",
+      "tr": {
+        "ru": "Это слишком рано для нас."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "Pronto — ещё не время (жениться, переезжать). Temprano — рано по часам. И es, а не está: «рано» здесь факт о ситуации."
+      },
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_4d3e6f7a",
       "text": "¿Dónde están las llaves?",
       "tr": {
@@ -11956,6 +12185,21 @@
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_4f3ea3d2",
+      "text": "Habla más despacio, por favor.",
+      "tr": {
+        "ru": "Говори помедленнее, пожалуйста."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -13875,6 +14119,21 @@
       }
     },
     {
+      "id": "ph_5a4ba5af",
+      "text": "Me gustan ambas.",
+      "tr": {
+        "ru": "Мне нравятся обе."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_5a5609c6",
       "text": "No se veían desde hacía años.",
       "tr": {
@@ -13889,6 +14148,24 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_5a7566dc",
+      "text": "Surge un problema.",
+      "tr": {
+        "ru": "Возникает проблема."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -15239,6 +15516,48 @@
       }
     },
     {
+      "id": "ph_6398899c",
+      "text": "Se ha producido un error.",
+      "tr": {
+        "ru": "Произошла ошибка."
+      },
+      "topics": [],
+      "register": "formal",
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_6412efaa",
+      "text": "Las casas eran azules.",
+      "tr": {
+        "ru": "Дома были синими."
+      },
+      "topics": [
+        "tp_colores"
+      ],
+      "notes": {
+        "ru": "Imperfecto: просто такими были, описание."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_6415ed78",
       "text": "No incluye el entrenador personal.",
       "tr": {
@@ -15540,6 +15859,31 @@
         "conversationId": "inbox-c3a8ffca",
         "conversationTitle": "Объясни с примерами замену прямого и непряпрямого дополнений…",
         "ingestBatch": "ingest-2026-08-08",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_67019613",
+      "text": "Éramos tan jóvenes en aquel entonces.",
+      "tr": {
+        "ru": "Мы были так молоды тогда."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "notes": {
+        "ru": "Éramos — imperfecto (описание, без начала и конца) и ser (молодость — характеристика). Fuimos звучало бы как «побыли молодыми и завязали», estábamos — как «молодо выглядели»."
+      },
+      "needsReview": true,
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d",
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -17941,14 +18285,22 @@
         "ru": "Он сообразительный / хитрый."
       },
       "register": "neutral",
-      "topics": [],
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
       "source": {
         "origin": "chatgpt",
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
-      }
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
+      },
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ]
     },
     {
       "id": "ph_76ada47c",
@@ -18122,6 +18474,26 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_775b0776",
+      "text": "Es aburrido.",
+      "tr": {
+        "ru": "Он зануда."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -18890,6 +19262,24 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_7d15ab1c",
+      "text": "Ayer jugué al fútbol.",
+      "tr": {
+        "ru": "Вчера я сыграл в футбол."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -23249,6 +23639,24 @@
       }
     },
     {
+      "id": "ph_96f54ea2",
+      "text": "De repente surge una idea.",
+      "tr": {
+        "ru": "Вдруг приходит идея."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_97048f8e",
       "text": "No quiero máquina.",
       "tr": {
@@ -23393,6 +23801,21 @@
         "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_97b2c5d1",
+      "text": "Respira hondo.",
+      "tr": {
+        "ru": "Дыши глубоко."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -24441,6 +24864,29 @@
         "conversationId": "6a6cf173-f534-83eb-89bd-32a90d79b54f",
         "conversationTitle": "Чаевые в приложении испанский",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_9e926e08",
+      "text": "Las casas estaban pintadas de azul.",
+      "tr": {
+        "ru": "Дома были покрашены в синий."
+      },
+      "topics": [
+        "tp_colores"
+      ],
+      "notes": {
+        "ru": "Imperfecto + estar: такое состояние."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -26355,6 +26801,23 @@
       }
     },
     {
+      "id": "ph_aa2b2000",
+      "text": "Sigue todo recto, luego a la izquierda, y después verás la estación.",
+      "tr": {
+        "ru": "Иди прямо, потом налево, а дальше увидишь станцию."
+      },
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_aa34c1a9",
       "text": "Hace frío.",
       "tr": {
@@ -26489,6 +26952,24 @@
         "conversationId": "claude-share-81a1dc70-harry-potter-cap1",
         "conversationTitle": "Перевод и грамматический разбор",
         "ingestBatch": "ingest-2026-10-21",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_abb1dc7d",
+      "text": "La ciudad nació como un pequeño puerto.",
+      "tr": {
+        "ru": "Город появился как маленький порт."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -27101,6 +27582,23 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b037955a",
+      "text": "Dejaron de conceder residencias.",
+      "tr": {
+        "ru": "Перестали выдавать ВНЖ."
+      },
+      "topics": [],
+      "register": "formal",
+      "needsReview": true,
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -27937,6 +28435,23 @@
       }
     },
     {
+      "id": "ph_b47c10f1",
+      "text": "Cruza la plaza y después toma la segunda calle.",
+      "tr": {
+        "ru": "Перейди площадь, затем сверни на вторую улицу."
+      },
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_b47c5c7b",
       "text": "Estoy metido en un buen lío.",
       "tr": {
@@ -28069,6 +28584,21 @@
         "conversationId": "6a5d2b0b-1a78-83eb-a2c0-914afde90409",
         "conversationTitle": "Siempre que significado",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_b55fe18f",
+      "text": "Necesito un respiro.",
+      "tr": {
+        "ru": "Мне нужна пауза."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -28299,12 +28829,16 @@
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model",
         "alsoSeenIn": [
-          "claude-2026-08-17-quien-es-hace-perifrasis"
+          "claude-2026-08-17-quien-es-hace-perifrasis",
+          "claude-share-6e539b8c-surge-indefinido"
         ]
       },
       "relatedGrammarIds": [
         "gr_perifrasis-verbales-66021edc"
-      ]
+      ],
+      "notes": {
+        "ru": "Dejar de + инфинитив — перестать что-то делать."
+      }
     },
     {
       "id": "ph_b70fbaf6",
@@ -28385,6 +28919,23 @@
       "relatedGrammarIds": [
         "gr_darse-cuenta-de-que-dfe38d26"
       ]
+    },
+    {
+      "id": "ph_b765773b",
+      "text": "Sigue recto y luego gira a la derecha.",
+      "tr": {
+        "ru": "Иди прямо, затем поверни направо."
+      },
+      "topics": [
+        "tp_orientacion-direcciones"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "ph_b7684818",
@@ -28866,6 +29417,24 @@
         "alsoSeenIn": [
           "6a607174-8fb4-83eb-a6aa-1212daddaf35"
         ]
+      }
+    },
+    {
+      "id": "ph_bac6c406",
+      "text": "Es demasiado temprano para nosotros.",
+      "tr": {
+        "ru": "Нам слишком рано вставать или ехать в такую рань."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "Temprano — рано по часам; если «ещё не время» — pronto."
+      },
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {
@@ -30037,6 +30606,25 @@
       }
     },
     {
+      "id": "ph_c20125a9",
+      "text": "Me sale un error.",
+      "tr": {
+        "ru": "У меня вылезает ошибка."
+      },
+      "topics": [],
+      "register": "informal",
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c23f05b6",
       "text": "Usted puede.",
       "tr": {
@@ -30135,6 +30723,24 @@
         "conversationId": "6a54866f-aa70-83eb-9463-ad531e4435c7",
         "conversationTitle": "Фразы для такси",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_c2c1b1e5",
+      "text": "El sol surge detrás de las montañas.",
+      "tr": {
+        "ru": "Солнце встаёт из-за гор."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -31088,6 +31694,27 @@
       }
     },
     {
+      "id": "ph_c8b2bf24",
+      "text": "Todo iba bien hasta que dejaron de dar permisos de residencia.",
+      "tr": {
+        "ru": "Всё было хорошо, пока они не перестали выдавать ВНЖ."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "Iba bien — фон (imperfecto), dejaron — событие, которое этот фон оборвало (indefinido). «Пока не» — просто hasta que, без отрицания. Можно и todo estaba bien, но iba bien звучит живее."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_c8b7388b",
       "text": "El plan no funcionó.",
       "tr": {
@@ -31979,6 +32606,27 @@
       }
     },
     {
+      "id": "ph_ce1de415",
+      "text": "De niño jugaba en la calle.",
+      "tr": {
+        "ru": "В детстве я играл на улице."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "Imperfecto: регулярное действие в прошлом."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_ce5a4982",
       "text": "Giremos a la derecha.",
       "tr": {
@@ -32397,6 +33045,21 @@
       }
     },
     {
+      "id": "ph_d0cdeaa3",
+      "text": "Ambos chicos son de aquí.",
+      "tr": {
+        "ru": "Оба парня местные."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_d0f34ac4",
       "text": "La chica ya se ha ido.",
       "tr": {
@@ -32505,6 +33168,26 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_d1aa73e9",
+      "text": "Estábamos cansados.",
+      "tr": {
+        "ru": "Мы были уставшие."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -32702,6 +33385,29 @@
         "conversationId": "6a533484-a9e8-83eb-8083-813afe2f2d72",
         "conversationTitle": "Местоимения в испанском",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_d3042798",
+      "text": "Todas las casas de la ciudad estaban pintadas de azul.",
+      "tr": {
+        "ru": "Все дома в городе были покрашены в синий."
+      },
+      "topics": [
+        "tp_colores"
+      ],
+      "notes": {
+        "ru": "Красят de azul, а не en azul. Estaban pintadas — какими дома были (состояние); если их кто-то взял и покрасил — fueron pintadas."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -33840,6 +34546,21 @@
       }
     },
     {
+      "id": "ph_da0c3d71",
+      "text": "Ambas calles llevan a la playa.",
+      "tr": {
+        "ru": "Обе улицы ведут к пляжу."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_da23bc7f",
       "text": "¿Hay permanencia?",
       "tr": {
@@ -34104,6 +34825,21 @@
         "conversationId": "6a55303d-a63c-83ed-a1ee-d5c45129cdec",
         "conversationTitle": "Запись в тренажёрный зал",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_dc6d06da",
+      "text": "No puedo respirar.",
+      "tr": {
+        "ru": "Не могу дышать."
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -34527,6 +35263,24 @@
         "conversationId": "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
         "conversationTitle": "Uso de darle y esto",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_de742b39",
+      "text": "Me aparece un error al abrir la app.",
+      "tr": {
+        "ru": "У меня появляется ошибка при открытии приложения."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -35763,6 +36517,24 @@
       }
     },
     {
+      "id": "ph_e6037959",
+      "text": "Surgió un error.",
+      "tr": {
+        "ru": "Возникла ошибка."
+      },
+      "topics": [],
+      "relatedGrammarIds": [
+        "gr_surgir-aparecer-salir-producirse-nacer-79c9d148"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_e61220e9",
       "text": "tomar fotos",
       "tr": {
@@ -36559,14 +37331,22 @@
         "ru": "Он готов / Всё готово."
       },
       "register": "neutral",
-      "topics": [],
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
       "source": {
         "origin": "chatgpt",
         "conversationId": "6a5f1f00-2864-83eb-8b1d-4fd2d6ea77c3",
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
-        "extractor": "model"
-      }
+        "extractor": "model",
+        "alsoSeenIn": [
+          "claude-share-6e539b8c-surge-indefinido"
+        ]
+      },
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ]
     },
     {
       "id": "ph_ec53a180",
@@ -37005,6 +37785,26 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "ph_ef00b95a",
+      "text": "Está aburrido.",
+      "tr": {
+        "ru": "Ему скучно."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -37644,6 +38444,27 @@
       "relatedGrammarIds": [
         "gr_como-hago-adonde-voy-95241256"
       ]
+    },
+    {
+      "id": "ph_f213c0e6",
+      "text": "Llovía cuando salí de casa.",
+      "tr": {
+        "ru": "Шёл дождь, когда я вышел из дома."
+      },
+      "topics": [],
+      "notes": {
+        "ru": "Llovía — фон (imperfecto), salí — событие (indefinido)."
+      },
+      "relatedGrammarIds": [
+        "gr_imperfecto-indefinido-870491e8"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "ph_f234b593",
@@ -39120,6 +39941,26 @@
       }
     },
     {
+      "id": "ph_fc9602fa",
+      "text": "Despacito y con buena letra.",
+      "tr": {
+        "ru": "Не торопясь, но аккуратно (≈ тише едешь — дальше будешь)."
+      },
+      "topics": [
+        "tp_expresiones-coloquiales"
+      ],
+      "notes": {
+        "ru": "Поговорка."
+      },
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "ph_fca462b3",
       "text": "Tengo que darle esta carta a la jefa.",
       "tr": {
@@ -39405,6 +40246,26 @@
         "alsoSeenIn": [
           "6a54866f-aa70-83eb-9463-ad531e4435c7"
         ]
+      }
+    },
+    {
+      "id": "ph_fe519cf6",
+      "text": "Tu madre está muy joven.",
+      "tr": {
+        "ru": "Твоя мама отлично выглядит для своих лет."
+      },
+      "topics": [
+        "tp_ser-estar-hay"
+      ],
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {

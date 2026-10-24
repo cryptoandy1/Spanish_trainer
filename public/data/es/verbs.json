@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-10-21T04:07:36Z",
+  "generatedAt": "2026-10-24T05:05:27Z",
   "items": [
     {
       "id": "vb_abordar",
@@ -7412,6 +7412,271 @@
       "conjugationClass": "-er"
     },
     {
+      "id": "vb_atraer",
+      "infinitive": "atraer",
+      "tr": {
+        "ru": "притягивать, привлекать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "atrayendo",
+        "participle": "atraído"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "atraigo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "atraes"
+            },
+            "el": {
+              "form": "atrae"
+            },
+            "nosotros": {
+              "form": "atraemos"
+            },
+            "vosotros": {
+              "form": "atraéis"
+            },
+            "ellos": {
+              "form": "atraen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "atraje",
+              "irregular": true
+            },
+            "tu": {
+              "form": "atrajiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "atrajo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "atrajimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "atrajisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "atrajeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "atraía"
+            },
+            "tu": {
+              "form": "atraías"
+            },
+            "el": {
+              "form": "atraía"
+            },
+            "nosotros": {
+              "form": "atraíamos"
+            },
+            "vosotros": {
+              "form": "atraíais"
+            },
+            "ellos": {
+              "form": "atraían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he atraído"
+            },
+            "tu": {
+              "form": "has atraído"
+            },
+            "el": {
+              "form": "ha atraído"
+            },
+            "nosotros": {
+              "form": "hemos atraído"
+            },
+            "vosotros": {
+              "form": "habéis atraído"
+            },
+            "ellos": {
+              "form": "han atraído"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "atraeré"
+            },
+            "tu": {
+              "form": "atraerás"
+            },
+            "el": {
+              "form": "atraerá"
+            },
+            "nosotros": {
+              "form": "atraeremos"
+            },
+            "vosotros": {
+              "form": "atraeréis"
+            },
+            "ellos": {
+              "form": "atraerán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "atraería"
+            },
+            "tu": {
+              "form": "atraerías"
+            },
+            "el": {
+              "form": "atraería"
+            },
+            "nosotros": {
+              "form": "atraeríamos"
+            },
+            "vosotros": {
+              "form": "atraeríais"
+            },
+            "ellos": {
+              "form": "atraerían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "atraiga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "atraigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "atraiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "atraigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "atraigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "atraigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "atrajera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "atrajeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "atrajera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "atrajéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "atrajerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "atrajeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "atrae"
+            },
+            "el": {
+              "form": "atraiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "atraigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "atraed"
+            },
+            "ellos": {
+              "form": "atraigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no atraigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no atraiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no atraigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no atraigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no atraigan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_atreverse",
       "infinitive": "atreverse",
       "tr": {
@@ -7648,6 +7913,259 @@
         "extractor": "model"
       },
       "conjugationClass": "-er"
+    },
+    {
+      "id": "vb_averiguar",
+      "infinitive": "averiguar",
+      "tr": {
+        "ru": "выяснять, узнавать"
+      },
+      "regularity": "orthographic",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "averiguando",
+        "participle": "averiguado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "averiguo"
+            },
+            "tu": {
+              "form": "averiguas"
+            },
+            "el": {
+              "form": "averigua"
+            },
+            "nosotros": {
+              "form": "averiguamos"
+            },
+            "vosotros": {
+              "form": "averiguáis"
+            },
+            "ellos": {
+              "form": "averiguan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "averigüé",
+              "irregular": true
+            },
+            "tu": {
+              "form": "averiguaste"
+            },
+            "el": {
+              "form": "averiguó"
+            },
+            "nosotros": {
+              "form": "averiguamos"
+            },
+            "vosotros": {
+              "form": "averiguasteis"
+            },
+            "ellos": {
+              "form": "averiguaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "averiguaba"
+            },
+            "tu": {
+              "form": "averiguabas"
+            },
+            "el": {
+              "form": "averiguaba"
+            },
+            "nosotros": {
+              "form": "averiguábamos"
+            },
+            "vosotros": {
+              "form": "averiguabais"
+            },
+            "ellos": {
+              "form": "averiguaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he averiguado"
+            },
+            "tu": {
+              "form": "has averiguado"
+            },
+            "el": {
+              "form": "ha averiguado"
+            },
+            "nosotros": {
+              "form": "hemos averiguado"
+            },
+            "vosotros": {
+              "form": "habéis averiguado"
+            },
+            "ellos": {
+              "form": "han averiguado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "averiguaré"
+            },
+            "tu": {
+              "form": "averiguarás"
+            },
+            "el": {
+              "form": "averiguará"
+            },
+            "nosotros": {
+              "form": "averiguaremos"
+            },
+            "vosotros": {
+              "form": "averiguaréis"
+            },
+            "ellos": {
+              "form": "averiguarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "averiguaría"
+            },
+            "tu": {
+              "form": "averiguarías"
+            },
+            "el": {
+              "form": "averiguaría"
+            },
+            "nosotros": {
+              "form": "averiguaríamos"
+            },
+            "vosotros": {
+              "form": "averiguaríais"
+            },
+            "ellos": {
+              "form": "averiguarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "averigüe",
+              "irregular": true
+            },
+            "tu": {
+              "form": "averigües",
+              "irregular": true
+            },
+            "el": {
+              "form": "averigüe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "averigüemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "averigüéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "averigüen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "averiguara"
+            },
+            "tu": {
+              "form": "averiguaras"
+            },
+            "el": {
+              "form": "averiguara"
+            },
+            "nosotros": {
+              "form": "averiguáramos"
+            },
+            "vosotros": {
+              "form": "averiguarais"
+            },
+            "ellos": {
+              "form": "averiguaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "averigua"
+            },
+            "el": {
+              "form": "averigüe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "averigüemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "averiguad"
+            },
+            "ellos": {
+              "form": "averigüen",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no averigües",
+              "irregular": true
+            },
+            "el": {
+              "form": "no averigüe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no averigüemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no averigüéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no averigüen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_avisar",
@@ -11893,6 +12411,291 @@
       "conjugationClass": "-er"
     },
     {
+      "id": "vb_componer",
+      "infinitive": "componer",
+      "tr": {
+        "ru": "составлять, сочинять"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "componiendo",
+        "participle": "compuesto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "compongo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "compones"
+            },
+            "el": {
+              "form": "compone"
+            },
+            "nosotros": {
+              "form": "componemos"
+            },
+            "vosotros": {
+              "form": "componéis"
+            },
+            "ellos": {
+              "form": "componen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "compuse",
+              "irregular": true
+            },
+            "tu": {
+              "form": "compusiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "compuso",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "compusimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "compusisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "compusieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "componía"
+            },
+            "tu": {
+              "form": "componías"
+            },
+            "el": {
+              "form": "componía"
+            },
+            "nosotros": {
+              "form": "componíamos"
+            },
+            "vosotros": {
+              "form": "componíais"
+            },
+            "ellos": {
+              "form": "componían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he compuesto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "has compuesto",
+              "irregular": true
+            },
+            "el": {
+              "form": "ha compuesto",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "hemos compuesto",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "habéis compuesto",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "han compuesto",
+              "irregular": true
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "compondré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "compondrás",
+              "irregular": true
+            },
+            "el": {
+              "form": "compondrá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "compondremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "compondréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "compondrán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "compondría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "compondrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "compondría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "compondríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "compondríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "compondrían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "componga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "compongas",
+              "irregular": true
+            },
+            "el": {
+              "form": "componga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "compongamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "compongáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "compongan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "compusiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "compusieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "compusiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "compusiéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "compusierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "compusieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "compón",
+              "irregular": true
+            },
+            "el": {
+              "form": "componga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "compongamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "componed"
+            },
+            "ellos": {
+              "form": "compongan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no compongas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no componga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no compongamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no compongáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no compongan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_comprar",
       "infinitive": "comprar",
       "tr": {
@@ -12369,6 +13172,244 @@
       }
     },
     {
+      "id": "vb_conceder",
+      "infinitive": "conceder",
+      "tr": {
+        "ru": "выдавать, предоставлять (официально)"
+      },
+      "regularity": "regular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "concediendo",
+        "participle": "concedido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "concedo"
+            },
+            "tu": {
+              "form": "concedes"
+            },
+            "el": {
+              "form": "concede"
+            },
+            "nosotros": {
+              "form": "concedemos"
+            },
+            "vosotros": {
+              "form": "concedéis"
+            },
+            "ellos": {
+              "form": "conceden"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "concedí"
+            },
+            "tu": {
+              "form": "concediste"
+            },
+            "el": {
+              "form": "concedió"
+            },
+            "nosotros": {
+              "form": "concedimos"
+            },
+            "vosotros": {
+              "form": "concedisteis"
+            },
+            "ellos": {
+              "form": "concedieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "concedía"
+            },
+            "tu": {
+              "form": "concedías"
+            },
+            "el": {
+              "form": "concedía"
+            },
+            "nosotros": {
+              "form": "concedíamos"
+            },
+            "vosotros": {
+              "form": "concedíais"
+            },
+            "ellos": {
+              "form": "concedían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he concedido"
+            },
+            "tu": {
+              "form": "has concedido"
+            },
+            "el": {
+              "form": "ha concedido"
+            },
+            "nosotros": {
+              "form": "hemos concedido"
+            },
+            "vosotros": {
+              "form": "habéis concedido"
+            },
+            "ellos": {
+              "form": "han concedido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "concederé"
+            },
+            "tu": {
+              "form": "concederás"
+            },
+            "el": {
+              "form": "concederá"
+            },
+            "nosotros": {
+              "form": "concederemos"
+            },
+            "vosotros": {
+              "form": "concederéis"
+            },
+            "ellos": {
+              "form": "concederán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "concedería"
+            },
+            "tu": {
+              "form": "concederías"
+            },
+            "el": {
+              "form": "concedería"
+            },
+            "nosotros": {
+              "form": "concederíamos"
+            },
+            "vosotros": {
+              "form": "concederíais"
+            },
+            "ellos": {
+              "form": "concederían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "conceda"
+            },
+            "tu": {
+              "form": "concedas"
+            },
+            "el": {
+              "form": "conceda"
+            },
+            "nosotros": {
+              "form": "concedamos"
+            },
+            "vosotros": {
+              "form": "concedáis"
+            },
+            "ellos": {
+              "form": "concedan"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "concediera"
+            },
+            "tu": {
+              "form": "concedieras"
+            },
+            "el": {
+              "form": "concediera"
+            },
+            "nosotros": {
+              "form": "concediéramos"
+            },
+            "vosotros": {
+              "form": "concedierais"
+            },
+            "ellos": {
+              "form": "concedieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "concede"
+            },
+            "el": {
+              "form": "conceda"
+            },
+            "nosotros": {
+              "form": "concedamos"
+            },
+            "vosotros": {
+              "form": "conceded"
+            },
+            "ellos": {
+              "form": "concedan"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no concedas"
+            },
+            "el": {
+              "form": "no conceda"
+            },
+            "nosotros": {
+              "form": "no concedamos"
+            },
+            "vosotros": {
+              "form": "no concedáis"
+            },
+            "ellos": {
+              "form": "no concedan"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_concentrarse",
       "infinitive": "concentrarse",
       "tr": {
@@ -12605,6 +13646,271 @@
         "extractor": "model"
       },
       "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_conducir",
+      "infinitive": "conducir",
+      "tr": {
+        "ru": "водить (машину), вести"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "conduciendo",
+        "participle": "conducido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "conduzco",
+              "irregular": true
+            },
+            "tu": {
+              "form": "conduces"
+            },
+            "el": {
+              "form": "conduce"
+            },
+            "nosotros": {
+              "form": "conducimos"
+            },
+            "vosotros": {
+              "form": "conducís"
+            },
+            "ellos": {
+              "form": "conducen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "conduje",
+              "irregular": true
+            },
+            "tu": {
+              "form": "condujiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "condujo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "condujimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "condujisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "condujeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "conducía"
+            },
+            "tu": {
+              "form": "conducías"
+            },
+            "el": {
+              "form": "conducía"
+            },
+            "nosotros": {
+              "form": "conducíamos"
+            },
+            "vosotros": {
+              "form": "conducíais"
+            },
+            "ellos": {
+              "form": "conducían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he conducido"
+            },
+            "tu": {
+              "form": "has conducido"
+            },
+            "el": {
+              "form": "ha conducido"
+            },
+            "nosotros": {
+              "form": "hemos conducido"
+            },
+            "vosotros": {
+              "form": "habéis conducido"
+            },
+            "ellos": {
+              "form": "han conducido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "conduciré"
+            },
+            "tu": {
+              "form": "conducirás"
+            },
+            "el": {
+              "form": "conducirá"
+            },
+            "nosotros": {
+              "form": "conduciremos"
+            },
+            "vosotros": {
+              "form": "conduciréis"
+            },
+            "ellos": {
+              "form": "conducirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "conduciría"
+            },
+            "tu": {
+              "form": "conducirías"
+            },
+            "el": {
+              "form": "conduciría"
+            },
+            "nosotros": {
+              "form": "conduciríamos"
+            },
+            "vosotros": {
+              "form": "conduciríais"
+            },
+            "ellos": {
+              "form": "conducirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "conduzca",
+              "irregular": true
+            },
+            "tu": {
+              "form": "conduzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "conduzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "conduzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "conduzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "conduzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "condujera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "condujeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "condujera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "condujéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "condujerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "condujeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "conduce"
+            },
+            "el": {
+              "form": "conduzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "conduzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "conducid"
+            },
+            "ellos": {
+              "form": "conduzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no conduzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no conduzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no conduzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no conduzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no conduzcan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_confirmar",
@@ -13365,6 +14671,271 @@
       "conjugationClass": "-ir"
     },
     {
+      "id": "vb_construir",
+      "infinitive": "construir",
+      "tr": {
+        "ru": "строить"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "construyendo",
+        "participle": "construido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "construyo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "construyes",
+              "irregular": true
+            },
+            "el": {
+              "form": "construye",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "construimos"
+            },
+            "vosotros": {
+              "form": "construís"
+            },
+            "ellos": {
+              "form": "construyen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "construí"
+            },
+            "tu": {
+              "form": "construiste"
+            },
+            "el": {
+              "form": "construyó",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "construimos"
+            },
+            "vosotros": {
+              "form": "construisteis"
+            },
+            "ellos": {
+              "form": "construyeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "construía"
+            },
+            "tu": {
+              "form": "construías"
+            },
+            "el": {
+              "form": "construía"
+            },
+            "nosotros": {
+              "form": "construíamos"
+            },
+            "vosotros": {
+              "form": "construíais"
+            },
+            "ellos": {
+              "form": "construían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he construido"
+            },
+            "tu": {
+              "form": "has construido"
+            },
+            "el": {
+              "form": "ha construido"
+            },
+            "nosotros": {
+              "form": "hemos construido"
+            },
+            "vosotros": {
+              "form": "habéis construido"
+            },
+            "ellos": {
+              "form": "han construido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "construiré"
+            },
+            "tu": {
+              "form": "construirás"
+            },
+            "el": {
+              "form": "construirá"
+            },
+            "nosotros": {
+              "form": "construiremos"
+            },
+            "vosotros": {
+              "form": "construiréis"
+            },
+            "ellos": {
+              "form": "construirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "construiría"
+            },
+            "tu": {
+              "form": "construirías"
+            },
+            "el": {
+              "form": "construiría"
+            },
+            "nosotros": {
+              "form": "construiríamos"
+            },
+            "vosotros": {
+              "form": "construiríais"
+            },
+            "ellos": {
+              "form": "construirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "construya",
+              "irregular": true
+            },
+            "tu": {
+              "form": "construyas",
+              "irregular": true
+            },
+            "el": {
+              "form": "construya",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "construyamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "construyáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "construyan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "construyera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "construyeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "construyera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "construyéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "construyerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "construyeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "construye",
+              "irregular": true
+            },
+            "el": {
+              "form": "construya",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "construyamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "construid"
+            },
+            "ellos": {
+              "form": "construyan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no construyas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no construya",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no construyamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no construyáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no construyan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_contar",
       "infinitive": "contar",
       "tr": {
@@ -13619,6 +15190,287 @@
           "6a5c55df-1eb8-83ed-8f3d-2df56ac6453d",
           "inbox-c3a8ffca"
         ]
+      }
+    },
+    {
+      "id": "vb_contener",
+      "infinitive": "contener",
+      "tr": {
+        "ru": "содержать (в себе)"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "conteniendo",
+        "participle": "contenido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "contengo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "contienes",
+              "irregular": true
+            },
+            "el": {
+              "form": "contiene",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contenemos"
+            },
+            "vosotros": {
+              "form": "contenéis"
+            },
+            "ellos": {
+              "form": "contienen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "contuve",
+              "irregular": true
+            },
+            "tu": {
+              "form": "contuviste",
+              "irregular": true
+            },
+            "el": {
+              "form": "contuvo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contuvimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "contuvisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "contuvieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "contenía"
+            },
+            "tu": {
+              "form": "contenías"
+            },
+            "el": {
+              "form": "contenía"
+            },
+            "nosotros": {
+              "form": "conteníamos"
+            },
+            "vosotros": {
+              "form": "conteníais"
+            },
+            "ellos": {
+              "form": "contenían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he contenido"
+            },
+            "tu": {
+              "form": "has contenido"
+            },
+            "el": {
+              "form": "ha contenido"
+            },
+            "nosotros": {
+              "form": "hemos contenido"
+            },
+            "vosotros": {
+              "form": "habéis contenido"
+            },
+            "ellos": {
+              "form": "han contenido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "contendré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "contendrás",
+              "irregular": true
+            },
+            "el": {
+              "form": "contendrá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contendremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "contendréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "contendrán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "contendría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "contendrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "contendría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contendríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "contendríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "contendrían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "contenga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "contengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "contenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "contengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "contengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "contuviera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "contuvieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "contuviera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contuviéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "contuvierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "contuvieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "contén",
+              "irregular": true
+            },
+            "el": {
+              "form": "contenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "contengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "contened"
+            },
+            "ellos": {
+              "form": "contengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no contengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no contenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no contengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no contengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no contengan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
       }
     },
     {
@@ -18361,6 +20213,291 @@
       }
     },
     {
+      "id": "vb_deshacer",
+      "infinitive": "deshacer",
+      "tr": {
+        "ru": "распаковывать, развязывать; отменять сделанное"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "deshaciendo",
+        "participle": "deshecho",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "deshago",
+              "irregular": true
+            },
+            "tu": {
+              "form": "deshaces"
+            },
+            "el": {
+              "form": "deshace"
+            },
+            "nosotros": {
+              "form": "deshacemos"
+            },
+            "vosotros": {
+              "form": "deshacéis"
+            },
+            "ellos": {
+              "form": "deshacen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "deshice",
+              "irregular": true
+            },
+            "tu": {
+              "form": "deshiciste",
+              "irregular": true
+            },
+            "el": {
+              "form": "deshizo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "deshicimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "deshicisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "deshicieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "deshacía"
+            },
+            "tu": {
+              "form": "deshacías"
+            },
+            "el": {
+              "form": "deshacía"
+            },
+            "nosotros": {
+              "form": "deshacíamos"
+            },
+            "vosotros": {
+              "form": "deshacíais"
+            },
+            "ellos": {
+              "form": "deshacían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he deshecho",
+              "irregular": true
+            },
+            "tu": {
+              "form": "has deshecho",
+              "irregular": true
+            },
+            "el": {
+              "form": "ha deshecho",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "hemos deshecho",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "habéis deshecho",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "han deshecho",
+              "irregular": true
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "desharé",
+              "irregular": true
+            },
+            "tu": {
+              "form": "desharás",
+              "irregular": true
+            },
+            "el": {
+              "form": "deshará",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "desharemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "desharéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "desharán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "desharía",
+              "irregular": true
+            },
+            "tu": {
+              "form": "desharías",
+              "irregular": true
+            },
+            "el": {
+              "form": "desharía",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "desharíamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "desharíais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "desharían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "deshaga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "deshagas",
+              "irregular": true
+            },
+            "el": {
+              "form": "deshaga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "deshagamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "deshagáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "deshagan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "deshiciera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "deshicieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "deshiciera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "deshiciéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "deshicierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "deshicieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "deshaz",
+              "irregular": true
+            },
+            "el": {
+              "form": "deshaga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "deshagamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "deshaced"
+            },
+            "ellos": {
+              "form": "deshagan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no deshagas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no deshaga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no deshagamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no deshagáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no deshagan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_despertar",
       "infinitive": "despertar",
       "tr": {
@@ -20365,6 +22502,543 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_distraer",
+      "infinitive": "distraer",
+      "tr": {
+        "ru": "отвлекать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "distrayendo",
+        "participle": "distraído",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "distraigo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "distraes"
+            },
+            "el": {
+              "form": "distrae"
+            },
+            "nosotros": {
+              "form": "distraemos"
+            },
+            "vosotros": {
+              "form": "distraéis"
+            },
+            "ellos": {
+              "form": "distraen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "distraje",
+              "irregular": true
+            },
+            "tu": {
+              "form": "distrajiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "distrajo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "distrajimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "distrajisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "distrajeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "distraía"
+            },
+            "tu": {
+              "form": "distraías"
+            },
+            "el": {
+              "form": "distraía"
+            },
+            "nosotros": {
+              "form": "distraíamos"
+            },
+            "vosotros": {
+              "form": "distraíais"
+            },
+            "ellos": {
+              "form": "distraían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he distraído",
+              "irregular": true
+            },
+            "tu": {
+              "form": "has distraído",
+              "irregular": true
+            },
+            "el": {
+              "form": "ha distraído",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "hemos distraído",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "habéis distraído",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "han distraído",
+              "irregular": true
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "distraeré"
+            },
+            "tu": {
+              "form": "distraerás"
+            },
+            "el": {
+              "form": "distraerá"
+            },
+            "nosotros": {
+              "form": "distraeremos"
+            },
+            "vosotros": {
+              "form": "distraeréis"
+            },
+            "ellos": {
+              "form": "distraerán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "distraería"
+            },
+            "tu": {
+              "form": "distraerías"
+            },
+            "el": {
+              "form": "distraería"
+            },
+            "nosotros": {
+              "form": "distraeríamos"
+            },
+            "vosotros": {
+              "form": "distraeríais"
+            },
+            "ellos": {
+              "form": "distraerían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "distraiga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "distraigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "distraiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "distraigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "distraigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "distraigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "distrajera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "distrajeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "distrajera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "distrajéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "distrajerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "distrajeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "distrae"
+            },
+            "el": {
+              "form": "distraiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "distraigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "distraed"
+            },
+            "ellos": {
+              "form": "distraigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no distraigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no distraiga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no distraigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no distraigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no distraigan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vb_divertirse",
+      "infinitive": "divertirse",
+      "tr": {
+        "ru": "веселиться, развлекаться"
+      },
+      "regularity": "stem-changing",
+      "conjugationClass": "-ir",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "divirtiéndose",
+        "participle": "divertido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me divierto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te diviertes",
+              "irregular": true
+            },
+            "el": {
+              "form": "se divierte",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos divertimos"
+            },
+            "vosotros": {
+              "form": "os divertís"
+            },
+            "ellos": {
+              "form": "se divierten",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me divertí"
+            },
+            "tu": {
+              "form": "te divertiste"
+            },
+            "el": {
+              "form": "se divirtió",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos divertimos"
+            },
+            "vosotros": {
+              "form": "os divertisteis"
+            },
+            "ellos": {
+              "form": "se divirtieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me divertía"
+            },
+            "tu": {
+              "form": "te divertías"
+            },
+            "el": {
+              "form": "se divertía"
+            },
+            "nosotros": {
+              "form": "nos divertíamos"
+            },
+            "vosotros": {
+              "form": "os divertíais"
+            },
+            "ellos": {
+              "form": "se divertían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he divertido"
+            },
+            "tu": {
+              "form": "te has divertido"
+            },
+            "el": {
+              "form": "se ha divertido"
+            },
+            "nosotros": {
+              "form": "nos hemos divertido"
+            },
+            "vosotros": {
+              "form": "os habéis divertido"
+            },
+            "ellos": {
+              "form": "se han divertido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me divertiré"
+            },
+            "tu": {
+              "form": "te divertirás"
+            },
+            "el": {
+              "form": "se divertirá"
+            },
+            "nosotros": {
+              "form": "nos divertiremos"
+            },
+            "vosotros": {
+              "form": "os divertiréis"
+            },
+            "ellos": {
+              "form": "se divertirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me divertiría"
+            },
+            "tu": {
+              "form": "te divertirías"
+            },
+            "el": {
+              "form": "se divertiría"
+            },
+            "nosotros": {
+              "form": "nos divertiríamos"
+            },
+            "vosotros": {
+              "form": "os divertiríais"
+            },
+            "ellos": {
+              "form": "se divertirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me divierta",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te diviertas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se divierta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos divirtamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os divirtáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se diviertan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me divirtiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te divirtieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "se divirtiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos divirtiéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os divirtierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se divirtieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "diviértete",
+              "irregular": true
+            },
+            "el": {
+              "form": "diviértase",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "divirtámonos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "divertíos"
+            },
+            "ellos": {
+              "form": "diviértanse",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te diviertas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no se divierta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no nos divirtamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no os divirtáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no se diviertan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_doblar",
       "infinitive": "doblar",
       "tr": {
@@ -20603,6 +23277,258 @@
         "extractor": "model"
       },
       "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_doler",
+      "infinitive": "doler",
+      "tr": {
+        "ru": "болеть"
+      },
+      "regularity": "stem-changing",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "doliendo",
+        "participle": "dolido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "duelo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "dueles",
+              "irregular": true
+            },
+            "el": {
+              "form": "duele",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "dolemos"
+            },
+            "vosotros": {
+              "form": "doléis"
+            },
+            "ellos": {
+              "form": "duelen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "dolí"
+            },
+            "tu": {
+              "form": "doliste"
+            },
+            "el": {
+              "form": "dolió"
+            },
+            "nosotros": {
+              "form": "dolimos"
+            },
+            "vosotros": {
+              "form": "dolisteis"
+            },
+            "ellos": {
+              "form": "dolieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "dolía"
+            },
+            "tu": {
+              "form": "dolías"
+            },
+            "el": {
+              "form": "dolía"
+            },
+            "nosotros": {
+              "form": "dolíamos"
+            },
+            "vosotros": {
+              "form": "dolíais"
+            },
+            "ellos": {
+              "form": "dolían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he dolido"
+            },
+            "tu": {
+              "form": "has dolido"
+            },
+            "el": {
+              "form": "ha dolido"
+            },
+            "nosotros": {
+              "form": "hemos dolido"
+            },
+            "vosotros": {
+              "form": "habéis dolido"
+            },
+            "ellos": {
+              "form": "han dolido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "doleré"
+            },
+            "tu": {
+              "form": "dolerás"
+            },
+            "el": {
+              "form": "dolerá"
+            },
+            "nosotros": {
+              "form": "doleremos"
+            },
+            "vosotros": {
+              "form": "doleréis"
+            },
+            "ellos": {
+              "form": "dolerán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "dolería"
+            },
+            "tu": {
+              "form": "dolerías"
+            },
+            "el": {
+              "form": "dolería"
+            },
+            "nosotros": {
+              "form": "doleríamos"
+            },
+            "vosotros": {
+              "form": "doleríais"
+            },
+            "ellos": {
+              "form": "dolerían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "duela",
+              "irregular": true
+            },
+            "tu": {
+              "form": "duelas",
+              "irregular": true
+            },
+            "el": {
+              "form": "duela",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "dolamos"
+            },
+            "vosotros": {
+              "form": "doláis"
+            },
+            "ellos": {
+              "form": "duelan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "doliera"
+            },
+            "tu": {
+              "form": "dolieras"
+            },
+            "el": {
+              "form": "doliera"
+            },
+            "nosotros": {
+              "form": "doliéramos"
+            },
+            "vosotros": {
+              "form": "dolierais"
+            },
+            "ellos": {
+              "form": "dolieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "duele",
+              "irregular": true
+            },
+            "el": {
+              "form": "duela",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "dolamos"
+            },
+            "vosotros": {
+              "form": "doled"
+            },
+            "ellos": {
+              "form": "duelan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no duelas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no duela",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no dolamos"
+            },
+            "vosotros": {
+              "form": "no doláis"
+            },
+            "ellos": {
+              "form": "no duelan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_dormir",
@@ -31145,6 +34071,271 @@
       }
     },
     {
+      "id": "vb_huir",
+      "infinitive": "huir",
+      "tr": {
+        "ru": "убегать, спасаться бегством"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "huyendo",
+        "participle": "huido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "huyo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "huyes",
+              "irregular": true
+            },
+            "el": {
+              "form": "huye",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "huimos"
+            },
+            "vosotros": {
+              "form": "huís"
+            },
+            "ellos": {
+              "form": "huyen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "hui"
+            },
+            "tu": {
+              "form": "huiste"
+            },
+            "el": {
+              "form": "huyó",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "huimos"
+            },
+            "vosotros": {
+              "form": "huisteis"
+            },
+            "ellos": {
+              "form": "huyeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "huía"
+            },
+            "tu": {
+              "form": "huías"
+            },
+            "el": {
+              "form": "huía"
+            },
+            "nosotros": {
+              "form": "huíamos"
+            },
+            "vosotros": {
+              "form": "huíais"
+            },
+            "ellos": {
+              "form": "huían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he huido"
+            },
+            "tu": {
+              "form": "has huido"
+            },
+            "el": {
+              "form": "ha huido"
+            },
+            "nosotros": {
+              "form": "hemos huido"
+            },
+            "vosotros": {
+              "form": "habéis huido"
+            },
+            "ellos": {
+              "form": "han huido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "huiré"
+            },
+            "tu": {
+              "form": "huirás"
+            },
+            "el": {
+              "form": "huirá"
+            },
+            "nosotros": {
+              "form": "huiremos"
+            },
+            "vosotros": {
+              "form": "huiréis"
+            },
+            "ellos": {
+              "form": "huirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "huiría"
+            },
+            "tu": {
+              "form": "huirías"
+            },
+            "el": {
+              "form": "huiría"
+            },
+            "nosotros": {
+              "form": "huiríamos"
+            },
+            "vosotros": {
+              "form": "huiríais"
+            },
+            "ellos": {
+              "form": "huirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "huya",
+              "irregular": true
+            },
+            "tu": {
+              "form": "huyas",
+              "irregular": true
+            },
+            "el": {
+              "form": "huya",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "huyamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "huyáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "huyan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "huyera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "huyeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "huyera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "huyéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "huyerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "huyeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "huye",
+              "irregular": true
+            },
+            "el": {
+              "form": "huya",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "huyamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "huid"
+            },
+            "ellos": {
+              "form": "huyan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no huyas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no huya",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no huyamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no huyáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no huyan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_igualar",
       "infinitive": "igualar",
       "tr": {
@@ -34429,6 +37620,264 @@
       }
     },
     {
+      "id": "vb_jugarse",
+      "infinitive": "jugarse",
+      "tr": {
+        "ru": "рисковать (чем-то), ставить на кон"
+      },
+      "regularity": "stem-changing",
+      "conjugationClass": "-ar",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "jugándose",
+        "participle": "jugado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me juego",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te juegas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se juega",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos jugamos"
+            },
+            "vosotros": {
+              "form": "os jugáis"
+            },
+            "ellos": {
+              "form": "se juegan",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me jugué",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te jugaste"
+            },
+            "el": {
+              "form": "se jugó"
+            },
+            "nosotros": {
+              "form": "nos jugamos"
+            },
+            "vosotros": {
+              "form": "os jugasteis"
+            },
+            "ellos": {
+              "form": "se jugaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me jugaba"
+            },
+            "tu": {
+              "form": "te jugabas"
+            },
+            "el": {
+              "form": "se jugaba"
+            },
+            "nosotros": {
+              "form": "nos jugábamos"
+            },
+            "vosotros": {
+              "form": "os jugabais"
+            },
+            "ellos": {
+              "form": "se jugaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he jugado"
+            },
+            "tu": {
+              "form": "te has jugado"
+            },
+            "el": {
+              "form": "se ha jugado"
+            },
+            "nosotros": {
+              "form": "nos hemos jugado"
+            },
+            "vosotros": {
+              "form": "os habéis jugado"
+            },
+            "ellos": {
+              "form": "se han jugado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me jugaré"
+            },
+            "tu": {
+              "form": "te jugarás"
+            },
+            "el": {
+              "form": "se jugará"
+            },
+            "nosotros": {
+              "form": "nos jugaremos"
+            },
+            "vosotros": {
+              "form": "os jugaréis"
+            },
+            "ellos": {
+              "form": "se jugarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me jugaría"
+            },
+            "tu": {
+              "form": "te jugarías"
+            },
+            "el": {
+              "form": "se jugaría"
+            },
+            "nosotros": {
+              "form": "nos jugaríamos"
+            },
+            "vosotros": {
+              "form": "os jugaríais"
+            },
+            "ellos": {
+              "form": "se jugarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me juegue",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te juegues",
+              "irregular": true
+            },
+            "el": {
+              "form": "se juegue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos juguemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os juguéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se jueguen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me jugara"
+            },
+            "tu": {
+              "form": "te jugaras"
+            },
+            "el": {
+              "form": "se jugara"
+            },
+            "nosotros": {
+              "form": "nos jugáramos"
+            },
+            "vosotros": {
+              "form": "os jugarais"
+            },
+            "ellos": {
+              "form": "se jugaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "juégate",
+              "irregular": true
+            },
+            "el": {
+              "form": "juéguese",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "juguémonos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "jugaos"
+            },
+            "ellos": {
+              "form": "juéguense",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te juegues",
+              "irregular": true
+            },
+            "el": {
+              "form": "no se juegue",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no nos juguemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no os juguéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no se jueguen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_lavar",
       "infinitive": "lavar",
       "tr": {
@@ -37366,6 +40815,287 @@
       }
     },
     {
+      "id": "vb_mantener",
+      "infinitive": "mantener",
+      "tr": {
+        "ru": "поддерживать, содержать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "manteniendo",
+        "participle": "mantenido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "mantengo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mantienes",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantiene",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantenemos"
+            },
+            "vosotros": {
+              "form": "mantenéis"
+            },
+            "ellos": {
+              "form": "mantienen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "mantuve",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mantuviste",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantuvo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantuvimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mantuvisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mantuvieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "mantenía"
+            },
+            "tu": {
+              "form": "mantenías"
+            },
+            "el": {
+              "form": "mantenía"
+            },
+            "nosotros": {
+              "form": "manteníamos"
+            },
+            "vosotros": {
+              "form": "manteníais"
+            },
+            "ellos": {
+              "form": "mantenían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he mantenido"
+            },
+            "tu": {
+              "form": "has mantenido"
+            },
+            "el": {
+              "form": "ha mantenido"
+            },
+            "nosotros": {
+              "form": "hemos mantenido"
+            },
+            "vosotros": {
+              "form": "habéis mantenido"
+            },
+            "ellos": {
+              "form": "han mantenido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "mantendré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mantendrás",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantendrá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantendremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mantendréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mantendrán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "mantendría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mantendrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantendría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantendríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mantendríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mantendrían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "mantenga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mantengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mantengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mantengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "mantuviera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mantuvieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantuviera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantuviéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mantuvierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mantuvieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "mantén",
+              "irregular": true
+            },
+            "el": {
+              "form": "mantenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mantengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mantened"
+            },
+            "ellos": {
+              "form": "mantengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no mantengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no mantenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no mantengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no mantengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no mantengan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_mejorarse",
       "infinitive": "mejorarse",
       "tr": {
@@ -37600,6 +41330,271 @@
         "conversationId": "6a4c9941-be28-83eb-9d4b-e56f4a1f7b4d",
         "conversationTitle": "Как пожелать хорошего вечера",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vb_mentir",
+      "infinitive": "mentir",
+      "tr": {
+        "ru": "лгать, врать"
+      },
+      "regularity": "stem-changing",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "mintiendo",
+        "participle": "mentido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "miento",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mientes",
+              "irregular": true
+            },
+            "el": {
+              "form": "miente",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mentimos"
+            },
+            "vosotros": {
+              "form": "mentís"
+            },
+            "ellos": {
+              "form": "mienten",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "mentí"
+            },
+            "tu": {
+              "form": "mentiste"
+            },
+            "el": {
+              "form": "mintió",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mentimos"
+            },
+            "vosotros": {
+              "form": "mentisteis"
+            },
+            "ellos": {
+              "form": "mintieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "mentía"
+            },
+            "tu": {
+              "form": "mentías"
+            },
+            "el": {
+              "form": "mentía"
+            },
+            "nosotros": {
+              "form": "mentíamos"
+            },
+            "vosotros": {
+              "form": "mentíais"
+            },
+            "ellos": {
+              "form": "mentían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he mentido"
+            },
+            "tu": {
+              "form": "has mentido"
+            },
+            "el": {
+              "form": "ha mentido"
+            },
+            "nosotros": {
+              "form": "hemos mentido"
+            },
+            "vosotros": {
+              "form": "habéis mentido"
+            },
+            "ellos": {
+              "form": "han mentido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "mentiré"
+            },
+            "tu": {
+              "form": "mentirás"
+            },
+            "el": {
+              "form": "mentirá"
+            },
+            "nosotros": {
+              "form": "mentiremos"
+            },
+            "vosotros": {
+              "form": "mentiréis"
+            },
+            "ellos": {
+              "form": "mentirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "mentiría"
+            },
+            "tu": {
+              "form": "mentirías"
+            },
+            "el": {
+              "form": "mentiría"
+            },
+            "nosotros": {
+              "form": "mentiríamos"
+            },
+            "vosotros": {
+              "form": "mentiríais"
+            },
+            "ellos": {
+              "form": "mentirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "mienta",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mientas",
+              "irregular": true
+            },
+            "el": {
+              "form": "mienta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mintamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mintáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mientan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "mintiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "mintieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "mintiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mintiéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mintierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "mintieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "miente",
+              "irregular": true
+            },
+            "el": {
+              "form": "mienta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "mintamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "mentid"
+            },
+            "ellos": {
+              "form": "mientan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no mientas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no mienta",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no mintamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no mintáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no mientan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -40821,6 +44816,287 @@
         "extractor": "model"
       },
       "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_obtener",
+      "infinitive": "obtener",
+      "tr": {
+        "ru": "получать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "obteniendo",
+        "participle": "obtenido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "obtengo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "obtienes",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtiene",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtenemos"
+            },
+            "vosotros": {
+              "form": "obtenéis"
+            },
+            "ellos": {
+              "form": "obtienen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "obtuve",
+              "irregular": true
+            },
+            "tu": {
+              "form": "obtuviste",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtuvo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtuvimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "obtuvisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "obtuvieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "obtenía"
+            },
+            "tu": {
+              "form": "obtenías"
+            },
+            "el": {
+              "form": "obtenía"
+            },
+            "nosotros": {
+              "form": "obteníamos"
+            },
+            "vosotros": {
+              "form": "obteníais"
+            },
+            "ellos": {
+              "form": "obtenían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he obtenido"
+            },
+            "tu": {
+              "form": "has obtenido"
+            },
+            "el": {
+              "form": "ha obtenido"
+            },
+            "nosotros": {
+              "form": "hemos obtenido"
+            },
+            "vosotros": {
+              "form": "habéis obtenido"
+            },
+            "ellos": {
+              "form": "han obtenido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "obtendré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "obtendrás",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtendrá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtendremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "obtendréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "obtendrán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "obtendría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "obtendrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtendría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtendríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "obtendríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "obtendrían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "obtenga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "obtengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "obtengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "obtengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "obtuviera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "obtuvieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtuviera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtuviéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "obtuvierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "obtuvieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "obtén",
+              "irregular": true
+            },
+            "el": {
+              "form": "obtenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "obtengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "obtened"
+            },
+            "ellos": {
+              "form": "obtengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no obtengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no obtenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no obtengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no obtengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no obtengan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_ocupar",
@@ -45022,6 +49298,244 @@
       }
     },
     {
+      "id": "vb_pintar",
+      "infinitive": "pintar",
+      "tr": {
+        "ru": "красить"
+      },
+      "regularity": "regular",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "pintando",
+        "participle": "pintado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "pinto"
+            },
+            "tu": {
+              "form": "pintas"
+            },
+            "el": {
+              "form": "pinta"
+            },
+            "nosotros": {
+              "form": "pintamos"
+            },
+            "vosotros": {
+              "form": "pintáis"
+            },
+            "ellos": {
+              "form": "pintan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "pinté"
+            },
+            "tu": {
+              "form": "pintaste"
+            },
+            "el": {
+              "form": "pintó"
+            },
+            "nosotros": {
+              "form": "pintamos"
+            },
+            "vosotros": {
+              "form": "pintasteis"
+            },
+            "ellos": {
+              "form": "pintaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "pintaba"
+            },
+            "tu": {
+              "form": "pintabas"
+            },
+            "el": {
+              "form": "pintaba"
+            },
+            "nosotros": {
+              "form": "pintábamos"
+            },
+            "vosotros": {
+              "form": "pintabais"
+            },
+            "ellos": {
+              "form": "pintaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he pintado"
+            },
+            "tu": {
+              "form": "has pintado"
+            },
+            "el": {
+              "form": "ha pintado"
+            },
+            "nosotros": {
+              "form": "hemos pintado"
+            },
+            "vosotros": {
+              "form": "habéis pintado"
+            },
+            "ellos": {
+              "form": "han pintado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "pintaré"
+            },
+            "tu": {
+              "form": "pintarás"
+            },
+            "el": {
+              "form": "pintará"
+            },
+            "nosotros": {
+              "form": "pintaremos"
+            },
+            "vosotros": {
+              "form": "pintaréis"
+            },
+            "ellos": {
+              "form": "pintarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "pintaría"
+            },
+            "tu": {
+              "form": "pintarías"
+            },
+            "el": {
+              "form": "pintaría"
+            },
+            "nosotros": {
+              "form": "pintaríamos"
+            },
+            "vosotros": {
+              "form": "pintaríais"
+            },
+            "ellos": {
+              "form": "pintarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "pinte"
+            },
+            "tu": {
+              "form": "pintes"
+            },
+            "el": {
+              "form": "pinte"
+            },
+            "nosotros": {
+              "form": "pintemos"
+            },
+            "vosotros": {
+              "form": "pintéis"
+            },
+            "ellos": {
+              "form": "pinten"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "pintara"
+            },
+            "tu": {
+              "form": "pintaras"
+            },
+            "el": {
+              "form": "pintara"
+            },
+            "nosotros": {
+              "form": "pintáramos"
+            },
+            "vosotros": {
+              "form": "pintarais"
+            },
+            "ellos": {
+              "form": "pintaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "pinta"
+            },
+            "el": {
+              "form": "pinte"
+            },
+            "nosotros": {
+              "form": "pintemos"
+            },
+            "vosotros": {
+              "form": "pintad"
+            },
+            "ellos": {
+              "form": "pinten"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no pintes"
+            },
+            "el": {
+              "form": "no pinte"
+            },
+            "nosotros": {
+              "form": "no pintemos"
+            },
+            "vosotros": {
+              "form": "no pintéis"
+            },
+            "ellos": {
+              "form": "no pinten"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_poder",
       "infinitive": "poder",
       "tr": {
@@ -45897,6 +50411,294 @@
         "extractor": "table"
       },
       "conjugationClass": "-er"
+    },
+    {
+      "id": "vb_predecir",
+      "infinitive": "predecir",
+      "tr": {
+        "ru": "предсказывать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "prediciendo",
+        "participle": "predicho",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "predigo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "predices",
+              "irregular": true
+            },
+            "el": {
+              "form": "predice",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "predecimos"
+            },
+            "vosotros": {
+              "form": "predecís"
+            },
+            "ellos": {
+              "form": "predicen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "predije",
+              "irregular": true
+            },
+            "tu": {
+              "form": "predijiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "predijo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "predijimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "predijisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "predijeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "predecía"
+            },
+            "tu": {
+              "form": "predecías"
+            },
+            "el": {
+              "form": "predecía"
+            },
+            "nosotros": {
+              "form": "predecíamos"
+            },
+            "vosotros": {
+              "form": "predecíais"
+            },
+            "ellos": {
+              "form": "predecían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he predicho",
+              "irregular": true
+            },
+            "tu": {
+              "form": "has predicho",
+              "irregular": true
+            },
+            "el": {
+              "form": "ha predicho",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "hemos predicho",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "habéis predicho",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "han predicho",
+              "irregular": true
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "prediré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "predirás",
+              "irregular": true
+            },
+            "el": {
+              "form": "predirá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prediremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prediréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "predirán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "prediría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "predirías",
+              "irregular": true
+            },
+            "el": {
+              "form": "prediría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prediríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prediríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "predirían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "prediga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "predigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "prediga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "predigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "predigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "predigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "predijera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "predijeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "predijera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "predijéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "predijerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "predijeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "predice",
+              "irregular": true
+            },
+            "el": {
+              "form": "prediga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "predigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "predecid"
+            },
+            "ellos": {
+              "form": "predigan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no predigas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no prediga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no predigamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no predigáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no predigan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_preferir",
@@ -47363,6 +52165,287 @@
       }
     },
     {
+      "id": "vb_prevenir",
+      "infinitive": "prevenir",
+      "tr": {
+        "ru": "предотвращать, предупреждать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "previniendo",
+        "participle": "prevenido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "prevengo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "previenes",
+              "irregular": true
+            },
+            "el": {
+              "form": "previene",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prevenimos"
+            },
+            "vosotros": {
+              "form": "prevenís"
+            },
+            "ellos": {
+              "form": "previenen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "previne",
+              "irregular": true
+            },
+            "tu": {
+              "form": "previniste",
+              "irregular": true
+            },
+            "el": {
+              "form": "previno",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "previnimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "previnisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "previnieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "prevenía"
+            },
+            "tu": {
+              "form": "prevenías"
+            },
+            "el": {
+              "form": "prevenía"
+            },
+            "nosotros": {
+              "form": "preveníamos"
+            },
+            "vosotros": {
+              "form": "preveníais"
+            },
+            "ellos": {
+              "form": "prevenían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he prevenido"
+            },
+            "tu": {
+              "form": "has prevenido"
+            },
+            "el": {
+              "form": "ha prevenido"
+            },
+            "nosotros": {
+              "form": "hemos prevenido"
+            },
+            "vosotros": {
+              "form": "habéis prevenido"
+            },
+            "ellos": {
+              "form": "han prevenido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "prevendré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "prevendrás",
+              "irregular": true
+            },
+            "el": {
+              "form": "prevendrá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prevendremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prevendréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "prevendrán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "prevendría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "prevendrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "prevendría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prevendríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prevendríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "prevendrían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "prevenga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "prevengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "prevenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prevengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prevengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "prevengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "previniera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "previnieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "previniera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "previniéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "previnierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "previnieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "prevén",
+              "irregular": true
+            },
+            "el": {
+              "form": "prevenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "prevengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "prevenid"
+            },
+            "ellos": {
+              "form": "prevengan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no prevengas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no prevenga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no prevengamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no prevengáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no prevengan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_probarse",
       "infinitive": "probarse",
       "tr": {
@@ -47613,6 +52696,536 @@
         "extractor": "model"
       },
       "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_producir",
+      "infinitive": "producir",
+      "tr": {
+        "ru": "производить"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "produciendo",
+        "participle": "producido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "produzco",
+              "irregular": true
+            },
+            "tu": {
+              "form": "produces"
+            },
+            "el": {
+              "form": "produce"
+            },
+            "nosotros": {
+              "form": "producimos"
+            },
+            "vosotros": {
+              "form": "producís"
+            },
+            "ellos": {
+              "form": "producen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "produje",
+              "irregular": true
+            },
+            "tu": {
+              "form": "produjiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "produjo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "produjimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "produjisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "produjeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "producía"
+            },
+            "tu": {
+              "form": "producías"
+            },
+            "el": {
+              "form": "producía"
+            },
+            "nosotros": {
+              "form": "producíamos"
+            },
+            "vosotros": {
+              "form": "producíais"
+            },
+            "ellos": {
+              "form": "producían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he producido"
+            },
+            "tu": {
+              "form": "has producido"
+            },
+            "el": {
+              "form": "ha producido"
+            },
+            "nosotros": {
+              "form": "hemos producido"
+            },
+            "vosotros": {
+              "form": "habéis producido"
+            },
+            "ellos": {
+              "form": "han producido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "produciré"
+            },
+            "tu": {
+              "form": "producirás"
+            },
+            "el": {
+              "form": "producirá"
+            },
+            "nosotros": {
+              "form": "produciremos"
+            },
+            "vosotros": {
+              "form": "produciréis"
+            },
+            "ellos": {
+              "form": "producirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "produciría"
+            },
+            "tu": {
+              "form": "producirías"
+            },
+            "el": {
+              "form": "produciría"
+            },
+            "nosotros": {
+              "form": "produciríamos"
+            },
+            "vosotros": {
+              "form": "produciríais"
+            },
+            "ellos": {
+              "form": "producirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "produzca",
+              "irregular": true
+            },
+            "tu": {
+              "form": "produzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "produzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "produzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "produzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "produzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "produjera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "produjeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "produjera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "produjéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "produjerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "produjeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "produce"
+            },
+            "el": {
+              "form": "produzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "produzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "producid"
+            },
+            "ellos": {
+              "form": "produzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no produzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no produzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no produzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no produzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no produzcan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vb_producirse",
+      "infinitive": "producirse",
+      "tr": {
+        "ru": "происходить (о сбое, ошибке)"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": true,
+      "nonFinite": {
+        "gerund": "produciéndose",
+        "participle": "producido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "me produzco",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te produces"
+            },
+            "el": {
+              "form": "se produce"
+            },
+            "nosotros": {
+              "form": "nos producimos"
+            },
+            "vosotros": {
+              "form": "os producís"
+            },
+            "ellos": {
+              "form": "se producen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "me produje",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te produjiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "se produjo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos produjimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os produjisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se produjeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "me producía"
+            },
+            "tu": {
+              "form": "te producías"
+            },
+            "el": {
+              "form": "se producía"
+            },
+            "nosotros": {
+              "form": "nos producíamos"
+            },
+            "vosotros": {
+              "form": "os producíais"
+            },
+            "ellos": {
+              "form": "se producían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "me he producido"
+            },
+            "tu": {
+              "form": "te has producido"
+            },
+            "el": {
+              "form": "se ha producido"
+            },
+            "nosotros": {
+              "form": "nos hemos producido"
+            },
+            "vosotros": {
+              "form": "os habéis producido"
+            },
+            "ellos": {
+              "form": "se han producido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "me produciré"
+            },
+            "tu": {
+              "form": "te producirás"
+            },
+            "el": {
+              "form": "se producirá"
+            },
+            "nosotros": {
+              "form": "nos produciremos"
+            },
+            "vosotros": {
+              "form": "os produciréis"
+            },
+            "ellos": {
+              "form": "se producirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "me produciría"
+            },
+            "tu": {
+              "form": "te producirías"
+            },
+            "el": {
+              "form": "se produciría"
+            },
+            "nosotros": {
+              "form": "nos produciríamos"
+            },
+            "vosotros": {
+              "form": "os produciríais"
+            },
+            "ellos": {
+              "form": "se producirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me produzca",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te produzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "se produzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos produzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os produzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se produzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "me produjera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "te produjeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "se produjera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "nos produjéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "os produjerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "se produjeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "prodúcete"
+            },
+            "el": {
+              "form": "prodúzcase",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "produzcámonos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "producíos"
+            },
+            "ellos": {
+              "form": "prodúzcanse",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no te produzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no se produzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no nos produzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no os produzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no se produzcan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_prohibir",
@@ -50846,6 +56459,271 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_reir",
+      "infinitive": "reír",
+      "tr": {
+        "ru": "смеяться"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "riendo",
+        "participle": "reído"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "río",
+              "irregular": true
+            },
+            "tu": {
+              "form": "ríes",
+              "irregular": true
+            },
+            "el": {
+              "form": "ríe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "reímos"
+            },
+            "vosotros": {
+              "form": "reís"
+            },
+            "ellos": {
+              "form": "ríen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "reí"
+            },
+            "tu": {
+              "form": "reíste"
+            },
+            "el": {
+              "form": "rio",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "reímos"
+            },
+            "vosotros": {
+              "form": "reísteis"
+            },
+            "ellos": {
+              "form": "rieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "reía"
+            },
+            "tu": {
+              "form": "reías"
+            },
+            "el": {
+              "form": "reía"
+            },
+            "nosotros": {
+              "form": "reíamos"
+            },
+            "vosotros": {
+              "form": "reíais"
+            },
+            "ellos": {
+              "form": "reían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he reído"
+            },
+            "tu": {
+              "form": "has reído"
+            },
+            "el": {
+              "form": "ha reído"
+            },
+            "nosotros": {
+              "form": "hemos reído"
+            },
+            "vosotros": {
+              "form": "habéis reído"
+            },
+            "ellos": {
+              "form": "han reído"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "reiré"
+            },
+            "tu": {
+              "form": "reirás"
+            },
+            "el": {
+              "form": "reirá"
+            },
+            "nosotros": {
+              "form": "reiremos"
+            },
+            "vosotros": {
+              "form": "reiréis"
+            },
+            "ellos": {
+              "form": "reirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "reiría"
+            },
+            "tu": {
+              "form": "reirías"
+            },
+            "el": {
+              "form": "reiría"
+            },
+            "nosotros": {
+              "form": "reiríamos"
+            },
+            "vosotros": {
+              "form": "reiríais"
+            },
+            "ellos": {
+              "form": "reirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "ría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "rías",
+              "irregular": true
+            },
+            "el": {
+              "form": "ría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "riamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "riais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "rían",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "riera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "rieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "riera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "riéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "rierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "rieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "ríe",
+              "irregular": true
+            },
+            "el": {
+              "form": "ría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "riamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "reíd"
+            },
+            "ellos": {
+              "form": "rían",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no rías",
+              "irregular": true
+            },
+            "el": {
+              "form": "no ría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no riamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no riais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no rían",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_relacionar",
       "infinitive": "relacionar",
       "tr": {
@@ -51347,6 +57225,244 @@
         "conversationId": "6a5cf382-f9ac-83ed-b424-2a050180f9d9",
         "conversationTitle": "Ошибка атрибута в Python",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vb_respirar",
+      "infinitive": "respirar",
+      "tr": {
+        "ru": "дышать"
+      },
+      "regularity": "regular",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "respirando",
+        "participle": "respirado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "respiro"
+            },
+            "tu": {
+              "form": "respiras"
+            },
+            "el": {
+              "form": "respira"
+            },
+            "nosotros": {
+              "form": "respiramos"
+            },
+            "vosotros": {
+              "form": "respiráis"
+            },
+            "ellos": {
+              "form": "respiran"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "respiré"
+            },
+            "tu": {
+              "form": "respiraste"
+            },
+            "el": {
+              "form": "respiró"
+            },
+            "nosotros": {
+              "form": "respiramos"
+            },
+            "vosotros": {
+              "form": "respirasteis"
+            },
+            "ellos": {
+              "form": "respiraron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "respiraba"
+            },
+            "tu": {
+              "form": "respirabas"
+            },
+            "el": {
+              "form": "respiraba"
+            },
+            "nosotros": {
+              "form": "respirábamos"
+            },
+            "vosotros": {
+              "form": "respirabais"
+            },
+            "ellos": {
+              "form": "respiraban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he respirado"
+            },
+            "tu": {
+              "form": "has respirado"
+            },
+            "el": {
+              "form": "ha respirado"
+            },
+            "nosotros": {
+              "form": "hemos respirado"
+            },
+            "vosotros": {
+              "form": "habéis respirado"
+            },
+            "ellos": {
+              "form": "han respirado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "respiraré"
+            },
+            "tu": {
+              "form": "respirarás"
+            },
+            "el": {
+              "form": "respirará"
+            },
+            "nosotros": {
+              "form": "respiraremos"
+            },
+            "vosotros": {
+              "form": "respiraréis"
+            },
+            "ellos": {
+              "form": "respirarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "respiraría"
+            },
+            "tu": {
+              "form": "respirarías"
+            },
+            "el": {
+              "form": "respiraría"
+            },
+            "nosotros": {
+              "form": "respiraríamos"
+            },
+            "vosotros": {
+              "form": "respiraríais"
+            },
+            "ellos": {
+              "form": "respirarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "respire"
+            },
+            "tu": {
+              "form": "respires"
+            },
+            "el": {
+              "form": "respire"
+            },
+            "nosotros": {
+              "form": "respiremos"
+            },
+            "vosotros": {
+              "form": "respiréis"
+            },
+            "ellos": {
+              "form": "respiren"
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "respirara"
+            },
+            "tu": {
+              "form": "respiraras"
+            },
+            "el": {
+              "form": "respirara"
+            },
+            "nosotros": {
+              "form": "respiráramos"
+            },
+            "vosotros": {
+              "form": "respirarais"
+            },
+            "ellos": {
+              "form": "respiraran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "respira"
+            },
+            "el": {
+              "form": "respire"
+            },
+            "nosotros": {
+              "form": "respiremos"
+            },
+            "vosotros": {
+              "form": "respirad"
+            },
+            "ellos": {
+              "form": "respiren"
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no respires"
+            },
+            "el": {
+              "form": "no respire"
+            },
+            "nosotros": {
+              "form": "no respiremos"
+            },
+            "vosotros": {
+              "form": "no respiréis"
+            },
+            "ellos": {
+              "form": "no respiren"
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },
@@ -52591,6 +58707,259 @@
         ]
       },
       "conjugationClass": "-er"
+    },
+    {
+      "id": "vb_sacar",
+      "infinitive": "sacar",
+      "tr": {
+        "ru": "вынимать, доставать"
+      },
+      "regularity": "orthographic",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "sacando",
+        "participle": "sacado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "saco"
+            },
+            "tu": {
+              "form": "sacas"
+            },
+            "el": {
+              "form": "saca"
+            },
+            "nosotros": {
+              "form": "sacamos"
+            },
+            "vosotros": {
+              "form": "sacáis"
+            },
+            "ellos": {
+              "form": "sacan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "saqué",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sacaste"
+            },
+            "el": {
+              "form": "sacó"
+            },
+            "nosotros": {
+              "form": "sacamos"
+            },
+            "vosotros": {
+              "form": "sacasteis"
+            },
+            "ellos": {
+              "form": "sacaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "sacaba"
+            },
+            "tu": {
+              "form": "sacabas"
+            },
+            "el": {
+              "form": "sacaba"
+            },
+            "nosotros": {
+              "form": "sacábamos"
+            },
+            "vosotros": {
+              "form": "sacabais"
+            },
+            "ellos": {
+              "form": "sacaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he sacado"
+            },
+            "tu": {
+              "form": "has sacado"
+            },
+            "el": {
+              "form": "ha sacado"
+            },
+            "nosotros": {
+              "form": "hemos sacado"
+            },
+            "vosotros": {
+              "form": "habéis sacado"
+            },
+            "ellos": {
+              "form": "han sacado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "sacaré"
+            },
+            "tu": {
+              "form": "sacarás"
+            },
+            "el": {
+              "form": "sacará"
+            },
+            "nosotros": {
+              "form": "sacaremos"
+            },
+            "vosotros": {
+              "form": "sacaréis"
+            },
+            "ellos": {
+              "form": "sacarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "sacaría"
+            },
+            "tu": {
+              "form": "sacarías"
+            },
+            "el": {
+              "form": "sacaría"
+            },
+            "nosotros": {
+              "form": "sacaríamos"
+            },
+            "vosotros": {
+              "form": "sacaríais"
+            },
+            "ellos": {
+              "form": "sacarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "saque",
+              "irregular": true
+            },
+            "tu": {
+              "form": "saques",
+              "irregular": true
+            },
+            "el": {
+              "form": "saque",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "saquemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "saquéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "saquen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "sacara"
+            },
+            "tu": {
+              "form": "sacaras"
+            },
+            "el": {
+              "form": "sacara"
+            },
+            "nosotros": {
+              "form": "sacáramos"
+            },
+            "vosotros": {
+              "form": "sacarais"
+            },
+            "ellos": {
+              "form": "sacaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "saca"
+            },
+            "el": {
+              "form": "saque",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "saquemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "sacad"
+            },
+            "ellos": {
+              "form": "saquen",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no saques",
+              "irregular": true
+            },
+            "el": {
+              "form": "no saque",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no saquemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no saquéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no saquen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_salir",
@@ -55238,6 +61607,271 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_sonreir",
+      "infinitive": "sonreír",
+      "tr": {
+        "ru": "улыбаться"
+      },
+      "regularity": "stem-changing",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "sonriendo",
+        "participle": "sonreído"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "sonrío",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sonríes",
+              "irregular": true
+            },
+            "el": {
+              "form": "sonríe",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "sonreímos"
+            },
+            "vosotros": {
+              "form": "sonreís"
+            },
+            "ellos": {
+              "form": "sonríen",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "sonreí"
+            },
+            "tu": {
+              "form": "sonreíste"
+            },
+            "el": {
+              "form": "sonrió",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "sonreímos"
+            },
+            "vosotros": {
+              "form": "sonreísteis"
+            },
+            "ellos": {
+              "form": "sonrieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "sonreía"
+            },
+            "tu": {
+              "form": "sonreías"
+            },
+            "el": {
+              "form": "sonreía"
+            },
+            "nosotros": {
+              "form": "sonreíamos"
+            },
+            "vosotros": {
+              "form": "sonreíais"
+            },
+            "ellos": {
+              "form": "sonreían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he sonreído"
+            },
+            "tu": {
+              "form": "has sonreído"
+            },
+            "el": {
+              "form": "ha sonreído"
+            },
+            "nosotros": {
+              "form": "hemos sonreído"
+            },
+            "vosotros": {
+              "form": "habéis sonreído"
+            },
+            "ellos": {
+              "form": "han sonreído"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "sonreiré"
+            },
+            "tu": {
+              "form": "sonreirás"
+            },
+            "el": {
+              "form": "sonreirá"
+            },
+            "nosotros": {
+              "form": "sonreiremos"
+            },
+            "vosotros": {
+              "form": "sonreiréis"
+            },
+            "ellos": {
+              "form": "sonreirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "sonreiría"
+            },
+            "tu": {
+              "form": "sonreirías"
+            },
+            "el": {
+              "form": "sonreiría"
+            },
+            "nosotros": {
+              "form": "sonreiríamos"
+            },
+            "vosotros": {
+              "form": "sonreiríais"
+            },
+            "ellos": {
+              "form": "sonreirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "sonría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sonrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "sonría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "sonriamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "sonriáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "sonrían",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "sonriera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "sonrieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "sonriera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "sonriéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "sonrierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "sonrieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "sonríe",
+              "irregular": true
+            },
+            "el": {
+              "form": "sonría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "sonriamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "sonreíd"
+            },
+            "ellos": {
+              "form": "sonrían",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no sonrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "no sonría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no sonriamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no sonriáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no sonrían",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_sugerir",
       "infinitive": "sugerir",
       "tr": {
@@ -55503,6 +62137,544 @@
         "extractor": "model"
       },
       "conjugationClass": "-ir"
+    },
+    {
+      "id": "vb_suponer",
+      "infinitive": "suponer",
+      "tr": {
+        "ru": "предполагать"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-er",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "suponiendo",
+        "participle": "supuesto",
+        "participleIrregular": true
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "supongo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "supones"
+            },
+            "el": {
+              "form": "supone"
+            },
+            "nosotros": {
+              "form": "suponemos"
+            },
+            "vosotros": {
+              "form": "suponéis"
+            },
+            "ellos": {
+              "form": "suponen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "supuse",
+              "irregular": true
+            },
+            "tu": {
+              "form": "supusiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "supuso",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "supusimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "supusisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "supusieron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "suponía"
+            },
+            "tu": {
+              "form": "suponías"
+            },
+            "el": {
+              "form": "suponía"
+            },
+            "nosotros": {
+              "form": "suponíamos"
+            },
+            "vosotros": {
+              "form": "suponíais"
+            },
+            "ellos": {
+              "form": "suponían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he supuesto",
+              "irregular": true
+            },
+            "tu": {
+              "form": "has supuesto",
+              "irregular": true
+            },
+            "el": {
+              "form": "ha supuesto",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "hemos supuesto",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "habéis supuesto",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "han supuesto",
+              "irregular": true
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "supondré",
+              "irregular": true
+            },
+            "tu": {
+              "form": "supondrás",
+              "irregular": true
+            },
+            "el": {
+              "form": "supondrá",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "supondremos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "supondréis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "supondrán",
+              "irregular": true
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "supondría",
+              "irregular": true
+            },
+            "tu": {
+              "form": "supondrías",
+              "irregular": true
+            },
+            "el": {
+              "form": "supondría",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "supondríamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "supondríais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "supondrían",
+              "irregular": true
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "suponga",
+              "irregular": true
+            },
+            "tu": {
+              "form": "supongas",
+              "irregular": true
+            },
+            "el": {
+              "form": "suponga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "supongamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "supongáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "supongan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "supusiera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "supusieras",
+              "irregular": true
+            },
+            "el": {
+              "form": "supusiera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "supusiéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "supusierais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "supusieran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "supón",
+              "irregular": true
+            },
+            "el": {
+              "form": "suponga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "supongamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "suponed"
+            },
+            "ellos": {
+              "form": "supongan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no supongas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no suponga",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no supongamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no supongáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no supongan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "vb_surgir",
+      "infinitive": "surgir",
+      "tr": {
+        "ru": "возникать, появляться"
+      },
+      "regularity": "orthographic",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "surgiendo",
+        "participle": "surgido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "surjo",
+              "irregular": true
+            },
+            "tu": {
+              "form": "surges"
+            },
+            "el": {
+              "form": "surge"
+            },
+            "nosotros": {
+              "form": "surgimos"
+            },
+            "vosotros": {
+              "form": "surgís"
+            },
+            "ellos": {
+              "form": "surgen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "surgí"
+            },
+            "tu": {
+              "form": "surgiste"
+            },
+            "el": {
+              "form": "surgió"
+            },
+            "nosotros": {
+              "form": "surgimos"
+            },
+            "vosotros": {
+              "form": "surgisteis"
+            },
+            "ellos": {
+              "form": "surgieron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "surgía"
+            },
+            "tu": {
+              "form": "surgías"
+            },
+            "el": {
+              "form": "surgía"
+            },
+            "nosotros": {
+              "form": "surgíamos"
+            },
+            "vosotros": {
+              "form": "surgíais"
+            },
+            "ellos": {
+              "form": "surgían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he surgido"
+            },
+            "tu": {
+              "form": "has surgido"
+            },
+            "el": {
+              "form": "ha surgido"
+            },
+            "nosotros": {
+              "form": "hemos surgido"
+            },
+            "vosotros": {
+              "form": "habéis surgido"
+            },
+            "ellos": {
+              "form": "han surgido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "surgiré"
+            },
+            "tu": {
+              "form": "surgirás"
+            },
+            "el": {
+              "form": "surgirá"
+            },
+            "nosotros": {
+              "form": "surgiremos"
+            },
+            "vosotros": {
+              "form": "surgiréis"
+            },
+            "ellos": {
+              "form": "surgirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "surgiría"
+            },
+            "tu": {
+              "form": "surgirías"
+            },
+            "el": {
+              "form": "surgiría"
+            },
+            "nosotros": {
+              "form": "surgiríamos"
+            },
+            "vosotros": {
+              "form": "surgiríais"
+            },
+            "ellos": {
+              "form": "surgirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "surja",
+              "irregular": true
+            },
+            "tu": {
+              "form": "surjas",
+              "irregular": true
+            },
+            "el": {
+              "form": "surja",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "surjamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "surjáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "surjan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "surgiera"
+            },
+            "tu": {
+              "form": "surgieras"
+            },
+            "el": {
+              "form": "surgiera"
+            },
+            "nosotros": {
+              "form": "surgiéramos"
+            },
+            "vosotros": {
+              "form": "surgierais"
+            },
+            "ellos": {
+              "form": "surgieran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "surge"
+            },
+            "el": {
+              "form": "surja",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "surjamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "surgid"
+            },
+            "ellos": {
+              "form": "surjan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no surjas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no surja",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no surjamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no surjáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no surjan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_tardar",
@@ -56764,6 +63936,259 @@
       "conjugationClass": "-ar"
     },
     {
+      "id": "vb_tocar",
+      "infinitive": "tocar",
+      "tr": {
+        "ru": "трогать; играть (на инструменте)"
+      },
+      "regularity": "orthographic",
+      "conjugationClass": "-ar",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "tocando",
+        "participle": "tocado"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "toco"
+            },
+            "tu": {
+              "form": "tocas"
+            },
+            "el": {
+              "form": "toca"
+            },
+            "nosotros": {
+              "form": "tocamos"
+            },
+            "vosotros": {
+              "form": "tocáis"
+            },
+            "ellos": {
+              "form": "tocan"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "toqué",
+              "irregular": true
+            },
+            "tu": {
+              "form": "tocaste"
+            },
+            "el": {
+              "form": "tocó"
+            },
+            "nosotros": {
+              "form": "tocamos"
+            },
+            "vosotros": {
+              "form": "tocasteis"
+            },
+            "ellos": {
+              "form": "tocaron"
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "tocaba"
+            },
+            "tu": {
+              "form": "tocabas"
+            },
+            "el": {
+              "form": "tocaba"
+            },
+            "nosotros": {
+              "form": "tocábamos"
+            },
+            "vosotros": {
+              "form": "tocabais"
+            },
+            "ellos": {
+              "form": "tocaban"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he tocado"
+            },
+            "tu": {
+              "form": "has tocado"
+            },
+            "el": {
+              "form": "ha tocado"
+            },
+            "nosotros": {
+              "form": "hemos tocado"
+            },
+            "vosotros": {
+              "form": "habéis tocado"
+            },
+            "ellos": {
+              "form": "han tocado"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "tocaré"
+            },
+            "tu": {
+              "form": "tocarás"
+            },
+            "el": {
+              "form": "tocará"
+            },
+            "nosotros": {
+              "form": "tocaremos"
+            },
+            "vosotros": {
+              "form": "tocaréis"
+            },
+            "ellos": {
+              "form": "tocarán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "tocaría"
+            },
+            "tu": {
+              "form": "tocarías"
+            },
+            "el": {
+              "form": "tocaría"
+            },
+            "nosotros": {
+              "form": "tocaríamos"
+            },
+            "vosotros": {
+              "form": "tocaríais"
+            },
+            "ellos": {
+              "form": "tocarían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "toque",
+              "irregular": true
+            },
+            "tu": {
+              "form": "toques",
+              "irregular": true
+            },
+            "el": {
+              "form": "toque",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "toquemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "toquéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "toquen",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "tocara"
+            },
+            "tu": {
+              "form": "tocaras"
+            },
+            "el": {
+              "form": "tocara"
+            },
+            "nosotros": {
+              "form": "tocáramos"
+            },
+            "vosotros": {
+              "form": "tocarais"
+            },
+            "ellos": {
+              "form": "tocaran"
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "toca"
+            },
+            "el": {
+              "form": "toque",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "toquemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "tocad"
+            },
+            "ellos": {
+              "form": "toquen",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no toques",
+              "irregular": true
+            },
+            "el": {
+              "form": "no toque",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no toquemos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no toquéis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no toquen",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
+    },
+    {
       "id": "vb_tomar",
       "infinitive": "tomar",
       "tr": {
@@ -57245,6 +64670,271 @@
         ]
       },
       "conjugationClass": "-ar"
+    },
+    {
+      "id": "vb_traducir",
+      "infinitive": "traducir",
+      "tr": {
+        "ru": "переводить"
+      },
+      "regularity": "irregular",
+      "conjugationClass": "-ir",
+      "reflexive": false,
+      "nonFinite": {
+        "gerund": "traduciendo",
+        "participle": "traducido"
+      },
+      "tenses": {
+        "presente": {
+          "forms": {
+            "yo": {
+              "form": "traduzco",
+              "irregular": true
+            },
+            "tu": {
+              "form": "traduces"
+            },
+            "el": {
+              "form": "traduce"
+            },
+            "nosotros": {
+              "form": "traducimos"
+            },
+            "vosotros": {
+              "form": "traducís"
+            },
+            "ellos": {
+              "form": "traducen"
+            }
+          }
+        },
+        "preterito_indefinido": {
+          "forms": {
+            "yo": {
+              "form": "traduje",
+              "irregular": true
+            },
+            "tu": {
+              "form": "tradujiste",
+              "irregular": true
+            },
+            "el": {
+              "form": "tradujo",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "tradujimos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "tradujisteis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "tradujeron",
+              "irregular": true
+            }
+          }
+        },
+        "preterito_imperfecto": {
+          "forms": {
+            "yo": {
+              "form": "traducía"
+            },
+            "tu": {
+              "form": "traducías"
+            },
+            "el": {
+              "form": "traducía"
+            },
+            "nosotros": {
+              "form": "traducíamos"
+            },
+            "vosotros": {
+              "form": "traducíais"
+            },
+            "ellos": {
+              "form": "traducían"
+            }
+          }
+        },
+        "preterito_perfecto": {
+          "forms": {
+            "yo": {
+              "form": "he traducido"
+            },
+            "tu": {
+              "form": "has traducido"
+            },
+            "el": {
+              "form": "ha traducido"
+            },
+            "nosotros": {
+              "form": "hemos traducido"
+            },
+            "vosotros": {
+              "form": "habéis traducido"
+            },
+            "ellos": {
+              "form": "han traducido"
+            }
+          }
+        },
+        "futuro_simple": {
+          "forms": {
+            "yo": {
+              "form": "traduciré"
+            },
+            "tu": {
+              "form": "traducirás"
+            },
+            "el": {
+              "form": "traducirá"
+            },
+            "nosotros": {
+              "form": "traduciremos"
+            },
+            "vosotros": {
+              "form": "traduciréis"
+            },
+            "ellos": {
+              "form": "traducirán"
+            }
+          }
+        },
+        "condicional": {
+          "forms": {
+            "yo": {
+              "form": "traduciría"
+            },
+            "tu": {
+              "form": "traducirías"
+            },
+            "el": {
+              "form": "traduciría"
+            },
+            "nosotros": {
+              "form": "traduciríamos"
+            },
+            "vosotros": {
+              "form": "traduciríais"
+            },
+            "ellos": {
+              "form": "traducirían"
+            }
+          }
+        },
+        "presente_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "traduzca",
+              "irregular": true
+            },
+            "tu": {
+              "form": "traduzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "traduzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "traduzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "traduzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "traduzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperfecto_subjuntivo": {
+          "forms": {
+            "yo": {
+              "form": "tradujera",
+              "irregular": true
+            },
+            "tu": {
+              "form": "tradujeras",
+              "irregular": true
+            },
+            "el": {
+              "form": "tradujera",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "tradujéramos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "tradujerais",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "tradujeran",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_afirmativo": {
+          "forms": {
+            "tu": {
+              "form": "traduce"
+            },
+            "el": {
+              "form": "traduzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "traduzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "traducid"
+            },
+            "ellos": {
+              "form": "traduzcan",
+              "irregular": true
+            }
+          }
+        },
+        "imperativo_negativo": {
+          "forms": {
+            "tu": {
+              "form": "no traduzcas",
+              "irregular": true
+            },
+            "el": {
+              "form": "no traduzca",
+              "irregular": true
+            },
+            "nosotros": {
+              "form": "no traduzcamos",
+              "irregular": true
+            },
+            "vosotros": {
+              "form": "no traduzcáis",
+              "irregular": true
+            },
+            "ellos": {
+              "form": "no traduzcan",
+              "irregular": true
+            }
+          }
+        }
+      },
+      "topics": [],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "model"
+      }
     },
     {
       "id": "vb_traer",

@@ -30,7 +30,7 @@ npm run test     # vitest
 npm run build    # tsc -b && vite build
 ```
 
-On this Windows box: Python data scripts need `PYTHONIOENCODING=utf-8` (the console encoding chokes on Cyrillic output). To check the UI headlessly, the dev server and the client must run in the **same** tool invocation (the sandbox isolates network between calls), with Vite bound to IPv4 — `npx vite --host 127.0.0.1` (its default `::1` is unreachable) — then `msedge --headless=new --screenshot=... --virtual-time-budget=15000 "http://127.0.0.1:5173/#/..."`.
+On this Windows box: Python data scripts need `PYTHONIOENCODING=utf-8` (the console encoding chokes on Cyrillic output) — but `python -I` (isolated mode, for scripts reading downloaded data) ignores env vars, so use `python -I -X utf8` there. To check the UI headlessly, the dev server and the client must run in the **same** tool invocation (the sandbox isolates network between calls), with Vite bound to IPv4 — `npx vite --host 127.0.0.1` (its default `::1` is unreachable) — then `msedge --headless=new --screenshot=... --virtual-time-budget=15000 "http://127.0.0.1:5173/#/..."`.
 
 ## Extraction pipeline (Phase 2 — done)
 
@@ -53,6 +53,8 @@ Ongoing intake now has two front doors beyond pasting into the chat:
 - **`python -m tools.inbox_pull`** — pulls conversations shared from the phone into `inbox/` from a separate **private** repo (`cryptoandy1/spanish-inbox`) used as a drop box, deleting the remote copy only after the local write succeeds. Auth via the `gh` CLI, no token in this repo.
 
 `python -m tools.ingest.finish` is the single post-write gate (normalize → conjugate → link_vocab_verbs → normalize → validate). Run it instead of the individual tools — the ordering between them is load-bearing, and spelling them out as separate skill steps is exactly how `link_vocab_verbs.py` got missed when it was added.
+- Its `conjugate` step calls the API at ~30–40 s per **new** verb (47 verbs ≈ 25 min) — run `finish` in the background; pass `--skip-conjugate` when no verb was added.
+- Book-reading material (the user reads *Harry Potter y la piedra filosofal* and sends words/fragments) goes under topic `tp_harry-potter` (created 2026-10-21 with the user's OK). Only records new in that batch get it — an existing generic word that merely recurs in the book is not retagged.
 
 ## Unattended intake (Phase 5 — done)
 

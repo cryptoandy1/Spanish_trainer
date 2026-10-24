@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-10-21T03:44:43Z",
+  "generatedAt": "2026-10-24T05:05:27Z",
   "items": [
     {
       "id": "gr_314f6bc6",
@@ -974,6 +974,24 @@
           "tr": {
             "ru": "Они не виделись уже много лет."
           }
+        },
+        {
+          "text": "Llovía cuando salí de casa.",
+          "tr": {
+            "ru": "Шёл дождь, когда я вышел из дома."
+          }
+        },
+        {
+          "text": "Las casas fueron pintadas de azul.",
+          "tr": {
+            "ru": "Дома покрасили в синий."
+          }
+        },
+        {
+          "text": "Éramos tan jóvenes en aquel entonces.",
+          "tr": {
+            "ru": "Мы были так молоды тогда."
+          }
         }
       ],
       "relatedVerbIds": [
@@ -981,7 +999,9 @@
         "vb_vivir",
         "vb_ser",
         "vb_ir",
-        "vb_ver"
+        "vb_ver",
+        "vb_estar",
+        "vb_pintar"
       ],
       "tags": [
         "conjugation",
@@ -1489,12 +1509,12 @@
     {
       "id": "gr_preterito-indefinido-08b01e87",
       "title": {
-        "ru": "Pretérito indefinido: как строится"
+        "ru": "Pretérito indefinido: образование и все неправильные глаголы"
       },
       "level": "A2",
       "order": 999,
       "summary": {
-        "ru": "Законченные разовые действия, на которых держится сюжет книги. Окончания -é/-aste/-ó/-amos/-asteis/-aron и -í/-iste/-ió/-imos/-isteis/-ieron, группа с особой основой (tuvo, estuvo, hizo, pudo, puso, supo, quiso, vino, dijo), ser/ir = fue, чередования e→i, o→u в 3-м лице и i→y между гласными."
+        "ru": "Законченные разовые действия. Окончания -é/-aste/-ó/-amos/-asteis/-aron и -í/-iste/-ió/-imos/-isteis/-ieron и полный список неправильных по четырём группам: ser/ir, dar, ver наизусть; «сильные» основы с окончаниями без ударения (tuve, estuve, pude, puse, supe, quise, vine, hice, dije, traje, conduje…); -ir с чередованием e→i, o→u в 3-м лице (pidió, durmió); орфографические -qué/-gué/-cé/-güé и i→y (leyó)."
       },
       "bodyPath": {
         "ru": "grammar/preterito-indefinido-08b01e87.ru.md"
@@ -1523,6 +1543,18 @@
           "tr": {
             "ru": "Он отказался есть."
           }
+        },
+        {
+          "text": "Llovía cuando salí de casa.",
+          "tr": {
+            "ru": "Шёл дождь, когда я вышел из дома."
+          }
+        },
+        {
+          "text": "Ayer vi a Juan.",
+          "tr": {
+            "ru": "Вчера видел Хуана."
+          }
         }
       ],
       "relatedVerbIds": [
@@ -1534,7 +1566,22 @@
         "vb_hacer",
         "vb_decir",
         "vb_oir",
-        "vb_leer"
+        "vb_leer",
+        "vb_dar",
+        "vb_ver",
+        "vb_estar",
+        "vb_poder",
+        "vb_poner",
+        "vb_saber",
+        "vb_querer",
+        "vb_venir",
+        "vb_traer",
+        "vb_conducir",
+        "vb_pedir",
+        "vb_dormir",
+        "vb_buscar",
+        "vb_llegar",
+        "vb_empezar"
       ],
       "tags": [
         "conjugation"
@@ -1761,7 +1808,20 @@
       "bodyPath": {
         "ru": "grammar/ser-listo-estar-listo-ser-estar-36d93c5d.ru.md"
       },
-      "examples": [],
+      "examples": [
+        {
+          "text": "Tu madre está muy joven.",
+          "tr": {
+            "ru": "Твоя мама отлично выглядит для своих лет."
+          }
+        },
+        {
+          "text": "Está aburrido.",
+          "tr": {
+            "ru": "Ему скучно."
+          }
+        }
+      ],
       "tags": [
         "ser-estar",
         "lexical-choice"
@@ -1772,7 +1832,14 @@
         "conversationTitle": "Перевод ¿Otra vez?",
         "ingestBatch": "extract-2026-08-04",
         "extractor": "model"
-      }
+      },
+      "relatedVerbIds": [
+        "vb_ser",
+        "vb_estar"
+      ],
+      "relatedTopicIds": [
+        "tp_ser-estar-hay"
+      ]
     },
     {
       "id": "gr_ser-vs-estar",
@@ -1924,6 +1991,64 @@
         "conversationId": "6a4fd7f4-c2bc-83ed-87db-85a79b083f1c",
         "conversationTitle": "Значение слова vale",
         "ingestBatch": "extract-2026-08-04",
+        "extractor": "model"
+      }
+    },
+    {
+      "id": "gr_surgir-aparecer-salir-producirse-nacer-79c9d148",
+      "title": {
+        "ru": "Возникать и появляться: surgir, aparecer, salir, producirse, nacer"
+      },
+      "level": "A2",
+      "order": 999,
+      "summary": {
+        "ru": "Surgir — универсальное «возникать»: ошибка, проблема, идея, город. Aparecer — «показаться, стать видным» (ошибка на экране, сообщение), me sale un error — разговорное, se ha producido un error — формальное, nacer — литературно о городах."
+      },
+      "bodyPath": {
+        "ru": "grammar/surgir-aparecer-salir-producirse-nacer-79c9d148.ru.md"
+      },
+      "examples": [
+        {
+          "text": "Surgió un error.",
+          "tr": {
+            "ru": "Возникла ошибка."
+          }
+        },
+        {
+          "text": "Me sale un error.",
+          "tr": {
+            "ru": "У меня вылезает ошибка."
+          }
+        },
+        {
+          "text": "Se ha producido un error.",
+          "tr": {
+            "ru": "Произошла ошибка."
+          }
+        },
+        {
+          "text": "La ciudad surgió en el siglo XII.",
+          "tr": {
+            "ru": "Город возник в XII веке."
+          }
+        }
+      ],
+      "relatedVerbIds": [
+        "vb_surgir",
+        "vb_aparecer",
+        "vb_salir",
+        "vb_producirse",
+        "vb_nacer"
+      ],
+      "tags": [
+        "lexical-choice",
+        "false-friend"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "model"
       }
     },

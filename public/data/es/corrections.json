@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "lang": "es",
-  "generatedAt": "2026-10-21T03:44:43Z",
+  "generatedAt": "2026-10-24T05:17:42Z",
   "items": [
     {
       "id": "er_01105d15",
@@ -1132,6 +1132,35 @@
       }
     },
     {
+      "id": "er_8f7febf6",
+      "prompt": {
+        "ru": "Мы были так молоды тогда (We were so young back then)"
+      },
+      "attempt": "Estábamos tan jóvenes",
+      "correct": "Éramos tan jóvenes",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Молодость — характеристика, поэтому ser: éramos jóvenes. Estar joven значит «выглядеть или чувствовать себя молодо», так что estábamos tan jóvenes поймут как «мы так молодо выглядели»."
+      },
+      "errorTags": [
+        "ser-estar"
+      ],
+      "relatedGrammarIds": [
+        "gr_ser-listo-estar-listo-ser-estar-36d93c5d"
+      ],
+      "relatedVerbIds": [
+        "vb_ser",
+        "vb_estar"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
+        "extractor": "correction"
+      }
+    },
+    {
       "id": "er_90bb8ed4",
       "attempt": "nececitamos",
       "correct": "necesitamos",
@@ -1583,6 +1612,25 @@
         "conversationId": "claude-2026-09-07-como-hago-ninguno-lo",
         "conversationTitle": "Cómo hago para llegar, al lado de, ningún, lo prometido",
         "ingestBatch": "ingest-2026-09-07",
+        "extractor": "correction"
+      }
+    },
+    {
+      "id": "er_c7c7b7f0",
+      "attempt": "despasito",
+      "correct": "despacito",
+      "verdict": "partial",
+      "explanation": {
+        "ru": "Пишется через c: despacito — уменьшительное от despacio («медленно»), суффикс -ito делает его ласковым: «потихоньку»."
+      },
+      "errorTags": [
+        "spelling"
+      ],
+      "source": {
+        "origin": "claude",
+        "conversationId": "claude-share-6e539b8c-surge-indefinido",
+        "conversationTitle": "Перевод слова \"surge\" с испанского",
+        "ingestBatch": "ingest-2026-10-24",
         "extractor": "correction"
       }
     },
